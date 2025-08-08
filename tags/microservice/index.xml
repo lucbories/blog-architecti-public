@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Microservice on Architecture TI</title>
+    <link>http://localhost:1313/tags/microservice/</link>
+    <description>Recent content in Microservice on Architecture TI</description>
+    <generator>Hugo</generator>
+    <language>fr-ca</language>
+    <lastBuildDate>Tue, 05 Aug 2025 21:07:39 -0400</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/microservice/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Comprendre le Bounded Context en Architecture Microservices</title>
+      <link>http://localhost:1313/posts/comprendre-le-bounded-context-en-architecture-microservices/</link>
+      <pubDate>Tue, 05 Aug 2025 21:07:39 -0400</pubDate>
+      <guid>http://localhost:1313/posts/comprendre-le-bounded-context-en-architecture-microservices/</guid>
+      <description>&lt;h1 id=&#34;-comprendre-le-bounded-context-en-architecture-microservices&#34;&gt;🧩 Comprendre le Bounded Context en Architecture Microservices&lt;/h1&gt;&#xA;&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;&#xA;&lt;p&gt;L’architecture microservices a révolutionné la manière dont les systèmes logiciels sont conçus, développés et maintenus. Elle repose sur le principe de décomposer une application monolithique en une série de services indépendants, chacun responsable d’un domaine fonctionnel bien défini. Mais cette décomposition soulève une question cruciale : &lt;strong&gt;comment définir les limites de chaque service ?&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;C’est là qu’intervient le concept de &lt;strong&gt;bounded context&lt;/strong&gt;, issu de la méthodologie &lt;strong&gt;Domain-Driven Design (DDD)&lt;/strong&gt;. Ce concept permet de structurer les microservices autour de modèles métier cohérents, en évitant les ambiguïtés et les dépendances inutiles.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

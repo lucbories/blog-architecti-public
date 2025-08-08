@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Architecture on Architecture TI</title>
+    <link>http://localhost:1313/tags/architecture/</link>
+    <description>Recent content in Architecture on Architecture TI</description>
+    <generator>Hugo</generator>
+    <language>fr-ca</language>
+    <lastBuildDate>Tue, 05 Aug 2025 21:07:39 -0400</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/architecture/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Architecture Applicative : Concevoir des Systèmes Robustes et Adaptables</title>
+      <link>http://localhost:1313/posts/architecture-applicative/</link>
+      <pubDate>Tue, 05 Aug 2025 21:07:39 -0400</pubDate>
+      <guid>http://localhost:1313/posts/architecture-applicative/</guid>
+      <description>&lt;h1 id=&#34;architecture-applicative--concevoir-des-systèmes-robustes-et-adaptables&#34;&gt;Architecture Applicative : Concevoir des Systèmes Robustes et Adaptables&lt;/h1&gt;&#xA;&lt;p&gt;L&amp;rsquo;architecture applicative constitue l&amp;rsquo;épine dorsale des systèmes informatiques modernes. Elle détermine la structure organisationnelle et la répartition fonctionnelle d&amp;rsquo;une application, de la conception initiale jusqu&amp;rsquo;à la mise en production. Dans cet article, nous explorerons en profondeur les fondements, les modèles et les bonnes pratiques permettant de créer des applications évolutives et maintenables.&lt;/p&gt;&#xA;&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;&#xA;&lt;p&gt;Dans un monde numérique en constante évolution, les exigences des utilisateurs et les contraintes technologiques se multiplient. Pour répondre à ces défis, une architecture applicative bien pensée ne se contente pas de structurer du code ; elle définit la stratégie globale permettant de découpler les responsabilités et d’optimiser les performances, la scalabilité et la résilience des systèmes. Ce travail d’ingénierie est aujourd’hui incontournable pour les entreprises souhaitant rester compétitives et agiles.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Les Étapes Clés De La Transformation Numérique</title>
+      <link>http://localhost:1313/posts/les-%C3%A9tapes-cl%C3%A9s-de-la-transformation-num%C3%A9rique/</link>
+      <pubDate>Tue, 05 Aug 2025 21:07:39 -0400</pubDate>
+      <guid>http://localhost:1313/posts/les-%C3%A9tapes-cl%C3%A9s-de-la-transformation-num%C3%A9rique/</guid>
+      <description>&lt;h1 id=&#34;les-étapes-clés-de-la-transformation-numérique&#34;&gt;Les Étapes Clés De La Transformation Numérique&lt;/h1&gt;&#xA;&lt;p&gt;&lt;strong&gt;Introduction&lt;/strong&gt;&#xA;Beaucoup d’entreprises se lancent dans la Transformation Numérique, certaines ont eu du succès dans leur voyage vers le digital mais peu ont réellement réussi la métamorphose promise par le nouveau monde digital.&lt;/p&gt;&#xA;&lt;p&gt;Il n’existe pas de méthode universelle prête à l’emploi, ni même de cible commune à atteindre pour les dirigeants. Chaque entreprise a son secteur d’activité, son fonctionnement, son histoire, sa vision, son capital humain et ses moyens financiers.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Présentation de l’architecture en informatique</title>
+      <link>http://localhost:1313/posts/presentation-architecture-informatique/</link>
+      <pubDate>Tue, 05 Aug 2025 21:07:39 -0400</pubDate>
+      <guid>http://localhost:1313/posts/presentation-architecture-informatique/</guid>
+      <description>&lt;h1 id=&#34;-larchitecture-en-informatique--fondations-structures-et-stratégies&#34;&gt;🌐 L’Architecture en Informatique : Fondations, Structures et Stratégies&lt;/h1&gt;&#xA;&lt;p&gt;&lt;strong&gt;Introduction&lt;/strong&gt;&lt;br&gt;&#xA;Dans le monde numérique actuel, l’architecture informatique est ce que les fondations sont à un gratte-ciel. Elle définit comment les systèmes sont conçus, organisés, et interconnectés pour répondre à des objectifs métiers précis. Une bonne architecture permet de réduire les coûts, d’augmenter la résilience et de garantir l’agilité dans un environnement en perpétuelle mutation.&lt;/p&gt;&#xA;&lt;p&gt;Ce billet explore les grands types d’architecture informatique : &lt;strong&gt;architecture d’entreprise, architecture de solution, architecture applicative, architecture technique&lt;/strong&gt;, et bien plus encore.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Test1</title>
+      <link>http://localhost:1313/posts/test1/</link>
+      <pubDate>Tue, 05 Aug 2025 21:07:39 -0400</pubDate>
+      <guid>http://localhost:1313/posts/test1/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>
