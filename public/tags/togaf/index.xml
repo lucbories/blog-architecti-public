@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Togaf on Architecture TI</title>
+    <link>https://architecti.blog/tags/togaf/</link>
+    <description>Recent content in Togaf on Architecture TI</description>
+    <generator>Hugo</generator>
+    <language>fr-CA</language>
+    <lastBuildDate>Tue, 05 Aug 2025 21:07:39 -0400</lastBuildDate>
+    <atom:link href="https://architecti.blog/tags/togaf/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>🌐 Présentation de l’architecture en informatique</title>
+      <link>https://architecti.blog/posts/presentation-architecture-informatique/</link>
+      <pubDate>Tue, 05 Aug 2025 21:07:39 -0400</pubDate>
+      <guid>https://architecti.blog/posts/presentation-architecture-informatique/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Introduction&lt;/strong&gt;&lt;br&gt;&#xA;Dans le monde numérique actuel, l’architecture informatique est ce que les fondations sont à un gratte-ciel. Elle définit comment les systèmes sont conçus, organisés, et interconnectés pour répondre à des objectifs métiers précis. Une bonne architecture permet de réduire les coûts, d’augmenter la résilience et de garantir l’agilité dans un environnement en perpétuelle mutation.&lt;/p&gt;&#xA;&lt;p&gt;Ce billet explore les grands types d’architecture informatique : &lt;strong&gt;architecture d’entreprise, architecture de solution, architecture applicative, architecture technique&lt;/strong&gt;, et bien plus encore.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Architecture Applicative : Concevoir des Systèmes Robustes et Adaptables</title>
+      <link>https://architecti.blog/posts/architecture-applicative---concevoir-des-syst%C3%A8mes-robustes-et-adaptables/</link>
+      <pubDate>Tue, 05 Aug 2025 21:07:39 -0400</pubDate>
+      <guid>https://architecti.blog/posts/architecture-applicative---concevoir-des-syst%C3%A8mes-robustes-et-adaptables/</guid>
+      <description>&lt;p&gt;L&amp;rsquo;architecture applicative constitue l&amp;rsquo;épine dorsale des systèmes informatiques modernes. Elle détermine la structure organisationnelle et la répartition fonctionnelle d&amp;rsquo;une application, de la conception initiale jusqu&amp;rsquo;à la mise en production. Dans cet article, nous explorerons en profondeur les fondements, les modèles et les bonnes pratiques permettant de créer des applications évolutives et maintenables.&lt;/p&gt;&#xA;&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;&#xA;&lt;p&gt;Dans un monde numérique en constante évolution, les exigences des utilisateurs et les contraintes technologiques se multiplient. Pour répondre à ces défis, une architecture applicative bien pensée ne se contente pas de structurer du code ; elle définit la stratégie globale permettant de découpler les responsabilités et d’optimiser les performances, la scalabilité et la résilience des systèmes. Ce travail d’ingénierie est aujourd’hui incontournable pour les entreprises souhaitant rester compétitives et agiles.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Différences Entre TOGAF Et ArchiMate</title>
+      <link>https://architecti.blog/posts/diff%C3%A9rences-entre-togaf-et-archimate/</link>
+      <pubDate>Tue, 05 Aug 2025 21:07:39 -0400</pubDate>
+      <guid>https://architecti.blog/posts/diff%C3%A9rences-entre-togaf-et-archimate/</guid>
+      <description>&lt;p&gt;Répondre à la question des différences entre TOGAF et ArchiMate n’est pas simple mais voici ce que vous devez savoir.&lt;/p&gt;&#xA;&lt;p&gt;Or une majorité d’entreprises démarrent ou renouvellent leurs pratiques d’architecture d’entreprise. Votre organisation fait-elle partie de cette tendance?&lt;/p&gt;&#xA;&lt;p&gt;Si c’est le cas, vous n’êtes pas seul à vous poser la question.&lt;/p&gt;&#xA;&lt;p&gt;Car de nombreux architectes d’entreprise sont confus par la différence entre TOGAF et ArchiMate.&lt;/p&gt;&#xA;&lt;p&gt;En effet, il existe des similitudes mais aussi des différences entre ces deux standards.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
