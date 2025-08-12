@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="fr-CA">
+  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    
+    <title>🧠 Les Principes Fondamentaux du Domain-Driven Design (DDD) | Architecture TI</title>
+    <meta name="viewport" content="width=device-width,minimum-scale=1">
+    <meta name="description" content="Introduction
+Dans un monde où les systèmes logiciels deviennent de plus en plus complexes, il est essentiel de concevoir des architectures qui reflètent fidèlement les besoins métier. C’est précisément l’objectif du Domain-Driven Design (DDD), une approche introduite par Eric Evans en 2003, qui place le domaine métier au cœur de la conception logicielle.
+Mais DDD n’est pas qu’une méthode de modélisation. C’est une philosophie qui influence profondément l’architecture applicative, en guidant la structuration des composants, la définition des responsabilités, et la communication entre les parties du système.">
+    <meta name="generator" content="Hugo 0.148.2">
+    
+    
+    
+      <meta name="robots" content="noindex, nofollow">
+    
+    
+
+    
+<link rel="stylesheet" href="/ananke/css/main.min.css" >
+
+
+
+
+    
+
+
+    
+      
+
+    
+
+    
+
+    
+      <link rel="canonical" href="http://localhost:1313/posts/les-principes-fondamentaux-du-domain-driven-design-ddd/">
+    
+
+    <meta property="og:url" content="http://localhost:1313/posts/les-principes-fondamentaux-du-domain-driven-design-ddd/">
+  <meta property="og:site_name" content="Architecture TI">
+  <meta property="og:title" content="🧠 Les Principes Fondamentaux du Domain-Driven Design (DDD)">
+  <meta property="og:description" content="Introduction Dans un monde où les systèmes logiciels deviennent de plus en plus complexes, il est essentiel de concevoir des architectures qui reflètent fidèlement les besoins métier. C’est précisément l’objectif du Domain-Driven Design (DDD), une approche introduite par Eric Evans en 2003, qui place le domaine métier au cœur de la conception logicielle.
+Mais DDD n’est pas qu’une méthode de modélisation. C’est une philosophie qui influence profondément l’architecture applicative, en guidant la structuration des composants, la définition des responsabilités, et la communication entre les parties du système.">
+  <meta property="og:locale" content="fr_CA">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2025-08-05T21:07:39-04:00">
+    <meta property="article:modified_time" content="2025-08-05T21:07:39-04:00">
+    <meta property="article:tag" content="Architecture Applicative">
+    <meta property="article:tag" content="Domain-Driven Design">
+    <meta property="article:tag" content="Microservice">
+
+  <meta itemprop="name" content="🧠 Les Principes Fondamentaux du Domain-Driven Design (DDD)">
+  <meta itemprop="description" content="Introduction Dans un monde où les systèmes logiciels deviennent de plus en plus complexes, il est essentiel de concevoir des architectures qui reflètent fidèlement les besoins métier. C’est précisément l’objectif du Domain-Driven Design (DDD), une approche introduite par Eric Evans en 2003, qui place le domaine métier au cœur de la conception logicielle.
+Mais DDD n’est pas qu’une méthode de modélisation. C’est une philosophie qui influence profondément l’architecture applicative, en guidant la structuration des composants, la définition des responsabilités, et la communication entre les parties du système.">
+  <meta itemprop="datePublished" content="2025-08-05T21:07:39-04:00">
+  <meta itemprop="dateModified" content="2025-08-05T21:07:39-04:00">
+  <meta itemprop="wordCount" content="1061">
+  <meta itemprop="keywords" content="Architecture Applicative,Domain-Driven Design,Microservice">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="🧠 Les Principes Fondamentaux du Domain-Driven Design (DDD)">
+  <meta name="twitter:description" content="Introduction Dans un monde où les systèmes logiciels deviennent de plus en plus complexes, il est essentiel de concevoir des architectures qui reflètent fidèlement les besoins métier. C’est précisément l’objectif du Domain-Driven Design (DDD), une approche introduite par Eric Evans en 2003, qui place le domaine métier au cœur de la conception logicielle.
+Mais DDD n’est pas qu’une méthode de modélisation. C’est une philosophie qui influence profondément l’architecture applicative, en guidant la structuration des composants, la définition des responsabilités, et la communication entre les parties du système.">
+
+	
+  </head><body class="ma0 avenir bg-near-white development">
+
+    
+
+  
+  
+  
+  <header class="cover bg-center" style="background-image: url('http://localhost:1313/images/Copilot_20250807_153105.png');">
+    <div class="bg-black-60">
+      <nav class="pv3 ph3 ph4-ns" role="navigation">
+  <div class="flex-l center items-center justify-between">
+    <a href="/" class="f3 fw2 hover-white white-90 dib no-underline">
+      
+        Architecture TI
+      
+    </a>
+    <div class="flex-l items-center">
+      
+
+      
+      <div class="ananke-socials"></div>
+
+    </div>
+  </div>
+</nav>
+
+      <div class="tc-l pv6 ph3 ph4-ns">
+        
+          <div class="f2 f1-l fw2 white-90 mb0 lh-title">🧠 Les Principes Fondamentaux du Domain-Driven Design (DDD)</div>
+          
+        
+      </div>
+    </div>
+  </header>
+
+
+    <main class="pb7" role="main">
+      
+
+  <div class="flex-l mt2 mw8 center">
+    <ul>
+      <a href="/" class="link f5 grow br-pill ba ph3 pv2 mb2 dib green sans-serif no-underline">Accueil</a>
+      
+        <li class="list di">
+          <a href="/tags/api/" class="link f5 grow br-pill ba ph3 pv2 mb2 dib black sans-serif no-underline">Api</a>
+        </li>
+      
+        <li class="list di">
+          <a href="/tags/archinate/" class="link f5 grow br-pill ba ph3 pv2 mb2 dib black sans-serif no-underline">Archinate</a>
+        </li>
+      
+        <li class="list di">
+          <a href="/tags/architecture/" class="link f5 grow br-pill ba ph3 pv2 mb2 dib black sans-serif no-underline">Architecture</a>
+        </li>
+      
+        <li class="list di">
+          <a href="/tags/architecture-applicative/" class="link f5 grow br-pill ba ph3 pv2 mb2 dib black sans-serif no-underline">Architecture Applicative</a>
+        </li>
+      
+        <li class="list di">
+          <a href="/tags/architecture-dentreprise/" class="link f5 grow br-pill ba ph3 pv2 mb2 dib black sans-serif no-underline">Architecture D&#39;entreprise</a>
+        </li>
+      
+        <li class="list di">
+          <a href="/tags/architecture-logicielle/" class="link f5 grow br-pill ba ph3 pv2 mb2 dib black sans-serif no-underline">Architecture Logicielle</a>
+        </li>
+      
+        <li class="list di">
+          <a href="/tags/architecture-solution/" class="link f5 grow br-pill ba ph3 pv2 mb2 dib black sans-serif no-underline">Architecture Solution</a>
+        </li>
+      
+        <li class="list di">
+          <a href="/tags/cloud/" class="link f5 grow br-pill ba ph3 pv2 mb2 dib black sans-serif no-underline">Cloud</a>
+        </li>
+      
+        <li class="list di">
+          <a href="/tags/container/" class="link f5 grow br-pill ba ph3 pv2 mb2 dib black sans-serif no-underline">Container</a>
+        </li>
+      
+        <li class="list di">
+          <a href="/tags/domain-driven-design/" class="link f5 grow br-pill ba ph3 pv2 mb2 dib black sans-serif no-underline">Domain-Driven Design</a>
+        </li>
+      
+        <li class="list di">
+          <a href="/tags/microservice/" class="link f5 grow br-pill ba ph3 pv2 mb2 dib black sans-serif no-underline">Microservice</a>
+        </li>
+      
+        <li class="list di">
+          <a href="/tags/mod%C3%A9lisation/" class="link f5 grow br-pill ba ph3 pv2 mb2 dib black sans-serif no-underline">Modélisation</a>
+        </li>
+      
+        <li class="list di">
+          <a href="/tags/num%C3%A9rique/" class="link f5 grow br-pill ba ph3 pv2 mb2 dib black sans-serif no-underline">Numérique</a>
+        </li>
+      
+        <li class="list di">
+          <a href="/tags/togaf/" class="link f5 grow br-pill ba ph3 pv2 mb2 dib black sans-serif no-underline">Togaf</a>
+        </li>
+      
+        <li class="list di">
+          <a href="/tags/transformation/" class="link f5 grow br-pill ba ph3 pv2 mb2 dib black sans-serif no-underline">Transformation</a>
+        </li>
+      
+    </ul>
+  </div>
+
+  <div class="flex-l mt2 mw8 center">
+    <article class="center cf ph3 ph5-l pv3">
+      <header>
+        <h1 class="f1">
+          🧠 Les Principes Fondamentaux du Domain-Driven Design (DDD)
+        </h1>
+      </header>
+      <div class="nested-copy-line-height lh-copy f4 nested-links mid-gray">
+        <h2 id="introduction">Introduction</h2>
+<p>Dans un monde où les systèmes logiciels deviennent de plus en plus complexes, il est essentiel de concevoir des architectures qui reflètent fidèlement les besoins métier. C’est précisément l’objectif du <strong>Domain-Driven Design (DDD)</strong>, une approche introduite par <strong>Eric Evans</strong> en 2003, qui place le <strong>domaine métier</strong> au cœur de la conception logicielle.</p>
+<p>Mais DDD n’est pas qu’une méthode de modélisation. C’est une philosophie qui influence profondément l’<strong>architecture applicative</strong>, en guidant la structuration des composants, la définition des responsabilités, et la communication entre les parties du système.</p>
+<p>Dans cet article, nous allons explorer les <strong>principes fondamentaux du DDD</strong>, et montrer comment ils s’intègrent dans une architecture applicative moderne, notamment en contexte <strong>microservices</strong>.</p>
+<hr>
+<h2 id="1-le-domaine-comme-source-de-vérité">1. Le Domaine comme Source de Vérité</h2>
+<p>Le premier principe du DDD est que le <strong>domaine métier</strong> doit être la <strong>source principale de vérité</strong> dans la conception du logiciel. Cela signifie que les décisions techniques doivent découler des besoins métier, et non l’inverse.</p>
+<h3 id="-exemple-">🎯 Exemple :</h3>
+<p>Dans une application de gestion de prêts bancaires, les règles de calcul des intérêts, les conditions d’éligibilité, et les processus de validation doivent être modélisés en priorité, avant de penser à la base de données ou au framework utilisé.</p>
+<h3 id="-impact-sur-larchitecture-">🏗️ Impact sur l’architecture :</h3>
+<ul>
+<li>Les couches techniques (base de données, UI, etc.) sont <strong>au service du domaine</strong></li>
+<li>Le <strong>modèle métier</strong> devient le cœur de l’application</li>
+<li>On évite les architectures “data-centric” où les entités sont juste des tables</li>
+</ul>
+<hr>
+<h2 id="2-le-langage-ubiquitaire">2. Le Langage Ubiquitaire</h2>
+<p>Le <strong>langage ubiquitaire</strong> est un vocabulaire commun partagé entre les développeurs et les experts métier. Il est utilisé dans :</p>
+<ul>
+<li>Les discussions</li>
+<li>Le code</li>
+<li>La documentation</li>
+</ul>
+<h3 id="-exemple--1">🧩 Exemple :</h3>
+<p>Si les experts parlent de “demande de prêt”, le code doit contenir une classe <code>DemandeDePret</code>, et non <code>LoanRequestDTO</code>.</p>
+<h3 id="-impact-sur-larchitecture--1">🏗️ Impact sur l’architecture :</h3>
+<ul>
+<li>Les noms des classes, méthodes et modules reflètent le <strong>langage métier</strong></li>
+<li>Le code devient <strong>plus lisible</strong> et <strong>plus maintenable</strong></li>
+<li>Les erreurs de compréhension entre métier et technique sont réduites</li>
+</ul>
+<hr>
+<h2 id="3-le-bounded-context">3. Le Bounded Context</h2>
+<p>Un <strong>bounded context</strong> est une frontière explicite autour d’un modèle métier cohérent. Il permet de gérer les <strong>variations sémantiques</strong> et d’éviter les conflits de sens.</p>
+<h3 id="-exemple--2">📦 Exemple :</h3>
+<p>Dans un système e-commerce :</p>
+<ul>
+<li>Le mot “Client” dans le contexte de facturation représente une entité juridique</li>
+<li>Dans le contexte marketing, il représente un profil comportemental</li>
+</ul>
+<h3 id="-impact-sur-larchitecture--2">🏗️ Impact sur l’architecture :</h3>
+<ul>
+<li>Chaque bounded context peut être implémenté comme un <strong>microservice</strong></li>
+<li>Les modèles ne sont <strong>pas partagés</strong> entre contextes</li>
+<li>La communication se fait via des <strong>interfaces bien définies</strong> (API, événements)</li>
+</ul>
+<hr>
+<h2 id="4-les-entités-et-les-valeurs">4. Les Entités et les Valeurs</h2>
+<p>DDD distingue deux types d’objets métier :</p>
+<ul>
+<li><strong>Entités</strong> : ont une <strong>identité unique</strong> et persistent dans le temps (ex : <code>Client</code>, <code>Commande</code>)</li>
+<li><strong>Objets valeur</strong> : sont définis par leurs <strong>attributs</strong> et sont immuables (ex : <code>Adresse</code>, <code>Montant</code>)</li>
+</ul>
+<h3 id="-exemple--3">🧠 Exemple :</h3>
+<p>Deux adresses identiques sont considérées comme le <strong>même objet valeur</strong>, mais deux clients avec le même nom sont <strong>des entités distinctes</strong>.</p>
+<h3 id="-impact-sur-larchitecture--3">🏗️ Impact sur l’architecture :</h3>
+<ul>
+<li>Les entités sont gérées par des <strong>repositories</strong></li>
+<li>Les objets valeur sont <strong>imbriqués</strong> dans les entités</li>
+<li>Cela favorise une <strong>modélisation riche</strong> et <strong>précise</strong></li>
+</ul>
+<hr>
+<h2 id="5-les-agrégats">5. Les Agrégats</h2>
+<p>Un <strong>agrégat</strong> est un regroupement d’entités et de valeurs qui forment une <strong>unité de cohérence transactionnelle</strong>. Il a une <strong>racine</strong> (aggregate root) qui contrôle l’accès aux autres éléments.</p>
+<h3 id="-exemple--4">🧩 Exemple :</h3>
+<p>Une <code>Commande</code> est un agrégat :</p>
+<ul>
+<li>Racine : <code>Commande</code></li>
+<li>Entités internes : <code>LigneCommande</code></li>
+<li>Objets valeur : <code>AdresseLivraison</code>, <code>Montant</code></li>
+</ul>
+<h3 id="-impact-sur-larchitecture--4">🏗️ Impact sur l’architecture :</h3>
+<ul>
+<li>Les opérations métier passent par la <strong>racine de l’agrégat</strong></li>
+<li>Les agrégats sont <strong>chargés et persistés</strong> en une seule unité</li>
+<li>Cela améliore la <strong>consistance</strong> et la <strong>scalabilité</strong></li>
+</ul>
+<hr>
+<h2 id="6-les-services-métier">6. Les Services Métier</h2>
+<p>Quand une logique métier ne peut pas être placée dans une entité ou un objet valeur, elle est encapsulée dans un <strong>service métier</strong>.</p>
+<h3 id="-exemple--5">🧠 Exemple :</h3>
+<p>Le calcul du taux d’intérêt d’un prêt peut être implémenté dans un service <code>CalculateurTaux</code>.</p>
+<h3 id="-impact-sur-larchitecture--5">🏗️ Impact sur l’architecture :</h3>
+<ul>
+<li>Les services métier sont <strong>stateless</strong></li>
+<li>Ils sont <strong>orientés domaine</strong>, pas infrastructure</li>
+<li>Ils facilitent la <strong>réutilisation</strong> et la <strong>testabilité</strong></li>
+</ul>
+<hr>
+<h2 id="7-les-repositories">7. Les Repositories</h2>
+<p>Les <strong>repositories</strong> sont des interfaces qui permettent de <strong>récupérer et persister</strong> les entités et agrégats. Ils masquent les détails techniques de la base de données.</p>
+<h3 id="-exemple--6">📦 Exemple :</h3>
+<p>Un <code>CommandeRepository</code> permet de :</p>
+<ul>
+<li><code>findById(id)</code></li>
+<li><code>save(commande)</code></li>
+</ul>
+<h3 id="-impact-sur-larchitecture--6">🏗️ Impact sur l’architecture :</h3>
+<ul>
+<li>Le domaine reste <strong>indépendant de la persistance</strong></li>
+<li>Les tests peuvent être faits avec des <strong>implémentations en mémoire</strong></li>
+<li>Cela favorise une <strong>architecture hexagonale</strong> (ou ports &amp; adapters)</li>
+</ul>
+<hr>
+<h2 id="8-les-domain-events">8. Les Domain Events</h2>
+<p>Les <strong>domain events</strong> représentent des faits métier significatifs qui se sont produits. Ils permettent de <strong>découpler</strong> les composants et de <strong>réagir</strong> aux changements.</p>
+<h3 id="-exemple--7">🔔 Exemple :</h3>
+<ul>
+<li><code>CommandeValidée</code></li>
+<li><code>ClientInscrit</code></li>
+<li><code>ProduitMisÀJour</code></li>
+</ul>
+<h3 id="-impact-sur-larchitecture--7">🏗️ Impact sur l’architecture :</h3>
+<ul>
+<li>Les événements peuvent être <strong>publiés</strong> et <strong>consommés</strong> par d’autres services</li>
+<li>Cela facilite une architecture <strong>réactive</strong> et <strong>asynchrone</strong></li>
+<li>Les événements peuvent être <strong>persistés</strong> pour l’audit ou le CQRS</li>
+</ul>
+<hr>
+<h2 id="9-larchitecture-hexagonale">9. L’Architecture Hexagonale</h2>
+<p>DDD s’intègre parfaitement avec l’<strong>architecture hexagonale</strong>, qui sépare :</p>
+<ul>
+<li>Le <strong>domaine</strong> (au centre)</li>
+<li>Les <strong>interfaces</strong> (UI, API, DB, etc.)</li>
+<li>Les <strong>adaptateurs</strong> (implémentations techniques)</li>
+</ul>
+<h3 id="-exemple--8">🧠 Exemple :</h3>
+<p>Le domaine ne connaît pas la base de données, mais expose un <code>ClientRepository</code>. L’implémentation est injectée via un adaptateur.</p>
+<h3 id="-impact-sur-larchitecture--8">🏗️ Impact sur l’architecture :</h3>
+<ul>
+<li>Le domaine est <strong>isolé</strong> et <strong>testable</strong></li>
+<li>Les dépendances sont <strong>inversées</strong></li>
+<li>Cela facilite le <strong>changement technologique</strong> sans impacter le métier</li>
+</ul>
+<hr>
+<h2 id="10-la-collaboration-avec-les-experts-métier">10. La Collaboration avec les Experts Métier</h2>
+<p>DDD repose sur une <strong>collaboration étroite</strong> entre développeurs et experts métier. Le but est de construire un <strong>modèle partagé</strong> qui reflète fidèlement la réalité métier.</p>
+<h3 id="-exemple--9">🤝 Exemple :</h3>
+<p>Lors de la conception d’un système de gestion de sinistres, les développeurs doivent comprendre :</p>
+<ul>
+<li>Les types de sinistres</li>
+<li>Les processus de validation</li>
+<li>Les règles d’indemnisation</li>
+</ul>
+<h3 id="-impact-sur-larchitecture--9">🏗️ Impact sur l’architecture :</h3>
+<ul>
+<li>Le modèle métier est <strong>plus riche</strong></li>
+<li>Les décisions techniques sont <strong>alignées</strong> avec les besoins réels</li>
+<li>Le logiciel devient un <strong>outil stratégique</strong> pour l’entreprise</li>
+</ul>
+<hr>
+<h2 id="conclusion">Conclusion</h2>
+<p>Le Domain-Driven Design n’est pas une simple méthode de modélisation. C’est une <strong>philosophie de conception</strong> qui transforme la manière dont les logiciels sont pensés, construits et maintenus.</p>
+<p>En plaçant le <strong>domaine métier</strong> au centre, en définissant des <strong>bounded contexts</strong> clairs, en utilisant un <strong>langage ubiquitaire</strong>, et en structurant l’architecture autour des <strong>agrégats</strong>, <strong>services</strong>, <strong>repositories</strong> et <strong>événements</strong>, DDD permet de construire des systèmes <strong>robustes</strong>, <strong>évolutifs</strong> et <strong>alignés avec les besoins métier</strong>.</p>
+<p>Dans un monde de plus en plus orienté microservices, DDD offre une <strong>boussole stratégique</strong> pour éviter les architectures fragmentées et incohérentes. Il ne s’agit pas seulement de découper le code, mais de <strong>modéliser la réalité métier</strong> avec rigueur et intelligence.</p>
+
+      </div><ul class="pa0">
+  
+   <li class="list di">
+     <a href="/tags/architecture-applicative/" class="link f5 grow br-pill ba ph3 pv2 mb2 dib black sans-serif no-underline">Architecture Applicative</a>
+   </li>
+  
+   <li class="list di">
+     <a href="/tags/domain-driven-design/" class="link f5 grow br-pill ba ph3 pv2 mb2 dib black sans-serif no-underline">Domain-Driven Design</a>
+   </li>
+  
+   <li class="list di">
+     <a href="/tags/microservice/" class="link f5 grow br-pill ba ph3 pv2 mb2 dib black sans-serif no-underline">Microservice</a>
+   </li>
+  
+</ul>
+</article>
+  </div>
+  
+
+    </main>
+    <footer class="bg-black bottom-0 w-100 pa3" role="contentinfo">
+  <div class="flex justify-between">
+  <a class="f4 fw4 hover-white white-70 dn dib-ns pv2 ph3 no-underline" href="http://localhost:1313/" >
+    &copy;  Architecture TI 2025 
+  </a>
+    <div><div class="ananke-socials"></div>
+</div>
+  </div>
+</footer>
+
+  </body>
+</html>
