@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="fr-CA">
+  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    
+    <title>Quelle Architecture Applicative choisir | Architecture TI</title>
+    <meta name="viewport" content="width=device-width,minimum-scale=1">
+    <meta name="description" content="Le choix d’une Architecture Applicative est une décision déterminante en ce qui concerne l’organisation des équipes, les méthodes de travail, les technologies à utiliser, les compétences à acquérir, les interactions avec les utilisateurs internes, les clients et les partenaires… Alors quelle architecture applicative en 2021?
+Préambule
+Cet article n’est pas orienté sur des choix technologiques ou des fournisseurs mais plus sur des choix architecturaux. En effet, il existe tellement de solutions techniques existantes dans tellement de cas de figure différents que nous ne pourrons pas en faire le tour avec un seul écrit. De futurs articles traiteront donc des sujets technologiques qui sont tout aussi importants.">
+    <meta name="generator" content="Hugo 0.148.2">
+    
+    
+    
+      <meta name="robots" content="noindex, nofollow">
+    
+    
+
+    
+<link rel="stylesheet" href="/ananke/css/main.min.css" >
+
+
+
+
+    
+
+
+    
+      
+
+    
+
+    
+
+    
+      <link rel="canonical" href="http://localhost:1313/posts/quelle-architecture-applicative-choisir/">
+    
+
+    <meta property="og:url" content="http://localhost:1313/posts/quelle-architecture-applicative-choisir/">
+  <meta property="og:site_name" content="Architecture TI">
+  <meta property="og:title" content="Quelle Architecture Applicative choisir">
+  <meta property="og:description" content="Le choix d’une Architecture Applicative est une décision déterminante en ce qui concerne l’organisation des équipes, les méthodes de travail, les technologies à utiliser, les compétences à acquérir, les interactions avec les utilisateurs internes, les clients et les partenaires… Alors quelle architecture applicative en 2021?
+Préambule Cet article n’est pas orienté sur des choix technologiques ou des fournisseurs mais plus sur des choix architecturaux. En effet, il existe tellement de solutions techniques existantes dans tellement de cas de figure différents que nous ne pourrons pas en faire le tour avec un seul écrit. De futurs articles traiteront donc des sujets technologiques qui sont tout aussi importants.">
+  <meta property="og:locale" content="fr_CA">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2021-08-05T21:07:39-04:00">
+    <meta property="article:modified_time" content="2021-08-05T21:07:39-04:00">
+    <meta property="article:tag" content="Conception">
+    <meta property="article:tag" content="Architecture Applicative">
+    <meta property="article:tag" content="Méthodologie">
+
+  <meta itemprop="name" content="Quelle Architecture Applicative choisir">
+  <meta itemprop="description" content="Le choix d’une Architecture Applicative est une décision déterminante en ce qui concerne l’organisation des équipes, les méthodes de travail, les technologies à utiliser, les compétences à acquérir, les interactions avec les utilisateurs internes, les clients et les partenaires… Alors quelle architecture applicative en 2021?
+Préambule Cet article n’est pas orienté sur des choix technologiques ou des fournisseurs mais plus sur des choix architecturaux. En effet, il existe tellement de solutions techniques existantes dans tellement de cas de figure différents que nous ne pourrons pas en faire le tour avec un seul écrit. De futurs articles traiteront donc des sujets technologiques qui sont tout aussi importants.">
+  <meta itemprop="datePublished" content="2021-08-05T21:07:39-04:00">
+  <meta itemprop="dateModified" content="2021-08-05T21:07:39-04:00">
+  <meta itemprop="wordCount" content="2114">
+  <meta itemprop="keywords" content="Conception,Architecture Applicative,Méthodologie">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Quelle Architecture Applicative choisir">
+  <meta name="twitter:description" content="Le choix d’une Architecture Applicative est une décision déterminante en ce qui concerne l’organisation des équipes, les méthodes de travail, les technologies à utiliser, les compétences à acquérir, les interactions avec les utilisateurs internes, les clients et les partenaires… Alors quelle architecture applicative en 2021?
+Préambule Cet article n’est pas orienté sur des choix technologiques ou des fournisseurs mais plus sur des choix architecturaux. En effet, il existe tellement de solutions techniques existantes dans tellement de cas de figure différents que nous ne pourrons pas en faire le tour avec un seul écrit. De futurs articles traiteront donc des sujets technologiques qui sont tout aussi importants.">
+
+	
+  </head><body class="ma0 avenir bg-near-white development">
+
+    
+
+  
+  
+  
+  <header class="cover bg-center" style="background-image: url('http://localhost:1313/images/Copilot_20250806_073211.png');">
+    <div class="bg-black-60">
+      <nav class="pv3 ph3 ph4-ns" role="navigation">
+  <div class="flex-l center items-center justify-between">
+    <a href="/" class="f3 fw2 hover-white white-90 dib no-underline">
+      
+        Architecture TI
+      
+    </a>
+    <div class="flex-l items-center">
+      
+
+      
+      <div class="ananke-socials"></div>
+
+    </div>
+  </div>
+</nav>
+
+      <div class="tc-l pv6 ph3 ph4-ns">
+        
+          <div class="f2 f1-l fw2 white-90 mb0 lh-title">Quelle Architecture Applicative choisir</div>
+          
+        
+      </div>
+    </div>
+  </header>
+
+
+    <main class="pb7" role="main">
+      
+
+  <div class="flex-l mt2 mw8 center">
+    <ul>
+      <a href="/" class="link f5 grow br-pill ba ph3 pv2 mb2 dib green sans-serif no-underline">Accueil</a>
+      
+        <li class="list di">
+          <a href="/tags/api/" class="link f5 grow br-pill ba ph3 pv2 mb2 dib black sans-serif no-underline">API</a>
+        </li>
+      
+        <li class="list di">
+          <a href="/tags/archimate/" class="link f5 grow br-pill ba ph3 pv2 mb2 dib black sans-serif no-underline">ArchiMate</a>
+        </li>
+      
+        <li class="list di">
+          <a href="/tags/architecture-applicative/" class="link f5 grow br-pill ba ph3 pv2 mb2 dib black sans-serif no-underline">Architecture Applicative</a>
+        </li>
+      
+        <li class="list di">
+          <a href="/tags/architecture-dentreprise/" class="link f5 grow br-pill ba ph3 pv2 mb2 dib black sans-serif no-underline">Architecture D&#39;Entreprise</a>
+        </li>
+      
+        <li class="list di">
+          <a href="/tags/architecture-de-donn%C3%A9es/" class="link f5 grow br-pill ba ph3 pv2 mb2 dib black sans-serif no-underline">Architecture De Données</a>
+        </li>
+      
+        <li class="list di">
+          <a href="/tags/architecture-de-solution/" class="link f5 grow br-pill ba ph3 pv2 mb2 dib black sans-serif no-underline">Architecture De Solution</a>
+        </li>
+      
+        <li class="list di">
+          <a href="/tags/architecture-technologique/" class="link f5 grow br-pill ba ph3 pv2 mb2 dib black sans-serif no-underline">Architecture Technologique</a>
+        </li>
+      
+        <li class="list di">
+          <a href="/tags/cloud/" class="link f5 grow br-pill ba ph3 pv2 mb2 dib black sans-serif no-underline">Cloud</a>
+        </li>
+      
+        <li class="list di">
+          <a href="/tags/conception/" class="link f5 grow br-pill ba ph3 pv2 mb2 dib black sans-serif no-underline">Conception</a>
+        </li>
+      
+        <li class="list di">
+          <a href="/tags/containers/" class="link f5 grow br-pill ba ph3 pv2 mb2 dib black sans-serif no-underline">Containers</a>
+        </li>
+      
+        <li class="list di">
+          <a href="/tags/gouvernance/" class="link f5 grow br-pill ba ph3 pv2 mb2 dib black sans-serif no-underline">Gouvernance</a>
+        </li>
+      
+        <li class="list di">
+          <a href="/tags/innovation/" class="link f5 grow br-pill ba ph3 pv2 mb2 dib black sans-serif no-underline">Innovation</a>
+        </li>
+      
+        <li class="list di">
+          <a href="/tags/microservices/" class="link f5 grow br-pill ba ph3 pv2 mb2 dib black sans-serif no-underline">Microservices</a>
+        </li>
+      
+        <li class="list di">
+          <a href="/tags/mod%C3%A9lisation/" class="link f5 grow br-pill ba ph3 pv2 mb2 dib black sans-serif no-underline">Modélisation</a>
+        </li>
+      
+        <li class="list di">
+          <a href="/tags/m%C3%A9thodologie/" class="link f5 grow br-pill ba ph3 pv2 mb2 dib black sans-serif no-underline">Méthodologie</a>
+        </li>
+      
+        <li class="list di">
+          <a href="/tags/r%C3%B4les/" class="link f5 grow br-pill ba ph3 pv2 mb2 dib black sans-serif no-underline">Rôles</a>
+        </li>
+      
+        <li class="list di">
+          <a href="/tags/strat%C3%A9gie/" class="link f5 grow br-pill ba ph3 pv2 mb2 dib black sans-serif no-underline">Stratégie</a>
+        </li>
+      
+        <li class="list di">
+          <a href="/tags/togaf/" class="link f5 grow br-pill ba ph3 pv2 mb2 dib black sans-serif no-underline">TOGAF</a>
+        </li>
+      
+        <li class="list di">
+          <a href="/tags/transformation-num%C3%A9rique/" class="link f5 grow br-pill ba ph3 pv2 mb2 dib black sans-serif no-underline">Transformation Numérique</a>
+        </li>
+      
+    </ul>
+  </div>
+
+  <div class="flex-l mt2 mw8 center">
+    <article class="center cf ph3 ph5-l pv3">
+      <header>
+        <h1 class="f1">
+          Quelle Architecture Applicative choisir
+        </h1>
+      </header>
+      <div class="nested-copy-line-height lh-copy f4 nested-links mid-gray">
+        <p>Le choix d’une Architecture Applicative est une décision déterminante en ce qui concerne l’organisation des équipes, les méthodes de travail, les technologies à utiliser, les compétences à acquérir, les interactions avec les utilisateurs internes, les clients et les partenaires… Alors quelle architecture applicative en 2021?</p>
+<h2 id="préambule">Préambule</h2>
+<p>Cet article n’est pas orienté sur des choix technologiques ou des fournisseurs mais plus sur des choix architecturaux. En effet, il existe tellement de solutions techniques existantes dans tellement de cas de figure différents que nous ne pourrons pas en faire le tour avec un seul écrit. De futurs articles traiteront donc des sujets technologiques qui sont tout aussi importants.</p>
+<p>A noter que nous parlerons d’entreprise pour alléger le texte mais cela concerne tout aussi bien les organisations gouvernementales, les associations, les établissements d’enseignement ou tout autre forme juridique permettant d’exercer une activité.</p>
+<p>Avant de trouver l’Architecture Applicative qui convient le mieux à votre projet, à votre organisation, il convient de bien définir les hypothèses de départ: c’est l’objet de cet article. Parcourons ensemble les points essentiels pour définir votre Architecture Applicative.</p>
+<h2 id="le-contour-dune-application">Le contour d’une application</h2>
+<p>Le premier aspect à avoir en tête est la nature même d’une application: ne pas la résumer à du code. Pour bien définir une Architecture Applicative, il convient de noter qu’une application englobe les aspects besoins métiers, règles d’affaire, sécurité, réglementation, gestion des données, optimisation, résilience, intégration avec l’existant, interactions avec les utilisateurs, les clients ou partenaires, roadmap, respect des directives de l’Architecture d’Entreprise…</p>
+<p>Commençons par se poser la question: qui utilise notre application?</p>
+<h2 id="le-périmètre-de-lapplication">Le périmètre de l’application</h2>
+<p>La première étape est de cerner le périmètre de l’application, en terme d’utilisateurs internes, de clients, de partenaires, de fournisseurs. Quel est l’objet de l’application? Servir une petite équipe en interne ou offrir un service à des millions d’utilisateurs en ligne.</p>
+<p>En effet, les cas seront traités différemment selon la nature et la localisation des utilisateurs:</p>
+<ul>
+<li>Une application purement interne pour une équipe, un service, un département, un site, un pays ou un ensemble de pays.</li>
+<li>Une application à destination des partenaires, fournisseurs ou distributeurs.</li>
+<li>Une application publique concernant un petit ou un très grand nombre d’utilisateurs au sein d’un ou plusieurs pays.
+Le type d’utilisateur aura notamment un impact sur les aspects de sécurité, de confidentialité et des réglementations associées. La localisation des utilisateurs sera une informations importantes car elle permettra de mettre en oeuvre ou non des stratégies d’optimisation et de disponibilité adaptées.</li>
+</ul>
+<p>En outre, la nature des interactions est déterminantes pour les choix:</p>
+<ul>
+<li>interface web</li>
+<li>client desktop</li>
+<li>échanges de données (fichiers, services web, messages, API)</li>
+<li>client mobile ou tablette</li>
+<li>automate: guichets automatiques ou robots d’usine par exemple
+Pour avoir une large base d’utilisateurs, une interface web ou mobile est plus adaptée et sans doute moins compliqué et couteux qu’une interface pour ordinateur personnel.</li>
+</ul>
+<h2 id="les-besoins-métiers">Les besoins métiers</h2>
+<p>Connaître les besoins d’affaire de manière exhaustive et précise n’est pas toujours simple. En effet, ce n’est pas un exercice toujours facile de lister l’ensemble des fonctionnalités dont nous allons avoir besoin. De même pour les règles d’affaire à appliquer. Et partir d’un existant pour une refont applicative n’est pas forcément plus aisé.</p>
+<p>Il arrive parfois qu’une application soit présente depuis plusieurs dizaines d’années et que les fonctionnalités ne soient pas complètement ou pas du tout documentées. Il faut alors replonger dans le code et en extraire les règles métier à adapter pour la nouvelle application.</p>
+<p>En outre, chaque entreprise a selon son domaine d’intervention à satisfaire des contraintes légales, contractuelles ou de confidentialité. En particulier, la nature des données à gérer va influer sur les règles à respecter et les moyens à utiliser. Et même le vocabulaire peut être propre à un secteur d’activité ou à une entreprise.</p>
+<p>Parmi les livrables:</p>
+<ul>
+<li>L’Architecture d’Entreprise donne les guides à suivre pour définir et implémenter l’Architecture Applicative.</li>
+<li>La roadmap des applications apporte des éléments pour déterminer le choix de l’architecture applicative et le calendrier à respecter.</li>
+<li>Les règles métier spécifient les comportements à respecter sur des actions ou des traitements.</li>
+<li>Les règles de validation spécifient la manière de valider des données.</li>
+<li>Les fonctionnalités spécifient les blocs fonctionnels attendus pour l’application.</li>
+<li>Les processus d’affaire ou cas d’utilisation spécifient le comportement attendu de l’application lors de son utilisation.</li>
+<li>La cartographie des composants permet de découper une application en composants qui porteront chacun un lot de fonctionnalités.</li>
+</ul>
+<p>Mais comme dans toute activité d’une entreprise, l’argent a son importance. Voyons comment la définition des budgets peut influencer les choix de l’Architecture Applicative.</p>
+<h2 id="le-budget-de-larchitecture-applicative">Le budget de l’architecture applicative</h2>
+<p>Dans un monde idéal, les besoins métiers sont étudiés dans leur globalité puis:</p>
+<ul>
+<li>Une Architecture d’Entreprise ou au moins une Architecture Applicative est alors définie globalement.</li>
+<li>De là, des choix sont faits pour chaque application ou chaque composante applicative.</li>
+<li>Les budgets sont alors chiffrés.</li>
+<li>Les projets sont lancés.
+Mais la réalité est souvent différente, un besoin métier est unitairement mis en avant avec un budget. A partir de ces éléments, une Architecture Applicative est définie tenant compte des contraintes de l’existant et du budget. Il en ressort une architecture de compromis. La répétition de ce scénario peut conduire à un système d’information formé d’applications qui cohabitent, sans harmonie et avec de fort besoins d’intégration.</li>
+</ul>
+<p>Un autre cas de figure est la migration d’une grosse application monolithique en un ensemble d’applications qui cohabitent et s’échangent des informations. Le découpage s’opère souvent au niveau des fonctionnalités, du budget mais aussi au niveau des ressources humaines. Et si il n’existe pas un cadre fort, commun et transverse à respecter, des divergences peuvent apparaître en termes de méthodes, de technologies, d’intégrations: cela a pour conséquence des coûts supplémentaires non prévus pour interfacer les différentes applications et composants.</p>
+<p>Une fois les choix effectués, un fonctionnement établi, des méthodes mises en place, quels sont les impacts de l’Architecture Applicative sur la vie de l’entreprise.</p>
+<h2 id="les-impacts-du-choix-de-larchitecture-applicative">Les impacts du choix de l’architecture applicative</h2>
+<p>Les choix architecturaux ont des impacts forts sur plusieurs domaines de l’entreprise, et pas seulement au niveau applicatif:</p>
+<ul>
+<li>L’existant doit plus ou moins s’adapter. Une application n’est que rarement totalement autonome et isolée. En général, de nombreuses interactions entre les systèmes sont à prévoir.</li>
+<li>Les compétences sont à développer ou à acquérir.</li>
+<li>Les méthodes sont à communiquer et appliquer.</li>
+<li>Les nouveaux fournisseurs sont à choisir, les contrats des fournisseurs existant sont à renégocier.</li>
+<li>Les partenaires sont à informer, voir font partie du projet s’ils doivent s’adapter.</li>
+<li>Les équipes internes, les utilisateurs et les personnels du SI, doivent changer leurs habitudes, voir se former.</li>
+<li>L’intégration entre composants applicatifs ou entre applications ou avec des fournisseurs et partenaires est à construire ou adapter.</li>
+<li>Les budgets, souvent annuels, sont à adapter pour tenir compte des changements technologiques ou organisationnels.</li>
+<li>Les roadmaps sont à synchroniser: une refonte d’une application ne peut pas toujours se mener de front avec une adaptation à des changements importants d’une autre application.
+Après avoir parlé de besoins, de budgets et d’impacts, parlons concrètement des éléments à prendre en compte pour nous aider à répondre à la question: quelle Architecture Applicative en 2021? Commençons par le type d’application,</li>
+</ul>
+<h2 id="le-choix-du-type-dapplication">Le choix du type d’application</h2>
+<p>Comment choisir le type d’application à mettre en œuvre: achat de progiciels sur site, utilisation de progiciels SaaS, développent sur site / Cloud / hybride…</p>
+<p>Pour faire le choix du type d’application, il est nécessaire de prendre en compte et de pondérer les éléments suivants:</p>
+<ul>
+<li>Les besoins métiers immédiats et à venir (fonctionnalités).</li>
+<li>Les projections en terme de charge de traitement et de nombre d’utilisateurs.</li>
+<li>La cible de l’Architecture d’Entreprise et les orientations qu’elle amène.</li>
+<li>L’existant en terme de matériels, d’hébergement, de fournisseurs, de contrats, d’applications, de compétences, d’organisation, de calendrier commerciale.</li>
+<li>Les ressources financières disponibles ainsi que les prévisionnels.</li>
+<li>Le niveau de rentabilité attendu.</li>
+<li>Les enjeux de l’environnement économique, sanitaire, politique et réglementaire.</li>
+</ul>
+<p>Détaillons un peu les possibilités pour la partie interface, le front-end.</p>
+<h2 id="le-choix-pour-le-frontend">Le choix pour le Frontend</h2>
+<p>La partie visible de l’application est souvent la plus mise en avant par les utilisateurs ou clients même si le moteur caché de l’application est tout aussi important. L’entreprise doit balancer les coûts, la pérennité des technologies et fournisseurs, l’adaptation aux goûts du jour pour ne pas paraître en retard, la sécurité et la facilité d’intégration.</p>
+<p>Les possibilités offertes pour le frontend sont variées:</p>
+<ul>
+<li>web principalement HTML et Javascript (pages web)</li>
+<li>web purement Javascript (application web)</li>
+<li>web avec des pages HTML générées dynamiquement par le backend.</li>
+<li>écran 3270 pour mainframe</li>
+<li>desktop Java</li>
+<li>desktop Native (C, C++, C#…)</li>
+<li>desktop Web (Electron…)</li>
+<li>mobile, tablette (iOS, Android)</li>
+<li>automate grand public (guichet de banque ou de vente de titre de transport, de validation de billet d’avion…)</li>
+<li>automate spécialisé (machine outil, robot industriel…)</li>
+<li>aucun: communication par des échanges de données</li>
+</ul>
+<p>Dans la plupart des cas, le choix sera vite fait car la nature même des besoins d’affaire va cerner une ou quelques possibilités.</p>
+<p>Vous avez déterminé quel est le meilleur choix pour réaliser la partie visible de votre application, cherchons maintenant à trouver comment implémenter la mécanique invisible et tout aussi cruciale, le backend.</p>
+<h2 id="le-choix-pour-le-backend">Le choix pour le Backend</h2>
+<p>Quelle forme l’application va-t-elle prendre dans les coulisses du système d’information? Sera-t-elle hébergée sur site, dans le Cloud ou un peu des deux (hybride)? Sera-t-elle développée en interne ou sera issue de la configuration d’un progiciel sur site ou d’un service en ligne?
+<a href="https://lucbories.com/wp-content/uploads/2021/11/Type-de-Backends-600x400-2.png">https://lucbories.com/wp-content/uploads/2021/11/Type-de-Backends-600x400-2.png</a></p>
+<p>Quelques types de backend
+L’application peut ainsi prendre plusieurs formes dont:</p>
+<p>monolithique</p>
+<ul>
+<li>3-tiers : frontend / backend / base de données</li>
+<li>n-tiers: hautement distribuée</li>
+<li>serverless: l’application ne gère plus de serveur, elle utilise des ressources en ligne et appel des API spécialisées pour exécuter des traitements.</li>
+<li>microservices: ensemble de micro-applications centrées chacune sur un domaine fonctionnel, dont les évolutions sont indépendantes les unes des autres et qui dialoguent entre elles à l’aide contrats (message, API, WS).</li>
+</ul>
+<p>Par ailleurs, chacune des briques peut être un progiciel, un développement interne, un mixte des deux.</p>
+<p>En outre, les traitements et données sont hébergés soit dans un centre de données de l’entreprise, au sein d’une infrastructure dans les nuages (cloud), sont mixtes entre le datacenter et le cloud (hybride) ou font appel à des services en ligne (SaaS).</p>
+<p>Un autre aspect important concerne la gestion des données: comment les organiser, les stocker, les sauvegarder, les archiver, les interroger, les agréger…</p>
+<p>Là encore, les besoins métier vont influer sur le choix en particulier: le volume de transactions, la charge et la fréquence des traitements, le niveau de sécurité et de résilience, le choix du frontend ainsi que le nombre et la localisation des utilisateurs vont être déterminants. Ensuite, la culture de l’entreprise, le budget, les projections et l’expérience des personnels vont finir de sceller le choix.</p>
+<p>Mais une application ne vit généralement pas de manière isolée en autonomie complète. Elle a besoin d’échanger des informations avec les autres systèmes de l’entreprise, les fournisseurs, les partenaires, les filiales, les sites, les applications financières et administratives… C’est pourquoi le choix de l’intégration est tout aussi important pour la réussite du projet.</p>
+<h2 id="le-choix-pour-lintégration">Le choix pour l’intégration</h2>
+<p>Une application ne vit que très rarement isolée de manière autonome. Elle a de plus en plus souvent besoin d’échanger des données avec d’autres applications de nature différente, à l’intérieur ou à l’extérieur de l’entreprise. Là aussi le choix de l’architecture d’intégration sera déterminant sur les possibilités, les performances, la sécurité et la rapidité de déploiement des intégrations.</p>
+<p>En outre, une technologie d’intégration ne répondra pas forcément à tous les besoins selon la nature synchrone ou asynchrone des échanges ainsi que selon le volume et la fréquence des communications.</p>
+<p>Pour déterminer quelles solutions adopter, il est nécessaire de faire l’inventaire des flux avec pour chacun un certains nombre de critères: source, destination, synchrone/asynchrone, fréquence, volume des échanges, nature des données échangées, besoin de reprise après échec, temps de latence acceptable entre l’émission et la réception, besoin de gérer des transactions sur les données, besoin d’orchestrer des flux entre eux, besoin de transformer les données, besoin de faire du transcodage entre les systèmes…</p>
+<h2 id="conclusion">Conclusion</h2>
+<p>Pour répondre à la question « quelle architecture applicative en 2021? », il est important de prendre en compte tous les éléments ci-dessus. Attention à la tendance naturelle à privilégier les facteurs qui nous sont plus familiers tels que la technologie ou les interfaces utilisateurs par exemple, au détriment des autres éléments essentiels, parfois moins attrayants. Une Architecture Applicative n’a de sens qu’en prenant l’application dans son ensemble, au sein de son écosystème.</p>
+<p>Ce travail est souvent plus guidé et rigide dans un grand groupe où les marges de manœuvre sont réduites pour les choix architecturaux des applications. Mais dans les structures moyennes ou plus petites, il est encore possible de définir tous les tenants et aboutissants pour faire les bons choix. Alors à vous de jouer!</p>
+
+      </div><ul class="pa0">
+  
+   <li class="list di">
+     <a href="/tags/conception/" class="link f5 grow br-pill ba ph3 pv2 mb2 dib black sans-serif no-underline">Conception</a>
+   </li>
+  
+   <li class="list di">
+     <a href="/tags/architecture-applicative/" class="link f5 grow br-pill ba ph3 pv2 mb2 dib black sans-serif no-underline">Architecture Applicative</a>
+   </li>
+  
+   <li class="list di">
+     <a href="/tags/m%C3%A9thodologie/" class="link f5 grow br-pill ba ph3 pv2 mb2 dib black sans-serif no-underline">Méthodologie</a>
+   </li>
+  
+</ul>
+</article>
+  </div>
+  
+
+    </main>
+    <footer class="bg-black bottom-0 w-100 pa3" role="contentinfo">
+  <div class="flex justify-between">
+  <a class="f4 fw4 hover-white white-70 dn dib-ns pv2 ph3 no-underline" href="http://localhost:1313/" >
+    &copy;  Architecture TI 2025 
+  </a>
+    <div><div class="ananke-socials"></div>
+</div>
+  </div>
+</footer>
+
+  </body>
+</html>

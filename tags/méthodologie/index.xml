@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Méthodologie on Architecture TI</title>
+    <link>https://architecti.blog/tags/m%C3%A9thodologie/</link>
+    <description>Recent content in Méthodologie on Architecture TI</description>
+    <generator>Hugo</generator>
+    <language>fr-CA</language>
+    <lastBuildDate>Tue, 12 Aug 2025 21:17:39 -0400</lastBuildDate>
+    <atom:link href="https://architecti.blog/tags/m%C3%A9thodologie/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>La difficulté d&#39;appliquer la méthodologie agile dans les projets informatiques</title>
+      <link>https://architecti.blog/posts/la-difficult%C3%A9-dappliquer-la-m%C3%A9thodologie-agile-dans-les-projets-informatiques/</link>
+      <pubDate>Tue, 12 Aug 2025 21:17:39 -0400</pubDate>
+      <guid>https://architecti.blog/posts/la-difficult%C3%A9-dappliquer-la-m%C3%A9thodologie-agile-dans-les-projets-informatiques/</guid>
+      <description>&lt;h2 id=&#34;les-méthodologies-de-travail-en-informatique--de-la-cascade-à-lagilité&#34;&gt;Les méthodologies de travail en informatique – de la cascade à l’agilité&lt;/h2&gt;&#xA;&lt;p&gt;Pendant des décennies, la gestion de projet informatique s’est appuyée sur des méthodologies structurées et séquentielles, dont la plus emblématique est sans doute la méthode en cascade. Ce modèle repose sur une progression linéaire des étapes du projet : on commence par une analyse détaillée des besoins, suivie d’une phase de conception, puis de développement, de tests, et enfin de déploiement et de maintenance. Chaque étape doit être achevée avant de passer à la suivante, ce qui confère au processus une certaine rigueur et une visibilité appréciable sur les délais et les coûts.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Architecture Applicative : Concevoir des Systèmes Robustes et Adaptables</title>
+      <link>https://architecti.blog/posts/architecture-applicative---concevoir-des-syst%C3%A8mes-robustes-et-adaptables/</link>
+      <pubDate>Tue, 05 Aug 2025 21:07:39 -0400</pubDate>
+      <guid>https://architecti.blog/posts/architecture-applicative---concevoir-des-syst%C3%A8mes-robustes-et-adaptables/</guid>
+      <description>&lt;p&gt;L&amp;rsquo;architecture applicative constitue l&amp;rsquo;épine dorsale des systèmes informatiques modernes. Elle détermine la structure organisationnelle et la répartition fonctionnelle d&amp;rsquo;une application, de la conception initiale jusqu&amp;rsquo;à la mise en production. Dans cet article, nous explorerons en profondeur les fondements, les modèles et les bonnes pratiques permettant de créer des applications évolutives et maintenables.&lt;/p&gt;&#xA;&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;&#xA;&lt;p&gt;Dans un monde numérique en constante évolution, les exigences des utilisateurs et les contraintes technologiques se multiplient. Pour répondre à ces défis, une architecture applicative bien pensée ne se contente pas de structurer du code ; elle définit la stratégie globale permettant de découpler les responsabilités et d’optimiser les performances, la scalabilité et la résilience des systèmes. Ce travail d’ingénierie est aujourd’hui incontournable pour les entreprises souhaitant rester compétitives et agiles.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Quelle Architecture Applicative choisir</title>
+      <link>https://architecti.blog/posts/quelle-architecture-applicative-choisir/</link>
+      <pubDate>Thu, 05 Aug 2021 21:07:39 -0400</pubDate>
+      <guid>https://architecti.blog/posts/quelle-architecture-applicative-choisir/</guid>
+      <description>&lt;p&gt;Le choix d’une Architecture Applicative est une décision déterminante en ce qui concerne l’organisation des équipes, les méthodes de travail, les technologies à utiliser, les compétences à acquérir, les interactions avec les utilisateurs internes, les clients et les partenaires… Alors quelle architecture applicative en 2021?&lt;/p&gt;&#xA;&lt;h2 id=&#34;préambule&#34;&gt;Préambule&lt;/h2&gt;&#xA;&lt;p&gt;Cet article n’est pas orienté sur des choix technologiques ou des fournisseurs mais plus sur des choix architecturaux. En effet, il existe tellement de solutions techniques existantes dans tellement de cas de figure différents que nous ne pourrons pas en faire le tour avec un seul écrit. De futurs articles traiteront donc des sujets technologiques qui sont tout aussi importants.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

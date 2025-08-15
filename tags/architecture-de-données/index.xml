@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Architecture De Données on Architecture TI</title>
+    <link>https://architecti.blog/tags/architecture-de-donn%C3%A9es/</link>
+    <description>Recent content in Architecture De Données on Architecture TI</description>
+    <generator>Hugo</generator>
+    <language>fr-CA</language>
+    <lastBuildDate>Sun, 04 Oct 2020 21:07:39 -0400</lastBuildDate>
+    <atom:link href="https://architecti.blog/tags/architecture-de-donn%C3%A9es/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Architecture De Données Ou La Gouvernance De L’information D’entreprise</title>
+      <link>https://architecti.blog/posts/architecture-de-donn%C3%A9es-ou-la-gouvernance-de-linformation-d-entreprise/</link>
+      <pubDate>Sun, 04 Oct 2020 21:07:39 -0400</pubDate>
+      <guid>https://architecti.blog/posts/architecture-de-donn%C3%A9es-ou-la-gouvernance-de-linformation-d-entreprise/</guid>
+      <description>&lt;p&gt;L’Architecture de Données est une des composantes de l’Architecture d’Entreprise. Elle se concentre sur les règles de gestion et d’organisation des données.&lt;/p&gt;&#xA;&lt;p&gt;Attention à ne pas confondre la définition des pratiques relatives aux données et son application qui sera appliquée par des rôles plus techniques; ni avec le Directeur des Données ou Chief Data Officer rôle de direction de l’entreprise qui traite de manière globale tout ce qui touche aux données.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

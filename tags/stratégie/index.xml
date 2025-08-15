@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Stratégie on Architecture TI</title>
+    <link>https://architecti.blog/tags/strat%C3%A9gie/</link>
+    <description>Recent content in Stratégie on Architecture TI</description>
+    <generator>Hugo</generator>
+    <language>fr-CA</language>
+    <lastBuildDate>Wed, 13 Aug 2025 21:17:30 -0400</lastBuildDate>
+    <atom:link href="https://architecti.blog/tags/strat%C3%A9gie/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>4 Mythes Sur La Transformation Numérique</title>
+      <link>https://architecti.blog/posts/4-mythes-sur-la-transformation-num%C3%A9rique/</link>
+      <pubDate>Wed, 13 Aug 2025 21:17:30 -0400</pubDate>
+      <guid>https://architecti.blog/posts/4-mythes-sur-la-transformation-num%C3%A9rique/</guid>
+      <description>&lt;p&gt;La transformation numérique n’est pas un concept nouveau. Ces dernières années ont vu l’évolution rapide des technologies dans les entreprises, de l’Internet des objets (IoT) et de la blockchain aux chatbots, en passant par l’apprentissage automatique et la réalité virtuelle. Presque toutes les entreprises sont impliquées dans une forme de transformation numérique, mais combien en voient réellement les bénéfices ?&lt;/p&gt;&#xA;&lt;p&gt;Dans cet article, nous aborderons certains des mythes courants liés à la transformation numérique. Même si presque toutes les entreprises sont impliquées dans une forme de transformation numérique, elles n’en tirent pas toutes avantage. Une nouvelle analyse de Bain and Company a révélé que moins de 10% des entreprises mondiales ont été capables d’atteindre leurs résultats prévisionnels grâce à leurs investissements dans la technologie numérique. En d’autres termes, plus de 90 % des entreprises ont encore du mal à tenir la promesse d’un modèle commercial basé sur la technologie.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>La difficulté d&#39;appliquer la méthodologie agile dans les projets informatiques</title>
+      <link>https://architecti.blog/posts/la-difficult%C3%A9-dappliquer-la-m%C3%A9thodologie-agile-dans-les-projets-informatiques/</link>
+      <pubDate>Tue, 12 Aug 2025 21:17:39 -0400</pubDate>
+      <guid>https://architecti.blog/posts/la-difficult%C3%A9-dappliquer-la-m%C3%A9thodologie-agile-dans-les-projets-informatiques/</guid>
+      <description>&lt;h2 id=&#34;les-méthodologies-de-travail-en-informatique--de-la-cascade-à-lagilité&#34;&gt;Les méthodologies de travail en informatique – de la cascade à l’agilité&lt;/h2&gt;&#xA;&lt;p&gt;Pendant des décennies, la gestion de projet informatique s’est appuyée sur des méthodologies structurées et séquentielles, dont la plus emblématique est sans doute la méthode en cascade. Ce modèle repose sur une progression linéaire des étapes du projet : on commence par une analyse détaillée des besoins, suivie d’une phase de conception, puis de développement, de tests, et enfin de déploiement et de maintenance. Chaque étape doit être achevée avant de passer à la suivante, ce qui confère au processus une certaine rigueur et une visibilité appréciable sur les délais et les coûts.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Les Étapes Clés De La Transformation Numérique</title>
+      <link>https://architecti.blog/posts/les-%C3%A9tapes-cl%C3%A9s-de-la-transformation-num%C3%A9rique/</link>
+      <pubDate>Tue, 05 Aug 2025 21:07:39 -0400</pubDate>
+      <guid>https://architecti.blog/posts/les-%C3%A9tapes-cl%C3%A9s-de-la-transformation-num%C3%A9rique/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Introduction&lt;/strong&gt;&#xA;Beaucoup d’entreprises se lancent dans la Transformation Numérique, certaines ont eu du succès dans leur voyage vers le digital mais peu ont réellement réussi la métamorphose promise par le nouveau monde digital.&lt;/p&gt;&#xA;&lt;p&gt;Il n’existe pas de méthode universelle prête à l’emploi, ni même de cible commune à atteindre pour les dirigeants. Chaque entreprise a son secteur d’activité, son fonctionnement, son histoire, sa vision, son capital humain et ses moyens financiers.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Présentation de l’architecture en informatique</title>
+      <link>https://architecti.blog/posts/presentation-architecture-informatique/</link>
+      <pubDate>Tue, 05 Aug 2025 21:07:39 -0400</pubDate>
+      <guid>https://architecti.blog/posts/presentation-architecture-informatique/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Introduction&lt;/strong&gt;&lt;br&gt;&#xA;Dans le monde numérique actuel, l’architecture informatique est ce que les fondations sont à un gratte-ciel. Elle définit comment les systèmes sont conçus, organisés, et interconnectés pour répondre à des objectifs métiers précis. Une bonne architecture permet de réduire les coûts, d’augmenter la résilience et de garantir l’agilité dans un environnement en perpétuelle mutation.&lt;/p&gt;&#xA;&lt;p&gt;Ce billet explore les grands types d’architecture informatique : &lt;strong&gt;architecture d’entreprise, architecture de solution, architecture applicative, architecture technique&lt;/strong&gt;, et bien plus encore.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Comment Innover En Architecture IT</title>
+      <link>https://architecti.blog/posts/comment-innover-en-architecture-it/</link>
+      <pubDate>Thu, 05 Aug 2021 21:18:39 -0400</pubDate>
+      <guid>https://architecti.blog/posts/comment-innover-en-architecture-it/</guid>
+      <description>&lt;p&gt;Je viens de parcourir le rapport du Boston Consulting Group, “Most Innovative Companies 2021 – Overcoming the Innovation Readiness Gap – April 2021”. Voyons comment innover en Architecture IT.&lt;/p&gt;&#xA;&lt;p&gt;Ce rapport synthétise les entretiens avec 1500 responsables de l’innovation dans le monde.&lt;/p&gt;&#xA;&lt;p&gt;Le point important à souligner est que l’innovation est devenue une des trois principales priorités de leurs entreprises.&lt;/p&gt;&#xA;&lt;p&gt;Avant de voir comment l’innovation s’applique à l’architecture IT, parcourons ce rapport.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

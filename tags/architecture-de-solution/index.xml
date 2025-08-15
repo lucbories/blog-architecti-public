@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Architecture De Solution on Architecture TI</title>
+    <link>https://architecti.blog/tags/architecture-de-solution/</link>
+    <description>Recent content in Architecture De Solution on Architecture TI</description>
+    <generator>Hugo</generator>
+    <language>fr-CA</language>
+    <lastBuildDate>Tue, 05 Aug 2025 21:07:39 -0400</lastBuildDate>
+    <atom:link href="https://architecti.blog/tags/architecture-de-solution/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Architecture De Solution – Conception Autour D’une Problématique Précise</title>
+      <link>https://architecti.blog/posts/architecture-de-solution--conception-autour-dune-probl%C3%A9matique-pr%C3%A9cise/</link>
+      <pubDate>Tue, 05 Aug 2025 21:07:39 -0400</pubDate>
+      <guid>https://architecti.blog/posts/architecture-de-solution--conception-autour-dune-probl%C3%A9matique-pr%C3%A9cise/</guid>
+      <description>&lt;p&gt;L’Architecture de Solution est la moins bien définie des composantes de l’Architecture d’Entreprise. C’est à dire qu’un même terme peut mener à des activités aux contours différents. Pourtant l’importance de l’Architecture de Solution ne cesse de croître en se basant sur la demande en Architectes de Solution. Essayons de préciser ses contours.&lt;/p&gt;&#xA;&lt;h2 id=&#34;quest-ce-que-larchitecture-de-solution&#34;&gt;Qu’est-ce que l’Architecture de Solution?&lt;/h2&gt;&#xA;&lt;p&gt;Pour le Gartner, l’Architecture de Solution est la description architecturale d’une solution spécifique, une solution étant un ensemble cohérent et suffisant de caractéristiques permettant de répondre à un ensemble de besoins.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
