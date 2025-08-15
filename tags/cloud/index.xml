@@ -9,11 +9,18 @@
     <lastBuildDate>Tue, 05 Aug 2025 21:07:39 -0400</lastBuildDate>
     <atom:link href="https://architecti.blog/tags/cloud/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>🏗️ L’architecture applicative moderne : moteur de la transformation numérique</title>
+      <title>L’architecture applicative moderne : moteur de la transformation numérique</title>
       <link>https://architecti.blog/posts/l-architecture-applicative-moderne---moteur-de-la-transformation-num%C3%A9rique/</link>
       <pubDate>Tue, 05 Aug 2025 21:07:39 -0400</pubDate>
       <guid>https://architecti.blog/posts/l-architecture-applicative-moderne---moteur-de-la-transformation-num%C3%A9rique/</guid>
-      <description>&lt;p&gt;🌐 &lt;strong&gt;Introduction : L’architecture applicative au cœur de la révolution numérique&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;Dans un monde où l’innovation technologique redéfinit chaque secteur, la transformation numérique n’est plus une option — c’est une nécessité stratégique. Mais derrière les interfaces élégantes et les expériences utilisateurs fluides se cache un pilier souvent invisible mais fondamental : l’architecture applicative. Véritable colonne vertébrale des systèmes d’information modernes, elle conditionne la capacité d’une entreprise à évoluer, à innover et à répondre aux exigences d’un marché en perpétuelle mutation.&lt;/p&gt;</description>
+      <description>&lt;h2 id=&#34;introduction--larchitecture-applicative-au-cœur-de-la-révolution-numérique&#34;&gt;Introduction : L’architecture applicative au cœur de la révolution numérique**&lt;/h2&gt;&#xA;&lt;p&gt;Dans un monde où l’innovation technologique redéfinit chaque secteur, la transformation numérique n’est plus une option — c’est une nécessité stratégique. Mais derrière les interfaces élégantes et les expériences utilisateurs fluides se cache un pilier souvent invisible mais fondamental : l’architecture applicative. Véritable colonne vertébrale des systèmes d’information modernes, elle conditionne la capacité d’une entreprise à évoluer, à innover et à répondre aux exigences d’un marché en perpétuelle mutation.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>AWS Vs Azure</title>
+      <link>https://architecti.blog/posts/aws-vs-azure/</link>
+      <pubDate>Mon, 04 Oct 2021 21:07:39 -0400</pubDate>
+      <guid>https://architecti.blog/posts/aws-vs-azure/</guid>
+      <description>&lt;h2 id=&#34;tribune--comparaison-des-géants-du-cloud-computing-ou-informatique-infonuagique&#34;&gt;Tribune – Comparaison des géants du Cloud Computing ou Informatique Infonuagique&lt;/h2&gt;&#xA;&lt;p&gt;KINSTA est un hébergeur de sites WordPress américain qui propose sur son blog des articles approfondis sur différents thèmes. En lisant AWS vs Azure en 2021 (Comparing the Cloud Computing Giants), j’ai trouvé des points intéressants que je vais partager avec vous.&lt;/p&gt;&#xA;&lt;p&gt;Les acteurs du Cloud Computing&lt;/p&gt;&#xA;&lt;p&gt;Le premier constat est que la forte croissance de la demande en cloud computing s’accompagne d’une multiplication des services et options: c’est logique, plus on vise large, plus il faut s’adapter à différents usages et plus il faut proposer de produits.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
