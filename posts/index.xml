@@ -2,129 +2,129 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on Architecture TI</title>
-    <link>http://localhost:1313/posts/</link>
+    <link>https://architecti.blog/posts/</link>
     <description>Recent content in Posts on Architecture TI</description>
     <generator>Hugo</generator>
     <language>fr-CA</language>
     <lastBuildDate>Wed, 13 Aug 2025 21:17:30 -0400</lastBuildDate>
-    <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://architecti.blog/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>4 Mythes Sur La Transformation Numérique</title>
-      <link>http://localhost:1313/posts/4-mythes-sur-la-transformation-num%C3%A9rique/</link>
+      <link>https://architecti.blog/posts/4-mythes-sur-la-transformation-num%C3%A9rique/</link>
       <pubDate>Wed, 13 Aug 2025 21:17:30 -0400</pubDate>
-      <guid>http://localhost:1313/posts/4-mythes-sur-la-transformation-num%C3%A9rique/</guid>
+      <guid>https://architecti.blog/posts/4-mythes-sur-la-transformation-num%C3%A9rique/</guid>
       <description>&lt;p&gt;La transformation numérique n’est pas un concept nouveau. Ces dernières années ont vu l’évolution rapide des technologies dans les entreprises, de l’Internet des objets (IoT) et de la blockchain aux chatbots, en passant par l’apprentissage automatique et la réalité virtuelle. Presque toutes les entreprises sont impliquées dans une forme de transformation numérique, mais combien en voient réellement les bénéfices ?&lt;/p&gt;&#xA;&lt;p&gt;Dans cet article, nous aborderons certains des mythes courants liés à la transformation numérique. Même si presque toutes les entreprises sont impliquées dans une forme de transformation numérique, elles n’en tirent pas toutes avantage. Une nouvelle analyse de Bain and Company a révélé que moins de 10% des entreprises mondiales ont été capables d’atteindre leurs résultats prévisionnels grâce à leurs investissements dans la technologie numérique. En d’autres termes, plus de 90 % des entreprises ont encore du mal à tenir la promesse d’un modèle commercial basé sur la technologie.&lt;/p&gt;</description>
     </item>
     <item>
-      <title>📘 La difficulté d&#39;appliquer la méthodologie agile dans les projets informatiques</title>
-      <link>http://localhost:1313/posts/la-difficult%C3%A9-dappliquer-la-m%C3%A9thodologie-agile-dans-les-projets-informatiques/</link>
+      <title>La difficulté d&#39;appliquer la méthodologie agile dans les projets informatiques</title>
+      <link>https://architecti.blog/posts/la-difficult%C3%A9-dappliquer-la-m%C3%A9thodologie-agile-dans-les-projets-informatiques/</link>
       <pubDate>Tue, 12 Aug 2025 21:17:39 -0400</pubDate>
-      <guid>http://localhost:1313/posts/la-difficult%C3%A9-dappliquer-la-m%C3%A9thodologie-agile-dans-les-projets-informatiques/</guid>
+      <guid>https://architecti.blog/posts/la-difficult%C3%A9-dappliquer-la-m%C3%A9thodologie-agile-dans-les-projets-informatiques/</guid>
       <description>&lt;h2 id=&#34;les-méthodologies-de-travail-en-informatique--de-la-cascade-à-lagilité&#34;&gt;Les méthodologies de travail en informatique – de la cascade à l’agilité&lt;/h2&gt;&#xA;&lt;p&gt;Pendant des décennies, la gestion de projet informatique s’est appuyée sur des méthodologies structurées et séquentielles, dont la plus emblématique est sans doute la méthode en cascade. Ce modèle repose sur une progression linéaire des étapes du projet : on commence par une analyse détaillée des besoins, suivie d’une phase de conception, puis de développement, de tests, et enfin de déploiement et de maintenance. Chaque étape doit être achevée avant de passer à la suivante, ce qui confère au processus une certaine rigueur et une visibilité appréciable sur les délais et les coûts.&lt;/p&gt;</description>
     </item>
     <item>
-      <title>🌐 Présentation de l’architecture en informatique</title>
-      <link>http://localhost:1313/posts/presentation-architecture-informatique/</link>
-      <pubDate>Tue, 05 Aug 2025 21:07:39 -0400</pubDate>
-      <guid>http://localhost:1313/posts/presentation-architecture-informatique/</guid>
-      <description>&lt;p&gt;&lt;strong&gt;Introduction&lt;/strong&gt;&lt;br&gt;&#xA;Dans le monde numérique actuel, l’architecture informatique est ce que les fondations sont à un gratte-ciel. Elle définit comment les systèmes sont conçus, organisés, et interconnectés pour répondre à des objectifs métiers précis. Une bonne architecture permet de réduire les coûts, d’augmenter la résilience et de garantir l’agilité dans un environnement en perpétuelle mutation.&lt;/p&gt;&#xA;&lt;p&gt;Ce billet explore les grands types d’architecture informatique : &lt;strong&gt;architecture d’entreprise, architecture de solution, architecture applicative, architecture technique&lt;/strong&gt;, et bien plus encore.&lt;/p&gt;</description>
-    </item>
-    <item>
       <title>Architecture Applicative - Mise en contexte</title>
-      <link>http://localhost:1313/posts/architecture-applicative---mise-en-contexte/</link>
+      <link>https://architecti.blog/posts/architecture-applicative---mise-en-contexte/</link>
       <pubDate>Tue, 05 Aug 2025 21:07:39 -0400</pubDate>
-      <guid>http://localhost:1313/posts/architecture-applicative---mise-en-contexte/</guid>
+      <guid>https://architecti.blog/posts/architecture-applicative---mise-en-contexte/</guid>
       <description>&lt;h2 id=&#34;êtes-vous-concerné-par-larchitecture-applicative&#34;&gt;Êtes-vous concerné par l’Architecture Applicative?&lt;/h2&gt;&#xA;&lt;p&gt;Si vous êtes développeur vous aimeriez comprendre comment les éléments applicatifs interagissent entre eux; comment doit fonctionner un traitement applicatif particulier, avec quels résultats attendus; de quelle manière un utilisateur doit utiliser un écran de saisie ou de consultation.&lt;/p&gt;&#xA;&lt;p&gt;Si vous êtes spécialiste infrastructure, vous avez besoin de connaître la nature et la volumétrie des données stockées et échangées; la fréquence et la charge requise par chaque traitement applicatif; l’agencement des différentes solutions applicatives entre elles au sein du système d’information (SI).&lt;/p&gt;</description>
     </item>
     <item>
       <title>Architecture Applicative : Concevoir des Systèmes Robustes et Adaptables</title>
-      <link>http://localhost:1313/posts/architecture-applicative---concevoir-des-syst%C3%A8mes-robustes-et-adaptables/</link>
+      <link>https://architecti.blog/posts/architecture-applicative---concevoir-des-syst%C3%A8mes-robustes-et-adaptables/</link>
       <pubDate>Tue, 05 Aug 2025 21:07:39 -0400</pubDate>
-      <guid>http://localhost:1313/posts/architecture-applicative---concevoir-des-syst%C3%A8mes-robustes-et-adaptables/</guid>
+      <guid>https://architecti.blog/posts/architecture-applicative---concevoir-des-syst%C3%A8mes-robustes-et-adaptables/</guid>
       <description>&lt;p&gt;L&amp;rsquo;architecture applicative constitue l&amp;rsquo;épine dorsale des systèmes informatiques modernes. Elle détermine la structure organisationnelle et la répartition fonctionnelle d&amp;rsquo;une application, de la conception initiale jusqu&amp;rsquo;à la mise en production. Dans cet article, nous explorerons en profondeur les fondements, les modèles et les bonnes pratiques permettant de créer des applications évolutives et maintenables.&lt;/p&gt;&#xA;&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;&#xA;&lt;p&gt;Dans un monde numérique en constante évolution, les exigences des utilisateurs et les contraintes technologiques se multiplient. Pour répondre à ces défis, une architecture applicative bien pensée ne se contente pas de structurer du code ; elle définit la stratégie globale permettant de découpler les responsabilités et d’optimiser les performances, la scalabilité et la résilience des systèmes. Ce travail d’ingénierie est aujourd’hui incontournable pour les entreprises souhaitant rester compétitives et agiles.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Architecture D’Entreprise Ou La Gouvernance De La Conception Du SI</title>
-      <link>http://localhost:1313/posts/architecture-d-entreprise-ou-la-gouvernance-de-la-conception-du-si/</link>
+      <link>https://architecti.blog/posts/architecture-d-entreprise-ou-la-gouvernance-de-la-conception-du-si/</link>
       <pubDate>Tue, 05 Aug 2025 21:07:39 -0400</pubDate>
-      <guid>http://localhost:1313/posts/architecture-d-entreprise-ou-la-gouvernance-de-la-conception-du-si/</guid>
+      <guid>https://architecti.blog/posts/architecture-d-entreprise-ou-la-gouvernance-de-la-conception-du-si/</guid>
       <description>&lt;p&gt;L’Architecture d’Entreprise met en place, applique et fait évoluer les principes directeurs de conception du système d’information (SI): c’est la gouvernance de la conception du SI. En partant de l’urbanisation du SI, en passant par la gouvernance des données et en arrivant à la conception des applications.&lt;/p&gt;&#xA;&lt;p&gt;Pour ne pas réinventer la roue et pour ne pas être perdu d’une entreprise à l’autre, des cadres de référence (des frameworks) permettent de parler un langage commun au sein des organisations et entre les organisations. Ces frameworks peuvent être orientés méthodologie ou représentation graphique. Voir &lt;a href=&#34;https://architecti.blog/posts/diff%C3%A9rences-entre-togaf-et-archimate/&#34;&gt;Différences entre TOGAF et Archimate&lt;/a&gt;.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Architecture De Solution – Conception Autour D’une Problématique Précise</title>
-      <link>http://localhost:1313/posts/architecture-de-solution--conception-autour-dune-probl%C3%A9matique-pr%C3%A9cise/</link>
+      <link>https://architecti.blog/posts/architecture-de-solution--conception-autour-dune-probl%C3%A9matique-pr%C3%A9cise/</link>
       <pubDate>Tue, 05 Aug 2025 21:07:39 -0400</pubDate>
-      <guid>http://localhost:1313/posts/architecture-de-solution--conception-autour-dune-probl%C3%A9matique-pr%C3%A9cise/</guid>
+      <guid>https://architecti.blog/posts/architecture-de-solution--conception-autour-dune-probl%C3%A9matique-pr%C3%A9cise/</guid>
       <description>&lt;p&gt;L’Architecture de Solution est la moins bien définie des composantes de l’Architecture d’Entreprise. C’est à dire qu’un même terme peut mener à des activités aux contours différents. Pourtant l’importance de l’Architecture de Solution ne cesse de croître en se basant sur la demande en Architectes de Solution. Essayons de préciser ses contours.&lt;/p&gt;&#xA;&lt;h2 id=&#34;quest-ce-que-larchitecture-de-solution&#34;&gt;Qu’est-ce que l’Architecture de Solution?&lt;/h2&gt;&#xA;&lt;p&gt;Pour le Gartner, l’Architecture de Solution est la description architecturale d’une solution spécifique, une solution étant un ensemble cohérent et suffisant de caractéristiques permettant de répondre à un ensemble de besoins.&lt;/p&gt;</description>
     </item>
     <item>
-      <title>Différences Entre TOGAF Et ArchiMate</title>
-      <link>http://localhost:1313/posts/diff%C3%A9rences-entre-togaf-et-archimate/</link>
+      <title>Comprendre le Bounded Context en Architecture Microservices</title>
+      <link>https://architecti.blog/posts/comprendre-le-bounded-context-en-architecture-microservices/</link>
       <pubDate>Tue, 05 Aug 2025 21:07:39 -0400</pubDate>
-      <guid>http://localhost:1313/posts/diff%C3%A9rences-entre-togaf-et-archimate/</guid>
+      <guid>https://architecti.blog/posts/comprendre-le-bounded-context-en-architecture-microservices/</guid>
+      <description>&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;&#xA;&lt;p&gt;L’architecture microservices a révolutionné la manière dont les systèmes logiciels sont conçus, développés et maintenus. Elle repose sur le principe de décomposer une application monolithique en une série de services indépendants, chacun responsable d’un domaine fonctionnel bien défini. Mais cette décomposition soulève une question cruciale : &lt;strong&gt;comment définir les limites de chaque service ?&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;C’est là qu’intervient le concept de &lt;strong&gt;bounded context&lt;/strong&gt;, issu de la méthodologie &lt;strong&gt;Domain-Driven Design (DDD)&lt;/strong&gt;. Ce concept permet de structurer les microservices autour de modèles métier cohérents, en évitant les ambiguïtés et les dépendances inutiles.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Différences Entre TOGAF Et ArchiMate</title>
+      <link>https://architecti.blog/posts/diff%C3%A9rences-entre-togaf-et-archimate/</link>
+      <pubDate>Tue, 05 Aug 2025 21:07:39 -0400</pubDate>
+      <guid>https://architecti.blog/posts/diff%C3%A9rences-entre-togaf-et-archimate/</guid>
       <description>&lt;p&gt;Répondre à la question des différences entre TOGAF et ArchiMate n’est pas simple mais voici ce que vous devez savoir.&lt;/p&gt;&#xA;&lt;p&gt;Or une majorité d’entreprises démarrent ou renouvellent leurs pratiques d’architecture d’entreprise. Votre organisation fait-elle partie de cette tendance?&lt;/p&gt;&#xA;&lt;p&gt;Si c’est le cas, vous n’êtes pas seul à vous poser la question.&lt;/p&gt;&#xA;&lt;p&gt;Car de nombreux architectes d’entreprise sont confus par la différence entre TOGAF et ArchiMate.&lt;/p&gt;&#xA;&lt;p&gt;En effet, il existe des similitudes mais aussi des différences entre ces deux standards.&lt;/p&gt;</description>
     </item>
     <item>
-      <title>Les Étapes Clés De La Transformation Numérique</title>
-      <link>http://localhost:1313/posts/les-%C3%A9tapes-cl%C3%A9s-de-la-transformation-num%C3%A9rique/</link>
+      <title>L’architecture applicative moderne : moteur de la transformation numérique</title>
+      <link>https://architecti.blog/posts/l-architecture-applicative-moderne---moteur-de-la-transformation-num%C3%A9rique/</link>
       <pubDate>Tue, 05 Aug 2025 21:07:39 -0400</pubDate>
-      <guid>http://localhost:1313/posts/les-%C3%A9tapes-cl%C3%A9s-de-la-transformation-num%C3%A9rique/</guid>
+      <guid>https://architecti.blog/posts/l-architecture-applicative-moderne---moteur-de-la-transformation-num%C3%A9rique/</guid>
+      <description>&lt;h2 id=&#34;introduction--larchitecture-applicative-au-cœur-de-la-révolution-numérique&#34;&gt;Introduction : L’architecture applicative au cœur de la révolution numérique**&lt;/h2&gt;&#xA;&lt;p&gt;Dans un monde où l’innovation technologique redéfinit chaque secteur, la transformation numérique n’est plus une option — c’est une nécessité stratégique. Mais derrière les interfaces élégantes et les expériences utilisateurs fluides se cache un pilier souvent invisible mais fondamental : l’architecture applicative. Véritable colonne vertébrale des systèmes d’information modernes, elle conditionne la capacité d’une entreprise à évoluer, à innover et à répondre aux exigences d’un marché en perpétuelle mutation.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Les Étapes Clés De La Transformation Numérique</title>
+      <link>https://architecti.blog/posts/les-%C3%A9tapes-cl%C3%A9s-de-la-transformation-num%C3%A9rique/</link>
+      <pubDate>Tue, 05 Aug 2025 21:07:39 -0400</pubDate>
+      <guid>https://architecti.blog/posts/les-%C3%A9tapes-cl%C3%A9s-de-la-transformation-num%C3%A9rique/</guid>
       <description>&lt;p&gt;&lt;strong&gt;Introduction&lt;/strong&gt;&#xA;Beaucoup d’entreprises se lancent dans la Transformation Numérique, certaines ont eu du succès dans leur voyage vers le digital mais peu ont réellement réussi la métamorphose promise par le nouveau monde digital.&lt;/p&gt;&#xA;&lt;p&gt;Il n’existe pas de méthode universelle prête à l’emploi, ni même de cible commune à atteindre pour les dirigeants. Chaque entreprise a son secteur d’activité, son fonctionnement, son histoire, sa vision, son capital humain et ses moyens financiers.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Les Principes Fondamentaux du Domain-Driven Design (DDD)</title>
-      <link>http://localhost:1313/posts/les-principes-fondamentaux-du-domain-driven-design-ddd/</link>
+      <link>https://architecti.blog/posts/les-principes-fondamentaux-du-domain-driven-design-ddd/</link>
       <pubDate>Tue, 05 Aug 2025 21:07:39 -0400</pubDate>
-      <guid>http://localhost:1313/posts/les-principes-fondamentaux-du-domain-driven-design-ddd/</guid>
+      <guid>https://architecti.blog/posts/les-principes-fondamentaux-du-domain-driven-design-ddd/</guid>
       <description>&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;&#xA;&lt;p&gt;Dans un monde où les systèmes logiciels deviennent de plus en plus complexes, il est essentiel de concevoir des architectures qui reflètent fidèlement les besoins métier. C’est précisément l’objectif du &lt;strong&gt;Domain-Driven Design (DDD)&lt;/strong&gt;, une approche introduite par &lt;strong&gt;Eric Evans&lt;/strong&gt; en 2003, qui place le &lt;strong&gt;domaine métier&lt;/strong&gt; au cœur de la conception logicielle.&lt;/p&gt;&#xA;&lt;p&gt;Mais DDD n’est pas qu’une méthode de modélisation. C’est une philosophie qui influence profondément l’&lt;strong&gt;architecture applicative&lt;/strong&gt;, en guidant la structuration des composants, la définition des responsabilités, et la communication entre les parties du système.&lt;/p&gt;</description>
     </item>
     <item>
-      <title>🏗️ L’architecture applicative moderne : moteur de la transformation numérique</title>
-      <link>http://localhost:1313/posts/l-architecture-applicative-moderne---moteur-de-la-transformation-num%C3%A9rique/</link>
+      <title>Présentation de l’architecture en informatique</title>
+      <link>https://architecti.blog/posts/presentation-architecture-informatique/</link>
       <pubDate>Tue, 05 Aug 2025 21:07:39 -0400</pubDate>
-      <guid>http://localhost:1313/posts/l-architecture-applicative-moderne---moteur-de-la-transformation-num%C3%A9rique/</guid>
-      <description>&lt;p&gt;🌐 &lt;strong&gt;Introduction : L’architecture applicative au cœur de la révolution numérique&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;Dans un monde où l’innovation technologique redéfinit chaque secteur, la transformation numérique n’est plus une option — c’est une nécessité stratégique. Mais derrière les interfaces élégantes et les expériences utilisateurs fluides se cache un pilier souvent invisible mais fondamental : l’architecture applicative. Véritable colonne vertébrale des systèmes d’information modernes, elle conditionne la capacité d’une entreprise à évoluer, à innover et à répondre aux exigences d’un marché en perpétuelle mutation.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>🧩 Comprendre le Bounded Context en Architecture Microservices</title>
-      <link>http://localhost:1313/posts/comprendre-le-bounded-context-en-architecture-microservices/</link>
-      <pubDate>Tue, 05 Aug 2025 21:07:39 -0400</pubDate>
-      <guid>http://localhost:1313/posts/comprendre-le-bounded-context-en-architecture-microservices/</guid>
-      <description>&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;&#xA;&lt;p&gt;L’architecture microservices a révolutionné la manière dont les systèmes logiciels sont conçus, développés et maintenus. Elle repose sur le principe de décomposer une application monolithique en une série de services indépendants, chacun responsable d’un domaine fonctionnel bien défini. Mais cette décomposition soulève une question cruciale : &lt;strong&gt;comment définir les limites de chaque service ?&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;C’est là qu’intervient le concept de &lt;strong&gt;bounded context&lt;/strong&gt;, issu de la méthodologie &lt;strong&gt;Domain-Driven Design (DDD)&lt;/strong&gt;. Ce concept permet de structurer les microservices autour de modèles métier cohérents, en évitant les ambiguïtés et les dépendances inutiles.&lt;/p&gt;</description>
+      <guid>https://architecti.blog/posts/presentation-architecture-informatique/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Introduction&lt;/strong&gt;&lt;br&gt;&#xA;Dans le monde numérique actuel, l’architecture informatique est ce que les fondations sont à un gratte-ciel. Elle définit comment les systèmes sont conçus, organisés, et interconnectés pour répondre à des objectifs métiers précis. Une bonne architecture permet de réduire les coûts, d’augmenter la résilience et de garantir l’agilité dans un environnement en perpétuelle mutation.&lt;/p&gt;&#xA;&lt;p&gt;Ce billet explore les grands types d’architecture informatique : &lt;strong&gt;architecture d’entreprise, architecture de solution, architecture applicative, architecture technique&lt;/strong&gt;, et bien plus encore.&lt;/p&gt;</description>
     </item>
     <item>
       <title>AWS Vs Azure</title>
-      <link>http://localhost:1313/posts/aws-vs-azure/</link>
+      <link>https://architecti.blog/posts/aws-vs-azure/</link>
       <pubDate>Mon, 04 Oct 2021 21:07:39 -0400</pubDate>
-      <guid>http://localhost:1313/posts/aws-vs-azure/</guid>
+      <guid>https://architecti.blog/posts/aws-vs-azure/</guid>
       <description>&lt;h2 id=&#34;tribune--comparaison-des-géants-du-cloud-computing-ou-informatique-infonuagique&#34;&gt;Tribune – Comparaison des géants du Cloud Computing ou Informatique Infonuagique&lt;/h2&gt;&#xA;&lt;p&gt;KINSTA est un hébergeur de sites WordPress américain qui propose sur son blog des articles approfondis sur différents thèmes. En lisant AWS vs Azure en 2021 (Comparing the Cloud Computing Giants), j’ai trouvé des points intéressants que je vais partager avec vous.&lt;/p&gt;&#xA;&lt;p&gt;Les acteurs du Cloud Computing&lt;/p&gt;&#xA;&lt;p&gt;Le premier constat est que la forte croissance de la demande en cloud computing s’accompagne d’une multiplication des services et options: c’est logique, plus on vise large, plus il faut s’adapter à différents usages et plus il faut proposer de produits.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Comment Innover En Architecture IT</title>
-      <link>http://localhost:1313/posts/comment-innover-en-architecture-it/</link>
+      <link>https://architecti.blog/posts/comment-innover-en-architecture-it/</link>
       <pubDate>Thu, 05 Aug 2021 21:18:39 -0400</pubDate>
-      <guid>http://localhost:1313/posts/comment-innover-en-architecture-it/</guid>
+      <guid>https://architecti.blog/posts/comment-innover-en-architecture-it/</guid>
       <description>&lt;p&gt;Je viens de parcourir le rapport du Boston Consulting Group, “Most Innovative Companies 2021 – Overcoming the Innovation Readiness Gap – April 2021”. Voyons comment innover en Architecture IT.&lt;/p&gt;&#xA;&lt;p&gt;Ce rapport synthétise les entretiens avec 1500 responsables de l’innovation dans le monde.&lt;/p&gt;&#xA;&lt;p&gt;Le point important à souligner est que l’innovation est devenue une des trois principales priorités de leurs entreprises.&lt;/p&gt;&#xA;&lt;p&gt;Avant de voir comment l’innovation s’applique à l’architecture IT, parcourons ce rapport.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Quelle Architecture Applicative choisir</title>
-      <link>http://localhost:1313/posts/quelle-architecture-applicative-choisir/</link>
+      <link>https://architecti.blog/posts/quelle-architecture-applicative-choisir/</link>
       <pubDate>Thu, 05 Aug 2021 21:07:39 -0400</pubDate>
-      <guid>http://localhost:1313/posts/quelle-architecture-applicative-choisir/</guid>
+      <guid>https://architecti.blog/posts/quelle-architecture-applicative-choisir/</guid>
       <description>&lt;p&gt;Le choix d’une Architecture Applicative est une décision déterminante en ce qui concerne l’organisation des équipes, les méthodes de travail, les technologies à utiliser, les compétences à acquérir, les interactions avec les utilisateurs internes, les clients et les partenaires… Alors quelle architecture applicative en 2021?&lt;/p&gt;&#xA;&lt;h2 id=&#34;préambule&#34;&gt;Préambule&lt;/h2&gt;&#xA;&lt;p&gt;Cet article n’est pas orienté sur des choix technologiques ou des fournisseurs mais plus sur des choix architecturaux. En effet, il existe tellement de solutions techniques existantes dans tellement de cas de figure différents que nous ne pourrons pas en faire le tour avec un seul écrit. De futurs articles traiteront donc des sujets technologiques qui sont tout aussi importants.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Architecture Technologique Ou Architecture Technique Vs Expertise Technique</title>
-      <link>http://localhost:1313/posts/architecture-technologique-ou-architecture-technique-vs-expertise-technique/</link>
+      <link>https://architecti.blog/posts/architecture-technologique-ou-architecture-technique-vs-expertise-technique/</link>
       <pubDate>Mon, 12 Oct 2020 21:07:39 -0400</pubDate>
-      <guid>http://localhost:1313/posts/architecture-technologique-ou-architecture-technique-vs-expertise-technique/</guid>
+      <guid>https://architecti.blog/posts/architecture-technologique-ou-architecture-technique-vs-expertise-technique/</guid>
       <description>&lt;p&gt;Au delà des termes qui peuvent varier d’une organisation à une autre voir même d’une méthodologie à l’autre, il est important de comprendre ce qui définit l’Architecture Technologique ou Architecture Technique et ce qui la différencie de l’Expertise Technique.&lt;/p&gt;&#xA;&lt;p&gt;En effet, identifier les périmètres de responsabilité permet de gagner en efficacité et de ne pas mélanger les notions en s’adressant aux bonnes personnes.&lt;/p&gt;&#xA;&lt;p&gt;Il est donc nécessaire de différencier les rôles de gouvernance des rôles d’implémentation. Chacun à son importance et les deux peuvent se trouver au cours d’une même carrière.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Architecture De Données Ou La Gouvernance De L’information D’entreprise</title>
-      <link>http://localhost:1313/posts/architecture-de-donn%C3%A9es-ou-la-gouvernance-de-linformation-d-entreprise/</link>
+      <link>https://architecti.blog/posts/architecture-de-donn%C3%A9es-ou-la-gouvernance-de-linformation-d-entreprise/</link>
       <pubDate>Sun, 04 Oct 2020 21:07:39 -0400</pubDate>
-      <guid>http://localhost:1313/posts/architecture-de-donn%C3%A9es-ou-la-gouvernance-de-linformation-d-entreprise/</guid>
+      <guid>https://architecti.blog/posts/architecture-de-donn%C3%A9es-ou-la-gouvernance-de-linformation-d-entreprise/</guid>
       <description>&lt;p&gt;L’Architecture de Données est une des composantes de l’Architecture d’Entreprise. Elle se concentre sur les règles de gestion et d’organisation des données.&lt;/p&gt;&#xA;&lt;p&gt;Attention à ne pas confondre la définition des pratiques relatives aux données et son application qui sera appliquée par des rôles plus techniques; ni avec le Directeur des Données ou Chief Data Officer rôle de direction de l’entreprise qui traite de manière globale tout ce qui touche aux données.&lt;/p&gt;</description>
     </item>
   </channel>
