@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>CPU on ArchitecTI</title>
+    <link>https://architecti.blog/tags/cpu/</link>
+    <description>Recent content in CPU on ArchitecTI</description>
+    <generator>Hugo</generator>
+    <language>fr</language>
+    <lastBuildDate>Fri, 20 Aug 2021 21:07:39 -0400</lastBuildDate>
+    <atom:link href="https://architecti.blog/tags/cpu/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>L’architecture neuromorphique : quand l’informatique imite le cerveau</title>
+      <link>https://architecti.blog/posts/l-architecture-neuromorphique/</link>
+      <pubDate>Fri, 20 Aug 2021 21:07:39 -0400</pubDate>
+      <guid>https://architecti.blog/posts/l-architecture-neuromorphique/</guid>
+      <description>&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;&#xA;&lt;p&gt;Depuis les débuts de l’informatique, les ingénieurs ont cherché à reproduire les capacités cognitives humaines à travers des machines. Si les ordinateurs classiques ont permis des avancées spectaculaires dans le calcul, la logique et la communication, ils restent fondamentalement différents du cerveau humain dans leur fonctionnement. C’est dans ce contexte qu’émerge une discipline fascinante : &lt;strong&gt;l’architecture neuromorphique&lt;/strong&gt;, qui vise à concevoir des systèmes informatiques inspirés du fonctionnement biologique du cerveau.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

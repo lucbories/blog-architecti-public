@@ -1,0 +1,12 @@
+nav ul ul {
+  display: none;
+  position: absolute;
+  background-color: #fff;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+nav ul li:hover > ul {
+  display: block;
+}

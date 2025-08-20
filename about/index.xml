@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Abouts on Architecture TI</title>
+    <link>http://localhost:1313/about/</link>
+    <description>Recent content in Abouts on Architecture TI</description>
+    <generator>Hugo</generator>
+    <language>fr</language>
+    <lastBuildDate>Wed, 18 Aug 2021 21:07:39 -0400</lastBuildDate>
+    <atom:link href="http://localhost:1313/about/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>À propos</title>
+      <link>http://localhost:1313/about/apropos/</link>
+      <pubDate>Wed, 18 Aug 2021 21:07:39 -0400</pubDate>
+      <guid>http://localhost:1313/about/apropos/</guid>
+      <description>&lt;p&gt;A propos&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
