@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Tags on Architecture TI</title>
+    <title>Tags on ArchitecTI</title>
     <link>https://architecti.blog/tags/</link>
-    <description>Recent content in Tags on Architecture TI</description>
+    <description>Recent content in Tags on ArchitecTI</description>
     <generator>Hugo</generator>
-    <language>fr-CA</language>
+    <language>fr</language>
     <lastBuildDate>Wed, 13 Aug 2025 21:17:30 -0400</lastBuildDate>
     <atom:link href="https://architecti.blog/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
@@ -125,6 +125,13 @@
       <link>https://architecti.blog/tags/architecture-technologique/</link>
       <pubDate>Mon, 04 Oct 2021 21:07:39 -0400</pubDate>
       <guid>https://architecti.blog/tags/architecture-technologique/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>CPU</title>
+      <link>https://architecti.blog/tags/cpu/</link>
+      <pubDate>Fri, 20 Aug 2021 21:07:39 -0400</pubDate>
+      <guid>https://architecti.blog/tags/cpu/</guid>
       <description></description>
     </item>
     <item>

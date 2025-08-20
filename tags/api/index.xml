@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>API on Architecture TI</title>
+    <title>API on ArchitecTI</title>
     <link>https://architecti.blog/tags/api/</link>
-    <description>Recent content in API on Architecture TI</description>
+    <description>Recent content in API on ArchitecTI</description>
     <generator>Hugo</generator>
-    <language>fr-CA</language>
+    <language>fr</language>
     <lastBuildDate>Tue, 05 Aug 2025 21:07:39 -0400</lastBuildDate>
     <atom:link href="https://architecti.blog/tags/api/index.xml" rel="self" type="application/rss+xml" />
     <item>

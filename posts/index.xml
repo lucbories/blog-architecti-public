@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts on Architecture TI</title>
+    <title>Posts on ArchitecTI</title>
     <link>https://architecti.blog/posts/</link>
-    <description>Recent content in Posts on Architecture TI</description>
+    <description>Recent content in Posts on ArchitecTI</description>
     <generator>Hugo</generator>
-    <language>fr-CA</language>
+    <language>fr</language>
     <lastBuildDate>Wed, 13 Aug 2025 21:17:30 -0400</lastBuildDate>
     <atom:link href="https://architecti.blog/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
@@ -98,6 +98,13 @@
       <pubDate>Mon, 04 Oct 2021 21:07:39 -0400</pubDate>
       <guid>https://architecti.blog/posts/aws-vs-azure/</guid>
       <description>&lt;h2 id=&#34;tribune--comparaison-des-géants-du-cloud-computing-ou-informatique-infonuagique&#34;&gt;Tribune – Comparaison des géants du Cloud Computing ou Informatique Infonuagique&lt;/h2&gt;&#xA;&lt;p&gt;KINSTA est un hébergeur de sites WordPress américain qui propose sur son blog des articles approfondis sur différents thèmes. En lisant AWS vs Azure en 2021 (Comparing the Cloud Computing Giants), j’ai trouvé des points intéressants que je vais partager avec vous.&lt;/p&gt;&#xA;&lt;p&gt;Les acteurs du Cloud Computing&lt;/p&gt;&#xA;&lt;p&gt;Le premier constat est que la forte croissance de la demande en cloud computing s’accompagne d’une multiplication des services et options: c’est logique, plus on vise large, plus il faut s’adapter à différents usages et plus il faut proposer de produits.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>L’architecture neuromorphique : quand l’informatique imite le cerveau</title>
+      <link>https://architecti.blog/posts/l-architecture-neuromorphique/</link>
+      <pubDate>Fri, 20 Aug 2021 21:07:39 -0400</pubDate>
+      <guid>https://architecti.blog/posts/l-architecture-neuromorphique/</guid>
+      <description>&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;&#xA;&lt;p&gt;Depuis les débuts de l’informatique, les ingénieurs ont cherché à reproduire les capacités cognitives humaines à travers des machines. Si les ordinateurs classiques ont permis des avancées spectaculaires dans le calcul, la logique et la communication, ils restent fondamentalement différents du cerveau humain dans leur fonctionnement. C’est dans ce contexte qu’émerge une discipline fascinante : &lt;strong&gt;l’architecture neuromorphique&lt;/strong&gt;, qui vise à concevoir des systèmes informatiques inspirés du fonctionnement biologique du cerveau.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Comment Innover En Architecture IT</title>
