@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Solution Architecture on IT Architecture</title>
+    <link>https://architecti.blog/en/tags/solution-architecture/</link>
+    <description>Recent content in Solution Architecture on IT Architecture</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Sat, 05 Dec 2020 21:07:39 -0400</lastBuildDate>
+    <atom:link href="https://architecti.blog/en/tags/solution-architecture/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Solution Architecture – Designing Around a Specific Problem</title>
+      <link>https://architecti.blog/en/articles/2020/004-architecture-de-solution--conception-autour-dune-probl%C3%A9matique-pr%C3%A9cise/</link>
+      <pubDate>Sat, 05 Dec 2020 21:07:39 -0400</pubDate>
+      <guid>https://architecti.blog/en/articles/2020/004-architecture-de-solution--conception-autour-dune-probl%C3%A9matique-pr%C3%A9cise/</guid>
+      <description>&lt;p&gt;Solution Architecture is the least well-defined component of Enterprise Architecture. In other words, the same term can encompass activities with differing scopes. Yet demand for Solution Architects continues to grow, highlighting the role’s rising importance. Let’s clarify its contours.&lt;/p&gt;&#xA;&lt;h2 id=&#34;what-is-solution-architecture&#34;&gt;What Is Solution Architecture?&lt;/h2&gt;&#xA;&lt;p&gt;According to Gartner, Solution Architecture is the architectural description of a specific solution—a coherent and sufficient set of features that addresses a defined set of requirements.&lt;/p&gt;&#xA;&lt;p&gt;The Scaled Agile Framework (SAFe) describes Solution Architecture as defining and communicating a shared architectural and technical vision for work in progress.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

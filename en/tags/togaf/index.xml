@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>TOGAF on IT Architecture</title>
+    <link>https://architecti.blog/en/tags/togaf/</link>
+    <description>Recent content in TOGAF on IT Architecture</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Fri, 05 Mar 2021 21:07:39 -0400</lastBuildDate>
+    <atom:link href="https://architecti.blog/en/tags/togaf/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Differences Between TOGAF and ArchiMate</title>
+      <link>https://architecti.blog/en/articles/2021/003-diff%C3%A9rences-entre-togaf-et-archimate/</link>
+      <pubDate>Fri, 05 Mar 2021 21:07:39 -0400</pubDate>
+      <guid>https://architecti.blog/en/articles/2021/003-diff%C3%A9rences-entre-togaf-et-archimate/</guid>
+      <description>&lt;p&gt;Answering the question of the differences between TOGAF and ArchiMate is not straightforward, but here’s what you need to know.&lt;/p&gt;&#xA;&lt;p&gt;Most organizations today are embarking on or renewing their enterprise architecture practices. Is yours part of that trend?&lt;/p&gt;&#xA;&lt;p&gt;If so, you’re not alone—many enterprise architects are confused by the distinctions between TOGAF and ArchiMate. While there are overlaps, each standard serves a distinct purpose. Which one should you learn first?&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

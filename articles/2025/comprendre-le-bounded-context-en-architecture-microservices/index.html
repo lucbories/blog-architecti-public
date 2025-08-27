@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    
+    <title>Comprendre le Bounded Context en Architecture Microservices | ArchitecTI</title>
+    <meta name="viewport" content="width=device-width,minimum-scale=1">
+    <meta name="description" content="Introduction
+L’architecture microservices a révolutionné la manière dont les systèmes logiciels sont conçus, développés et maintenus. Elle repose sur le principe de décomposer une application monolithique en une série de services indépendants, chacun responsable d’un domaine fonctionnel bien défini. Mais cette décomposition soulève une question cruciale : comment définir les limites de chaque service ?
+C’est là qu’intervient le concept de bounded context, issu de la méthodologie Domain-Driven Design (DDD). Ce concept permet de structurer les microservices autour de modèles métier cohérents, en évitant les ambiguïtés et les dépendances inutiles.">
+    <meta name="generator" content="Hugo 0.148.2">
+    
+    
+    
+      <meta name="robots" content="index, follow">
+    
+    <meta name="author" content="Luc Bories">
+    
+
+    
+<link rel="stylesheet" href="/ananke/css/main.min.8d048772ae72ab11245a0e296d1f2a36d3e3dd376c6c867394d6cc659c68fc37.css" >
+
+
+
+
+    
+
+
+    
+      
+
+    
+
+    
+
+    
+      <link rel="canonical" href="https://architecti.blog/articles/2025/comprendre-le-bounded-context-en-architecture-microservices/">
+    
+
+    <meta property="og:url" content="https://architecti.blog/articles/2025/comprendre-le-bounded-context-en-architecture-microservices/">
+  <meta property="og:site_name" content="ArchitecTI">
+  <meta property="og:title" content="Comprendre le Bounded Context en Architecture Microservices">
+  <meta property="og:description" content="Introduction L’architecture microservices a révolutionné la manière dont les systèmes logiciels sont conçus, développés et maintenus. Elle repose sur le principe de décomposer une application monolithique en une série de services indépendants, chacun responsable d’un domaine fonctionnel bien défini. Mais cette décomposition soulève une question cruciale : comment définir les limites de chaque service ?
+C’est là qu’intervient le concept de bounded context, issu de la méthodologie Domain-Driven Design (DDD). Ce concept permet de structurer les microservices autour de modèles métier cohérents, en évitant les ambiguïtés et les dépendances inutiles.">
+  <meta property="og:locale" content="fr">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="articles">
+    <meta property="article:published_time" content="2025-08-10T21:07:39-04:00">
+    <meta property="article:modified_time" content="2025-08-10T21:07:39-04:00">
+    <meta property="article:tag" content="Conception">
+    <meta property="article:tag" content="Architecture Applicative">
+    <meta property="article:tag" content="Microservices">
+
+  <meta itemprop="name" content="Comprendre le Bounded Context en Architecture Microservices">
+  <meta itemprop="description" content="Introduction L’architecture microservices a révolutionné la manière dont les systèmes logiciels sont conçus, développés et maintenus. Elle repose sur le principe de décomposer une application monolithique en une série de services indépendants, chacun responsable d’un domaine fonctionnel bien défini. Mais cette décomposition soulève une question cruciale : comment définir les limites de chaque service ?
+C’est là qu’intervient le concept de bounded context, issu de la méthodologie Domain-Driven Design (DDD). Ce concept permet de structurer les microservices autour de modèles métier cohérents, en évitant les ambiguïtés et les dépendances inutiles.">
+  <meta itemprop="datePublished" content="2025-08-10T21:07:39-04:00">
+  <meta itemprop="dateModified" content="2025-08-10T21:07:39-04:00">
+  <meta itemprop="wordCount" content="882">
+  <meta itemprop="keywords" content="Conception,Architecture Applicative,Microservices">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Comprendre le Bounded Context en Architecture Microservices">
+  <meta name="twitter:description" content="Introduction L’architecture microservices a révolutionné la manière dont les systèmes logiciels sont conçus, développés et maintenus. Elle repose sur le principe de décomposer une application monolithique en une série de services indépendants, chacun responsable d’un domaine fonctionnel bien défini. Mais cette décomposition soulève une question cruciale : comment définir les limites de chaque service ?
+C’est là qu’intervient le concept de bounded context, issu de la méthodologie Domain-Driven Design (DDD). Ce concept permet de structurer les microservices autour de modèles métier cohérents, en évitant les ambiguïtés et les dépendances inutiles.">
+
+      
+      <script async src="https://www.googletagmanager.com/gtag/js?id=G-GWK53XF6PL"></script>
+      <script>
+        var doNotTrack = false;
+        if ( false ) {
+          var dnt = (navigator.doNotTrack || window.doNotTrack || navigator.msDoNotTrack);
+          var doNotTrack = (dnt == "1" || dnt == "yes");
+        }
+        if (!doNotTrack) {
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+          gtag('config', 'G-GWK53XF6PL');
+        }
+      </script>
+    
+	
+  </head><body class="ma0 avenir bg-near-white production">
+
+    
+   
+  
+
+  
+  
+  
+  <header class="cover bg-center" style="background-image: url('https://architecti.blog/images/Copilot_20250807_150858-BoundedContext-1024x.jpg');">
+    <div class="bg-black-60">
+      <nav class="pv3 ph3 ph4-ns" role="navigation">
+  <div class="flex-l center items-center justify-between">
+    <a href="/" class="f3 fw2 hover-white white-90 dib no-underline">
+      
+        ArchitecTI
+      
+    </a>
+    <div class="flex-l items-center">
+      
+
+      
+        <ul class="pl0 mr3">
+          
+          <li class="list f5 f4-ns fw4 dib pr3">
+            <a class="hover-white white-90 no-underline" href="/tags/architecture-dentreprise/" title="Architecture d&#39;Entreprise page">
+              Architecture d&#39;Entreprise
+            </a>
+          </li>
+          
+          <li class="list f5 f4-ns fw4 dib pr3">
+            <a class="hover-white white-90 no-underline" href="/tags/architecture-applicative/" title="Architecture Applicative page">
+              Architecture Applicative
+            </a>
+          </li>
+          
+          <li class="list f5 f4-ns fw4 dib pr3">
+            <a class="hover-white white-90 no-underline" href="/tags/architecture-technologique/" title="Architecture Technologique page">
+              Architecture Technologique
+            </a>
+          </li>
+          
+          <li class="list f5 f4-ns fw4 dib pr3">
+            <a class="hover-white white-90 no-underline" href="/articles/" title="Articles page">
+              Articles
+            </a>
+          </li>
+          
+          <li class="list f5 f4-ns fw4 dib pr3">
+            <a class="hover-white white-90 no-underline" href="/tagslist/" title="Rechercher page">
+              Rechercher
+            </a>
+          </li>
+          
+          <li class="list f5 f4-ns fw4 dib pr3">
+            <a class="hover-white white-90 no-underline" href="/about/" title="À propos page">
+              À propos
+            </a>
+          </li>
+          
+        </ul>
+      
+      <div class="ananke-socials"></div>
+
+    </div>
+  </div>
+</nav>
+
+      <div class="tc-l pv6 ph3 ph4-ns">
+        
+          <div class="f2 f1-l fw2 white-90 mb0 lh-title">Comprendre le Bounded Context en Architecture Microservices</div>
+          
+        
+      </div>
+    </div>
+  </header>
+
+
+
+    <main class="pb7" role="main">
+      
+  
+  
+  <article class="flex-l mw8 center ph3 flex-wrap justify-between">
+    <header class="mt4 w-100">
+      <aside class="instapaper_ignoref b helvetica tracked ttu">
+          
+        Tous les Articles 2025
+      </aside><div id="sharing" class="mt3 ananke-socials"></div>
+<h1 class="f1 athelas mt3 mb1">Comprendre le Bounded Context en Architecture Microservices</h1>
+      
+      <p class="tracked"><strong>Luc Bories</strong>
+      </p>
+      
+      
+      
+      <time class="f6 mv4 dib tracked" datetime="2025-08-10T21:07:39-04:00">août 10, 2025</time>
+      
+
+      
+      
+        <span class="f6 mv4 dib tracked"> - 5 minutes de lecture </span>
+        <span class="f6 mv4 dib tracked"> - 882 mots </span>
+      
+    </header>
+    <div class="nested-copy-line-height lh-copy serif f4 nested-links mid-gray pr4-l w-two-thirds-l"><h2 id="introduction">Introduction</h2>
+<p>L’architecture microservices a révolutionné la manière dont les systèmes logiciels sont conçus, développés et maintenus. Elle repose sur le principe de décomposer une application monolithique en une série de services indépendants, chacun responsable d’un domaine fonctionnel bien défini. Mais cette décomposition soulève une question cruciale : <strong>comment définir les limites de chaque service ?</strong></p>
+<p>C’est là qu’intervient le concept de <strong>bounded context</strong>, issu de la méthodologie <strong>Domain-Driven Design (DDD)</strong>. Ce concept permet de structurer les microservices autour de modèles métier cohérents, en évitant les ambiguïtés et les dépendances inutiles.</p>
+<p>Dans cet article, nous allons explorer en profondeur ce qu’est un bounded context, pourquoi il est essentiel en architecture microservices, et comment l’appliquer à travers un exemple concret.</p>
+<hr>
+<h2 id="1-quest-ce-quun-bounded-context-">1. Qu’est-ce qu’un Bounded Context ?</h2>
+<p>Un <strong>bounded context</strong> est une <strong>zone délimitée</strong> dans laquelle un <strong>modèle métier spécifique</strong> est défini et utilisé de manière cohérente. Il représente une frontière logique autour d’un sous-domaine métier, à l’intérieur de laquelle les termes, les règles et les comportements ont un sens bien précis.</p>
+<p>Dans le cadre de DDD, un modèle métier peut varier selon le contexte dans lequel il est utilisé. Par exemple, le mot “Client” peut signifier une personne physique dans le contexte de la facturation, mais une entité commerciale dans le contexte du CRM. Le bounded context permet de <strong>préserver la clarté sémantique</strong> en évitant les collisions de sens.</p>
+<hr>
+<h2 id="2-pourquoi-le-bounded-context-est-il-crucial-en-microservices-">2. Pourquoi le Bounded Context est-il crucial en microservices ?</h2>
+<p>En architecture microservices, chaque service doit être <strong>autonome</strong>, <strong>faiblement couplé</strong> et <strong>fortement cohérent</strong>. Le bounded context aide à atteindre ces objectifs en :</p>
+<ul>
+<li><strong>Clarifiant les responsabilités</strong> : chaque service connaît précisément son rôle métier.</li>
+<li><strong>Réduisant les dépendances</strong> : les services n’ont pas besoin de connaître les détails internes des autres.</li>
+<li><strong>Facilitant l’évolution</strong> : chaque service peut évoluer indépendamment sans impacter les autres.</li>
+<li><strong>Améliorant la testabilité</strong> : les modèles sont isolés, ce qui simplifie les tests unitaires et d’intégration.</li>
+</ul>
+<hr>
+<h2 id="3-exemple-concret--plateforme-e-commerce">3. Exemple concret : Plateforme e-commerce</h2>
+<p>Prenons l’exemple d’une plateforme e-commerce. Elle peut être décomposée en plusieurs microservices :</p>
+<ul>
+<li><strong>Catalogue</strong> : gestion des produits</li>
+<li><strong>Commande</strong> : traitement des commandes</li>
+<li><strong>Paiement</strong> : gestion des transactions</li>
+<li><strong>Livraison</strong> : suivi des expéditions</li>
+<li><strong>Client</strong> : gestion des profils utilisateurs</li>
+</ul>
+<h3 id="définition-des-bounded-contexts">Définition des bounded contexts</h3>
+<table>
+  <thead>
+      <tr>
+          <th>Microservice</th>
+          <th>Bounded Context</th>
+          <th>Modèle métier</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>Catalogue</td>
+          <td>Produits</td>
+          <td><code>Produit</code>, <code>Catégorie</code></td>
+      </tr>
+      <tr>
+          <td>Commande</td>
+          <td>Commandes</td>
+          <td><code>Commande</code>, <code>LigneCommande</code></td>
+      </tr>
+      <tr>
+          <td>Paiement</td>
+          <td>Transactions</td>
+          <td><code>Facture</code>, <code>Transaction</code></td>
+      </tr>
+      <tr>
+          <td>Livraison</td>
+          <td>Expéditions</td>
+          <td><code>Colis</code>, <code>AdresseLivraison</code></td>
+      </tr>
+      <tr>
+          <td>Client</td>
+          <td>Utilisateurs</td>
+          <td><code>Client</code>, <code>Profil</code></td>
+      </tr>
+  </tbody>
+</table>
+<p>Chaque service possède son propre modèle métier, adapté à son contexte. Par exemple :</p>
+<ul>
+<li>Le <strong>Catalogue</strong> connaît les détails du produit : description, prix, stock, images.</li>
+<li>Le <strong>Commande</strong> ne manipule pas directement le produit, mais une <strong>copie simplifiée</strong> (<code>LigneCommande</code>) avec le nom, le prix au moment de l’achat, et l’ID.</li>
+</ul>
+<p>Ainsi, si le modèle <code>Produit</code> évolue (ajout d’un champ “Origine”), cela n’impacte pas le service Commande, car il ne dépend pas du modèle complet.</p>
+<hr>
+<h2 id="4-communication-entre-bounded-contexts">4. Communication entre bounded contexts</h2>
+<p>Les bounded contexts ne sont pas des silos hermétiques. Ils doivent <strong>collaborer</strong> pour que l’application fonctionne. Cette collaboration se fait via des <strong>interfaces bien définies</strong>, souvent sous forme d’API REST, de messages asynchrones ou d’événements.</p>
+<h3 id="-exemple--commande-et-catalogue">🔁 Exemple : Commande et Catalogue</h3>
+<p>Lorsqu’un utilisateur passe une commande, le service Commande doit connaître le prix du produit. Il peut :</p>
+<ul>
+<li>Appeler une <strong>API du Catalogue</strong> pour récupérer les infos nécessaires</li>
+<li>Ou écouter un <strong>événement “ProduitMisÀJour”</strong> publié par le Catalogue</li>
+</ul>
+<p>Mais une fois la commande validée, le prix est <strong>figé</strong> dans le modèle <code>LigneCommande</code>, même si le produit change ensuite dans le Catalogue. Cela garantit la <strong>consistance historique</strong>.</p>
+<hr>
+<h2 id="5-cartographie-des-bounded-contexts">5. Cartographie des bounded contexts</h2>
+<p>Pour bien définir les bounded contexts, il est utile de créer une <strong>carte contextuelle</strong> (context map), qui montre :</p>
+<ul>
+<li>Les différents contextes</li>
+<li>Leurs relations</li>
+<li>Le type d’intégration (conformiste, anticorruption layer, etc.)</li>
+</ul>
+<h3 id="exemple-simplifié-">Exemple simplifié :</h3>
+<pre tabindex="0"><code>[Catalogue] ← API REST ← [Commande] ← Événement ← [Paiement]
+        ↑
+     Événement
+        ↓
+   [Client]
+</code></pre><p>Cette carte aide à visualiser les flux d’information et les dépendances.</p>
+<hr>
+<h2 id="6-stratégies-de-modélisation">6. Stratégies de modélisation</h2>
+<p>Voici quelques bonnes pratiques pour modéliser les bounded contexts :</p>
+<ul>
+<li><strong>Identifier les sous-domaines métier</strong> : discute avec les experts métier pour comprendre les besoins.</li>
+<li><strong>Définir un vocabulaire clair</strong> : chaque contexte doit avoir son propre langage.</li>
+<li><strong>Éviter le partage de modèles</strong> : ne pas utiliser les mêmes classes ou entités dans plusieurs services.</li>
+<li><strong>Utiliser des DTOs ou des événements</strong> pour échanger les données entre services.</li>
+</ul>
+<hr>
+<h2 id="7-erreurs-fréquentes-à-éviter">7. Erreurs fréquentes à éviter</h2>
+<ul>
+<li><strong>Couplage excessif</strong> : partager des entités entre services crée des dépendances fragiles.</li>
+<li><strong>Modèle unique pour tous</strong> : vouloir un “modèle universel” mène à des conflits sémantiques.</li>
+<li><strong>Absence de limites claires</strong> : sans bounded context, les responsabilités deviennent floues.</li>
+</ul>
+<hr>
+<h2 id="8-bounded-context-vs-microservice">8. Bounded Context vs Microservice</h2>
+<p>Il est courant d’associer un bounded context à un microservice, mais ce n’est pas une règle absolue.</p>
+<ul>
+<li>Un <strong>bounded context</strong> est une <strong>notion métier</strong>.</li>
+<li>Un <strong>microservice</strong> est une <strong>implémentation technique</strong>.</li>
+</ul>
+<p>Dans certains cas, un microservice peut couvrir plusieurs petits bounded contexts, ou un bounded context peut être réparti sur plusieurs microservices. L’essentiel est de <strong>préserver la cohérence du modèle métier</strong>.</p>
+<hr>
+<h2 id="conclusion">Conclusion</h2>
+<p>Le concept de <strong>bounded context</strong> est un pilier fondamental de l’architecture microservices. Il permet de structurer les services autour de modèles métier cohérents, de réduire les dépendances, et de faciliter l’évolution du système.</p>
+<p>En définissant clairement les limites de chaque contexte, en respectant les principes de DDD, et en favorisant une communication bien pensée entre services, on construit des systèmes plus robustes, plus évolutifs et plus compréhensibles.</p>
+<ul class="pa0">
+  
+   <li class="list di">
+     <a href="/tags/conception/" class="link f5 grow br-pill ba ph3 pv2 mb2 dib black sans-serif no-underline">Conception</a>
+   </li>
+  
+   <li class="list di">
+     <a href="/tags/architecture-applicative/" class="link f5 grow br-pill ba ph3 pv2 mb2 dib black sans-serif no-underline">Architecture Applicative</a>
+   </li>
+  
+   <li class="list di">
+     <a href="/tags/microservices/" class="link f5 grow br-pill ba ph3 pv2 mb2 dib black sans-serif no-underline">Microservices</a>
+   </li>
+  
+</ul>
+<div class="mt6 instapaper_ignoref">
+      
+      
+      </div>
+    </div>
+
+    <aside class="w-30-l mt6-l">
+
+
+
+
+  <div class="bg-light-gray pa3 nested-list-reset nested-copy-line-height nested-links">
+    <p class="f5 b mb3">Lié</p>
+    <ul class="pa0 list">
+	   
+	     <li  class="mb2">
+          <a href="/articles/2025/architecture-applicative---concevoir-des-syst%C3%A8mes-robustes-et-adaptables/">Architecture Applicative : Concevoir des Systèmes Robustes et Adaptables</a>
+        </li>
+	    
+	     <li  class="mb2">
+          <a href="/articles/2025/002-architecture-applicative---mise-en-contexte/">Architecture Applicative - Mise en contexte</a>
+        </li>
+	    
+	     <li  class="mb2">
+          <a href="/articles/2021/001-quelle-architecture-applicative-choisir/">Quelle Architecture Applicative choisir</a>
+        </li>
+	    
+	     <li  class="mb2">
+          <a href="/articles/2025/l-architecture-neuromorphique/">L’architecture neuromorphique : quand l’informatique imite le cerveau</a>
+        </li>
+	    
+	     <li  class="mb2">
+          <a href="/articles/2021/006-aws-vs-azure/">AWS Vs Azure</a>
+        </li>
+	    
+	     <li  class="mb2">
+          <a href="/articles/2021/003-diff%C3%A9rences-entre-togaf-et-archimate/">Différences Entre TOGAF Et ArchiMate</a>
+        </li>
+	    
+	     <li  class="mb2">
+          <a href="/articles/2020/004-architecture-de-solution--conception-autour-dune-probl%C3%A9matique-pr%C3%A9cise/">Architecture De Solution – Conception Autour D’une Problématique Précise</a>
+        </li>
+	    
+	     <li  class="mb2">
+          <a href="/articles/2020/002-architecture-technologique-ou-architecture-technique-vs-expertise-technique/">Architecture Technologique Ou Architecture Technique Vs Expertise Technique</a>
+        </li>
+	    
+    </ul>
+</div>
+
+</aside>
+
+  </article>
+
+    </main>
+    <footer class="bg-black bottom-0 w-100 pa3" role="contentinfo">
+  <div class="flex justify-between">
+  <a class="f4 fw4 hover-white white-70 dn dib-ns pv2 ph3 no-underline" href="https://architecti.blog/" >
+    &copy;  ArchitecTI 2025 
+  </a>
+    <div><div class="ananke-socials"></div>
+</div>
+  </div>
+</footer>
+
+  </body>
+</html>

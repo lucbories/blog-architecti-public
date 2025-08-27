@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Application Architecture on IT Architecture</title>
+    <link>https://architecti.blog/en/tags/application-architecture/</link>
+    <description>Recent content in Application Architecture on IT Architecture</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Wed, 05 Feb 2025 21:07:39 -0400</lastBuildDate>
+    <atom:link href="https://architecti.blog/en/tags/application-architecture/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Application Architecture – Context</title>
+      <link>https://architecti.blog/en/articles/2025/002-architecture-applicative---mise-en-contexte/</link>
+      <pubDate>Wed, 05 Feb 2025 21:07:39 -0400</pubDate>
+      <guid>https://architecti.blog/en/articles/2025/002-architecture-applicative---mise-en-contexte/</guid>
+      <description>&lt;h2 id=&#34;are-you-concerned-with-application-architecture&#34;&gt;Are You Concerned with Application Architecture?&lt;/h2&gt;&#xA;&lt;p&gt;If you’re a developer, you want to understand how application components interact; how a particular application workflow should run and what results to expect; and how an end user should engage with an input or display screen.&lt;/p&gt;&#xA;&lt;p&gt;If you’re an infrastructure specialist, you need to know the type and volume of data stored and transferred; the frequency and load each application process demands; and how different application solutions fit together within the information system (IS).&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Which Application Architecture to Choose</title>
+      <link>https://architecti.blog/en/articles/2021/001-quelle-architecture-applicative-choisir/</link>
+      <pubDate>Tue, 05 Jan 2021 21:07:39 -0400</pubDate>
+      <guid>https://architecti.blog/en/articles/2021/001-quelle-architecture-applicative-choisir/</guid>
+      <description>&lt;p&gt;Choosing an Application Architecture is a pivotal decision impacting team structure, workflows, technology choices, skill requirements, and interactions with internal users, clients, and partners. So, which application architecture in 2021?&lt;/p&gt;&#xA;&lt;h2 id=&#34;preface&#34;&gt;Preface&lt;/h2&gt;&#xA;&lt;p&gt;This article focuses not on technology vendors or platforms but on architectural choices. Given the multitude of technical solutions across diverse scenarios, covering them all in one piece is impossible. Future posts will address specific technologies, which are equally important.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

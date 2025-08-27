@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Cloud on IT Architecture</title>
+    <link>https://architecti.blog/en/tags/cloud/</link>
+    <description>Recent content in Cloud on IT Architecture</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Fri, 04 Jun 2021 21:07:39 -0400</lastBuildDate>
+    <atom:link href="https://architecti.blog/en/tags/cloud/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>AWS vs Azure</title>
+      <link>https://architecti.blog/en/articles/2021/006-aws-vs-azure/</link>
+      <pubDate>Fri, 04 Jun 2021 21:07:39 -0400</pubDate>
+      <guid>https://architecti.blog/en/articles/2021/006-aws-vs-azure/</guid>
+      <description>&lt;h2 id=&#34;opinion--comparing-the-cloud-computing-giants&#34;&gt;Opinion – Comparing the Cloud Computing Giants&lt;/h2&gt;&#xA;&lt;p&gt;KINSTA is an American WordPress hosting provider that publishes in-depth blog articles on various themes. While reading “AWS vs Azure in 2021 (Comparing the Cloud Computing Giants),” I discovered several interesting insights to share.&lt;/p&gt;&#xA;&lt;h2 id=&#34;cloud-computing-players&#34;&gt;Cloud Computing Players&lt;/h2&gt;&#xA;&lt;p&gt;The rapid growth in cloud demand has spawned an exponential increase in services and options. The broader your target, the more use cases you must support and the more products you need to offer.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

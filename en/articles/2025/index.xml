@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>All Articles in 2025 on IT Architecture</title>
+    <link>https://architecti.blog/en/articles/2025/</link>
+    <description>Recent content in All Articles in 2025 on IT Architecture</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Wed, 05 Feb 2025 21:07:39 -0400</lastBuildDate>
+    <atom:link href="https://architecti.blog/en/articles/2025/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Application Architecture – Context</title>
+      <link>https://architecti.blog/en/articles/2025/002-architecture-applicative---mise-en-contexte/</link>
+      <pubDate>Wed, 05 Feb 2025 21:07:39 -0400</pubDate>
+      <guid>https://architecti.blog/en/articles/2025/002-architecture-applicative---mise-en-contexte/</guid>
+      <description>&lt;h2 id=&#34;are-you-concerned-with-application-architecture&#34;&gt;Are You Concerned with Application Architecture?&lt;/h2&gt;&#xA;&lt;p&gt;If you’re a developer, you want to understand how application components interact; how a particular application workflow should run and what results to expect; and how an end user should engage with an input or display screen.&lt;/p&gt;&#xA;&lt;p&gt;If you’re an infrastructure specialist, you need to know the type and volume of data stored and transferred; the frequency and load each application process demands; and how different application solutions fit together within the information system (IS).&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Introduction to IT Architecture</title>
+      <link>https://architecti.blog/en/articles/2025/001-presentation-architecture-informatique/</link>
+      <pubDate>Wed, 01 Jan 2025 21:07:39 -0400</pubDate>
+      <guid>https://architecti.blog/en/articles/2025/001-presentation-architecture-informatique/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Introduction&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;In today’s digital landscape, IT architecture is to a software ecosystem what foundations are to a skyscraper. It defines how systems are designed, organized, and interconnected to meet specific business objectives. A solid architecture helps reduce costs, boost resilience, and ensure agility in an ever-changing environment.&lt;/p&gt;&#xA;&lt;p&gt;This post explores the main types of IT architecture: &lt;strong&gt;enterprise architecture, solution architecture, application architecture, technology architecture&lt;/strong&gt;, and more.&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;1-enterprise-architecture-the-strategic-framework&#34;&gt;1. Enterprise Architecture: The Strategic Framework&lt;/h2&gt;&#xA;&lt;p&gt;Enterprise architecture offers a holistic vision that aligns IT systems with business goals.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

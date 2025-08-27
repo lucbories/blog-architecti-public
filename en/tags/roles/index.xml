@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Roles on IT Architecture</title>
+    <link>https://architecti.blog/en/tags/roles/</link>
+    <description>Recent content in Roles on IT Architecture</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Wed, 05 Feb 2025 21:07:39 -0400</lastBuildDate>
+    <atom:link href="https://architecti.blog/en/tags/roles/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Application Architecture – Context</title>
+      <link>https://architecti.blog/en/articles/2025/002-architecture-applicative---mise-en-contexte/</link>
+      <pubDate>Wed, 05 Feb 2025 21:07:39 -0400</pubDate>
+      <guid>https://architecti.blog/en/articles/2025/002-architecture-applicative---mise-en-contexte/</guid>
+      <description>&lt;h2 id=&#34;are-you-concerned-with-application-architecture&#34;&gt;Are You Concerned with Application Architecture?&lt;/h2&gt;&#xA;&lt;p&gt;If you’re a developer, you want to understand how application components interact; how a particular application workflow should run and what results to expect; and how an end user should engage with an input or display screen.&lt;/p&gt;&#xA;&lt;p&gt;If you’re an infrastructure specialist, you need to know the type and volume of data stored and transferred; the frequency and load each application process demands; and how different application solutions fit together within the information system (IS).&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Introduction to IT Architecture</title>
+      <link>https://architecti.blog/en/articles/2025/001-presentation-architecture-informatique/</link>
+      <pubDate>Wed, 01 Jan 2025 21:07:39 -0400</pubDate>
+      <guid>https://architecti.blog/en/articles/2025/001-presentation-architecture-informatique/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Introduction&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;In today’s digital landscape, IT architecture is to a software ecosystem what foundations are to a skyscraper. It defines how systems are designed, organized, and interconnected to meet specific business objectives. A solid architecture helps reduce costs, boost resilience, and ensure agility in an ever-changing environment.&lt;/p&gt;&#xA;&lt;p&gt;This post explores the main types of IT architecture: &lt;strong&gt;enterprise architecture, solution architecture, application architecture, technology architecture&lt;/strong&gt;, and more.&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;1-enterprise-architecture-the-strategic-framework&#34;&gt;1. Enterprise Architecture: The Strategic Framework&lt;/h2&gt;&#xA;&lt;p&gt;Enterprise architecture offers a holistic vision that aligns IT systems with business goals.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Solution Architecture – Designing Around a Specific Problem</title>
+      <link>https://architecti.blog/en/articles/2020/004-architecture-de-solution--conception-autour-dune-probl%C3%A9matique-pr%C3%A9cise/</link>
+      <pubDate>Sat, 05 Dec 2020 21:07:39 -0400</pubDate>
+      <guid>https://architecti.blog/en/articles/2020/004-architecture-de-solution--conception-autour-dune-probl%C3%A9matique-pr%C3%A9cise/</guid>
+      <description>&lt;p&gt;Solution Architecture is the least well-defined component of Enterprise Architecture. In other words, the same term can encompass activities with differing scopes. Yet demand for Solution Architects continues to grow, highlighting the role’s rising importance. Let’s clarify its contours.&lt;/p&gt;&#xA;&lt;h2 id=&#34;what-is-solution-architecture&#34;&gt;What Is Solution Architecture?&lt;/h2&gt;&#xA;&lt;p&gt;According to Gartner, Solution Architecture is the architectural description of a specific solution—a coherent and sufficient set of features that addresses a defined set of requirements.&lt;/p&gt;&#xA;&lt;p&gt;The Scaled Agile Framework (SAFe) describes Solution Architecture as defining and communicating a shared architectural and technical vision for work in progress.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Data Architecture or Governance of Enterprise Information</title>
+      <link>https://architecti.blog/en/articles/2020/003-architecture-de-donn%C3%A9es-ou-la-gouvernance-de-linformation-d-entreprise/</link>
+      <pubDate>Wed, 04 Nov 2020 21:07:39 -0400</pubDate>
+      <guid>https://architecti.blog/en/articles/2020/003-architecture-de-donn%C3%A9es-ou-la-gouvernance-de-linformation-d-entreprise/</guid>
+      <description>&lt;p&gt;Data Architecture is one of the components of Enterprise Architecture. It focuses on the rules for managing and organizing data.&lt;/p&gt;&#xA;&lt;p&gt;Be careful not to confuse defining data practices with their implementation, which is handled by more technical roles; nor with the Chief Data Officer, a leadership role responsible for all data-related matters across the organization.&lt;/p&gt;&#xA;&lt;p&gt;The importance of a comprehensive, up-to-date Data Architecture is growing. Data is collected, transformed, stored, and exchanged at an ever-increasing pace.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Technology Architecture or Technical Architecture vs Technical Expertise</title>
+      <link>https://architecti.blog/en/articles/2020/002-architecture-technologique-ou-architecture-technique-vs-expertise-technique/</link>
+      <pubDate>Mon, 12 Oct 2020 21:07:39 -0400</pubDate>
+      <guid>https://architecti.blog/en/articles/2020/002-architecture-technologique-ou-architecture-technique-vs-expertise-technique/</guid>
+      <description>&lt;p&gt;Beyond the terms that may vary from one organization or methodology to another, it’s essential to understand what defines Technology Architecture (or Technical Architecture) and what distinguishes it from Technical Expertise.&lt;/p&gt;&#xA;&lt;p&gt;It’s therefore necessary to separate governance roles from implementation roles. Both are crucial, and individuals can navigate between them over the course of a career.&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;p&gt;Within Enterprise Architecture, Technology Architecture focuses on functionality—data persistence, executing workloads tied to a business process, and so on. Its goal is to organize, standardize, and govern the use of technologies in implementing the Application Architecture.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Enterprise Architecture or Governance of IS Design</title>
+      <link>https://architecti.blog/en/articles/2020/001-architecture-d-entreprise-ou-la-gouvernance-de-la-conception-du-si/</link>
+      <pubDate>Sat, 05 Sep 2020 21:07:39 -0400</pubDate>
+      <guid>https://architecti.blog/en/articles/2020/001-architecture-d-entreprise-ou-la-gouvernance-de-la-conception-du-si/</guid>
+      <description>&lt;p&gt;Enterprise Architecture establishes, enforces and evolves the guiding design principles of the Information System (IS). It is, in essence, the governance of IS design—from urbanizing the IS, through data governance, to application design.&lt;/p&gt;&#xA;&lt;p&gt;To avoid reinventing the wheel and to speak a common language across and within organizations, reference frameworks provide standard terminologies and methodologies. These frameworks may focus on process or on graphical representation. See &lt;a href=&#34;https://architecti.blog/posts/diff%C3%A9rences-entre-togaf-et-archimate/&#34;&gt;Differences between TOGAF and ArchiMate&lt;/a&gt;.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

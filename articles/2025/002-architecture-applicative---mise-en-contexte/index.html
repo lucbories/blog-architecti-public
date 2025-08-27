@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    
+    <title>Architecture Applicative - Mise en contexte | ArchitecTI</title>
+    <meta name="viewport" content="width=device-width,minimum-scale=1">
+    <meta name="description" content="Êtes-vous concerné par l’Architecture Applicative?
+Si vous êtes développeur vous aimeriez comprendre comment les éléments applicatifs interagissent entre eux; comment doit fonctionner un traitement applicatif particulier, avec quels résultats attendus; de quelle manière un utilisateur doit utiliser un écran de saisie ou de consultation.
+Si vous êtes spécialiste infrastructure, vous avez besoin de connaître la nature et la volumétrie des données stockées et échangées; la fréquence et la charge requise par chaque traitement applicatif; l’agencement des différentes solutions applicatives entre elles au sein du système d’information (SI).">
+    <meta name="generator" content="Hugo 0.148.2">
+    
+    
+    
+      <meta name="robots" content="index, follow">
+    
+    <meta name="author" content="Luc Bories">
+    
+
+    
+<link rel="stylesheet" href="/ananke/css/main.min.8d048772ae72ab11245a0e296d1f2a36d3e3dd376c6c867394d6cc659c68fc37.css" >
+
+
+
+
+    
+
+
+    
+      
+
+    
+
+    
+
+    
+      <link rel="canonical" href="https://architecti.blog/articles/2025/002-architecture-applicative---mise-en-contexte/">
+    
+
+    <meta property="og:url" content="https://architecti.blog/articles/2025/002-architecture-applicative---mise-en-contexte/">
+  <meta property="og:site_name" content="ArchitecTI">
+  <meta property="og:title" content="Architecture Applicative - Mise en contexte">
+  <meta property="og:description" content="Êtes-vous concerné par l’Architecture Applicative? Si vous êtes développeur vous aimeriez comprendre comment les éléments applicatifs interagissent entre eux; comment doit fonctionner un traitement applicatif particulier, avec quels résultats attendus; de quelle manière un utilisateur doit utiliser un écran de saisie ou de consultation.
+Si vous êtes spécialiste infrastructure, vous avez besoin de connaître la nature et la volumétrie des données stockées et échangées; la fréquence et la charge requise par chaque traitement applicatif; l’agencement des différentes solutions applicatives entre elles au sein du système d’information (SI).">
+  <meta property="og:locale" content="fr">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="articles">
+    <meta property="article:published_time" content="2025-02-05T21:07:39-04:00">
+    <meta property="article:modified_time" content="2025-02-05T21:07:39-04:00">
+    <meta property="article:tag" content="Conception">
+    <meta property="article:tag" content="Architecture Applicative">
+    <meta property="article:tag" content="Rôles">
+
+  <meta itemprop="name" content="Architecture Applicative - Mise en contexte">
+  <meta itemprop="description" content="Êtes-vous concerné par l’Architecture Applicative? Si vous êtes développeur vous aimeriez comprendre comment les éléments applicatifs interagissent entre eux; comment doit fonctionner un traitement applicatif particulier, avec quels résultats attendus; de quelle manière un utilisateur doit utiliser un écran de saisie ou de consultation.
+Si vous êtes spécialiste infrastructure, vous avez besoin de connaître la nature et la volumétrie des données stockées et échangées; la fréquence et la charge requise par chaque traitement applicatif; l’agencement des différentes solutions applicatives entre elles au sein du système d’information (SI).">
+  <meta itemprop="datePublished" content="2025-02-05T21:07:39-04:00">
+  <meta itemprop="dateModified" content="2025-02-05T21:07:39-04:00">
+  <meta itemprop="wordCount" content="1701">
+  <meta itemprop="keywords" content="Conception,Architecture Applicative,Rôles,cadre d’architecture,Architecture Logicielle,Architecture d’Intégration">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Architecture Applicative - Mise en contexte">
+  <meta name="twitter:description" content="Êtes-vous concerné par l’Architecture Applicative? Si vous êtes développeur vous aimeriez comprendre comment les éléments applicatifs interagissent entre eux; comment doit fonctionner un traitement applicatif particulier, avec quels résultats attendus; de quelle manière un utilisateur doit utiliser un écran de saisie ou de consultation.
+Si vous êtes spécialiste infrastructure, vous avez besoin de connaître la nature et la volumétrie des données stockées et échangées; la fréquence et la charge requise par chaque traitement applicatif; l’agencement des différentes solutions applicatives entre elles au sein du système d’information (SI).">
+
+      
+      <script async src="https://www.googletagmanager.com/gtag/js?id=G-GWK53XF6PL"></script>
+      <script>
+        var doNotTrack = false;
+        if ( false ) {
+          var dnt = (navigator.doNotTrack || window.doNotTrack || navigator.msDoNotTrack);
+          var doNotTrack = (dnt == "1" || dnt == "yes");
+        }
+        if (!doNotTrack) {
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+          gtag('config', 'G-GWK53XF6PL');
+        }
+      </script>
+    
+	
+  </head><body class="ma0 avenir bg-near-white production">
+
+    
+   
+  
+
+  
+  
+  
+  <header class="cover bg-center" style="background-image: url('https://architecti.blog/images/Copilot_20250806_071202-Architecture%20Applicative-1024x.jpeg');">
+    <div class="bg-black-60">
+      <nav class="pv3 ph3 ph4-ns" role="navigation">
+  <div class="flex-l center items-center justify-between">
+    <a href="/" class="f3 fw2 hover-white white-90 dib no-underline">
+      
+        ArchitecTI
+      
+    </a>
+    <div class="flex-l items-center">
+      
+<h4></h4>
+<ul class="pl0 mr3">
+    
+    <li class="list f5 f4-ns fw4 dib pr3">
+        <a class="hover-white white-90 no-underline" href="/en/articles/2025/002-architecture-applicative---mise-en-contexte/">en</a>
+    </li>
+    
+</ul>
+
+
+      
+        <ul class="pl0 mr3">
+          
+          <li class="list f5 f4-ns fw4 dib pr3">
+            <a class="hover-white white-90 no-underline" href="/tags/architecture-dentreprise/" title="Architecture d&#39;Entreprise page">
+              Architecture d&#39;Entreprise
+            </a>
+          </li>
+          
+          <li class="list f5 f4-ns fw4 dib pr3">
+            <a class="hover-white white-90 no-underline" href="/tags/architecture-applicative/" title="Architecture Applicative page">
+              Architecture Applicative
+            </a>
+          </li>
+          
+          <li class="list f5 f4-ns fw4 dib pr3">
+            <a class="hover-white white-90 no-underline" href="/tags/architecture-technologique/" title="Architecture Technologique page">
+              Architecture Technologique
+            </a>
+          </li>
+          
+          <li class="list f5 f4-ns fw4 dib pr3">
+            <a class="hover-white white-90 no-underline" href="/articles/" title="Articles page">
+              Articles
+            </a>
+          </li>
+          
+          <li class="list f5 f4-ns fw4 dib pr3">
+            <a class="hover-white white-90 no-underline" href="/tagslist/" title="Rechercher page">
+              Rechercher
+            </a>
+          </li>
+          
+          <li class="list f5 f4-ns fw4 dib pr3">
+            <a class="hover-white white-90 no-underline" href="/about/" title="À propos page">
+              À propos
+            </a>
+          </li>
+          
+        </ul>
+      
+      <div class="ananke-socials"></div>
+
+    </div>
+  </div>
+</nav>
+
+      <div class="tc-l pv6 ph3 ph4-ns">
+        
+          <div class="f2 f1-l fw2 white-90 mb0 lh-title">Architecture Applicative - Mise en contexte</div>
+          
+        
+      </div>
+    </div>
+  </header>
+
+
+
+    <main class="pb7" role="main">
+      
+  
+  
+  <article class="flex-l mw8 center ph3 flex-wrap justify-between">
+    <header class="mt4 w-100">
+      <aside class="instapaper_ignoref b helvetica tracked ttu">
+          
+        Tous les Articles 2025
+      </aside><div id="sharing" class="mt3 ananke-socials"></div>
+<h1 class="f1 athelas mt3 mb1">Architecture Applicative - Mise en contexte</h1>
+      
+      <p class="tracked"><strong>Luc Bories</strong>
+      </p>
+      
+      
+      
+      <time class="f6 mv4 dib tracked" datetime="2025-02-05T21:07:39-04:00">février 5, 2025</time>
+      
+
+      
+      
+        <span class="f6 mv4 dib tracked"> - 8 minutes de lecture </span>
+        <span class="f6 mv4 dib tracked"> - 1701 mots </span>
+      
+    </header>
+    <div class="nested-copy-line-height lh-copy serif f4 nested-links mid-gray pr4-l w-two-thirds-l"><h2 id="êtes-vous-concerné-par-larchitecture-applicative">Êtes-vous concerné par l’Architecture Applicative?</h2>
+<p>Si vous êtes développeur vous aimeriez comprendre comment les éléments applicatifs interagissent entre eux; comment doit fonctionner un traitement applicatif particulier, avec quels résultats attendus; de quelle manière un utilisateur doit utiliser un écran de saisie ou de consultation.</p>
+<p>Si vous êtes spécialiste infrastructure, vous avez besoin de connaître la nature et la volumétrie des données stockées et échangées; la fréquence et la charge requise par chaque traitement applicatif; l’agencement des différentes solutions applicatives entre elles au sein du système d’information (SI).</p>
+<p>Si vous êtes spécialiste en sécurité, vous souhaitez connaître où se trouvent les données sensibles, par qui sont-elles consultées et modifiées; quelles sont les interactions avec le monde extérieur.</p>
+<p>Si vous êtes décideur ou architecte ou gestionnaire/chargé de projet, vous voulez avoir une vue d’ensemble du fonctionnement du SI.</p>
+<p>Mais voilà, parfois la notion d’architecture n’est pas mise en œuvre et les éléments de documentation pour décrire l’existant et la cible n’existent pas. Certains documents décrivent parfois une partie précise du SI orientée pour les besoins d’un certain groupe de lecteurs.</p>
+<p>Pourtant la solution existe, elle consiste à suivre les grands principes de l’Architecture IT en décrivant l’Architecture Applicative de tout ou partie du système d’information.</p>
+<hr>
+<h2 id="vue-densemble-de-larchitecture-it">Vue d’ensemble de l’Architecture IT</h2>
+<p>Pour bien comprendre ce qu’est l’Architecture Applicative, il faut commencer par les différentes manières de représenter l’Architecture IT.</p>
+<p>Il faut bien comprendre que selon la portée de l’architecture, la taille et l’organisation du SI, ainsi que la culture et les méthodes de l’entreprise, le découpage de même que les noms des étapes peuvent varier.</p>
+<p>Tout part d’un besoin au sein d’un processus métier.</p>
+<p>L’objectif est alors de représenter les fonctions et utilisateurs impliqués au travers de cas d’usages, c’est l’Architecture Métier ou Architecture d’Affaires.</p>
+<p>Si les changements concernent l’organisation des applications (blocs fonctionnels, flux intra et inter-applicatifs, interface utilisateur), on parle alors de l’Architecture Applicative.</p>
+<p>Pour documenter le détail des besoins, les fonctions impactées sont spécifiées: on parle d’Architecture Fonctionnelle.</p>
+<p>Tout ce qui a trait aux données utilisées (nomenclature, normes, méthodes, outils) est documenté dans l’Architecture de Données.</p>
+<p>Enfin, la conception des modifications à apporter aux composants logiciels en utilisant des modèles logiques (module, composant, classes) est nommée l’Architecture Applicative Logique ou Architecture Logicielle.</p>
+<p>Et pour finir, l’implémentation avec les technologies sélectionnées (SGBD, serveurs, middleware…) va se faire en utilisant l’Architecture Technique.</p>
+<hr>
+<h2 id="définition-de-larchitecture-applicative">Définition de l’Architecture Applicative</h2>
+<p>Comme nous l’avons vu précédemment, l’Architecture Applicative n’est pas une notion figée et invariable appliquée uniformément par tous.</p>
+<p>Non, il s’agit de principes directeurs appliqués au sein d’une méthode ou d’un cadre d’architecture (architecture framework) souvent défini dans l’Architecture d’Entreprise.</p>
+<p>Les grandes idées de l’Architecture Applicative sont de décrire à haut niveau une hiérarchie d’applications, de blocs ou composants, de fonctionnalités, d’entités. Chaque élément peut interagir avec d’autres au sein ou en dehors de son contenant.</p>
+<p>Il faut bien voir que le principe d’Architecture Applicative peut s’appliquer à des cas de figure très variés. C’est pourquoi le principe est souple et que plusieurs cadres existent.</p>
+<p>En effet, les projets suivants ont tous besoin d’une Architecture Applicative, pourtant ils sont très différents les uns des autres:</p>
+<ul>
+<li>mise en oeuvre d’un progiciel sur site sur étagère, à configurer</li>
+<li>mise en oeuvre d’un progiciel sur site associé à du développement sur mesure</li>
+<li>mise en oeuvre d’une solution SaaS à intégrer aux autres briques applicatives</li>
+<li>sous-traitance d’un processus applicatif complet à un prestataire</li>
+<li>développement d’une application sur grand système (mainframe)</li>
+<li>développement d’une application web 3-tiers</li>
+<li>développement d’une application à base de micro-services</li>
+<li>développement d’une application orientée service</li>
+<li>développement d’une application répartie basée sur des événements d’affaires circulant sur un bus applicatif</li>
+<li>développement d’une application entièrement dans le Cloud en connectant des services en ligne</li>
+<li>développement d’une application pour mobile</li>
+<li>développement d’une application pour ordinateur personnel</li>
+<li>développement d’une application pour objet connecté</li>
+<li>développement d’une application pour machine industrielle</li>
+<li>développement d’une application pour calculateur scientifique</li>
+</ul>
+<hr>
+<h2 id="les-déclinaisons-de-larchitecture-applicative">Les déclinaisons de l’Architecture Applicative</h2>
+<p>L’Architecture Applicative peut aussi regrouper un ensemble de sous-domaines architecturaux qui peuvent parfois éclipser le nom même d’Architecture Applicative:</p>
+<ul>
+<li>Architecture Logicielle</li>
+<li>Architecture d’Intégration</li>
+<li>Architecture de Données</li>
+<li>Architecture Fonctionnelle
+L’Architecture Logicielle va plus être orientée développement et cela se retrouve par les termes utilisés. On va ici parler de composants, de modules, de librairies, de framework, de modèle de données, d’expérience utilisateur, de l’interface utilisateur, de langages…</li>
+</ul>
+<p>L’Architecture d’Intégration est en charge de décrire comment les applications vont s’intégrer les unes avec les autres:</p>
+<ul>
+<li>la nature, la description et le format des données échangées</li>
+<li>la nature et le format des flux de communication synchrones et asynchrones</li>
+<li>la description des éléments propre à l’intégration
+L’Architecture de Données veille à conserver une cohérence et une traçabilité des données du SI. Elle décrit les modèles logiques de données, les modèles de description de données et les modèles physiques de données. Elle participe aussi en établissant des règles sur le choix des outils de stockage et d’échange de données, les bonnes pratiques, l’anonymisation et l’optimisation du traitement des données.</li>
+</ul>
+<p>L’Architecture Fonctionnelle est souvent la partie la plus mise en œuvre car elle décrit les besoins métier ou d’affaires en spécifications fonctionnelles utilisables par les concepteurs ou développeurs.</p>
+<p>De manière générale, l’Architecture Applicative apporte les éléments suivants:</p>
+<ul>
+<li>une vue globale des éléments applicatifs</li>
+<li>une description précise du comportement attendu de chaque élément</li>
+<li>une description des interactions possibles entre les éléments</li>
+<li>une description des données utilisées et échangées par les éléments</li>
+<li>une feuille de route des grandes étapes de mise en oeuvre</li>
+<li>un guide de description et d’implémentation</li>
+<li>des modèles réutilisables de solutions (voir Architecture de Solution/LIEN)</li>
+</ul>
+<hr>
+<h2 id="les-facettes-de-larchitecture-applicative">Les facettes de l’Architecture Applicative</h2>
+<p>Une application peut s’opérer de manière plus ou moins visible vis à vis des utilisateurs internes ou clients.
+Le frontend au contact des utilisateurs, le backend dans les coulisses
+La partie en visibilité des utilisateurs (internes ou clients) se nomme le frontend. Un des aspects essentiels à surveiller est ici l’expérience utilisateur, c’est à dire le ressenti à l’usage.</p>
+<p>Même si de nos jours, il est essentiellement question d’application web ou mobile, il ne faut pas oublier tout le pan des applications des postes de travail et l’existant grand système.</p>
+<p>Ainsi, la description du frontend comprend l’interface utilisateur, les interactions entre les éléments de l’interface et l’utilisation des services applicatifs du backend.</p>
+<p>La partie en arrière-plan qui va traiter les données en exécutant des traitements sans interactions avec les utilisateurs principaux s’appelle le backend. Ici, la sécurité, la résilience, la performance, la scalabilité (faculté de monter facilement en charge) sont les maîtres-mots.</p>
+<p>La documentation du backend concerne donc principalement les schémas de données, les échanges de données, l’intégration entre applications, les traitements batchs et les services applicatifs.</p>
+<hr>
+<h2 id="les-méthodes-de-larchitecture-applicative">Les méthodes de l’Architecture Applicative</h2>
+<p>Comme nous l’avons vu, l’Architecture Applicative regroupe une grande variété de contextes et cas d’utilisation totalement différents.</p>
+<p>Cela concerne des applications nouvelles, web ou mobile, aussi bien que applications existant depuis plusieurs décennies, époque où l’internet le PC n’existaient pas.</p>
+<p>Ensuite, selon la culture et l’activité des entreprises, les besoins en termes de sécurité, d’agilité, de conformité… sont très différents.</p>
+<p>Entre une institution financière internationale et une startup dans les jeux gratuits sur mobile, les différences de besoins d’Architecture Applicative sont énormes.</p>
+<p>Et même au sein d’une Architecture d’Entreprise, la nature d’une application particulière peut amener à utiliser une méthode différente.</p>
+<p>En termes de méthodes, plusieurs grands courants architecturaux sont disponibles depuis longtemps tels que:</p>
+<ul>
+<li>l’approche Donnes/Traitements (framework Zachman, Merise), démarche top-down en séquence, lourde et verbeuse</li>
+<li>l’approche Composant plus adaptée aux systèmes distribués et orientés objets (framework Zachman), méthode assez rigide et manquant parfois de pragmatisme</li>
+<li>l’approche orienté service (SOA) met en oeuvre des services permettant d’avoir un faible couplage avec l’extérieur de l’application</li>
+<li>l’approche des processus métier est basée sur une méthodologie de modélisation et un formalisme de description (UML). UML s’est en effet imposé en tant que standard de formalisation de la modélisation. Toutefois il n’y a pas de norme unique pour la modélisation. Chaque fournisseur peut avoir sa propre méthode utilisant UML. Les outils utilisés sont le BPM (Business Process Modeling) ou le BPR (Business Process Re-engineering) tels que Mega, Erwin/Casewise.</li>
+</ul>
+<hr>
+<h2 id="les-livrables-de-larchitecture-applicative">Les livrables de l’Architecture Applicative</h2>
+<p>La liste des livrables fournis par l’Architecture Applicative varie en fonction de l’organisation, des normes et méthodes de l’architecture dans son ensemble.</p>
+<p>Toutefois, voici les principaux livrables possibles:</p>
+<ul>
+<li>environnement de conception et développement</li>
+<li>la liste des briques techniques requises pour la conception et l’implémentation tels que les librairies, progiciels, solutions SaaS, design patterns (motifs de conception) à utiliser…</li>
+<li>les outils de modélisation et de conception</li>
+<li>les outils de développement (IDE)</li>
+<li>les standards et méthodes de développement à utiliser</li>
+<li>la description fonctionnelle</li>
+<li>les diagrammes des structures de données, des traitements, des enchaînements, des interfaces</li>
+<li>les maquettes de l’interface utilisateur</li>
+<li>les spécifications fonctionnelles (requis, attendus, contraintes)</li>
+<li>les spécifications de l’intégration</li>
+<li>les spécifications de conception logicielle</li>
+</ul>
+<hr>
+<h2 id="le-rôle-de-larchitecte-applicatif">Le rôle de l’Architecte Applicatif</h2>
+<p>L’Architecte Applicatif a souvent un rôle central car il est un des seuls à avoir une vision globale du fonctionnement applicatif avec les aspects fonctionnels, techniques et architecturaux.</p>
+<p>En outre, il procède par étapes en élaborant d’abord une ébauche de la vue d’ensemble puis en affinant successivement les composants à implémenter. L’Architecte Applicatif a alors pour principaux rôles:</p>
+<ul>
+<li>de recenser les besoins fonctionnels, les contraintes et règles métier ou d’affaires</li>
+<li>d’élaborer et communiquer les principes directeurs de l’architecture applicative</li>
+<li>de définir les besoins techniques</li>
+<li>de participer aux choix technologiques</li>
+<li>de créer l’Architecture Applicative</li>
+<li>de participer ou de créer la conception logicielle</li>
+<li>de supporter les concepteurs et développeurs</li>
+<li>de participer aux phases de tests, d’intégration, d’acceptation et de performance
+L’Architecture Applicative au service de l’urbanisation du SI</li>
+</ul>
+<p>L’urbanisation du système d’information (SI) décrit les constituants du SI et les interactions entre ces éléments, sans entrer dans le détail de la conception et de l’implémentation.</p>
+<p>Son but est de s’assurer d’une cohérence globale au niveau du SI.</p>
+<p>Ainsi, l’Architecture Applicative participe à maintenir l’évolutivité et l’uniformité du SI en respectant les règles et contraintes édictées et en veillant à décliner ces pratiques dans toute la granularité qu’elle va définir.</p>
+<p>L’objectif de l’Architecture Applicative est donc de servir à la fois les concepteurs et développeurs. Ceci afin d’implémenter la solution mais aussi afin de veiller à la cohérence globale, à la sécurité, à la résilience et à l’évolutivité du système d’information.</p>
+<ul class="pa0">
+  
+   <li class="list di">
+     <a href="/tags/conception/" class="link f5 grow br-pill ba ph3 pv2 mb2 dib black sans-serif no-underline">Conception</a>
+   </li>
+  
+   <li class="list di">
+     <a href="/tags/architecture-applicative/" class="link f5 grow br-pill ba ph3 pv2 mb2 dib black sans-serif no-underline">Architecture Applicative</a>
+   </li>
+  
+   <li class="list di">
+     <a href="/tags/r%C3%B4les/" class="link f5 grow br-pill ba ph3 pv2 mb2 dib black sans-serif no-underline">Rôles</a>
+   </li>
+  
+</ul>
+<div class="mt6 instapaper_ignoref">
+      
+      
+      </div>
+    </div>
+
+    <aside class="w-30-l mt6-l">
+
+
+
+
+  <div class="bg-light-gray pa3 nested-list-reset nested-copy-line-height nested-links">
+    <p class="f5 b mb3">Lié</p>
+    <ul class="pa0 list">
+	   
+	     <li  class="mb2">
+          <a href="/articles/2021/001-quelle-architecture-applicative-choisir/">Quelle Architecture Applicative choisir</a>
+        </li>
+	    
+	     <li  class="mb2">
+          <a href="/articles/2020/004-architecture-de-solution--conception-autour-dune-probl%C3%A9matique-pr%C3%A9cise/">Architecture De Solution – Conception Autour D’une Problématique Précise</a>
+        </li>
+	    
+	     <li  class="mb2">
+          <a href="/articles/2020/002-architecture-technologique-ou-architecture-technique-vs-expertise-technique/">Architecture Technologique Ou Architecture Technique Vs Expertise Technique</a>
+        </li>
+	    
+	     <li  class="mb2">
+          <a href="/articles/2025/001-presentation-architecture-informatique/">Présentation de l’architecture en informatique</a>
+        </li>
+	    
+	     <li  class="mb2">
+          <a href="/articles/2021/006-aws-vs-azure/">AWS Vs Azure</a>
+        </li>
+	    
+	     <li  class="mb2">
+          <a href="/articles/2021/003-diff%C3%A9rences-entre-togaf-et-archimate/">Différences Entre TOGAF Et ArchiMate</a>
+        </li>
+	    
+	     <li  class="mb2">
+          <a href="/articles/2020/003-architecture-de-donn%C3%A9es-ou-la-gouvernance-de-linformation-d-entreprise/">Architecture De Données Ou La Gouvernance De L’information D’entreprise</a>
+        </li>
+	    
+	     <li  class="mb2">
+          <a href="/articles/2020/001-architecture-d-entreprise-ou-la-gouvernance-de-la-conception-du-si/">Architecture D’Entreprise Ou La Gouvernance De La Conception Du SI</a>
+        </li>
+	    
+	     <li  class="mb2">
+          <a href="/articles/2025/l-architecture-neuromorphique/">L’architecture neuromorphique : quand l’informatique imite le cerveau</a>
+        </li>
+	    
+    </ul>
+</div>
+
+</aside>
+
+  </article>
+
+    </main>
+    <footer class="bg-black bottom-0 w-100 pa3" role="contentinfo">
+  <div class="flex justify-between">
+  <a class="f4 fw4 hover-white white-70 dn dib-ns pv2 ph3 no-underline" href="https://architecti.blog/" >
+    &copy;  ArchitecTI 2025 
+  </a>
+    <div><div class="ananke-socials"></div>
+</div>
+  </div>
+</footer>
+
+  </body>
+</html>

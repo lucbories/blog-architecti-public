@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>All Articles in 2020 on IT Architecture</title>
+    <link>https://architecti.blog/en/articles/2020/</link>
+    <description>Recent content in All Articles in 2020 on IT Architecture</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Sat, 05 Dec 2020 21:07:39 -0400</lastBuildDate>
+    <atom:link href="https://architecti.blog/en/articles/2020/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Solution Architecture – Designing Around a Specific Problem</title>
+      <link>https://architecti.blog/en/articles/2020/004-architecture-de-solution--conception-autour-dune-probl%C3%A9matique-pr%C3%A9cise/</link>
+      <pubDate>Sat, 05 Dec 2020 21:07:39 -0400</pubDate>
+      <guid>https://architecti.blog/en/articles/2020/004-architecture-de-solution--conception-autour-dune-probl%C3%A9matique-pr%C3%A9cise/</guid>
+      <description>&lt;p&gt;Solution Architecture is the least well-defined component of Enterprise Architecture. In other words, the same term can encompass activities with differing scopes. Yet demand for Solution Architects continues to grow, highlighting the role’s rising importance. Let’s clarify its contours.&lt;/p&gt;&#xA;&lt;h2 id=&#34;what-is-solution-architecture&#34;&gt;What Is Solution Architecture?&lt;/h2&gt;&#xA;&lt;p&gt;According to Gartner, Solution Architecture is the architectural description of a specific solution—a coherent and sufficient set of features that addresses a defined set of requirements.&lt;/p&gt;&#xA;&lt;p&gt;The Scaled Agile Framework (SAFe) describes Solution Architecture as defining and communicating a shared architectural and technical vision for work in progress.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Data Architecture or Governance of Enterprise Information</title>
+      <link>https://architecti.blog/en/articles/2020/003-architecture-de-donn%C3%A9es-ou-la-gouvernance-de-linformation-d-entreprise/</link>
+      <pubDate>Wed, 04 Nov 2020 21:07:39 -0400</pubDate>
+      <guid>https://architecti.blog/en/articles/2020/003-architecture-de-donn%C3%A9es-ou-la-gouvernance-de-linformation-d-entreprise/</guid>
+      <description>&lt;p&gt;Data Architecture is one of the components of Enterprise Architecture. It focuses on the rules for managing and organizing data.&lt;/p&gt;&#xA;&lt;p&gt;Be careful not to confuse defining data practices with their implementation, which is handled by more technical roles; nor with the Chief Data Officer, a leadership role responsible for all data-related matters across the organization.&lt;/p&gt;&#xA;&lt;p&gt;The importance of a comprehensive, up-to-date Data Architecture is growing. Data is collected, transformed, stored, and exchanged at an ever-increasing pace.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Technology Architecture or Technical Architecture vs Technical Expertise</title>
+      <link>https://architecti.blog/en/articles/2020/002-architecture-technologique-ou-architecture-technique-vs-expertise-technique/</link>
+      <pubDate>Mon, 12 Oct 2020 21:07:39 -0400</pubDate>
+      <guid>https://architecti.blog/en/articles/2020/002-architecture-technologique-ou-architecture-technique-vs-expertise-technique/</guid>
+      <description>&lt;p&gt;Beyond the terms that may vary from one organization or methodology to another, it’s essential to understand what defines Technology Architecture (or Technical Architecture) and what distinguishes it from Technical Expertise.&lt;/p&gt;&#xA;&lt;p&gt;It’s therefore necessary to separate governance roles from implementation roles. Both are crucial, and individuals can navigate between them over the course of a career.&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;p&gt;Within Enterprise Architecture, Technology Architecture focuses on functionality—data persistence, executing workloads tied to a business process, and so on. Its goal is to organize, standardize, and govern the use of technologies in implementing the Application Architecture.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Enterprise Architecture or Governance of IS Design</title>
+      <link>https://architecti.blog/en/articles/2020/001-architecture-d-entreprise-ou-la-gouvernance-de-la-conception-du-si/</link>
+      <pubDate>Sat, 05 Sep 2020 21:07:39 -0400</pubDate>
+      <guid>https://architecti.blog/en/articles/2020/001-architecture-d-entreprise-ou-la-gouvernance-de-la-conception-du-si/</guid>
+      <description>&lt;p&gt;Enterprise Architecture establishes, enforces and evolves the guiding design principles of the Information System (IS). It is, in essence, the governance of IS design—from urbanizing the IS, through data governance, to application design.&lt;/p&gt;&#xA;&lt;p&gt;To avoid reinventing the wheel and to speak a common language across and within organizations, reference frameworks provide standard terminologies and methodologies. These frameworks may focus on process or on graphical representation. See &lt;a href=&#34;https://architecti.blog/posts/diff%C3%A9rences-entre-togaf-et-archimate/&#34;&gt;Differences between TOGAF and ArchiMate&lt;/a&gt;.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

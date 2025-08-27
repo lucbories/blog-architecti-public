@@ -6,27 +6,48 @@
     <description>Recent content in Tags on ArchitecTI</description>
     <generator>Hugo</generator>
     <language>fr</language>
-    <lastBuildDate>Wed, 13 Aug 2025 21:17:30 -0400</lastBuildDate>
+    <lastBuildDate>Sun, 17 Aug 2025 21:07:39 -0400</lastBuildDate>
     <atom:link href="https://architecti.blog/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Architecture D&#39;Entreprise</title>
-      <link>https://architecti.blog/tags/architecture-dentreprise/</link>
-      <pubDate>Wed, 13 Aug 2025 21:17:30 -0400</pubDate>
-      <guid>https://architecti.blog/tags/architecture-dentreprise/</guid>
+      <title>Architecture Applicative</title>
+      <link>https://architecti.blog/tags/architecture-applicative/</link>
+      <pubDate>Sun, 17 Aug 2025 21:07:39 -0400</pubDate>
+      <guid>https://architecti.blog/tags/architecture-applicative/</guid>
       <description></description>
     </item>
     <item>
-      <title>Stratégie</title>
-      <link>https://architecti.blog/tags/strat%C3%A9gie/</link>
-      <pubDate>Wed, 13 Aug 2025 21:17:30 -0400</pubDate>
-      <guid>https://architecti.blog/tags/strat%C3%A9gie/</guid>
+      <title>Conception</title>
+      <link>https://architecti.blog/tags/conception/</link>
+      <pubDate>Sun, 17 Aug 2025 21:07:39 -0400</pubDate>
+      <guid>https://architecti.blog/tags/conception/</guid>
       <description></description>
     </item>
     <item>
-      <title>Transformation Numérique</title>
-      <link>https://architecti.blog/tags/transformation-num%C3%A9rique/</link>
-      <pubDate>Wed, 13 Aug 2025 21:17:30 -0400</pubDate>
-      <guid>https://architecti.blog/tags/transformation-num%C3%A9rique/</guid>
+      <title>Microservices</title>
+      <link>https://architecti.blog/tags/microservices/</link>
+      <pubDate>Sun, 17 Aug 2025 21:07:39 -0400</pubDate>
+      <guid>https://architecti.blog/tags/microservices/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>API</title>
+      <link>https://architecti.blog/tags/api/</link>
+      <pubDate>Thu, 14 Aug 2025 21:07:39 -0400</pubDate>
+      <guid>https://architecti.blog/tags/api/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Cloud</title>
+      <link>https://architecti.blog/tags/cloud/</link>
+      <pubDate>Thu, 14 Aug 2025 21:07:39 -0400</pubDate>
+      <guid>https://architecti.blog/tags/cloud/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Containers</title>
+      <link>https://architecti.blog/tags/containers/</link>
+      <pubDate>Thu, 14 Aug 2025 21:07:39 -0400</pubDate>
+      <guid>https://architecti.blog/tags/containers/</guid>
       <description></description>
     </item>
     <item>
@@ -37,93 +58,23 @@
       <description></description>
     </item>
     <item>
-      <title>API</title>
-      <link>https://architecti.blog/tags/api/</link>
-      <pubDate>Tue, 05 Aug 2025 21:07:39 -0400</pubDate>
-      <guid>https://architecti.blog/tags/api/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>ArchiMate</title>
-      <link>https://architecti.blog/tags/archimate/</link>
-      <pubDate>Tue, 05 Aug 2025 21:07:39 -0400</pubDate>
-      <guid>https://architecti.blog/tags/archimate/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Architecture Applicative</title>
-      <link>https://architecti.blog/tags/architecture-applicative/</link>
-      <pubDate>Tue, 05 Aug 2025 21:07:39 -0400</pubDate>
-      <guid>https://architecti.blog/tags/architecture-applicative/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Architecture De Solution</title>
-      <link>https://architecti.blog/tags/architecture-de-solution/</link>
-      <pubDate>Tue, 05 Aug 2025 21:07:39 -0400</pubDate>
-      <guid>https://architecti.blog/tags/architecture-de-solution/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Cloud</title>
-      <link>https://architecti.blog/tags/cloud/</link>
-      <pubDate>Tue, 05 Aug 2025 21:07:39 -0400</pubDate>
-      <guid>https://architecti.blog/tags/cloud/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Conception</title>
-      <link>https://architecti.blog/tags/conception/</link>
-      <pubDate>Tue, 05 Aug 2025 21:07:39 -0400</pubDate>
-      <guid>https://architecti.blog/tags/conception/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Containers</title>
-      <link>https://architecti.blog/tags/containers/</link>
-      <pubDate>Tue, 05 Aug 2025 21:07:39 -0400</pubDate>
-      <guid>https://architecti.blog/tags/containers/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Gouvernance</title>
-      <link>https://architecti.blog/tags/gouvernance/</link>
-      <pubDate>Tue, 05 Aug 2025 21:07:39 -0400</pubDate>
-      <guid>https://architecti.blog/tags/gouvernance/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Microservices</title>
-      <link>https://architecti.blog/tags/microservices/</link>
-      <pubDate>Tue, 05 Aug 2025 21:07:39 -0400</pubDate>
-      <guid>https://architecti.blog/tags/microservices/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Modélisation</title>
-      <link>https://architecti.blog/tags/mod%C3%A9lisation/</link>
-      <pubDate>Tue, 05 Aug 2025 21:07:39 -0400</pubDate>
-      <guid>https://architecti.blog/tags/mod%C3%A9lisation/</guid>
+      <title>Stratégie</title>
+      <link>https://architecti.blog/tags/strat%C3%A9gie/</link>
+      <pubDate>Tue, 12 Aug 2025 21:17:39 -0400</pubDate>
+      <guid>https://architecti.blog/tags/strat%C3%A9gie/</guid>
       <description></description>
     </item>
     <item>
       <title>Rôles</title>
       <link>https://architecti.blog/tags/r%C3%B4les/</link>
-      <pubDate>Tue, 05 Aug 2025 21:07:39 -0400</pubDate>
+      <pubDate>Wed, 05 Feb 2025 21:07:39 -0400</pubDate>
       <guid>https://architecti.blog/tags/r%C3%B4les/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>TOGAF</title>
-      <link>https://architecti.blog/tags/togaf/</link>
-      <pubDate>Tue, 05 Aug 2025 21:07:39 -0400</pubDate>
-      <guid>https://architecti.blog/tags/togaf/</guid>
       <description></description>
     </item>
     <item>
       <title>Architecture Technologique</title>
       <link>https://architecti.blog/tags/architecture-technologique/</link>
-      <pubDate>Mon, 04 Oct 2021 21:07:39 -0400</pubDate>
+      <pubDate>Fri, 20 Aug 2021 21:07:39 -0400</pubDate>
       <guid>https://architecti.blog/tags/architecture-technologique/</guid>
       <description></description>
     </item>
@@ -135,17 +86,66 @@
       <description></description>
     </item>
     <item>
+      <title>Architecture D&#39;Entreprise</title>
+      <link>https://architecti.blog/tags/architecture-dentreprise/</link>
+      <pubDate>Thu, 13 May 2021 21:17:30 -0400</pubDate>
+      <guid>https://architecti.blog/tags/architecture-dentreprise/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Transformation Numérique</title>
+      <link>https://architecti.blog/tags/transformation-num%C3%A9rique/</link>
+      <pubDate>Thu, 13 May 2021 21:17:30 -0400</pubDate>
+      <guid>https://architecti.blog/tags/transformation-num%C3%A9rique/</guid>
+      <description></description>
+    </item>
+    <item>
       <title>Innovation</title>
       <link>https://architecti.blog/tags/innovation/</link>
-      <pubDate>Thu, 05 Aug 2021 21:18:39 -0400</pubDate>
+      <pubDate>Mon, 05 Apr 2021 21:18:39 -0400</pubDate>
       <guid>https://architecti.blog/tags/innovation/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>ArchiMate</title>
+      <link>https://architecti.blog/tags/archimate/</link>
+      <pubDate>Fri, 05 Mar 2021 21:07:39 -0400</pubDate>
+      <guid>https://architecti.blog/tags/archimate/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Modélisation</title>
+      <link>https://architecti.blog/tags/mod%C3%A9lisation/</link>
+      <pubDate>Fri, 05 Mar 2021 21:07:39 -0400</pubDate>
+      <guid>https://architecti.blog/tags/mod%C3%A9lisation/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>TOGAF</title>
+      <link>https://architecti.blog/tags/togaf/</link>
+      <pubDate>Fri, 05 Mar 2021 21:07:39 -0400</pubDate>
+      <guid>https://architecti.blog/tags/togaf/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Architecture De Solution</title>
+      <link>https://architecti.blog/tags/architecture-de-solution/</link>
+      <pubDate>Sat, 05 Dec 2020 21:07:39 -0400</pubDate>
+      <guid>https://architecti.blog/tags/architecture-de-solution/</guid>
       <description></description>
     </item>
     <item>
       <title>Architecture De Données</title>
       <link>https://architecti.blog/tags/architecture-de-donn%C3%A9es/</link>
-      <pubDate>Sun, 04 Oct 2020 21:07:39 -0400</pubDate>
+      <pubDate>Wed, 04 Nov 2020 21:07:39 -0400</pubDate>
       <guid>https://architecti.blog/tags/architecture-de-donn%C3%A9es/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Gouvernance</title>
+      <link>https://architecti.blog/tags/gouvernance/</link>
+      <pubDate>Wed, 04 Nov 2020 21:07:39 -0400</pubDate>
+      <guid>https://architecti.blog/tags/gouvernance/</guid>
       <description></description>
     </item>
   </channel>

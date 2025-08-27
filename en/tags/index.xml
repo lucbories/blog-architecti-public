@@ -1,13 +1,124 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Tags on Blowfish</title>
-    <link>//localhost:1313/en/tags/</link>
-    <description>Recent content in Tags on Blowfish</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <title>Tags on IT Architecture</title>
+    <link>https://architecti.blog/en/tags/</link>
+    <description>Recent content in Tags on IT Architecture</description>
+    <generator>Hugo</generator>
     <language>en</language>
-    <copyright>© 2025 </copyright>
-    <atom:link href="//localhost:1313/en/tags/index.xml" rel="self" type="application/rss+xml" />
-    
+    <lastBuildDate>Wed, 05 Feb 2025 21:07:39 -0400</lastBuildDate>
+    <atom:link href="https://architecti.blog/en/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Application Architecture</title>
+      <link>https://architecti.blog/en/tags/application-architecture/</link>
+      <pubDate>Wed, 05 Feb 2025 21:07:39 -0400</pubDate>
+      <guid>https://architecti.blog/en/tags/application-architecture/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Design</title>
+      <link>https://architecti.blog/en/tags/design/</link>
+      <pubDate>Wed, 05 Feb 2025 21:07:39 -0400</pubDate>
+      <guid>https://architecti.blog/en/tags/design/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Roles</title>
+      <link>https://architecti.blog/en/tags/roles/</link>
+      <pubDate>Wed, 05 Feb 2025 21:07:39 -0400</pubDate>
+      <guid>https://architecti.blog/en/tags/roles/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Strategy</title>
+      <link>https://architecti.blog/en/tags/strategy/</link>
+      <pubDate>Wed, 01 Jan 2025 21:07:39 -0400</pubDate>
+      <guid>https://architecti.blog/en/tags/strategy/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Digital Transformation</title>
+      <link>https://architecti.blog/en/tags/digital-transformation/</link>
+      <pubDate>Thu, 05 Aug 2021 21:07:39 -0400</pubDate>
+      <guid>https://architecti.blog/en/tags/digital-transformation/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Enterprise Architecture</title>
+      <link>https://architecti.blog/en/tags/enterprise-architecture/</link>
+      <pubDate>Thu, 05 Aug 2021 21:07:39 -0400</pubDate>
+      <guid>https://architecti.blog/en/tags/enterprise-architecture/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Cloud</title>
+      <link>https://architecti.blog/en/tags/cloud/</link>
+      <pubDate>Fri, 04 Jun 2021 21:07:39 -0400</pubDate>
+      <guid>https://architecti.blog/en/tags/cloud/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Technology Architecture</title>
+      <link>https://architecti.blog/en/tags/technology-architecture/</link>
+      <pubDate>Fri, 04 Jun 2021 21:07:39 -0400</pubDate>
+      <guid>https://architecti.blog/en/tags/technology-architecture/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Innovation</title>
+      <link>https://architecti.blog/en/tags/innovation/</link>
+      <pubDate>Mon, 05 Apr 2021 21:18:39 -0400</pubDate>
+      <guid>https://architecti.blog/en/tags/innovation/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>ArchiMate</title>
+      <link>https://architecti.blog/en/tags/archimate/</link>
+      <pubDate>Fri, 05 Mar 2021 21:07:39 -0400</pubDate>
+      <guid>https://architecti.blog/en/tags/archimate/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Modeling</title>
+      <link>https://architecti.blog/en/tags/modeling/</link>
+      <pubDate>Fri, 05 Mar 2021 21:07:39 -0400</pubDate>
+      <guid>https://architecti.blog/en/tags/modeling/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>TOGAF</title>
+      <link>https://architecti.blog/en/tags/togaf/</link>
+      <pubDate>Fri, 05 Mar 2021 21:07:39 -0400</pubDate>
+      <guid>https://architecti.blog/en/tags/togaf/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Methodology</title>
+      <link>https://architecti.blog/en/tags/methodology/</link>
+      <pubDate>Tue, 05 Jan 2021 21:07:39 -0400</pubDate>
+      <guid>https://architecti.blog/en/tags/methodology/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Solution Architecture</title>
+      <link>https://architecti.blog/en/tags/solution-architecture/</link>
+      <pubDate>Sat, 05 Dec 2020 21:07:39 -0400</pubDate>
+      <guid>https://architecti.blog/en/tags/solution-architecture/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Data Architecture</title>
+      <link>https://architecti.blog/en/tags/data-architecture/</link>
+      <pubDate>Wed, 04 Nov 2020 21:07:39 -0400</pubDate>
+      <guid>https://architecti.blog/en/tags/data-architecture/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Governance</title>
+      <link>https://architecti.blog/en/tags/governance/</link>
+      <pubDate>Wed, 04 Nov 2020 21:07:39 -0400</pubDate>
+      <guid>https://architecti.blog/en/tags/governance/</guid>
+      <description></description>
+    </item>
   </channel>
 </rss>

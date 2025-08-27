@@ -6,35 +6,35 @@
     <description>Recent content in Architecture D&#39;Entreprise on ArchitecTI</description>
     <generator>Hugo</generator>
     <language>fr</language>
-    <lastBuildDate>Wed, 13 Aug 2025 21:17:30 -0400</lastBuildDate>
+    <lastBuildDate>Thu, 13 May 2021 21:17:30 -0400</lastBuildDate>
     <atom:link href="https://architecti.blog/tags/architecture-dentreprise/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>4 Mythes Sur La Transformation Numérique</title>
-      <link>https://architecti.blog/posts/4-mythes-sur-la-transformation-num%C3%A9rique/</link>
-      <pubDate>Wed, 13 Aug 2025 21:17:30 -0400</pubDate>
-      <guid>https://architecti.blog/posts/4-mythes-sur-la-transformation-num%C3%A9rique/</guid>
+      <link>https://architecti.blog/articles/2021/005-4-mythes-sur-la-transformation-num%C3%A9rique/</link>
+      <pubDate>Thu, 13 May 2021 21:17:30 -0400</pubDate>
+      <guid>https://architecti.blog/articles/2021/005-4-mythes-sur-la-transformation-num%C3%A9rique/</guid>
       <description>&lt;p&gt;La transformation numérique n’est pas un concept nouveau. Ces dernières années ont vu l’évolution rapide des technologies dans les entreprises, de l’Internet des objets (IoT) et de la blockchain aux chatbots, en passant par l’apprentissage automatique et la réalité virtuelle. Presque toutes les entreprises sont impliquées dans une forme de transformation numérique, mais combien en voient réellement les bénéfices ?&lt;/p&gt;&#xA;&lt;p&gt;Dans cet article, nous aborderons certains des mythes courants liés à la transformation numérique. Même si presque toutes les entreprises sont impliquées dans une forme de transformation numérique, elles n’en tirent pas toutes avantage. Une nouvelle analyse de Bain and Company a révélé que moins de 10% des entreprises mondiales ont été capables d’atteindre leurs résultats prévisionnels grâce à leurs investissements dans la technologie numérique. En d’autres termes, plus de 90 % des entreprises ont encore du mal à tenir la promesse d’un modèle commercial basé sur la technologie.&lt;/p&gt;</description>
     </item>
     <item>
-      <title>Architecture D’Entreprise Ou La Gouvernance De La Conception Du SI</title>
-      <link>https://architecti.blog/posts/architecture-d-entreprise-ou-la-gouvernance-de-la-conception-du-si/</link>
-      <pubDate>Tue, 05 Aug 2025 21:07:39 -0400</pubDate>
-      <guid>https://architecti.blog/posts/architecture-d-entreprise-ou-la-gouvernance-de-la-conception-du-si/</guid>
-      <description>&lt;p&gt;L’Architecture d’Entreprise met en place, applique et fait évoluer les principes directeurs de conception du système d’information (SI): c’est la gouvernance de la conception du SI. En partant de l’urbanisation du SI, en passant par la gouvernance des données et en arrivant à la conception des applications.&lt;/p&gt;&#xA;&lt;p&gt;Pour ne pas réinventer la roue et pour ne pas être perdu d’une entreprise à l’autre, des cadres de référence (des frameworks) permettent de parler un langage commun au sein des organisations et entre les organisations. Ces frameworks peuvent être orientés méthodologie ou représentation graphique. Voir &lt;a href=&#34;https://architecti.blog/posts/diff%C3%A9rences-entre-togaf-et-archimate/&#34;&gt;Différences entre TOGAF et Archimate&lt;/a&gt;.&lt;/p&gt;</description>
+      <title>Comment Innover En Architecture IT</title>
+      <link>https://architecti.blog/articles/2021/004-comment-innover-en-architecture-it/</link>
+      <pubDate>Mon, 05 Apr 2021 21:18:39 -0400</pubDate>
+      <guid>https://architecti.blog/articles/2021/004-comment-innover-en-architecture-it/</guid>
+      <description>&lt;p&gt;Je viens de parcourir le rapport du Boston Consulting Group, “Most Innovative Companies 2021 – Overcoming the Innovation Readiness Gap – April 2021”. Voyons comment innover en Architecture IT.&lt;/p&gt;&#xA;&lt;p&gt;Ce rapport synthétise les entretiens avec 1500 responsables de l’innovation dans le monde.&lt;/p&gt;&#xA;&lt;p&gt;Le point important à souligner est que l’innovation est devenue une des trois principales priorités de leurs entreprises.&lt;/p&gt;&#xA;&lt;p&gt;Avant de voir comment l’innovation s’applique à l’architecture IT, parcourons ce rapport.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Les Étapes Clés De La Transformation Numérique</title>
-      <link>https://architecti.blog/posts/les-%C3%A9tapes-cl%C3%A9s-de-la-transformation-num%C3%A9rique/</link>
-      <pubDate>Tue, 05 Aug 2025 21:07:39 -0400</pubDate>
-      <guid>https://architecti.blog/posts/les-%C3%A9tapes-cl%C3%A9s-de-la-transformation-num%C3%A9rique/</guid>
+      <link>https://architecti.blog/articles/2021/002-les-%C3%A9tapes-cl%C3%A9s-de-la-transformation-num%C3%A9rique/</link>
+      <pubDate>Fri, 05 Feb 2021 21:07:39 -0400</pubDate>
+      <guid>https://architecti.blog/articles/2021/002-les-%C3%A9tapes-cl%C3%A9s-de-la-transformation-num%C3%A9rique/</guid>
       <description>&lt;p&gt;&lt;strong&gt;Introduction&lt;/strong&gt;&#xA;Beaucoup d’entreprises se lancent dans la Transformation Numérique, certaines ont eu du succès dans leur voyage vers le digital mais peu ont réellement réussi la métamorphose promise par le nouveau monde digital.&lt;/p&gt;&#xA;&lt;p&gt;Il n’existe pas de méthode universelle prête à l’emploi, ni même de cible commune à atteindre pour les dirigeants. Chaque entreprise a son secteur d’activité, son fonctionnement, son histoire, sa vision, son capital humain et ses moyens financiers.&lt;/p&gt;</description>
     </item>
     <item>
-      <title>Comment Innover En Architecture IT</title>
-      <link>https://architecti.blog/posts/comment-innover-en-architecture-it/</link>
-      <pubDate>Thu, 05 Aug 2021 21:18:39 -0400</pubDate>
-      <guid>https://architecti.blog/posts/comment-innover-en-architecture-it/</guid>
-      <description>&lt;p&gt;Je viens de parcourir le rapport du Boston Consulting Group, “Most Innovative Companies 2021 – Overcoming the Innovation Readiness Gap – April 2021”. Voyons comment innover en Architecture IT.&lt;/p&gt;&#xA;&lt;p&gt;Ce rapport synthétise les entretiens avec 1500 responsables de l’innovation dans le monde.&lt;/p&gt;&#xA;&lt;p&gt;Le point important à souligner est que l’innovation est devenue une des trois principales priorités de leurs entreprises.&lt;/p&gt;&#xA;&lt;p&gt;Avant de voir comment l’innovation s’applique à l’architecture IT, parcourons ce rapport.&lt;/p&gt;</description>
+      <title>Architecture D’Entreprise Ou La Gouvernance De La Conception Du SI</title>
+      <link>https://architecti.blog/articles/2020/001-architecture-d-entreprise-ou-la-gouvernance-de-la-conception-du-si/</link>
+      <pubDate>Sat, 05 Sep 2020 21:07:39 -0400</pubDate>
+      <guid>https://architecti.blog/articles/2020/001-architecture-d-entreprise-ou-la-gouvernance-de-la-conception-du-si/</guid>
+      <description>&lt;p&gt;L’Architecture d’Entreprise met en place, applique et fait évoluer les principes directeurs de conception du système d’information (SI): c’est la gouvernance de la conception du SI. En partant de l’urbanisation du SI, en passant par la gouvernance des données et en arrivant à la conception des applications.&lt;/p&gt;&#xA;&lt;p&gt;Pour ne pas réinventer la roue et pour ne pas être perdu d’une entreprise à l’autre, des cadres de référence (des frameworks) permettent de parler un langage commun au sein des organisations et entre les organisations. Ces frameworks peuvent être orientés méthodologie ou représentation graphique. Voir &lt;a href=&#34;https://architecti.blog/posts/diff%C3%A9rences-entre-togaf-et-archimate/&#34;&gt;Différences entre TOGAF et Archimate&lt;/a&gt;.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

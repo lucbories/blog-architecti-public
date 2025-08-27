@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tous les Articles 2020 on ArchitecTI</title>
+    <link>https://architecti.blog/articles/2020/</link>
+    <description>Recent content in Tous les Articles 2020 on ArchitecTI</description>
+    <generator>Hugo</generator>
+    <language>fr</language>
+    <lastBuildDate>Sat, 05 Dec 2020 21:07:39 -0400</lastBuildDate>
+    <atom:link href="https://architecti.blog/articles/2020/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Architecture De Solution – Conception Autour D’une Problématique Précise</title>
+      <link>https://architecti.blog/articles/2020/004-architecture-de-solution--conception-autour-dune-probl%C3%A9matique-pr%C3%A9cise/</link>
+      <pubDate>Sat, 05 Dec 2020 21:07:39 -0400</pubDate>
+      <guid>https://architecti.blog/articles/2020/004-architecture-de-solution--conception-autour-dune-probl%C3%A9matique-pr%C3%A9cise/</guid>
+      <description>&lt;p&gt;L’Architecture de Solution est la moins bien définie des composantes de l’Architecture d’Entreprise. C’est à dire qu’un même terme peut mener à des activités aux contours différents. Pourtant l’importance de l’Architecture de Solution ne cesse de croître en se basant sur la demande en Architectes de Solution. Essayons de préciser ses contours.&lt;/p&gt;&#xA;&lt;h2 id=&#34;quest-ce-que-larchitecture-de-solution&#34;&gt;Qu’est-ce que l’Architecture de Solution?&lt;/h2&gt;&#xA;&lt;p&gt;Pour le Gartner, l’Architecture de Solution est la description architecturale d’une solution spécifique, une solution étant un ensemble cohérent et suffisant de caractéristiques permettant de répondre à un ensemble de besoins.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Architecture De Données Ou La Gouvernance De L’information D’entreprise</title>
+      <link>https://architecti.blog/articles/2020/003-architecture-de-donn%C3%A9es-ou-la-gouvernance-de-linformation-d-entreprise/</link>
+      <pubDate>Wed, 04 Nov 2020 21:07:39 -0400</pubDate>
+      <guid>https://architecti.blog/articles/2020/003-architecture-de-donn%C3%A9es-ou-la-gouvernance-de-linformation-d-entreprise/</guid>
+      <description>&lt;p&gt;L’Architecture de Données est une des composantes de l’Architecture d’Entreprise. Elle se concentre sur les règles de gestion et d’organisation des données.&lt;/p&gt;&#xA;&lt;p&gt;Attention à ne pas confondre la définition des pratiques relatives aux données et son application qui sera appliquée par des rôles plus techniques; ni avec le Directeur des Données ou Chief Data Officer rôle de direction de l’entreprise qui traite de manière globale tout ce qui touche aux données.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Architecture Technologique Ou Architecture Technique Vs Expertise Technique</title>
+      <link>https://architecti.blog/articles/2020/002-architecture-technologique-ou-architecture-technique-vs-expertise-technique/</link>
+      <pubDate>Mon, 12 Oct 2020 21:07:39 -0400</pubDate>
+      <guid>https://architecti.blog/articles/2020/002-architecture-technologique-ou-architecture-technique-vs-expertise-technique/</guid>
+      <description>&lt;p&gt;Au delà des termes qui peuvent varier d’une organisation à une autre voir même d’une méthodologie à l’autre, il est important de comprendre ce qui définit l’Architecture Technologique ou Architecture Technique et ce qui la différencie de l’Expertise Technique.&lt;/p&gt;&#xA;&lt;p&gt;En effet, identifier les périmètres de responsabilité permet de gagner en efficacité et de ne pas mélanger les notions en s’adressant aux bonnes personnes.&lt;/p&gt;&#xA;&lt;p&gt;Il est donc nécessaire de différencier les rôles de gouvernance des rôles d’implémentation. Chacun à son importance et les deux peuvent se trouver au cours d’une même carrière.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Architecture D’Entreprise Ou La Gouvernance De La Conception Du SI</title>
+      <link>https://architecti.blog/articles/2020/001-architecture-d-entreprise-ou-la-gouvernance-de-la-conception-du-si/</link>
+      <pubDate>Sat, 05 Sep 2020 21:07:39 -0400</pubDate>
+      <guid>https://architecti.blog/articles/2020/001-architecture-d-entreprise-ou-la-gouvernance-de-la-conception-du-si/</guid>
+      <description>&lt;p&gt;L’Architecture d’Entreprise met en place, applique et fait évoluer les principes directeurs de conception du système d’information (SI): c’est la gouvernance de la conception du SI. En partant de l’urbanisation du SI, en passant par la gouvernance des données et en arrivant à la conception des applications.&lt;/p&gt;&#xA;&lt;p&gt;Pour ne pas réinventer la roue et pour ne pas être perdu d’une entreprise à l’autre, des cadres de référence (des frameworks) permettent de parler un langage commun au sein des organisations et entre les organisations. Ces frameworks peuvent être orientés méthodologie ou représentation graphique. Voir &lt;a href=&#34;https://architecti.blog/posts/diff%C3%A9rences-entre-togaf-et-archimate/&#34;&gt;Différences entre TOGAF et Archimate&lt;/a&gt;.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

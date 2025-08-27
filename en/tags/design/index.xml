@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Design on IT Architecture</title>
+    <link>https://architecti.blog/en/tags/design/</link>
+    <description>Recent content in Design on IT Architecture</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Wed, 05 Feb 2025 21:07:39 -0400</lastBuildDate>
+    <atom:link href="https://architecti.blog/en/tags/design/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Application Architecture – Context</title>
+      <link>https://architecti.blog/en/articles/2025/002-architecture-applicative---mise-en-contexte/</link>
+      <pubDate>Wed, 05 Feb 2025 21:07:39 -0400</pubDate>
+      <guid>https://architecti.blog/en/articles/2025/002-architecture-applicative---mise-en-contexte/</guid>
+      <description>&lt;h2 id=&#34;are-you-concerned-with-application-architecture&#34;&gt;Are You Concerned with Application Architecture?&lt;/h2&gt;&#xA;&lt;p&gt;If you’re a developer, you want to understand how application components interact; how a particular application workflow should run and what results to expect; and how an end user should engage with an input or display screen.&lt;/p&gt;&#xA;&lt;p&gt;If you’re an infrastructure specialist, you need to know the type and volume of data stored and transferred; the frequency and load each application process demands; and how different application solutions fit together within the information system (IS).&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>AWS vs Azure</title>
+      <link>https://architecti.blog/en/articles/2021/006-aws-vs-azure/</link>
+      <pubDate>Fri, 04 Jun 2021 21:07:39 -0400</pubDate>
+      <guid>https://architecti.blog/en/articles/2021/006-aws-vs-azure/</guid>
+      <description>&lt;h2 id=&#34;opinion--comparing-the-cloud-computing-giants&#34;&gt;Opinion – Comparing the Cloud Computing Giants&lt;/h2&gt;&#xA;&lt;p&gt;KINSTA is an American WordPress hosting provider that publishes in-depth blog articles on various themes. While reading “AWS vs Azure in 2021 (Comparing the Cloud Computing Giants),” I discovered several interesting insights to share.&lt;/p&gt;&#xA;&lt;h2 id=&#34;cloud-computing-players&#34;&gt;Cloud Computing Players&lt;/h2&gt;&#xA;&lt;p&gt;The rapid growth in cloud demand has spawned an exponential increase in services and options. The broader your target, the more use cases you must support and the more products you need to offer.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Differences Between TOGAF and ArchiMate</title>
+      <link>https://architecti.blog/en/articles/2021/003-diff%C3%A9rences-entre-togaf-et-archimate/</link>
+      <pubDate>Fri, 05 Mar 2021 21:07:39 -0400</pubDate>
+      <guid>https://architecti.blog/en/articles/2021/003-diff%C3%A9rences-entre-togaf-et-archimate/</guid>
+      <description>&lt;p&gt;Answering the question of the differences between TOGAF and ArchiMate is not straightforward, but here’s what you need to know.&lt;/p&gt;&#xA;&lt;p&gt;Most organizations today are embarking on or renewing their enterprise architecture practices. Is yours part of that trend?&lt;/p&gt;&#xA;&lt;p&gt;If so, you’re not alone—many enterprise architects are confused by the distinctions between TOGAF and ArchiMate. While there are overlaps, each standard serves a distinct purpose. Which one should you learn first?&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Which Application Architecture to Choose</title>
+      <link>https://architecti.blog/en/articles/2021/001-quelle-architecture-applicative-choisir/</link>
+      <pubDate>Tue, 05 Jan 2021 21:07:39 -0400</pubDate>
+      <guid>https://architecti.blog/en/articles/2021/001-quelle-architecture-applicative-choisir/</guid>
+      <description>&lt;p&gt;Choosing an Application Architecture is a pivotal decision impacting team structure, workflows, technology choices, skill requirements, and interactions with internal users, clients, and partners. So, which application architecture in 2021?&lt;/p&gt;&#xA;&lt;h2 id=&#34;preface&#34;&gt;Preface&lt;/h2&gt;&#xA;&lt;p&gt;This article focuses not on technology vendors or platforms but on architectural choices. Given the multitude of technical solutions across diverse scenarios, covering them all in one piece is impossible. Future posts will address specific technologies, which are equally important.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Solution Architecture – Designing Around a Specific Problem</title>
+      <link>https://architecti.blog/en/articles/2020/004-architecture-de-solution--conception-autour-dune-probl%C3%A9matique-pr%C3%A9cise/</link>
+      <pubDate>Sat, 05 Dec 2020 21:07:39 -0400</pubDate>
+      <guid>https://architecti.blog/en/articles/2020/004-architecture-de-solution--conception-autour-dune-probl%C3%A9matique-pr%C3%A9cise/</guid>
+      <description>&lt;p&gt;Solution Architecture is the least well-defined component of Enterprise Architecture. In other words, the same term can encompass activities with differing scopes. Yet demand for Solution Architects continues to grow, highlighting the role’s rising importance. Let’s clarify its contours.&lt;/p&gt;&#xA;&lt;h2 id=&#34;what-is-solution-architecture&#34;&gt;What Is Solution Architecture?&lt;/h2&gt;&#xA;&lt;p&gt;According to Gartner, Solution Architecture is the architectural description of a specific solution—a coherent and sufficient set of features that addresses a defined set of requirements.&lt;/p&gt;&#xA;&lt;p&gt;The Scaled Agile Framework (SAFe) describes Solution Architecture as defining and communicating a shared architectural and technical vision for work in progress.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Technology Architecture or Technical Architecture vs Technical Expertise</title>
+      <link>https://architecti.blog/en/articles/2020/002-architecture-technologique-ou-architecture-technique-vs-expertise-technique/</link>
+      <pubDate>Mon, 12 Oct 2020 21:07:39 -0400</pubDate>
+      <guid>https://architecti.blog/en/articles/2020/002-architecture-technologique-ou-architecture-technique-vs-expertise-technique/</guid>
+      <description>&lt;p&gt;Beyond the terms that may vary from one organization or methodology to another, it’s essential to understand what defines Technology Architecture (or Technical Architecture) and what distinguishes it from Technical Expertise.&lt;/p&gt;&#xA;&lt;p&gt;It’s therefore necessary to separate governance roles from implementation roles. Both are crucial, and individuals can navigate between them over the course of a career.&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;p&gt;Within Enterprise Architecture, Technology Architecture focuses on functionality—data persistence, executing workloads tied to a business process, and so on. Its goal is to organize, standardize, and govern the use of technologies in implementing the Application Architecture.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

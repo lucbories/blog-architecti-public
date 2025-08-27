@@ -6,21 +6,21 @@
     <description>Recent content in Gouvernance on ArchitecTI</description>
     <generator>Hugo</generator>
     <language>fr</language>
-    <lastBuildDate>Tue, 05 Aug 2025 21:07:39 -0400</lastBuildDate>
+    <lastBuildDate>Wed, 04 Nov 2020 21:07:39 -0400</lastBuildDate>
     <atom:link href="https://architecti.blog/tags/gouvernance/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Architecture D’Entreprise Ou La Gouvernance De La Conception Du SI</title>
-      <link>https://architecti.blog/posts/architecture-d-entreprise-ou-la-gouvernance-de-la-conception-du-si/</link>
-      <pubDate>Tue, 05 Aug 2025 21:07:39 -0400</pubDate>
-      <guid>https://architecti.blog/posts/architecture-d-entreprise-ou-la-gouvernance-de-la-conception-du-si/</guid>
-      <description>&lt;p&gt;L’Architecture d’Entreprise met en place, applique et fait évoluer les principes directeurs de conception du système d’information (SI): c’est la gouvernance de la conception du SI. En partant de l’urbanisation du SI, en passant par la gouvernance des données et en arrivant à la conception des applications.&lt;/p&gt;&#xA;&lt;p&gt;Pour ne pas réinventer la roue et pour ne pas être perdu d’une entreprise à l’autre, des cadres de référence (des frameworks) permettent de parler un langage commun au sein des organisations et entre les organisations. Ces frameworks peuvent être orientés méthodologie ou représentation graphique. Voir &lt;a href=&#34;https://architecti.blog/posts/diff%C3%A9rences-entre-togaf-et-archimate/&#34;&gt;Différences entre TOGAF et Archimate&lt;/a&gt;.&lt;/p&gt;</description>
+      <title>Architecture De Données Ou La Gouvernance De L’information D’entreprise</title>
+      <link>https://architecti.blog/articles/2020/003-architecture-de-donn%C3%A9es-ou-la-gouvernance-de-linformation-d-entreprise/</link>
+      <pubDate>Wed, 04 Nov 2020 21:07:39 -0400</pubDate>
+      <guid>https://architecti.blog/articles/2020/003-architecture-de-donn%C3%A9es-ou-la-gouvernance-de-linformation-d-entreprise/</guid>
+      <description>&lt;p&gt;L’Architecture de Données est une des composantes de l’Architecture d’Entreprise. Elle se concentre sur les règles de gestion et d’organisation des données.&lt;/p&gt;&#xA;&lt;p&gt;Attention à ne pas confondre la définition des pratiques relatives aux données et son application qui sera appliquée par des rôles plus techniques; ni avec le Directeur des Données ou Chief Data Officer rôle de direction de l’entreprise qui traite de manière globale tout ce qui touche aux données.&lt;/p&gt;</description>
     </item>
     <item>
-      <title>Architecture De Données Ou La Gouvernance De L’information D’entreprise</title>
-      <link>https://architecti.blog/posts/architecture-de-donn%C3%A9es-ou-la-gouvernance-de-linformation-d-entreprise/</link>
-      <pubDate>Sun, 04 Oct 2020 21:07:39 -0400</pubDate>
-      <guid>https://architecti.blog/posts/architecture-de-donn%C3%A9es-ou-la-gouvernance-de-linformation-d-entreprise/</guid>
-      <description>&lt;p&gt;L’Architecture de Données est une des composantes de l’Architecture d’Entreprise. Elle se concentre sur les règles de gestion et d’organisation des données.&lt;/p&gt;&#xA;&lt;p&gt;Attention à ne pas confondre la définition des pratiques relatives aux données et son application qui sera appliquée par des rôles plus techniques; ni avec le Directeur des Données ou Chief Data Officer rôle de direction de l’entreprise qui traite de manière globale tout ce qui touche aux données.&lt;/p&gt;</description>
+      <title>Architecture D’Entreprise Ou La Gouvernance De La Conception Du SI</title>
+      <link>https://architecti.blog/articles/2020/001-architecture-d-entreprise-ou-la-gouvernance-de-la-conception-du-si/</link>
+      <pubDate>Sat, 05 Sep 2020 21:07:39 -0400</pubDate>
+      <guid>https://architecti.blog/articles/2020/001-architecture-d-entreprise-ou-la-gouvernance-de-la-conception-du-si/</guid>
+      <description>&lt;p&gt;L’Architecture d’Entreprise met en place, applique et fait évoluer les principes directeurs de conception du système d’information (SI): c’est la gouvernance de la conception du SI. En partant de l’urbanisation du SI, en passant par la gouvernance des données et en arrivant à la conception des applications.&lt;/p&gt;&#xA;&lt;p&gt;Pour ne pas réinventer la roue et pour ne pas être perdu d’une entreprise à l’autre, des cadres de référence (des frameworks) permettent de parler un langage commun au sein des organisations et entre les organisations. Ces frameworks peuvent être orientés méthodologie ou représentation graphique. Voir &lt;a href=&#34;https://architecti.blog/posts/diff%C3%A9rences-entre-togaf-et-archimate/&#34;&gt;Différences entre TOGAF et Archimate&lt;/a&gt;.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

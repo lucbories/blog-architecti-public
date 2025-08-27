@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tous les Articles 2021 on ArchitecTI</title>
+    <link>https://architecti.blog/articles/2021/</link>
+    <description>Recent content in Tous les Articles 2021 on ArchitecTI</description>
+    <generator>Hugo</generator>
+    <language>fr</language>
+    <lastBuildDate>Fri, 04 Jun 2021 21:07:39 -0400</lastBuildDate>
+    <atom:link href="https://architecti.blog/articles/2021/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>AWS Vs Azure</title>
+      <link>https://architecti.blog/articles/2021/006-aws-vs-azure/</link>
+      <pubDate>Fri, 04 Jun 2021 21:07:39 -0400</pubDate>
+      <guid>https://architecti.blog/articles/2021/006-aws-vs-azure/</guid>
+      <description>&lt;h2 id=&#34;tribune--comparaison-des-géants-du-cloud-computing-ou-informatique-infonuagique&#34;&gt;Tribune – Comparaison des géants du Cloud Computing ou Informatique Infonuagique&lt;/h2&gt;&#xA;&lt;p&gt;KINSTA est un hébergeur de sites WordPress américain qui propose sur son blog des articles approfondis sur différents thèmes. En lisant AWS vs Azure en 2021 (Comparing the Cloud Computing Giants), j’ai trouvé des points intéressants que je vais partager avec vous.&lt;/p&gt;&#xA;&lt;p&gt;Les acteurs du Cloud Computing&lt;/p&gt;&#xA;&lt;p&gt;Le premier constat est que la forte croissance de la demande en cloud computing s’accompagne d’une multiplication des services et options: c’est logique, plus on vise large, plus il faut s’adapter à différents usages et plus il faut proposer de produits.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>4 Mythes Sur La Transformation Numérique</title>
+      <link>https://architecti.blog/articles/2021/005-4-mythes-sur-la-transformation-num%C3%A9rique/</link>
+      <pubDate>Thu, 13 May 2021 21:17:30 -0400</pubDate>
+      <guid>https://architecti.blog/articles/2021/005-4-mythes-sur-la-transformation-num%C3%A9rique/</guid>
+      <description>&lt;p&gt;La transformation numérique n’est pas un concept nouveau. Ces dernières années ont vu l’évolution rapide des technologies dans les entreprises, de l’Internet des objets (IoT) et de la blockchain aux chatbots, en passant par l’apprentissage automatique et la réalité virtuelle. Presque toutes les entreprises sont impliquées dans une forme de transformation numérique, mais combien en voient réellement les bénéfices ?&lt;/p&gt;&#xA;&lt;p&gt;Dans cet article, nous aborderons certains des mythes courants liés à la transformation numérique. Même si presque toutes les entreprises sont impliquées dans une forme de transformation numérique, elles n’en tirent pas toutes avantage. Une nouvelle analyse de Bain and Company a révélé que moins de 10% des entreprises mondiales ont été capables d’atteindre leurs résultats prévisionnels grâce à leurs investissements dans la technologie numérique. En d’autres termes, plus de 90 % des entreprises ont encore du mal à tenir la promesse d’un modèle commercial basé sur la technologie.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Comment Innover En Architecture IT</title>
+      <link>https://architecti.blog/articles/2021/004-comment-innover-en-architecture-it/</link>
+      <pubDate>Mon, 05 Apr 2021 21:18:39 -0400</pubDate>
+      <guid>https://architecti.blog/articles/2021/004-comment-innover-en-architecture-it/</guid>
+      <description>&lt;p&gt;Je viens de parcourir le rapport du Boston Consulting Group, “Most Innovative Companies 2021 – Overcoming the Innovation Readiness Gap – April 2021”. Voyons comment innover en Architecture IT.&lt;/p&gt;&#xA;&lt;p&gt;Ce rapport synthétise les entretiens avec 1500 responsables de l’innovation dans le monde.&lt;/p&gt;&#xA;&lt;p&gt;Le point important à souligner est que l’innovation est devenue une des trois principales priorités de leurs entreprises.&lt;/p&gt;&#xA;&lt;p&gt;Avant de voir comment l’innovation s’applique à l’architecture IT, parcourons ce rapport.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Différences Entre TOGAF Et ArchiMate</title>
+      <link>https://architecti.blog/articles/2021/003-diff%C3%A9rences-entre-togaf-et-archimate/</link>
+      <pubDate>Fri, 05 Mar 2021 21:07:39 -0400</pubDate>
+      <guid>https://architecti.blog/articles/2021/003-diff%C3%A9rences-entre-togaf-et-archimate/</guid>
+      <description>&lt;p&gt;Répondre à la question des différences entre TOGAF et ArchiMate n’est pas simple mais voici ce que vous devez savoir.&lt;/p&gt;&#xA;&lt;p&gt;Or une majorité d’entreprises démarrent ou renouvellent leurs pratiques d’architecture d’entreprise. Votre organisation fait-elle partie de cette tendance?&lt;/p&gt;&#xA;&lt;p&gt;Si c’est le cas, vous n’êtes pas seul à vous poser la question.&lt;/p&gt;&#xA;&lt;p&gt;Car de nombreux architectes d’entreprise sont confus par la différence entre TOGAF et ArchiMate.&lt;/p&gt;&#xA;&lt;p&gt;En effet, il existe des similitudes mais aussi des différences entre ces deux standards.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Les Étapes Clés De La Transformation Numérique</title>
+      <link>https://architecti.blog/articles/2021/002-les-%C3%A9tapes-cl%C3%A9s-de-la-transformation-num%C3%A9rique/</link>
+      <pubDate>Fri, 05 Feb 2021 21:07:39 -0400</pubDate>
+      <guid>https://architecti.blog/articles/2021/002-les-%C3%A9tapes-cl%C3%A9s-de-la-transformation-num%C3%A9rique/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Introduction&lt;/strong&gt;&#xA;Beaucoup d’entreprises se lancent dans la Transformation Numérique, certaines ont eu du succès dans leur voyage vers le digital mais peu ont réellement réussi la métamorphose promise par le nouveau monde digital.&lt;/p&gt;&#xA;&lt;p&gt;Il n’existe pas de méthode universelle prête à l’emploi, ni même de cible commune à atteindre pour les dirigeants. Chaque entreprise a son secteur d’activité, son fonctionnement, son histoire, sa vision, son capital humain et ses moyens financiers.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Quelle Architecture Applicative choisir</title>
+      <link>https://architecti.blog/articles/2021/001-quelle-architecture-applicative-choisir/</link>
+      <pubDate>Tue, 05 Jan 2021 21:07:39 -0400</pubDate>
+      <guid>https://architecti.blog/articles/2021/001-quelle-architecture-applicative-choisir/</guid>
+      <description>&lt;p&gt;Le choix d’une Architecture Applicative est une décision déterminante en ce qui concerne l’organisation des équipes, les méthodes de travail, les technologies à utiliser, les compétences à acquérir, les interactions avec les utilisateurs internes, les clients et les partenaires… Alors quelle architecture applicative en 2021?&lt;/p&gt;&#xA;&lt;h2 id=&#34;préambule&#34;&gt;Préambule&lt;/h2&gt;&#xA;&lt;p&gt;Cet article n’est pas orienté sur des choix technologiques ou des fournisseurs mais plus sur des choix architecturaux. En effet, il existe tellement de solutions techniques existantes dans tellement de cas de figure différents que nous ne pourrons pas en faire le tour avec un seul écrit. De futurs articles traiteront donc des sujets technologiques qui sont tout aussi importants.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

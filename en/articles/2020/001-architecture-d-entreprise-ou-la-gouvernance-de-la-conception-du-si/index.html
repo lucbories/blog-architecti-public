@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    
+    <title>Enterprise Architecture or Governance of IS Design | IT Architecture</title>
+    <meta name="viewport" content="width=device-width,minimum-scale=1">
+    <meta name="description" content="Enterprise Architecture establishes, enforces and evolves the guiding design principles of the Information System (IS). It is, in essence, the governance of IS design—from urbanizing the IS, through data governance, to application design.
+To avoid reinventing the wheel and to speak a common language across and within organizations, reference frameworks provide standard terminologies and methodologies. These frameworks may focus on process or on graphical representation. See Differences between TOGAF and ArchiMate.">
+    <meta name="generator" content="Hugo 0.148.2">
+    
+    
+    
+      <meta name="robots" content="index, follow">
+    
+    <meta name="author" content="Luc Bories">
+    
+
+    
+<link rel="stylesheet" href="/ananke/css/main.min.8d048772ae72ab11245a0e296d1f2a36d3e3dd376c6c867394d6cc659c68fc37.css" >
+
+
+
+
+    
+
+
+    
+      
+
+    
+
+    
+
+    
+      <link rel="canonical" href="https://architecti.blog/en/articles/2020/001-architecture-d-entreprise-ou-la-gouvernance-de-la-conception-du-si/">
+    
+
+    <meta property="og:url" content="https://architecti.blog/en/articles/2020/001-architecture-d-entreprise-ou-la-gouvernance-de-la-conception-du-si/">
+  <meta property="og:site_name" content="IT Architecture">
+  <meta property="og:title" content="Enterprise Architecture or Governance of IS Design">
+  <meta property="og:description" content="Enterprise Architecture establishes, enforces and evolves the guiding design principles of the Information System (IS). It is, in essence, the governance of IS design—from urbanizing the IS, through data governance, to application design.
+To avoid reinventing the wheel and to speak a common language across and within organizations, reference frameworks provide standard terminologies and methodologies. These frameworks may focus on process or on graphical representation. See Differences between TOGAF and ArchiMate.">
+  <meta property="og:locale" content="en">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="articles">
+    <meta property="article:published_time" content="2020-09-05T21:07:39-04:00">
+    <meta property="article:modified_time" content="2020-09-05T21:07:39-04:00">
+    <meta property="article:tag" content="Governance">
+    <meta property="article:tag" content="Enterprise Architecture">
+    <meta property="article:tag" content="Roles">
+
+  <meta itemprop="name" content="Enterprise Architecture or Governance of IS Design">
+  <meta itemprop="description" content="Enterprise Architecture establishes, enforces and evolves the guiding design principles of the Information System (IS). It is, in essence, the governance of IS design—from urbanizing the IS, through data governance, to application design.
+To avoid reinventing the wheel and to speak a common language across and within organizations, reference frameworks provide standard terminologies and methodologies. These frameworks may focus on process or on graphical representation. See Differences between TOGAF and ArchiMate.">
+  <meta itemprop="datePublished" content="2020-09-05T21:07:39-04:00">
+  <meta itemprop="dateModified" content="2020-09-05T21:07:39-04:00">
+  <meta itemprop="wordCount" content="481">
+  <meta itemprop="keywords" content="Governance,Enterprise Architecture,Roles">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Enterprise Architecture or Governance of IS Design">
+  <meta name="twitter:description" content="Enterprise Architecture establishes, enforces and evolves the guiding design principles of the Information System (IS). It is, in essence, the governance of IS design—from urbanizing the IS, through data governance, to application design.
+To avoid reinventing the wheel and to speak a common language across and within organizations, reference frameworks provide standard terminologies and methodologies. These frameworks may focus on process or on graphical representation. See Differences between TOGAF and ArchiMate.">
+
+      
+      <script async src="https://www.googletagmanager.com/gtag/js?id=G-GWK53XF6PL"></script>
+      <script>
+        var doNotTrack = false;
+        if ( false ) {
+          var dnt = (navigator.doNotTrack || window.doNotTrack || navigator.msDoNotTrack);
+          var doNotTrack = (dnt == "1" || dnt == "yes");
+        }
+        if (!doNotTrack) {
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+          gtag('config', 'G-GWK53XF6PL');
+        }
+      </script>
+    
+	
+  </head><body class="ma0 avenir bg-near-white production">
+
+    
+   
+  
+
+  
+  
+  
+  <header class="cover bg-center" style="background-image: url('https://architecti.blog/images/businessman-3213659_1920-e1600819429256.jpg');">
+    <div class="bg-black-60">
+      <nav class="pv3 ph3 ph4-ns" role="navigation">
+  <div class="flex-l center items-center justify-between">
+    <a href="/en/" class="f3 fw2 hover-white white-90 dib no-underline">
+      
+        IT Architecture
+      
+    </a>
+    <div class="flex-l items-center">
+      
+<h4></h4>
+<ul class="pl0 mr3">
+    
+    <li class="list f5 f4-ns fw4 dib pr3">
+        <a class="hover-white white-90 no-underline" href="/articles/2020/001-architecture-d-entreprise-ou-la-gouvernance-de-la-conception-du-si/">fr</a>
+    </li>
+    
+</ul>
+
+
+      
+        <ul class="pl0 mr3">
+          
+          <li class="list f5 f4-ns fw4 dib pr3">
+            <a class="hover-white white-90 no-underline" href="/en/tags/enterprise-architecture/" title="Entreprise Architecture page">
+              Entreprise Architecture
+            </a>
+          </li>
+          
+          <li class="list f5 f4-ns fw4 dib pr3">
+            <a class="hover-white white-90 no-underline" href="/en/tags/application-architecture/" title="Application Architecture page">
+              Application Architecture
+            </a>
+          </li>
+          
+          <li class="list f5 f4-ns fw4 dib pr3">
+            <a class="hover-white white-90 no-underline" href="/en/tags/technology-architecture/" title="Technology Architecture page">
+              Technology Architecture
+            </a>
+          </li>
+          
+          <li class="list f5 f4-ns fw4 dib pr3">
+            <a class="hover-white white-90 no-underline" href="/en/articles/" title="Articles page">
+              Articles
+            </a>
+          </li>
+          
+          <li class="list f5 f4-ns fw4 dib pr3">
+            <a class="hover-white white-90 no-underline" href="/en/tagslist/" title="Find page">
+              Find
+            </a>
+          </li>
+          
+          <li class="list f5 f4-ns fw4 dib pr3">
+            <a class="hover-white white-90 no-underline" href="/en/about/" title="About page">
+              About
+            </a>
+          </li>
+          
+        </ul>
+      
+      <div class="ananke-socials"></div>
+
+    </div>
+  </div>
+</nav>
+
+      <div class="tc-l pv6 ph3 ph4-ns">
+        
+          <div class="f2 f1-l fw2 white-90 mb0 lh-title">Enterprise Architecture or Governance of IS Design</div>
+          
+        
+      </div>
+    </div>
+  </header>
+
+
+
+    <main class="pb7" role="main">
+      
+  
+  
+  <article class="flex-l mw8 center ph3 flex-wrap justify-between">
+    <header class="mt4 w-100">
+      <aside class="instapaper_ignoref b helvetica tracked ttu">
+          
+        All Articles in 2020
+      </aside><div id="sharing" class="mt3 ananke-socials"></div>
+<h1 class="f1 athelas mt3 mb1">Enterprise Architecture or Governance of IS Design</h1>
+      
+      <p class="tracked"><strong>Luc Bories</strong>
+      </p>
+      
+      
+      
+      <time class="f6 mv4 dib tracked" datetime="2020-09-05T21:07:39-04:00">September 5, 2020</time>
+      
+
+      
+      
+        <span class="f6 mv4 dib tracked"> - 3 minutes read </span>
+        <span class="f6 mv4 dib tracked"> - 481 words </span>
+      
+    </header>
+    <div class="nested-copy-line-height lh-copy serif f4 nested-links mid-gray pr4-l w-two-thirds-l"><p>Enterprise Architecture establishes, enforces and evolves the guiding design principles of the Information System (IS). It is, in essence, the governance of IS design—from urbanizing the IS, through data governance, to application design.</p>
+<p>To avoid reinventing the wheel and to speak a common language across and within organizations, reference frameworks provide standard terminologies and methodologies. These frameworks may focus on process or on graphical representation. See <a href="https://architecti.blog/posts/diff%C3%A9rences-entre-togaf-et-archimate/">Differences between TOGAF and ArchiMate</a>.</p>
+<hr>
+<h2 id="history-of-enterprise-architecture-frameworks-in-brief">History of Enterprise Architecture Frameworks in Brief</h2>
+<p>In the early days of computing, organizations needed to map their existing technology. IT architecture was born. In the 1980s and 1990s, the scope of architecture expanded and became formalized.</p>
+<p>1986 saw IBM publish the PRISM Enterprise Framework based on its internal research.</p>
+<p>In 1987, American consultant John Zachman introduced the Zachman Framework, one of the first formal Enterprise Architecture frameworks.</p>
+<p>In 1989, the U.S. National Institute of Standards and Technology released the NIST Enterprise Architecture Model.</p>
+<p>By 1994, The Open Group selected the U.S. Department of Defense’s TAFIM as the foundation for TOGAF (The Open Group Architecture Framework).</p>
+<p>During the 1990s, frameworks began to integrate application components with overall business strategy, giving rise to FEAF (Federal Enterprise Architecture Framework) and TOGAF.</p>
+<hr>
+<h2 id="common-principles-of-ea-frameworks">Common Principles of EA Frameworks</h2>
+<p>Most Enterprise Architecture frameworks share a layered structure (not to be confused with application layers). In some models, Data and Application are combined into a single layer:</p>
+<p><img src="/images/Layers_of_the_Enterprise_Architecture.jpg" alt="Les domaines de l’architecture d’entreprise"></p>
+<p>These layers represent levels at which processes act on architectural components. Each layer provides services to the one above it:</p>
+<ol>
+<li>Environment: external entities, legal/economic/social constraints, customers</li>
+<li>Business: functions that realize the enterprise strategy</li>
+<li>Data: business information and any other valuable data</li>
+<li>Application: the information system and business applications</li>
+<li>Technology: hardware, network and software infrastructure</li>
+</ol>
+<p>To ensure consistent understanding, architectures are often documented with standard modeling tools such as <a href="https://fr.wikipedia.org/wiki/UML_%28informatique%29">UML</a> or <a href="https://www.opengroup.org/archimate-forum/archimate-overview">ArchiMate</a>.</p>
+<p>Some examples of Enterprise Architecture diagrams:</p>
+<p><img src="/images/EA_reflection_simulation.jpg" alt="Exemples de diagrammes"></p>
+<hr>
+<h2 id="benefits-of-enterprise-architecture">Benefits of Enterprise Architecture</h2>
+<p>Enterprise Architecture delivers clear IT strategy execution aligned with business strategy. It improves adaptability—flexibility and agility—and enables efficient management of IS resources. A common framework facilitates communication and simplifies planning by defining clear domains and responsibilities.</p>
+<p>EA acts as both binder and catalyst, guiding all parts of the organization in the same direction. It communicates the company’s strategic orientations and enforces shared methods and standards. It also ensures that everyone stays aligned through transparent information sharing.</p>
+<hr>
+<h2 id="the-role-of-the-enterprise-architect">The Role of the Enterprise Architect</h2>
+<p>The Enterprise Architect aligns the IS with the organization’s business strategy. Depending on the organization’s size and structure, this role may collaborate with or integrate other architects:</p>
+<ul>
+<li>Business (or Functional) Architect</li>
+<li>Data Architect</li>
+<li>Application Architect</li>
+<li>Technology Architect</li>
+<li>Solution Architect</li>
+</ul>
+<p>The Enterprise Architect’s work is less technical and more strategic and diplomatic. They often bridge gaps between teams that don’t normally collaborate and who start with different reference points.</p>
+<p>By leveraging clearly defined and shared data, processes and responsibilities, Enterprise Architecture helps the organization make effective decisions.</p>
+<ul class="pa0">
+  
+   <li class="list di">
+     <a href="/en/tags/governance/" class="link f5 grow br-pill ba ph3 pv2 mb2 dib black sans-serif no-underline">Governance</a>
+   </li>
+  
+   <li class="list di">
+     <a href="/en/tags/enterprise-architecture/" class="link f5 grow br-pill ba ph3 pv2 mb2 dib black sans-serif no-underline">Enterprise Architecture</a>
+   </li>
+  
+   <li class="list di">
+     <a href="/en/tags/roles/" class="link f5 grow br-pill ba ph3 pv2 mb2 dib black sans-serif no-underline">Roles</a>
+   </li>
+  
+</ul>
+<div class="mt6 instapaper_ignoref">
+      
+      
+      </div>
+    </div>
+
+    <aside class="w-30-l mt6-l">
+
+
+
+
+</aside>
+
+  </article>
+
+    </main>
+    <footer class="bg-black bottom-0 w-100 pa3" role="contentinfo">
+  <div class="flex justify-between">
+  <a class="f4 fw4 hover-white white-70 dn dib-ns pv2 ph3 no-underline" href="https://architecti.blog/en/" >
+    &copy;  IT Architecture 2025 
+  </a>
+    <div><div class="ananke-socials"></div>
+</div>
+  </div>
+</footer>
+
+  </body>
+</html>

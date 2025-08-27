@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    
+    <title>Architecture D’Entreprise Ou La Gouvernance De La Conception Du SI | ArchitecTI</title>
+    <meta name="viewport" content="width=device-width,minimum-scale=1">
+    <meta name="description" content="L’Architecture d’Entreprise met en place, applique et fait évoluer les principes directeurs de conception du système d’information (SI): c’est la gouvernance de la conception du SI. En partant de l’urbanisation du SI, en passant par la gouvernance des données et en arrivant à la conception des applications.
+Pour ne pas réinventer la roue et pour ne pas être perdu d’une entreprise à l’autre, des cadres de référence (des frameworks) permettent de parler un langage commun au sein des organisations et entre les organisations. Ces frameworks peuvent être orientés méthodologie ou représentation graphique. Voir Différences entre TOGAF et Archimate.">
+    <meta name="generator" content="Hugo 0.148.2">
+    
+    
+    
+      <meta name="robots" content="index, follow">
+    
+    <meta name="author" content="Luc Bories">
+    
+
+    
+<link rel="stylesheet" href="/ananke/css/main.min.8d048772ae72ab11245a0e296d1f2a36d3e3dd376c6c867394d6cc659c68fc37.css" >
+
+
+
+
+    
+
+
+    
+      
+
+    
+
+    
+
+    
+      <link rel="canonical" href="https://architecti.blog/articles/2020/001-architecture-d-entreprise-ou-la-gouvernance-de-la-conception-du-si/">
+    
+
+    <meta property="og:url" content="https://architecti.blog/articles/2020/001-architecture-d-entreprise-ou-la-gouvernance-de-la-conception-du-si/">
+  <meta property="og:site_name" content="ArchitecTI">
+  <meta property="og:title" content="Architecture D’Entreprise Ou La Gouvernance De La Conception Du SI">
+  <meta property="og:description" content="L’Architecture d’Entreprise met en place, applique et fait évoluer les principes directeurs de conception du système d’information (SI): c’est la gouvernance de la conception du SI. En partant de l’urbanisation du SI, en passant par la gouvernance des données et en arrivant à la conception des applications.
+Pour ne pas réinventer la roue et pour ne pas être perdu d’une entreprise à l’autre, des cadres de référence (des frameworks) permettent de parler un langage commun au sein des organisations et entre les organisations. Ces frameworks peuvent être orientés méthodologie ou représentation graphique. Voir Différences entre TOGAF et Archimate.">
+  <meta property="og:locale" content="fr">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="articles">
+    <meta property="article:published_time" content="2020-09-05T21:07:39-04:00">
+    <meta property="article:modified_time" content="2020-09-05T21:07:39-04:00">
+    <meta property="article:tag" content="Gouvernance">
+    <meta property="article:tag" content="Architecture D&#39;Entreprise">
+    <meta property="article:tag" content="Rôles">
+
+  <meta itemprop="name" content="Architecture D’Entreprise Ou La Gouvernance De La Conception Du SI">
+  <meta itemprop="description" content="L’Architecture d’Entreprise met en place, applique et fait évoluer les principes directeurs de conception du système d’information (SI): c’est la gouvernance de la conception du SI. En partant de l’urbanisation du SI, en passant par la gouvernance des données et en arrivant à la conception des applications.
+Pour ne pas réinventer la roue et pour ne pas être perdu d’une entreprise à l’autre, des cadres de référence (des frameworks) permettent de parler un langage commun au sein des organisations et entre les organisations. Ces frameworks peuvent être orientés méthodologie ou représentation graphique. Voir Différences entre TOGAF et Archimate.">
+  <meta itemprop="datePublished" content="2020-09-05T21:07:39-04:00">
+  <meta itemprop="dateModified" content="2020-09-05T21:07:39-04:00">
+  <meta itemprop="wordCount" content="618">
+  <meta itemprop="keywords" content="Gouvernance,Architecture d&#39;Entreprise,Rôles">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Architecture D’Entreprise Ou La Gouvernance De La Conception Du SI">
+  <meta name="twitter:description" content="L’Architecture d’Entreprise met en place, applique et fait évoluer les principes directeurs de conception du système d’information (SI): c’est la gouvernance de la conception du SI. En partant de l’urbanisation du SI, en passant par la gouvernance des données et en arrivant à la conception des applications.
+Pour ne pas réinventer la roue et pour ne pas être perdu d’une entreprise à l’autre, des cadres de référence (des frameworks) permettent de parler un langage commun au sein des organisations et entre les organisations. Ces frameworks peuvent être orientés méthodologie ou représentation graphique. Voir Différences entre TOGAF et Archimate.">
+
+      
+      <script async src="https://www.googletagmanager.com/gtag/js?id=G-GWK53XF6PL"></script>
+      <script>
+        var doNotTrack = false;
+        if ( false ) {
+          var dnt = (navigator.doNotTrack || window.doNotTrack || navigator.msDoNotTrack);
+          var doNotTrack = (dnt == "1" || dnt == "yes");
+        }
+        if (!doNotTrack) {
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+          gtag('config', 'G-GWK53XF6PL');
+        }
+      </script>
+    
+	
+  </head><body class="ma0 avenir bg-near-white production">
+
+    
+   
+  
+
+  
+  
+  
+  <header class="cover bg-center" style="background-image: url('https://architecti.blog/images/businessman-3213659_1920-e1600819429256.jpg');">
+    <div class="bg-black-60">
+      <nav class="pv3 ph3 ph4-ns" role="navigation">
+  <div class="flex-l center items-center justify-between">
+    <a href="/" class="f3 fw2 hover-white white-90 dib no-underline">
+      
+        ArchitecTI
+      
+    </a>
+    <div class="flex-l items-center">
+      
+<h4></h4>
+<ul class="pl0 mr3">
+    
+    <li class="list f5 f4-ns fw4 dib pr3">
+        <a class="hover-white white-90 no-underline" href="/en/articles/2020/001-architecture-d-entreprise-ou-la-gouvernance-de-la-conception-du-si/">en</a>
+    </li>
+    
+</ul>
+
+
+      
+        <ul class="pl0 mr3">
+          
+          <li class="list f5 f4-ns fw4 dib pr3">
+            <a class="hover-white white-90 no-underline" href="/tags/architecture-dentreprise/" title="Architecture d&#39;Entreprise page">
+              Architecture d&#39;Entreprise
+            </a>
+          </li>
+          
+          <li class="list f5 f4-ns fw4 dib pr3">
+            <a class="hover-white white-90 no-underline" href="/tags/architecture-applicative/" title="Architecture Applicative page">
+              Architecture Applicative
+            </a>
+          </li>
+          
+          <li class="list f5 f4-ns fw4 dib pr3">
+            <a class="hover-white white-90 no-underline" href="/tags/architecture-technologique/" title="Architecture Technologique page">
+              Architecture Technologique
+            </a>
+          </li>
+          
+          <li class="list f5 f4-ns fw4 dib pr3">
+            <a class="hover-white white-90 no-underline" href="/articles/" title="Articles page">
+              Articles
+            </a>
+          </li>
+          
+          <li class="list f5 f4-ns fw4 dib pr3">
+            <a class="hover-white white-90 no-underline" href="/tagslist/" title="Rechercher page">
+              Rechercher
+            </a>
+          </li>
+          
+          <li class="list f5 f4-ns fw4 dib pr3">
+            <a class="hover-white white-90 no-underline" href="/about/" title="À propos page">
+              À propos
+            </a>
+          </li>
+          
+        </ul>
+      
+      <div class="ananke-socials"></div>
+
+    </div>
+  </div>
+</nav>
+
+      <div class="tc-l pv6 ph3 ph4-ns">
+        
+          <div class="f2 f1-l fw2 white-90 mb0 lh-title">Architecture D’Entreprise Ou La Gouvernance De La Conception Du SI</div>
+          
+        
+      </div>
+    </div>
+  </header>
+
+
+
+    <main class="pb7" role="main">
+      
+  
+  
+  <article class="flex-l mw8 center ph3 flex-wrap justify-between">
+    <header class="mt4 w-100">
+      <aside class="instapaper_ignoref b helvetica tracked ttu">
+          
+        Tous les Articles 2020
+      </aside><div id="sharing" class="mt3 ananke-socials"></div>
+<h1 class="f1 athelas mt3 mb1">Architecture D’Entreprise Ou La Gouvernance De La Conception Du SI</h1>
+      
+      <p class="tracked"><strong>Luc Bories</strong>
+      </p>
+      
+      
+      
+      <time class="f6 mv4 dib tracked" datetime="2020-09-05T21:07:39-04:00">septembre 5, 2020</time>
+      
+
+      
+      
+        <span class="f6 mv4 dib tracked"> - 3 minutes de lecture </span>
+        <span class="f6 mv4 dib tracked"> - 618 mots </span>
+      
+    </header>
+    <div class="nested-copy-line-height lh-copy serif f4 nested-links mid-gray pr4-l w-two-thirds-l"><p>L’Architecture d’Entreprise met en place, applique et fait évoluer les principes directeurs de conception du système d’information (SI): c’est la gouvernance de la conception du SI. En partant de l’urbanisation du SI, en passant par la gouvernance des données et en arrivant à la conception des applications.</p>
+<p>Pour ne pas réinventer la roue et pour ne pas être perdu d’une entreprise à l’autre, des cadres de référence (des frameworks) permettent de parler un langage commun au sein des organisations et entre les organisations. Ces frameworks peuvent être orientés méthodologie ou représentation graphique. Voir <a href="https://architecti.blog/posts/diff%C3%A9rences-entre-togaf-et-archimate/">Différences entre TOGAF et Archimate</a>.</p>
+<h2 id="histoire-des-frameworks-darchitecture-dentreprise-en-quelques-dates">Histoire des Frameworks d’Architecture d’Entreprise en quelques dates</h2>
+<p>Au début de l’informatique, le besoin de cartographier l’existant s’est présenté, d’abord pour les aspects technologiques: l’architecture it est née. Dans les années 1980-1990, le périmètre de l’architecture s’élargit et se formalise.</p>
+<p>En 1986, les travaux d’IBM mènent à la publication de PRISM Enterprise Framework.</p>
+<p>En 1987, le Framework Zachman est publié par <a href="https://en.wikipedia.org/wiki/John_Zachman">John Zachman</a>, consultant américain, pionnier de l’Architecture d’Entreprise.</p>
+<p>En 1989, le NIST (National Institute of Standards and Technology) publiera le <a href="https://en.wikipedia.org/wiki/NIST_Enterprise_Architecture_Model">NIST Enterprise Architecture Model</a>.</p>
+<p>En 1994, l’<a href="http://www.opengroup.org/">Open Group</a> sélectionne <a href="https://en.wikipedia.org/wiki/TAFIM">TAFIM</a> issu du département américain de la défense, comme base pour le développement de <a href="https://www.opengroup.org/togaf">TOGAF</a> (The Open Group Architecture Framework).</p>
+<p>Les années 1990 voient la fusion au sein des frameworks des composantes applicatives ainsi que de la stratégie globale de l’entreprise en lien avec les besoins métier (business): cela aboutira à <a href="https://en.wikipedia.org/wiki/Federal_enterprise_architecture">FEAF</a> (Federal Enterprise Architectural Framework) et TOGAF (The Open Group Architectural Framework).</p>
+<h2 id="principes-communs-des-frameworks">Principes communs des frameworks</h2>
+<p>Il est maintenant commun de retrouver dans la majorité des frameworks d’Architecture d’Entreprise un découpage en quatre domaines (à ne pas confondre avec les domaines applicatifs). Toutefois, les domaines Data et Application peuvent parfois se trouver fusionnés:</p>
+<p><img src="/images/Layers_of_the_Enterprise_Architecture.jpg" alt="Les domaines de l’architecture d’entreprise"></p>
+<p>En outre ces domaines sont vus comme des calques/niveaux (layers) exécutant des processus sur des composants. Chaque niveau offre des services aux niveaux au dessus:</p>
+<ol>
+<li>Environnement: entités externes prise en compte par les affaires, contraintes légales, économiques, sociales, clients</li>
+<li>Business, Métier, affaires: fonctions exprimant la stratégie de l’entreprise</li>
+<li>Données: informations métiers et toute données ayant de la valeur pour les affaires</li>
+<li>Application: Système d’information, applications métier</li>
+<li>Technologie: infrastructure matérielle, réseau et logicielle</li>
+</ol>
+<p>Pour assurer une compréhension uniforme par tous, l’architecture est souvent décrite à l’aide d’outils méthodologiques standards tels que <a href="https://fr.wikipedia.org/wiki/UML_%28informatique%29#:~:text=Le%20Langage%20de%20Mod%C3%A9lisation%20Unifi%C3%A9,et%20en%20conception%20orient%C3%A9e%20objet.">UML</a> ou <a href="https://www.opengroup.org/archimate-forum/archimate-overview">Archimate</a>.</p>
+<p>Quelques exemples de diagrammes d’Architecture d’Entreprise:</p>
+<p><img src="/images/EA_reflection_simulation.jpg" alt="Exemples de diagrammes"></p>
+<p>Les bénéfices de l’Architecture d’Entreprise sont bien présents: une définition et une exécution de la stratégie IT calquée sur la stratégie d’entreprise, une meilleure adaptabilité (flexibilité, agilité), une gestion efficace des ressources du SI, une facilité de communication (un langage commun à l’aide des frameworks) et une planification plus aisée (découpage clair des domaines et responsabilités).</p>
+<p>L’Architecture d’Entreprise agit ainsi à la fois comme un liant et comme un catalyseur pour faire avancer toutes les composantes de l’entreprise dans la même direction. Elle partage de manière concrète les orientations de l’entreprise et veille au respect de méthodes et standards communs. Elle assure aussi un rôle de communication pour maintenir chacun à un même niveau d’information.</p>
+<p>L’Architecte d’Entreprise adapte le système d’information (SI) à la stratégie métier de l’entité (entreprise, organisation, secteur publique). Il peut s’appuyer sur d’autres architectes ou cumuler certains de ces rôles: l’Architecte d’Affaires ou Architecte Fonctionnel, l’Architecte des Données, l’Architecte Applicatif, l’Architecte Technique ou Technologique (orienté fonctions techniques), l’Architecte de Solutions.</p>
+<p>Le rôle de l’Architecte d’Entreprise n’est pas tant technique que stratégique et diplomate: il fait souvent se parler entre elles des structures qui n’ont pas l’habitude de travailler entre elles et qui ne partagent pas, au départ, les mêmes référentiels.</p>
+<p>L’Architecture d’Entreprise aide l’entité à prendre des décisions efficaces en s’appuyant sur des données, des processus et des responsabilités clairement définies et partagées.</p>
+<ul class="pa0">
+  
+   <li class="list di">
+     <a href="/tags/gouvernance/" class="link f5 grow br-pill ba ph3 pv2 mb2 dib black sans-serif no-underline">Gouvernance</a>
+   </li>
+  
+   <li class="list di">
+     <a href="/tags/architecture-dentreprise/" class="link f5 grow br-pill ba ph3 pv2 mb2 dib black sans-serif no-underline">Architecture D&#39;Entreprise</a>
+   </li>
+  
+   <li class="list di">
+     <a href="/tags/r%C3%B4les/" class="link f5 grow br-pill ba ph3 pv2 mb2 dib black sans-serif no-underline">Rôles</a>
+   </li>
+  
+</ul>
+<div class="mt6 instapaper_ignoref">
+      
+      
+      </div>
+    </div>
+
+    <aside class="w-30-l mt6-l">
+
+
+
+
+</aside>
+
+  </article>
+
+    </main>
+    <footer class="bg-black bottom-0 w-100 pa3" role="contentinfo">
+  <div class="flex justify-between">
+  <a class="f4 fw4 hover-white white-70 dn dib-ns pv2 ph3 no-underline" href="https://architecti.blog/" >
+    &copy;  ArchitecTI 2025 
+  </a>
+    <div><div class="ananke-socials"></div>
+</div>
+  </div>
+</footer>
+
+  </body>
+</html>

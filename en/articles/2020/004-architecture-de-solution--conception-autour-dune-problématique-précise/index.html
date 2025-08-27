@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    
+    <title>Solution Architecture – Designing Around a Specific Problem | IT Architecture</title>
+    <meta name="viewport" content="width=device-width,minimum-scale=1">
+    <meta name="description" content="Solution Architecture is the least well-defined component of Enterprise Architecture. In other words, the same term can encompass activities with differing scopes. Yet demand for Solution Architects continues to grow, highlighting the role’s rising importance. Let’s clarify its contours.
+What Is Solution Architecture?
+According to Gartner, Solution Architecture is the architectural description of a specific solution—a coherent and sufficient set of features that addresses a defined set of requirements.
+The Scaled Agile Framework (SAFe) describes Solution Architecture as defining and communicating a shared architectural and technical vision for work in progress.">
+    <meta name="generator" content="Hugo 0.148.2">
+    
+    
+    
+      <meta name="robots" content="index, follow">
+    
+    <meta name="author" content="Luc Bories">
+    
+
+    
+<link rel="stylesheet" href="/ananke/css/main.min.8d048772ae72ab11245a0e296d1f2a36d3e3dd376c6c867394d6cc659c68fc37.css" >
+
+
+
+
+    
+
+
+    
+      
+
+    
+
+    
+
+    
+      <link rel="canonical" href="https://architecti.blog/en/articles/2020/004-architecture-de-solution--conception-autour-dune-probl%C3%A9matique-pr%C3%A9cise/">
+    
+
+    <meta property="og:url" content="https://architecti.blog/en/articles/2020/004-architecture-de-solution--conception-autour-dune-probl%C3%A9matique-pr%C3%A9cise/">
+  <meta property="og:site_name" content="IT Architecture">
+  <meta property="og:title" content="Solution Architecture – Designing Around a Specific Problem">
+  <meta property="og:description" content="Solution Architecture is the least well-defined component of Enterprise Architecture. In other words, the same term can encompass activities with differing scopes. Yet demand for Solution Architects continues to grow, highlighting the role’s rising importance. Let’s clarify its contours.
+What Is Solution Architecture? According to Gartner, Solution Architecture is the architectural description of a specific solution—a coherent and sufficient set of features that addresses a defined set of requirements.
+The Scaled Agile Framework (SAFe) describes Solution Architecture as defining and communicating a shared architectural and technical vision for work in progress.">
+  <meta property="og:locale" content="en">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="articles">
+    <meta property="article:published_time" content="2020-12-05T21:07:39-04:00">
+    <meta property="article:modified_time" content="2020-12-05T21:07:39-04:00">
+    <meta property="article:tag" content="Design">
+    <meta property="article:tag" content="Solution Architecture">
+    <meta property="article:tag" content="Roles">
+
+  <meta itemprop="name" content="Solution Architecture – Designing Around a Specific Problem">
+  <meta itemprop="description" content="Solution Architecture is the least well-defined component of Enterprise Architecture. In other words, the same term can encompass activities with differing scopes. Yet demand for Solution Architects continues to grow, highlighting the role’s rising importance. Let’s clarify its contours.
+What Is Solution Architecture? According to Gartner, Solution Architecture is the architectural description of a specific solution—a coherent and sufficient set of features that addresses a defined set of requirements.
+The Scaled Agile Framework (SAFe) describes Solution Architecture as defining and communicating a shared architectural and technical vision for work in progress.">
+  <meta itemprop="datePublished" content="2020-12-05T21:07:39-04:00">
+  <meta itemprop="dateModified" content="2020-12-05T21:07:39-04:00">
+  <meta itemprop="wordCount" content="466">
+  <meta itemprop="keywords" content="Design,Solution Architecture,Roles">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Solution Architecture – Designing Around a Specific Problem">
+  <meta name="twitter:description" content="Solution Architecture is the least well-defined component of Enterprise Architecture. In other words, the same term can encompass activities with differing scopes. Yet demand for Solution Architects continues to grow, highlighting the role’s rising importance. Let’s clarify its contours.
+What Is Solution Architecture? According to Gartner, Solution Architecture is the architectural description of a specific solution—a coherent and sufficient set of features that addresses a defined set of requirements.
+The Scaled Agile Framework (SAFe) describes Solution Architecture as defining and communicating a shared architectural and technical vision for work in progress.">
+
+      
+      <script async src="https://www.googletagmanager.com/gtag/js?id=G-GWK53XF6PL"></script>
+      <script>
+        var doNotTrack = false;
+        if ( false ) {
+          var dnt = (navigator.doNotTrack || window.doNotTrack || navigator.msDoNotTrack);
+          var doNotTrack = (dnt == "1" || dnt == "yes");
+        }
+        if (!doNotTrack) {
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+          gtag('config', 'G-GWK53XF6PL');
+        }
+      </script>
+    
+	
+  </head><body class="ma0 avenir bg-near-white production">
+
+    
+   
+  
+
+  
+  
+  
+  <header class="cover bg-center" style="background-image: url('https://architecti.blog/images/Copilot_20250806_073211-Architecture-1024x.jpeg');">
+    <div class="bg-black-60">
+      <nav class="pv3 ph3 ph4-ns" role="navigation">
+  <div class="flex-l center items-center justify-between">
+    <a href="/en/" class="f3 fw2 hover-white white-90 dib no-underline">
+      
+        IT Architecture
+      
+    </a>
+    <div class="flex-l items-center">
+      
+<h4></h4>
+<ul class="pl0 mr3">
+    
+    <li class="list f5 f4-ns fw4 dib pr3">
+        <a class="hover-white white-90 no-underline" href="/articles/2020/004-architecture-de-solution--conception-autour-dune-probl%C3%A9matique-pr%C3%A9cise/">fr</a>
+    </li>
+    
+</ul>
+
+
+      
+        <ul class="pl0 mr3">
+          
+          <li class="list f5 f4-ns fw4 dib pr3">
+            <a class="hover-white white-90 no-underline" href="/en/tags/enterprise-architecture/" title="Entreprise Architecture page">
+              Entreprise Architecture
+            </a>
+          </li>
+          
+          <li class="list f5 f4-ns fw4 dib pr3">
+            <a class="hover-white white-90 no-underline" href="/en/tags/application-architecture/" title="Application Architecture page">
+              Application Architecture
+            </a>
+          </li>
+          
+          <li class="list f5 f4-ns fw4 dib pr3">
+            <a class="hover-white white-90 no-underline" href="/en/tags/technology-architecture/" title="Technology Architecture page">
+              Technology Architecture
+            </a>
+          </li>
+          
+          <li class="list f5 f4-ns fw4 dib pr3">
+            <a class="hover-white white-90 no-underline" href="/en/articles/" title="Articles page">
+              Articles
+            </a>
+          </li>
+          
+          <li class="list f5 f4-ns fw4 dib pr3">
+            <a class="hover-white white-90 no-underline" href="/en/tagslist/" title="Find page">
+              Find
+            </a>
+          </li>
+          
+          <li class="list f5 f4-ns fw4 dib pr3">
+            <a class="hover-white white-90 no-underline" href="/en/about/" title="About page">
+              About
+            </a>
+          </li>
+          
+        </ul>
+      
+      <div class="ananke-socials"></div>
+
+    </div>
+  </div>
+</nav>
+
+      <div class="tc-l pv6 ph3 ph4-ns">
+        
+          <div class="f2 f1-l fw2 white-90 mb0 lh-title">Solution Architecture – Designing Around a Specific Problem</div>
+          
+        
+      </div>
+    </div>
+  </header>
+
+
+
+    <main class="pb7" role="main">
+      
+  
+  
+  <article class="flex-l mw8 center ph3 flex-wrap justify-between">
+    <header class="mt4 w-100">
+      <aside class="instapaper_ignoref b helvetica tracked ttu">
+          
+        All Articles in 2020
+      </aside><div id="sharing" class="mt3 ananke-socials"></div>
+<h1 class="f1 athelas mt3 mb1">Solution Architecture – Designing Around a Specific Problem</h1>
+      
+      <p class="tracked"><strong>Luc Bories</strong>
+      </p>
+      
+      
+      
+      <time class="f6 mv4 dib tracked" datetime="2020-12-05T21:07:39-04:00">December 5, 2020</time>
+      
+
+      
+      
+        <span class="f6 mv4 dib tracked"> - 3 minutes read </span>
+        <span class="f6 mv4 dib tracked"> - 466 words </span>
+      
+    </header>
+    <div class="nested-copy-line-height lh-copy serif f4 nested-links mid-gray pr4-l w-two-thirds-l"><p>Solution Architecture is the least well-defined component of Enterprise Architecture. In other words, the same term can encompass activities with differing scopes. Yet demand for Solution Architects continues to grow, highlighting the role’s rising importance. Let’s clarify its contours.</p>
+<h2 id="what-is-solution-architecture">What Is Solution Architecture?</h2>
+<p>According to Gartner, Solution Architecture is the architectural description of a specific solution—a coherent and sufficient set of features that addresses a defined set of requirements.</p>
+<p>The Scaled Agile Framework (SAFe) describes Solution Architecture as defining and communicating a shared architectural and technical vision for work in progress.</p>
+<p>The Open Group does not explicitly define Solution Architecture, but the Federation of Enterprise Architecture Professional Organizations positions it tactically—aimed at solving a particular problem—whereas Enterprise Architecture overall operates at the strategic level.</p>
+<p>In essence, Solution Architecture applies the guiding principles of Enterprise Architecture to a concrete challenge.</p>
+<p>It stands at the intersection of Functional Architecture, Application Architecture, Data Architecture and Technology Architecture. By combining these perspectives, Solution Architecture crafts the design of a particular solution. Conversely, implementation feedback enriches Enterprise Architecture with new patterns, rules or standards.</p>
+<p>Solution Architecture can manifest in scenarios such as decomposing an application into autonomous modules, tailoring a commercial offering to customer requirements, or addressing any use case at the boundary of functional and technical domains.</p>
+<p><img src="https://lucbories.com/wp-content/uploads/2020/10/Map-des-architectes.png" alt="Map of Architects"></p>
+<h2 id="role-and-responsibilities-of-the-solution-architect">Role and Responsibilities of the Solution Architect</h2>
+<p>While you’ll rarely find a single authoritative definition of Solution Architecture, the Solution Architect role is well documented. Whether as a dedicated position or one of several hats an architect wears, responsibilities can shift widely by context.</p>
+<p>Typically, a Solution Architect:</p>
+<ul>
+<li>Leads a multidisciplinary team of technical and functional experts</li>
+<li>Synthesizes strategic, functional and technical requirements</li>
+<li>Translates business needs into cohesive, implementable designs</li>
+</ul>
+<p>Within an enterprise architecture team, Solution Architects often tackle integration topics—designing how multiple applications or stakeholder systems interoperate—akin to an Integration Architect role.</p>
+<p>In a vendor context, a Solution Architect customizes and embeds packaged products into a client’s architecture, starting from solution templates and following through to deployment and operational handoff.</p>
+<hr>
+<p>The use of Solution Architects depends on organizational scale and structure:</p>
+<ul>
+<li>Large enterprises with high-level Enterprise Architectures employ Solution Architects for detailed design in specific domains.</li>
+<li>Mid-sized or smaller entities without a formal Enterprise Architecture leverage Solution Architecture to systematize parts of their information system.</li>
+</ul>
+<p>In every case, Solution Architecture adds value by delivering a focused, detailed solution for a specific challenge.</p>
+<hr>
+<p>By sitting at the crossroads of Functional, Application, Data and Technology architectures, Solution Architecture delivers precise, context-aware designs that align with business objectives while ensuring technical and security requirements are met.</p>
+<p>A key strength of Solution Architecture is enabling the creation and reuse of architectural building blocks to rapidly address similar problems. To do so effectively, it adheres to the principles and standards set by the overarching Enterprise Architecture framework.</p>
+<ul class="pa0">
+  
+   <li class="list di">
+     <a href="/en/tags/design/" class="link f5 grow br-pill ba ph3 pv2 mb2 dib black sans-serif no-underline">Design</a>
+   </li>
+  
+   <li class="list di">
+     <a href="/en/tags/solution-architecture/" class="link f5 grow br-pill ba ph3 pv2 mb2 dib black sans-serif no-underline">Solution Architecture</a>
+   </li>
+  
+   <li class="list di">
+     <a href="/en/tags/roles/" class="link f5 grow br-pill ba ph3 pv2 mb2 dib black sans-serif no-underline">Roles</a>
+   </li>
+  
+</ul>
+<div class="mt6 instapaper_ignoref">
+      
+      
+      </div>
+    </div>
+
+    <aside class="w-30-l mt6-l">
+
+
+
+
+  <div class="bg-light-gray pa3 nested-list-reset nested-copy-line-height nested-links">
+    <p class="f5 b mb3">Related</p>
+    <ul class="pa0 list">
+	   
+	     <li  class="mb2">
+          <a href="/en/articles/2020/002-architecture-technologique-ou-architecture-technique-vs-expertise-technique/">Technology Architecture or Technical Architecture vs Technical Expertise</a>
+        </li>
+	    
+	     <li  class="mb2">
+          <a href="/en/articles/2020/003-architecture-de-donn%C3%A9es-ou-la-gouvernance-de-linformation-d-entreprise/">Data Architecture or Governance of Enterprise Information</a>
+        </li>
+	    
+	     <li  class="mb2">
+          <a href="/en/articles/2020/001-architecture-d-entreprise-ou-la-gouvernance-de-la-conception-du-si/">Enterprise Architecture or Governance of IS Design</a>
+        </li>
+	    
+    </ul>
+</div>
+
+</aside>
+
+  </article>
+
+    </main>
+    <footer class="bg-black bottom-0 w-100 pa3" role="contentinfo">
+  <div class="flex justify-between">
+  <a class="f4 fw4 hover-white white-70 dn dib-ns pv2 ph3 no-underline" href="https://architecti.blog/en/" >
+    &copy;  IT Architecture 2025 
+  </a>
+    <div><div class="ananke-socials"></div>
+</div>
+  </div>
+</footer>
+
+  </body>
+</html>

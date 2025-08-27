@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Enterprise Architecture on IT Architecture</title>
+    <link>https://architecti.blog/en/tags/enterprise-architecture/</link>
+    <description>Recent content in Enterprise Architecture on IT Architecture</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 05 Aug 2021 21:07:39 -0400</lastBuildDate>
+    <atom:link href="https://architecti.blog/en/tags/enterprise-architecture/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Key Steps in Digital Transformation</title>
+      <link>https://architecti.blog/en/articles/2021/002-les-%C3%A9tapes-cl%C3%A9s-de-la-transformation-num%C3%A9rique/</link>
+      <pubDate>Thu, 05 Aug 2021 21:07:39 -0400</pubDate>
+      <guid>https://architecti.blog/en/articles/2021/002-les-%C3%A9tapes-cl%C3%A9s-de-la-transformation-num%C3%A9rique/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Introduction&lt;/strong&gt;&#xA;Many organizations embark on digital transformation. Some succeed on their journey toward digital adoption, but few achieve the full metamorphosis promised by the new digital world.&lt;/p&gt;&#xA;&lt;p&gt;There is no one-size-fits-all playbook or universal target for leaders. Every company has its own industry, operations, history, vision, workforce and financial resources.&lt;/p&gt;&#xA;&lt;p&gt;Nonetheless, experience reveals key high-level prerequisites for any successful digital transformation.&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;observe-your-environment&#34;&gt;Observe Your Environment&lt;/h2&gt;&#xA;&lt;p&gt;The first step is to learn from peers within your industry—and beyond—to broaden your perspective. This was the theme of a November seminar organized by the World Economic Forum, attended by over twenty top executives.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>4 Myths About Digital Transformation</title>
+      <link>https://architecti.blog/en/articles/2021/005-4-mythes-sur-la-transformation-num%C3%A9rique/</link>
+      <pubDate>Thu, 13 May 2021 21:17:30 -0400</pubDate>
+      <guid>https://architecti.blog/en/articles/2021/005-4-mythes-sur-la-transformation-num%C3%A9rique/</guid>
+      <description>&lt;p&gt;Digital transformation is far from a new concept. In recent years, companies have rapidly adopted technologies—from the Internet of Things (IoT) and blockchain to chatbots, machine learning, and virtual reality. Almost every organization engages in some form of digital transformation, yet few truly reap its benefits.&lt;/p&gt;&#xA;&lt;p&gt;A Bain &amp;amp; Company analysis found that fewer than 10 percent of global enterprises actually achieve their forecasted results from digital investments. In other words, over 90 percent still struggle to fulfill the promise of a technology-driven business model.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>How to Innovate in IT Architecture</title>
+      <link>https://architecti.blog/en/articles/2021/004-comment-innover-en-architecture-it/</link>
+      <pubDate>Mon, 05 Apr 2021 21:18:39 -0400</pubDate>
+      <guid>https://architecti.blog/en/articles/2021/004-comment-innover-en-architecture-it/</guid>
+      <description>&lt;p&gt;I have just reviewed the Boston Consulting Group report, “Most Innovative Companies 2021 – Overcoming the Innovation Readiness Gap – April 2021.” Let’s explore how to innovate in IT architecture.&lt;/p&gt;&#xA;&lt;p&gt;This report summarizes interviews with 1,500 innovation leaders worldwide.&lt;/p&gt;&#xA;&lt;p&gt;The key takeaway is that innovation has become one of the top three priorities for their organizations.&lt;/p&gt;&#xA;&lt;p&gt;Before examining how innovation applies to IT architecture, let’s walk through this report.&lt;/p&gt;&#xA;&lt;p&gt;One striking aspect of the top 50 most innovative companies list is the dominance of technology firms.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Enterprise Architecture or Governance of IS Design</title>
+      <link>https://architecti.blog/en/articles/2020/001-architecture-d-entreprise-ou-la-gouvernance-de-la-conception-du-si/</link>
+      <pubDate>Sat, 05 Sep 2020 21:07:39 -0400</pubDate>
+      <guid>https://architecti.blog/en/articles/2020/001-architecture-d-entreprise-ou-la-gouvernance-de-la-conception-du-si/</guid>
+      <description>&lt;p&gt;Enterprise Architecture establishes, enforces and evolves the guiding design principles of the Information System (IS). It is, in essence, the governance of IS design—from urbanizing the IS, through data governance, to application design.&lt;/p&gt;&#xA;&lt;p&gt;To avoid reinventing the wheel and to speak a common language across and within organizations, reference frameworks provide standard terminologies and methodologies. These frameworks may focus on process or on graphical representation. See &lt;a href=&#34;https://architecti.blog/posts/diff%C3%A9rences-entre-togaf-et-archimate/&#34;&gt;Differences between TOGAF and ArchiMate&lt;/a&gt;.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    
+    <title>L’architecture neuromorphique : quand l’informatique imite le cerveau | ArchitecTI</title>
+    <meta name="viewport" content="width=device-width,minimum-scale=1">
+    <meta name="description" content="Introduction
+Depuis les débuts de l’informatique, les ingénieurs ont cherché à reproduire les capacités cognitives humaines à travers des machines. Si les ordinateurs classiques ont permis des avancées spectaculaires dans le calcul, la logique et la communication, ils restent fondamentalement différents du cerveau humain dans leur fonctionnement. C’est dans ce contexte qu’émerge une discipline fascinante : l’architecture neuromorphique, qui vise à concevoir des systèmes informatiques inspirés du fonctionnement biologique du cerveau.">
+    <meta name="generator" content="Hugo 0.148.2">
+    
+    
+    
+      <meta name="robots" content="index, follow">
+    
+    <meta name="author" content="Luc Bories">
+    
+
+    
+<link rel="stylesheet" href="/ananke/css/main.min.8d048772ae72ab11245a0e296d1f2a36d3e3dd376c6c867394d6cc659c68fc37.css" >
+
+
+
+
+    
+
+
+    
+      
+
+    
+
+    
+
+    
+      <link rel="canonical" href="https://architecti.blog/articles/2025/l-architecture-neuromorphique/">
+    
+
+    <meta property="og:url" content="https://architecti.blog/articles/2025/l-architecture-neuromorphique/">
+  <meta property="og:site_name" content="ArchitecTI">
+  <meta property="og:title" content="L’architecture neuromorphique : quand l’informatique imite le cerveau">
+  <meta property="og:description" content="Introduction Depuis les débuts de l’informatique, les ingénieurs ont cherché à reproduire les capacités cognitives humaines à travers des machines. Si les ordinateurs classiques ont permis des avancées spectaculaires dans le calcul, la logique et la communication, ils restent fondamentalement différents du cerveau humain dans leur fonctionnement. C’est dans ce contexte qu’émerge une discipline fascinante : l’architecture neuromorphique, qui vise à concevoir des systèmes informatiques inspirés du fonctionnement biologique du cerveau.">
+  <meta property="og:locale" content="fr">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="articles">
+    <meta property="article:published_time" content="2021-08-20T21:07:39-04:00">
+    <meta property="article:modified_time" content="2021-08-20T21:07:39-04:00">
+    <meta property="article:tag" content="Conception">
+    <meta property="article:tag" content="Architecture Technologique">
+    <meta property="article:tag" content="CPU">
+
+  <meta itemprop="name" content="L’architecture neuromorphique : quand l’informatique imite le cerveau">
+  <meta itemprop="description" content="Introduction Depuis les débuts de l’informatique, les ingénieurs ont cherché à reproduire les capacités cognitives humaines à travers des machines. Si les ordinateurs classiques ont permis des avancées spectaculaires dans le calcul, la logique et la communication, ils restent fondamentalement différents du cerveau humain dans leur fonctionnement. C’est dans ce contexte qu’émerge une discipline fascinante : l’architecture neuromorphique, qui vise à concevoir des systèmes informatiques inspirés du fonctionnement biologique du cerveau.">
+  <meta itemprop="datePublished" content="2021-08-20T21:07:39-04:00">
+  <meta itemprop="dateModified" content="2021-08-20T21:07:39-04:00">
+  <meta itemprop="wordCount" content="840">
+  <meta itemprop="keywords" content="Conception,Architecture Technologique,CPU">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="L’architecture neuromorphique : quand l’informatique imite le cerveau">
+  <meta name="twitter:description" content="Introduction Depuis les débuts de l’informatique, les ingénieurs ont cherché à reproduire les capacités cognitives humaines à travers des machines. Si les ordinateurs classiques ont permis des avancées spectaculaires dans le calcul, la logique et la communication, ils restent fondamentalement différents du cerveau humain dans leur fonctionnement. C’est dans ce contexte qu’émerge une discipline fascinante : l’architecture neuromorphique, qui vise à concevoir des systèmes informatiques inspirés du fonctionnement biologique du cerveau.">
+
+      
+      <script async src="https://www.googletagmanager.com/gtag/js?id=G-GWK53XF6PL"></script>
+      <script>
+        var doNotTrack = false;
+        if ( false ) {
+          var dnt = (navigator.doNotTrack || window.doNotTrack || navigator.msDoNotTrack);
+          var doNotTrack = (dnt == "1" || dnt == "yes");
+        }
+        if (!doNotTrack) {
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+          gtag('config', 'G-GWK53XF6PL');
+        }
+      </script>
+    
+	
+  </head><body class="ma0 avenir bg-near-white production">
+
+    
+   
+  
+
+  
+  
+  
+  <header class="cover bg-center" style="background-image: url('https://architecti.blog/images/Copilot_20250818_174848-ArchitectureNeuromorphic-1024x.jpg');">
+    <div class="bg-black-60">
+      <nav class="pv3 ph3 ph4-ns" role="navigation">
+  <div class="flex-l center items-center justify-between">
+    <a href="/" class="f3 fw2 hover-white white-90 dib no-underline">
+      
+        ArchitecTI
+      
+    </a>
+    <div class="flex-l items-center">
+      
+
+      
+        <ul class="pl0 mr3">
+          
+          <li class="list f5 f4-ns fw4 dib pr3">
+            <a class="hover-white white-90 no-underline" href="/tags/architecture-dentreprise/" title="Architecture d&#39;Entreprise page">
+              Architecture d&#39;Entreprise
+            </a>
+          </li>
+          
+          <li class="list f5 f4-ns fw4 dib pr3">
+            <a class="hover-white white-90 no-underline" href="/tags/architecture-applicative/" title="Architecture Applicative page">
+              Architecture Applicative
+            </a>
+          </li>
+          
+          <li class="list f5 f4-ns fw4 dib pr3">
+            <a class="hover-white white-90 no-underline" href="/tags/architecture-technologique/" title="Architecture Technologique page">
+              Architecture Technologique
+            </a>
+          </li>
+          
+          <li class="list f5 f4-ns fw4 dib pr3">
+            <a class="hover-white white-90 no-underline" href="/articles/" title="Articles page">
+              Articles
+            </a>
+          </li>
+          
+          <li class="list f5 f4-ns fw4 dib pr3">
+            <a class="hover-white white-90 no-underline" href="/tagslist/" title="Rechercher page">
+              Rechercher
+            </a>
+          </li>
+          
+          <li class="list f5 f4-ns fw4 dib pr3">
+            <a class="hover-white white-90 no-underline" href="/about/" title="À propos page">
+              À propos
+            </a>
+          </li>
+          
+        </ul>
+      
+      <div class="ananke-socials"></div>
+
+    </div>
+  </div>
+</nav>
+
+      <div class="tc-l pv6 ph3 ph4-ns">
+        
+          <div class="f2 f1-l fw2 white-90 mb0 lh-title">L’architecture neuromorphique : quand l’informatique imite le cerveau</div>
+          
+        
+      </div>
+    </div>
+  </header>
+
+
+
+    <main class="pb7" role="main">
+      
+  
+  
+  <article class="flex-l mw8 center ph3 flex-wrap justify-between">
+    <header class="mt4 w-100">
+      <aside class="instapaper_ignoref b helvetica tracked ttu">
+          
+        Tous les Articles 2025
+      </aside><div id="sharing" class="mt3 ananke-socials"></div>
+<h1 class="f1 athelas mt3 mb1">L’architecture neuromorphique : quand l’informatique imite le cerveau</h1>
+      
+      <p class="tracked"><strong>Luc Bories</strong>
+      </p>
+      
+      
+      
+      <time class="f6 mv4 dib tracked" datetime="2021-08-20T21:07:39-04:00">août 20, 2021</time>
+      
+
+      
+      
+        <span class="f6 mv4 dib tracked"> - 4 minutes de lecture </span>
+        <span class="f6 mv4 dib tracked"> - 840 mots </span>
+      
+    </header>
+    <div class="nested-copy-line-height lh-copy serif f4 nested-links mid-gray pr4-l w-two-thirds-l"><h2 id="introduction">Introduction</h2>
+<p>Depuis les débuts de l’informatique, les ingénieurs ont cherché à reproduire les capacités cognitives humaines à travers des machines. Si les ordinateurs classiques ont permis des avancées spectaculaires dans le calcul, la logique et la communication, ils restent fondamentalement différents du cerveau humain dans leur fonctionnement. C’est dans ce contexte qu’émerge une discipline fascinante : <strong>l’architecture neuromorphique</strong>, qui vise à concevoir des systèmes informatiques inspirés du fonctionnement biologique du cerveau.</p>
+<p>Cette approche ne se contente pas de simuler des réseaux de neurones artificiels comme ceux utilisés dans l’intelligence artificielle classique. Elle cherche à <strong>reproduire physiquement et structurellement</strong> les mécanismes neuronaux, synaptiques et sensoriels du cerveau humain dans des circuits électroniques. L’objectif ? Créer des machines plus intelligentes, plus efficaces énergétiquement, et capables d’apprendre et de s’adapter comme les êtres vivants.</p>
+<h2 id="1-quest-ce-que-larchitecture-neuromorphique-">1. Qu’est-ce que l’architecture neuromorphique ?</h2>
+<p>Le terme « neuromorphique » a été introduit dans les années 1980 par <strong>Carver Mead</strong>, pionnier de l’électronique analogique et de la neuro-ingénierie. Il désigne une approche de conception de circuits électroniques qui <strong>s’inspire directement de la structure et du fonctionnement du système nerveux</strong>.</p>
+<p>Contrairement aux architectures classiques fondées sur le modèle de von Neumann (séparation entre mémoire et unité de traitement), les architectures neuromorphiques cherchent à <strong>intégrer le traitement et la mémoire dans un même système</strong>, à l’image des neurones biologiques.</p>
+<h3 id="principes-clés">Principes clés</h3>
+<ul>
+<li><strong>Traitement parallèle massif</strong> : comme le cerveau, ces systèmes traitent l’information simultanément dans de nombreux nœuds.</li>
+<li><strong>Événements asynchrones</strong> : les neurones ne s’activent que lorsqu’un signal est reçu, ce qui réduit la consommation énergétique.</li>
+<li><strong>Plasticité synaptique</strong> : les connexions entre neurones peuvent évoluer, permettant l’apprentissage.</li>
+<li><strong>Codage temporel</strong> : l’information est encodée dans le timing des impulsions, et non dans des valeurs numériques fixes.</li>
+</ul>
+<h2 id="2-le-cerveau-comme-modèle">2. Le cerveau comme modèle</h2>
+<p>Le cerveau humain est une merveille d’efficacité. Il consomme environ <strong>20 watts</strong>, soit l’équivalent d’une ampoule basse consommation, pour gérer des milliards de neurones et trillions de connexions synaptiques. Il est capable de reconnaître des visages, de comprendre des langues, de prendre des décisions complexes, et d’apprendre en continu.</p>
+<h3 id="comparaison-cerveau-vs-ordinateur">Comparaison cerveau vs ordinateur</h3>
+<table>
+  <thead>
+      <tr>
+          <th>Caractéristique</th>
+          <th>Cerveau humain</th>
+          <th>Ordinateur classique</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>Nombre de neurones</td>
+          <td>~86 milliards</td>
+          <td>Quelques cœurs CPU</td>
+      </tr>
+      <tr>
+          <td>Connexions</td>
+          <td>&gt;100 trillions</td>
+          <td>Bus et registres</td>
+      </tr>
+      <tr>
+          <td>Énergie</td>
+          <td>~20 W</td>
+          <td>100–500 W</td>
+      </tr>
+      <tr>
+          <td>Apprentissage</td>
+          <td>Continu, adaptatif</td>
+          <td>Supervisé, rigide</td>
+      </tr>
+      <tr>
+          <td>Traitement</td>
+          <td>Massivement parallèle</td>
+          <td>Séquentiel ou limité</td>
+      </tr>
+  </tbody>
+</table>
+<p>L’architecture neuromorphique cherche à <strong>répliquer cette efficacité et cette plasticité</strong> dans des systèmes électroniques.</p>
+<h2 id="3-les-composants-dun-système-neuromorphique">3. Les composants d’un système neuromorphique</h2>
+<p>Un système neuromorphique repose sur plusieurs éléments clés :</p>
+<h3 id="a-les-neurones-artificiels">a) Les neurones artificiels</h3>
+<p>Ce sont des unités de traitement qui simulent le comportement des neurones biologiques. Ils reçoivent des signaux, les intègrent, et déclenchent une impulsion si un seuil est atteint.</p>
+<h3 id="b-les-synapses-électroniques">b) Les synapses électroniques</h3>
+<p>Elles modulent la force des connexions entre neurones. Certaines technologies utilisent des <strong>memristors</strong>, des composants capables de mémoriser une résistance variable, pour simuler la plasticité synaptique.</p>
+<h3 id="c-le-codage-par-impulsions-spiking">c) Le codage par impulsions (spiking)</h3>
+<p>Contrairement aux réseaux neuronaux classiques qui utilisent des valeurs continues, les systèmes neuromorphiques utilisent des <strong>spiking neural networks (SNN)</strong>, où l’information est transmise sous forme d’impulsions discrètes dans le temps.</p>
+<h3 id="d-lapprentissage-local">d) L’apprentissage local</h3>
+<p>L’apprentissage se fait souvent selon des règles biologiques comme <strong>Spike-Timing Dependent Plasticity (STDP)</strong>, où la force synaptique dépend du timing relatif entre les impulsions du neurone pré- et post-synaptique.</p>
+<h2 id="4-les-avantages-de-larchitecture-neuromorphique">4. Les avantages de l’architecture neuromorphique</h2>
+<h3 id="efficacité-énergétique">Efficacité énergétique</h3>
+<p>Les systèmes neuromorphiques consomment beaucoup moins d’énergie que les architectures classiques, car ils n’activent les neurones que lorsque c’est nécessaire.</p>
+<h3 id="apprentissage-en-temps-réel">Apprentissage en temps réel</h3>
+<p>Ils peuvent apprendre de manière non supervisée, en continu, sans avoir besoin de vastes ensembles de données annotées.</p>
+<h3 id="temps-de-réponse-rapide">Temps de réponse rapide</h3>
+<p>Le traitement parallèle et le codage temporel permettent des réponses rapides, idéales pour les applications embarquées.</p>
+<h3 id="adaptabilité">Adaptabilité</h3>
+<p>Ces systèmes peuvent s’adapter à des environnements changeants, comme le ferait un organisme vivant.</p>
+<h2 id="5-exemples-de-projets-et-de-puces-neuromorphiques">5. Exemples de projets et de puces neuromorphiques</h2>
+<h3 id="intel-loihi">Intel Loihi</h3>
+<p>Intel a développé <strong>Loihi</strong>, une puce neuromorphique capable de simuler des millions de neurones et de synapses. Elle est utilisée pour des recherches en robotique, perception sensorielle, et IA embarquée.</p>
+<h3 id="ibm-truenorth">IBM TrueNorth</h3>
+<p>IBM a conçu <strong>TrueNorth</strong>, une puce avec 1 million de neurones et 256 millions de synapses. Elle consomme moins de 100 mW et est utilisée pour la reconnaissance d’images et de sons.</p>
+<h3 id="brainscales-heidelberg">BrainScaleS (Heidelberg)</h3>
+<p>Ce projet européen combine électronique analogique et numérique pour simuler des réseaux neuronaux biologiques à grande échelle.</p>
+<h3 id="hala-point-intel-2025">Hala Point (Intel, 2025)</h3>
+<p>La puce <strong>Hala Point</strong>, annoncée comme la plus grande architecture neuromorphique jamais conçue, contient <strong>1,15 milliard de neurones artificiels</strong> et <strong>120 milliards de synapses</strong>, surpassant même le cerveau humain en densité de traitement.</p>
+<h2 id="6-applications-concrètes">6. Applications concrètes</h2>
+<h3 id="robotique-autonome">Robotique autonome</h3>
+<p>Les robots équipés de puces neuromorphiques peuvent percevoir leur environnement, prendre des décisions rapides, et s’adapter à des terrains inconnus.</p>
+<h3 id="interfaces-cerveau-machine">Interfaces cerveau-machine</h3>
+<p>Les architectures neuromorphiques sont idéales pour interpréter les signaux neuronaux humains et les traduire en commandes informatiques.</p>
+<h3 id="santé-mentale-et-neurologie">Santé mentale et neurologie</h3>
+<p>Des simulations de circuits cérébraux peuvent aider à comprendre des maladies comme Alzheimer, Parkinson ou l’épilepsie.</p>
+<h3 id="appareils-mobiles-et-iot">Appareils mobiles et IoT</h3>
+<p>Grâce à leur faible consommation, ces puces peuvent être intégrées dans des smartphones, montres connectées, ou capteurs intelligents.</p>
+<h2 id="7-limites-et">7. Limites et</h2>
+<ul class="pa0">
+  
+   <li class="list di">
+     <a href="/tags/conception/" class="link f5 grow br-pill ba ph3 pv2 mb2 dib black sans-serif no-underline">Conception</a>
+   </li>
+  
+   <li class="list di">
+     <a href="/tags/architecture-technologique/" class="link f5 grow br-pill ba ph3 pv2 mb2 dib black sans-serif no-underline">Architecture Technologique</a>
+   </li>
+  
+   <li class="list di">
+     <a href="/tags/cpu/" class="link f5 grow br-pill ba ph3 pv2 mb2 dib black sans-serif no-underline">CPU</a>
+   </li>
+  
+</ul>
+<div class="mt6 instapaper_ignoref">
+      
+      
+      </div>
+    </div>
+
+    <aside class="w-30-l mt6-l">
+
+
+
+
+  <div class="bg-light-gray pa3 nested-list-reset nested-copy-line-height nested-links">
+    <p class="f5 b mb3">Lié</p>
+    <ul class="pa0 list">
+	   
+	     <li  class="mb2">
+          <a href="/articles/2021/006-aws-vs-azure/">AWS Vs Azure</a>
+        </li>
+	    
+	     <li  class="mb2">
+          <a href="/articles/2020/002-architecture-technologique-ou-architecture-technique-vs-expertise-technique/">Architecture Technologique Ou Architecture Technique Vs Expertise Technique</a>
+        </li>
+	    
+	     <li  class="mb2">
+          <a href="/articles/2021/003-diff%C3%A9rences-entre-togaf-et-archimate/">Différences Entre TOGAF Et ArchiMate</a>
+        </li>
+	    
+	     <li  class="mb2">
+          <a href="/articles/2021/001-quelle-architecture-applicative-choisir/">Quelle Architecture Applicative choisir</a>
+        </li>
+	    
+	     <li  class="mb2">
+          <a href="/articles/2020/004-architecture-de-solution--conception-autour-dune-probl%C3%A9matique-pr%C3%A9cise/">Architecture De Solution – Conception Autour D’une Problématique Précise</a>
+        </li>
+	    
+    </ul>
+</div>
+
+</aside>
+
+  </article>
+
+    </main>
+    <footer class="bg-black bottom-0 w-100 pa3" role="contentinfo">
+  <div class="flex justify-between">
+  <a class="f4 fw4 hover-white white-70 dn dib-ns pv2 ph3 no-underline" href="https://architecti.blog/" >
+    &copy;  ArchitecTI 2025 
+  </a>
+    <div><div class="ananke-socials"></div>
+</div>
+  </div>
+</footer>
+
+  </body>
+</html>

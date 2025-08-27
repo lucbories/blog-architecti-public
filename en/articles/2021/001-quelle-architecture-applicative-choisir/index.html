@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    
+    <title>Which Application Architecture to Choose | IT Architecture</title>
+    <meta name="viewport" content="width=device-width,minimum-scale=1">
+    <meta name="description" content="Choosing an Application Architecture is a pivotal decision impacting team structure, workflows, technology choices, skill requirements, and interactions with internal users, clients, and partners. So, which application architecture in 2021?
+Preface
+This article focuses not on technology vendors or platforms but on architectural choices. Given the multitude of technical solutions across diverse scenarios, covering them all in one piece is impossible. Future posts will address specific technologies, which are equally important.">
+    <meta name="generator" content="Hugo 0.148.2">
+    
+    
+    
+      <meta name="robots" content="index, follow">
+    
+    <meta name="author" content="Luc Bories">
+    
+
+    
+<link rel="stylesheet" href="/ananke/css/main.min.8d048772ae72ab11245a0e296d1f2a36d3e3dd376c6c867394d6cc659c68fc37.css" >
+
+
+
+
+    
+
+
+    
+      
+
+    
+
+    
+
+    
+      <link rel="canonical" href="https://architecti.blog/en/articles/2021/001-quelle-architecture-applicative-choisir/">
+    
+
+    <meta property="og:url" content="https://architecti.blog/en/articles/2021/001-quelle-architecture-applicative-choisir/">
+  <meta property="og:site_name" content="IT Architecture">
+  <meta property="og:title" content="Which Application Architecture to Choose">
+  <meta property="og:description" content="Choosing an Application Architecture is a pivotal decision impacting team structure, workflows, technology choices, skill requirements, and interactions with internal users, clients, and partners. So, which application architecture in 2021?
+Preface This article focuses not on technology vendors or platforms but on architectural choices. Given the multitude of technical solutions across diverse scenarios, covering them all in one piece is impossible. Future posts will address specific technologies, which are equally important.">
+  <meta property="og:locale" content="en">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="articles">
+    <meta property="article:published_time" content="2021-01-05T21:07:39-04:00">
+    <meta property="article:modified_time" content="2021-01-05T21:07:39-04:00">
+    <meta property="article:tag" content="Design">
+    <meta property="article:tag" content="Application Architecture">
+    <meta property="article:tag" content="Methodology">
+
+  <meta itemprop="name" content="Which Application Architecture to Choose">
+  <meta itemprop="description" content="Choosing an Application Architecture is a pivotal decision impacting team structure, workflows, technology choices, skill requirements, and interactions with internal users, clients, and partners. So, which application architecture in 2021?
+Preface This article focuses not on technology vendors or platforms but on architectural choices. Given the multitude of technical solutions across diverse scenarios, covering them all in one piece is impossible. Future posts will address specific technologies, which are equally important.">
+  <meta itemprop="datePublished" content="2021-01-05T21:07:39-04:00">
+  <meta itemprop="dateModified" content="2021-01-05T21:07:39-04:00">
+  <meta itemprop="wordCount" content="1257">
+  <meta itemprop="keywords" content="Design,Application Architecture,Methodology,architectural choices,Application Architecture blueprint">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Which Application Architecture to Choose">
+  <meta name="twitter:description" content="Choosing an Application Architecture is a pivotal decision impacting team structure, workflows, technology choices, skill requirements, and interactions with internal users, clients, and partners. So, which application architecture in 2021?
+Preface This article focuses not on technology vendors or platforms but on architectural choices. Given the multitude of technical solutions across diverse scenarios, covering them all in one piece is impossible. Future posts will address specific technologies, which are equally important.">
+
+      
+      <script async src="https://www.googletagmanager.com/gtag/js?id=G-GWK53XF6PL"></script>
+      <script>
+        var doNotTrack = false;
+        if ( false ) {
+          var dnt = (navigator.doNotTrack || window.doNotTrack || navigator.msDoNotTrack);
+          var doNotTrack = (dnt == "1" || dnt == "yes");
+        }
+        if (!doNotTrack) {
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+          gtag('config', 'G-GWK53XF6PL');
+        }
+      </script>
+    
+	
+  </head><body class="ma0 avenir bg-near-white production">
+
+    
+   
+  
+
+  
+  
+  
+  <header class="cover bg-center" style="background-image: url('https://architecti.blog/images/Copilot_20250806_073211.png');">
+    <div class="bg-black-60">
+      <nav class="pv3 ph3 ph4-ns" role="navigation">
+  <div class="flex-l center items-center justify-between">
+    <a href="/en/" class="f3 fw2 hover-white white-90 dib no-underline">
+      
+        IT Architecture
+      
+    </a>
+    <div class="flex-l items-center">
+      
+<h4></h4>
+<ul class="pl0 mr3">
+    
+    <li class="list f5 f4-ns fw4 dib pr3">
+        <a class="hover-white white-90 no-underline" href="/articles/2021/001-quelle-architecture-applicative-choisir/">fr</a>
+    </li>
+    
+</ul>
+
+
+      
+        <ul class="pl0 mr3">
+          
+          <li class="list f5 f4-ns fw4 dib pr3">
+            <a class="hover-white white-90 no-underline" href="/en/tags/enterprise-architecture/" title="Entreprise Architecture page">
+              Entreprise Architecture
+            </a>
+          </li>
+          
+          <li class="list f5 f4-ns fw4 dib pr3">
+            <a class="hover-white white-90 no-underline" href="/en/tags/application-architecture/" title="Application Architecture page">
+              Application Architecture
+            </a>
+          </li>
+          
+          <li class="list f5 f4-ns fw4 dib pr3">
+            <a class="hover-white white-90 no-underline" href="/en/tags/technology-architecture/" title="Technology Architecture page">
+              Technology Architecture
+            </a>
+          </li>
+          
+          <li class="list f5 f4-ns fw4 dib pr3">
+            <a class="hover-white white-90 no-underline" href="/en/articles/" title="Articles page">
+              Articles
+            </a>
+          </li>
+          
+          <li class="list f5 f4-ns fw4 dib pr3">
+            <a class="hover-white white-90 no-underline" href="/en/tagslist/" title="Find page">
+              Find
+            </a>
+          </li>
+          
+          <li class="list f5 f4-ns fw4 dib pr3">
+            <a class="hover-white white-90 no-underline" href="/en/about/" title="About page">
+              About
+            </a>
+          </li>
+          
+        </ul>
+      
+      <div class="ananke-socials"></div>
+
+    </div>
+  </div>
+</nav>
+
+      <div class="tc-l pv6 ph3 ph4-ns">
+        
+          <div class="f2 f1-l fw2 white-90 mb0 lh-title">Which Application Architecture to Choose</div>
+          
+        
+      </div>
+    </div>
+  </header>
+
+
+
+    <main class="pb7" role="main">
+      
+  
+  
+  <article class="flex-l mw8 center ph3 flex-wrap justify-between">
+    <header class="mt4 w-100">
+      <aside class="instapaper_ignoref b helvetica tracked ttu">
+          
+        All Articles in 2021
+      </aside><div id="sharing" class="mt3 ananke-socials"></div>
+<h1 class="f1 athelas mt3 mb1">Which Application Architecture to Choose</h1>
+      
+      <p class="tracked"><strong>Luc Bories</strong>
+      </p>
+      
+      
+      
+      <time class="f6 mv4 dib tracked" datetime="2021-01-05T21:07:39-04:00">January 5, 2021</time>
+      
+
+      
+      
+        <span class="f6 mv4 dib tracked"> - 6 minutes read </span>
+        <span class="f6 mv4 dib tracked"> - 1257 words </span>
+      
+    </header>
+    <div class="nested-copy-line-height lh-copy serif f4 nested-links mid-gray pr4-l w-two-thirds-l"><p>Choosing an Application Architecture is a pivotal decision impacting team structure, workflows, technology choices, skill requirements, and interactions with internal users, clients, and partners. So, which application architecture in 2021?</p>
+<h2 id="preface">Preface</h2>
+<p>This article focuses not on technology vendors or platforms but on architectural choices. Given the multitude of technical solutions across diverse scenarios, covering them all in one piece is impossible. Future posts will address specific technologies, which are equally important.</p>
+<p>We’ll refer to “enterprises” for simplicity, but this applies equally to government organizations, non-profits, educational institutions, and any legal entity conducting activities.</p>
+<p>Before selecting the application architecture best suited to your project and organization, you must clearly define your starting assumptions. That’s the goal of this article. Let’s explore the essential points for defining your Application Architecture.</p>
+<hr>
+<h2 id="defining-an-applications-scope">Defining an Application’s Scope</h2>
+<p>First, understand what an application truly is—more than just code. A well-defined Application Architecture must encompass business requirements, domain rules, security, compliance, data management, performance, resilience, legacy integrations, user and partner interactions, roadmap alignment, and Enterprise Architecture directives.</p>
+<p>Ask yourself: who will use our application?</p>
+<hr>
+<h2 id="application-boundaries">Application Boundaries</h2>
+<p>Begin by mapping the application’s scope: internal users, customers, partners, and suppliers. What is the purpose? Serving a small internal team or providing a service to millions online?</p>
+<p>These cases demand different approaches:</p>
+<ul>
+<li>A purely internal application for a team, department, site, country, or region</li>
+<li>An application for partners, suppliers, or distributors</li>
+<li>A public application for a small or very large audience across one or multiple countries</li>
+</ul>
+<p>User type influences security, privacy, and regulatory requirements. User location determines the need for specific optimization and availability strategies.</p>
+<p>Interaction modes also drive architectural choices:</p>
+<ul>
+<li>Web interface</li>
+<li>Desktop client</li>
+<li>Data exchange (files, web services, messages, APIs)</li>
+<li>Mobile or tablet client</li>
+<li>Automated systems (ATMs, factory robots)</li>
+</ul>
+<p>Reaching a broad user base typically favors web or mobile interfaces, which tend to be simpler and more cost-effective than bespoke desktop solutions.</p>
+<hr>
+<h2 id="business-requirements">Business Requirements</h2>
+<p>Exhaustively cataloging business requirements is challenging. Listing required features and domain rules is never straightforward. Migrating or rewriting an existing application can be even harder.</p>
+<p>Some systems have decades of history with undocumented functionality. You may need to dive into code to extract and adapt legacy business rules.</p>
+<p>Additionally, every organization faces legal, contractual, and privacy constraints based on its industry. Data sensitivity affects compliance rules and the tools you choose. Even terminology can be domain-specific.</p>
+<p>Key deliverables include:</p>
+<ul>
+<li>Enterprise Architecture guidelines for defining and implementing the Application Architecture</li>
+<li>Application roadmaps to inform architectural decisions and timelines</li>
+<li>Business rules describing required behaviors for actions and processes</li>
+<li>Validation rules detailing data-checking logic</li>
+<li>Feature specifications outlining expected functional blocks</li>
+<li>Business processes or use cases specifying application behavior</li>
+<li>Component maps decomposing the application into functional modules</li>
+</ul>
+<hr>
+<h2 id="application-architecture-budget">Application Architecture Budget</h2>
+<p>In an ideal world, business needs are reviewed holistically, then:</p>
+<ol>
+<li>Define an Enterprise or Application Architecture blueprint.</li>
+<li>Make architecture choices for each application or component.</li>
+<li>Estimate budgets.</li>
+<li>Launch projects.</li>
+</ol>
+<p>In reality, individual business needs often arrive with fixed budgets. You then design an Application Architecture constrained by legacy systems and available funds. This compromise approach can yield an IT landscape of disparate apps requiring extensive integration.</p>
+<p>Another scenario is breaking a large monolith into multiple collaborating applications. Functional slices, budgets, and team availability drive the decomposition. Without a strong, shared framework, divergent methods, technologies, and integrations emerge—resulting in unforeseen integration costs and complexity.</p>
+<p>Once architecture decisions, processes, and methodologies are in place, consider their impact on your organization’s daily operations.</p>
+<p>Choosing an Application Architecture is a pivotal decision that influences team organization, work methods, technology choices, required skills, and interactions with internal users, clients, and partners. So, which application architecture in 2021?</p>
+<h2 id="impacts-of-application-architecture-choices">Impacts of Application Architecture Choices</h2>
+<p>Architectural decisions have far-reaching effects across multiple domains of the organization, not just at the application layer:</p>
+<ul>
+<li>Existing systems must adapt. Rarely is an application fully autonomous—numerous integrations between systems are usually required.</li>
+<li>Competencies need to be developed or acquired.</li>
+<li>Methodologies must be communicated and enforced.</li>
+<li>New vendors must be selected and existing contracts renegotiated.</li>
+<li>Partners must be informed—or even involved—if they need to adapt.</li>
+<li>Internal teams, end users, and IT staff must change habits or undergo training.</li>
+<li>Integration between application modules, between distinct applications, or with external vendors and partners needs to be built or modified.</li>
+<li>Annual budgets must be adjusted to account for technological and organizational changes.</li>
+<li>Roadmaps must be synchronized: you can’t always overhaul one application while making significant changes to another simultaneously.</li>
+</ul>
+<p>Having surveyed needs, budgets, and impacts, let’s turn to the practical factors that will guide your answer to “which Application Architecture in 2021?” We’ll start with the type of application.</p>
+<h2 id="choosing-the-application-type">Choosing the Application Type</h2>
+<p>Deciding on the type of application—on-premise packaged software, SaaS, in-house development, cloud-native, or hybrid—requires weighing:</p>
+<ul>
+<li>Immediate and future business requirements (functional scope)</li>
+<li>Projected processing load and user volume</li>
+<li>Enterprise Architecture targets and strategic guidelines</li>
+<li>Existing infrastructure, hosting, vendors, contracts, applications, skills, organizational setup, and commercial timelines</li>
+<li>Available and forecasted financial resources</li>
+<li>Expected return on investment</li>
+<li>Economic, health, political, and regulatory environment considerations</li>
+</ul>
+<p>With these factors in mind, you can identify which delivery model best fits your organization’s objectives and constraints.</p>
+<h2 id="frontend-options">Frontend Options</h2>
+<p>The application’s user interface often garners the most attention, even though the backend logic is equally vital. Organizations must balance cost, technology/vendor longevity, up-to-date UX expectations, security, and integration ease.</p>
+<p>Common frontend choices include:</p>
+<ul>
+<li>Web (HTML + JavaScript pages)</li>
+<li>Web single-page apps (pure JavaScript frameworks)</li>
+<li>Server-rendered web pages (HTML generated dynamically by the backend)</li>
+<li>3270 terminal screens (mainframe)</li>
+<li>Desktop Java clients</li>
+<li>Native desktop (C, C++, C#…)</li>
+<li>Desktop web wrappers (Electron…)</li>
+<li>Mobile and tablet (iOS, Android)</li>
+<li>Consumer kiosks (bank ATMs, ticketing machines)</li>
+<li>Industrial controllers (factory robots, machine tools)</li>
+<li>None—data exchange only (files, services, APIs)</li>
+</ul>
+<p>In many cases, business requirements will quickly narrow the choices to a handful of suitable interfaces.</p>
+<h2 id="backend-options">Backend Options</h2>
+<p>Behind the scenes, your application could take several architectural shapes and hosting models:</p>
+<ul>
+<li>Monolithic</li>
+<li>3-tier: frontend / backend / database</li>
+<li>n-tier: highly distributed services</li>
+<li>Serverless: no dedicated servers; functions and managed APIs run in the cloud</li>
+<li>Microservices: independent, domain-focused services communicating via APIs, messages, or web services</li>
+</ul>
+<p>Each component can be a commercial off-the-shelf package, custom in-house code, or a hybrid of both. Hosting may be on-premises, in the cloud, in a hybrid setup, or through SaaS offerings.</p>
+<p>Data management is another key consideration: how to organize, store, back up, archive, query, and aggregate information. Business requirements—transaction volume, processing frequency, security and resilience needs, frontend choice, and user distribution—will drive the data architecture. Company culture, budget, forecasts, and team expertise will finalize the decision.</p>
+<h2 id="integration-options">Integration Options</h2>
+<p>Applications seldom operate in isolation. They frequently exchange data with internal or external systems. Integration architecture choices determine capabilities, performance, security, and deployment speed.</p>
+<p>No single integration technology covers all scenarios. You must inventory each data flow and assess:</p>
+<ul>
+<li>Source and destination systems</li>
+<li>Synchronous versus asynchronous exchange</li>
+<li>Frequency and volume of messages</li>
+<li>Data types and formats</li>
+<li>Retry and error-recovery requirements</li>
+<li>Acceptable latency between send and receive</li>
+<li>Transactional integrity needs</li>
+<li>Orchestration of multi-step workflows</li>
+<li>Data transformation, mapping, and protocol bridging</li>
+</ul>
+<p>Answering these questions guides you to the right integration patterns and technologies.</p>
+<h2 id="conclusion">Conclusion</h2>
+<p>Choosing “which Application Architecture in 2021” means considering every factor above. Resist the urge to over-emphasize familiar aspects—like technology stacks or user interfaces—at the expense of equally essential elements. An Application Architecture only makes sense when viewed holistically within its ecosystem.</p>
+<p>In large organizations, governance frameworks often constrain architectural freedom. But in mid-sized or smaller enterprises, you still have the flexibility to define comprehensive requirements and make the right strategic choices. Now it’s your turn to act!</p>
+<ul class="pa0">
+  
+   <li class="list di">
+     <a href="/en/tags/design/" class="link f5 grow br-pill ba ph3 pv2 mb2 dib black sans-serif no-underline">Design</a>
+   </li>
+  
+   <li class="list di">
+     <a href="/en/tags/application-architecture/" class="link f5 grow br-pill ba ph3 pv2 mb2 dib black sans-serif no-underline">Application Architecture</a>
+   </li>
+  
+   <li class="list di">
+     <a href="/en/tags/methodology/" class="link f5 grow br-pill ba ph3 pv2 mb2 dib black sans-serif no-underline">Methodology</a>
+   </li>
+  
+</ul>
+<div class="mt6 instapaper_ignoref">
+      
+      
+      </div>
+    </div>
+
+    <aside class="w-30-l mt6-l">
+
+
+
+
+  <div class="bg-light-gray pa3 nested-list-reset nested-copy-line-height nested-links">
+    <p class="f5 b mb3">Related</p>
+    <ul class="pa0 list">
+	   
+	     <li  class="mb2">
+          <a href="/en/articles/2020/004-architecture-de-solution--conception-autour-dune-probl%C3%A9matique-pr%C3%A9cise/">Solution Architecture – Designing Around a Specific Problem</a>
+        </li>
+	    
+	     <li  class="mb2">
+          <a href="/en/articles/2020/002-architecture-technologique-ou-architecture-technique-vs-expertise-technique/">Technology Architecture or Technical Architecture vs Technical Expertise</a>
+        </li>
+	    
+    </ul>
+</div>
+
+</aside>
+
+  </article>
+
+    </main>
+    <footer class="bg-black bottom-0 w-100 pa3" role="contentinfo">
+  <div class="flex justify-between">
+  <a class="f4 fw4 hover-white white-70 dn dib-ns pv2 ph3 no-underline" href="https://architecti.blog/en/" >
+    &copy;  IT Architecture 2025 
+  </a>
+    <div><div class="ananke-socials"></div>
+</div>
+  </div>
+</footer>
+
+  </body>
+</html>
