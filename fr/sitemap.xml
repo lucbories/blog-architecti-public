@@ -22,20 +22,60 @@
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
+    <loc>https://architecti.blog/tags/architecture-hexagonale/</loc>
+    <lastmod>2025-08-17T21:07:39-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
     <loc>https://architecti.blog/tags/conception/</loc>
     <lastmod>2025-08-17T21:07:39-04:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://architecti.blog/articles/2025/les-principes-fondamentaux-du-domain-driven-design-ddd/</loc>
+    <loc>https://architecti.blog/tags/domain-driven-design/</loc>
     <lastmod>2025-08-17T21:07:39-04:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://architecti.blog/en/tags/domain-driven-design/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://architecti.blog/tags/domain-driven-design/"
+                />
+  </url><url>
+    <loc>https://architecti.blog/articles/2025/008-les-principes-fondamentaux-du-domain-driven-design-ddd/</loc>
+    <lastmod>2025-08-17T21:07:39-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://architecti.blog/en/articles/2025/008-les-principes-fondamentaux-du-domain-driven-design-ddd/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://architecti.blog/articles/2025/008-les-principes-fondamentaux-du-domain-driven-design-ddd/"
+                />
   </url><url>
     <loc>https://architecti.blog/tags/microservices/</loc>
     <lastmod>2025-08-17T21:07:39-04:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://architecti.blog/en/tags/microservices/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://architecti.blog/tags/microservices/"
+                />
   </url><url>
     <loc>https://architecti.blog/tags/</loc>
     <lastmod>2025-08-17T21:07:39-04:00</lastmod>
@@ -82,13 +122,63 @@
                 href="https://architecti.blog/articles/2025/"
                 />
   </url><url>
+    <loc>https://architecti.blog/articles/2025/007-la-difficult%C3%A9-dappliquer-la-m%C3%A9thodologie-agile-dans-les-projets-informatiques/</loc>
+    <lastmod>2025-07-12T21:17:39-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://architecti.blog/en/articles/2025/007-la-difficult%C3%A9-dappliquer-la-m%C3%A9thodologie-agile-dans-les-projets-informatiques/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://architecti.blog/articles/2025/007-la-difficult%C3%A9-dappliquer-la-m%C3%A9thodologie-agile-dans-les-projets-informatiques/"
+                />
+  </url><url>
+    <loc>https://architecti.blog/tags/m%C3%A9thodologie/</loc>
+    <lastmod>2025-07-12T21:17:39-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://architecti.blog/tags/strat%C3%A9gie/</loc>
+    <lastmod>2025-07-12T21:17:39-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://architecti.blog/tags/architecture-technologique/</loc>
+    <lastmod>2025-06-07T21:07:39-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://architecti.blog/tags/cpu/</loc>
+    <lastmod>2025-06-07T21:07:39-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://architecti.blog/articles/2025/006-l-architecture-neuromorphique/</loc>
+    <lastmod>2025-06-07T21:07:39-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://architecti.blog/en/articles/2025/006-l-architecture-neuromorphique/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://architecti.blog/articles/2025/006-l-architecture-neuromorphique/"
+                />
+  </url><url>
     <loc>https://architecti.blog/tags/api/</loc>
-    <lastmod>2025-08-14T21:07:39-04:00</lastmod>
+    <lastmod>2025-05-14T21:07:39-04:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
     <loc>https://architecti.blog/tags/cloud/</loc>
-    <lastmod>2025-08-14T21:07:39-04:00</lastmod>
+    <lastmod>2025-05-14T21:07:39-04:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
     <xhtml:link
@@ -103,39 +193,54 @@
                 />
   </url><url>
     <loc>https://architecti.blog/tags/containers/</loc>
-    <lastmod>2025-08-14T21:07:39-04:00</lastmod>
+    <lastmod>2025-05-14T21:07:39-04:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://architecti.blog/articles/2025/l-architecture-applicative-moderne---moteur-de-la-transformation-num%C3%A9rique/</loc>
-    <lastmod>2025-08-14T21:07:39-04:00</lastmod>
+    <loc>https://architecti.blog/articles/2025/005-l-architecture-applicative-moderne---moteur-de-la-transformation-num%C3%A9rique/</loc>
+    <lastmod>2025-05-14T21:07:39-04:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://architecti.blog/en/articles/2025/005-l-architecture-applicative-moderne---moteur-de-la-transformation-num%C3%A9rique/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://architecti.blog/articles/2025/005-l-architecture-applicative-moderne---moteur-de-la-transformation-num%C3%A9rique/"
+                />
   </url><url>
-    <loc>https://architecti.blog/articles/2025/la-difficult%C3%A9-dappliquer-la-m%C3%A9thodologie-agile-dans-les-projets-informatiques/</loc>
-    <lastmod>2025-08-12T21:17:39-04:00</lastmod>
+    <loc>https://architecti.blog/articles/2025/004-comprendre-le-bounded-context-en-architecture-microservices/</loc>
+    <lastmod>2025-04-05T21:07:39-04:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://architecti.blog/en/articles/2025/004-comprendre-le-bounded-context-en-architecture-microservices/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://architecti.blog/articles/2025/004-comprendre-le-bounded-context-en-architecture-microservices/"
+                />
   </url><url>
-    <loc>https://architecti.blog/tags/m%C3%A9thodologie/</loc>
-    <lastmod>2025-08-12T21:17:39-04:00</lastmod>
+    <loc>https://architecti.blog/articles/2025/003-architecture-applicative---concevoir-des-syst%C3%A8mes-robustes-et-adaptables/</loc>
+    <lastmod>2025-03-07T21:07:39-04:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
-  </url><url>
-    <loc>https://architecti.blog/tags/strat%C3%A9gie/</loc>
-    <lastmod>2025-08-12T21:17:39-04:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://architecti.blog/articles/2025/comprendre-le-bounded-context-en-architecture-microservices/</loc>
-    <lastmod>2025-08-10T21:07:39-04:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://architecti.blog/articles/2025/architecture-applicative---concevoir-des-syst%C3%A8mes-robustes-et-adaptables/</loc>
-    <lastmod>2025-08-07T21:07:39-04:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://architecti.blog/en/articles/2025/003-architecture-applicative---concevoir-des-syst%C3%A8mes-robustes-et-adaptables/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://architecti.blog/articles/2025/003-architecture-applicative---concevoir-des-syst%C3%A8mes-robustes-et-adaptables/"
+                />
   </url><url>
     <loc>https://architecti.blog/articles/2025/002-architecture-applicative---mise-en-contexte/</loc>
     <lastmod>2025-02-05T21:07:39-04:00</lastmod>
@@ -171,21 +276,6 @@
                 hreflang="fr"
                 href="https://architecti.blog/articles/2025/001-presentation-architecture-informatique/"
                 />
-  </url><url>
-    <loc>https://architecti.blog/tags/architecture-technologique/</loc>
-    <lastmod>2021-08-20T21:07:39-04:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://architecti.blog/tags/cpu/</loc>
-    <lastmod>2021-08-20T21:07:39-04:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://architecti.blog/articles/2025/l-architecture-neuromorphique/</loc>
-    <lastmod>2021-08-20T21:07:39-04:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
   </url><url>
     <loc>https://architecti.blog/about/</loc>
     <lastmod>2021-08-18T21:07:39-04:00</lastmod>

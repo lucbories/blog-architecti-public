@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>API Integration on IT Architecture</title>
+    <link>https://architecti.blog/en/tags/api-integration/</link>
+    <description>Recent content in API Integration on IT Architecture</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Wed, 14 May 2025 21:07:39 -0400</lastBuildDate>
+    <atom:link href="https://architecti.blog/en/tags/api-integration/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Modern Application Architecture: How Microservices, APIs, and Cloud Drive Digital Transformation</title>
+      <link>https://architecti.blog/en/articles/2025/005-l-architecture-applicative-moderne---moteur-de-la-transformation-num%C3%A9rique/</link>
+      <pubDate>Wed, 14 May 2025 21:07:39 -0400</pubDate>
+      <guid>https://architecti.blog/en/articles/2025/005-l-architecture-applicative-moderne---moteur-de-la-transformation-num%C3%A9rique/</guid>
+      <description>&lt;h1 id=&#34;modern-application-architecture-how-microservices-apis-and-cloud-drive-digital-transformation&#34;&gt;Modern Application Architecture: How Microservices, APIs, and Cloud Drive Digital Transformation&lt;/h1&gt;&#xA;&lt;h2 id=&#34;why-application-architecture-matters-in-the-digital-age&#34;&gt;Why Application Architecture Matters in the Digital Age&lt;/h2&gt;&#xA;&lt;p&gt;In today’s fast-paced digital landscape, businesses must evolve rapidly to stay competitive. Behind every seamless user experience and innovative product lies a robust &lt;strong&gt;application architecture&lt;/strong&gt; — the backbone of scalable, secure, and agile systems.&lt;/p&gt;&#xA;&lt;p&gt;Modern architecture isn’t just a technical upgrade. It’s a strategic enabler of &lt;strong&gt;digital transformation&lt;/strong&gt;, allowing organizations to innovate faster, reduce costs, and deliver better customer experiences.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

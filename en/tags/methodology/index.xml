@@ -6,8 +6,15 @@
     <description>Recent content in Methodology on IT Architecture</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 05 Jan 2021 21:07:39 -0400</lastBuildDate>
+    <lastBuildDate>Fri, 07 Mar 2025 21:07:39 -0400</lastBuildDate>
     <atom:link href="https://architecti.blog/en/tags/methodology/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Application Architecture: Designing Robust and Adaptable Systems</title>
+      <link>https://architecti.blog/en/articles/2025/003-architecture-applicative---concevoir-des-syst%C3%A8mes-robustes-et-adaptables/</link>
+      <pubDate>Fri, 07 Mar 2025 21:07:39 -0400</pubDate>
+      <guid>https://architecti.blog/en/articles/2025/003-architecture-applicative---concevoir-des-syst%C3%A8mes-robustes-et-adaptables/</guid>
+      <description>&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;&#xA;&lt;p&gt;In a constantly evolving digital landscape, user requirements and technological constraints proliferate. A thoughtful application architecture does more than organize code: it defines a holistic strategy to decouple responsibilities and optimize performance, scalability, and resilience. This engineering discipline is essential for organizations aiming to stay competitive and agile.&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;foundations-and-definitions&#34;&gt;Foundations and Definitions&lt;/h2&gt;&#xA;&lt;p&gt;Application architecture encompasses the rules, components, and interfaces that structure an application. It includes:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Separation of Concerns&lt;/strong&gt;: Breaking the application into modules or layers with clear responsibilities to simplify understanding, testing, and maintenance.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Modularity&lt;/strong&gt;: Designing independent, reusable components that can be deployed and updated in isolation.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Design Patterns&lt;/strong&gt;: Applying proven models—such as Model-View-Controller, layered architectures, or microservices—to standardize and streamline software structure.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;Together, these principles enable flexible environments where technical evolution and functional changes integrate smoothly.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Which Application Architecture to Choose</title>
       <link>https://architecti.blog/en/articles/2021/001-quelle-architecture-applicative-choisir/</link>

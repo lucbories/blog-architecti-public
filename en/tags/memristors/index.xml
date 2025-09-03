@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Memristors on IT Architecture</title>
+    <link>https://architecti.blog/en/tags/memristors/</link>
+    <description>Recent content in Memristors on IT Architecture</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Sat, 07 Jun 2025 21:07:39 -0400</lastBuildDate>
+    <atom:link href="https://architecti.blog/en/tags/memristors/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Neuromorphic Architecture: How Brain-Inspired Computing Is Shaping the Future of AI</title>
+      <link>https://architecti.blog/en/articles/2025/006-l-architecture-neuromorphique/</link>
+      <pubDate>Sat, 07 Jun 2025 21:07:39 -0400</pubDate>
+      <guid>https://architecti.blog/en/articles/2025/006-l-architecture-neuromorphique/</guid>
+      <description>&lt;h1 id=&#34;neuromorphic-architecture-how-brain-inspired-computing-is-shaping-the-future-of-ai&#34;&gt;Neuromorphic Architecture: How Brain-Inspired Computing Is Shaping the Future of AI&lt;/h1&gt;&#xA;&lt;h2 id=&#34;introduction-when-computing-imitates-the-brain&#34;&gt;Introduction: When Computing Imitates the Brain&lt;/h2&gt;&#xA;&lt;p&gt;Since the early days of computing, engineers have dreamed of replicating human cognition through machines. While traditional computers have revolutionized logic, communication, and data processing, they remain fundamentally different from the human brain in structure and behavior.&lt;/p&gt;&#xA;&lt;p&gt;Enter &lt;strong&gt;neuromorphic architecture&lt;/strong&gt; — a cutting-edge approach that designs computing systems inspired by the biological mechanisms of the brain. Unlike conventional AI, which simulates neural networks in software, neuromorphic systems aim to &lt;strong&gt;physically replicate neurons, synapses, and sensory pathways&lt;/strong&gt; in electronic circuits.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

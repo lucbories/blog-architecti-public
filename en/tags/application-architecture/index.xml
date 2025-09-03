@@ -6,8 +6,29 @@
     <description>Recent content in Application Architecture on IT Architecture</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 05 Feb 2025 21:07:39 -0400</lastBuildDate>
+    <lastBuildDate>Sun, 17 Aug 2025 21:07:39 -0400</lastBuildDate>
     <atom:link href="https://architecti.blog/en/tags/application-architecture/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The Fundamental Principles of Domain-Driven Design (DDD)</title>
+      <link>https://architecti.blog/en/articles/2025/008-les-principes-fondamentaux-du-domain-driven-design-ddd/</link>
+      <pubDate>Sun, 17 Aug 2025 21:07:39 -0400</pubDate>
+      <guid>https://architecti.blog/en/articles/2025/008-les-principes-fondamentaux-du-domain-driven-design-ddd/</guid>
+      <description>&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;&#xA;&lt;p&gt;As software systems grow increasingly complex, it becomes essential to design architectures that accurately reflect business needs. That’s the core goal of &lt;strong&gt;Domain-Driven Design (DDD)&lt;/strong&gt;, an approach introduced by &lt;strong&gt;Eric Evans&lt;/strong&gt; in 2003 that places the &lt;strong&gt;business domain&lt;/strong&gt; at the heart of software design.&lt;/p&gt;&#xA;&lt;p&gt;DDD is more than a modeling method—it’s a &lt;strong&gt;design philosophy&lt;/strong&gt; that deeply influences application architecture by guiding component structure, responsibility definition, and system communication.&lt;/p&gt;&#xA;&lt;p&gt;This article explores the &lt;strong&gt;10 fundamental principles of DDD&lt;/strong&gt;, with concrete examples and architectural impacts, especially in &lt;strong&gt;microservices&lt;/strong&gt; contexts.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Modern Application Architecture: How Microservices, APIs, and Cloud Drive Digital Transformation</title>
+      <link>https://architecti.blog/en/articles/2025/005-l-architecture-applicative-moderne---moteur-de-la-transformation-num%C3%A9rique/</link>
+      <pubDate>Wed, 14 May 2025 21:07:39 -0400</pubDate>
+      <guid>https://architecti.blog/en/articles/2025/005-l-architecture-applicative-moderne---moteur-de-la-transformation-num%C3%A9rique/</guid>
+      <description>&lt;h1 id=&#34;modern-application-architecture-how-microservices-apis-and-cloud-drive-digital-transformation&#34;&gt;Modern Application Architecture: How Microservices, APIs, and Cloud Drive Digital Transformation&lt;/h1&gt;&#xA;&lt;h2 id=&#34;why-application-architecture-matters-in-the-digital-age&#34;&gt;Why Application Architecture Matters in the Digital Age&lt;/h2&gt;&#xA;&lt;p&gt;In today’s fast-paced digital landscape, businesses must evolve rapidly to stay competitive. Behind every seamless user experience and innovative product lies a robust &lt;strong&gt;application architecture&lt;/strong&gt; — the backbone of scalable, secure, and agile systems.&lt;/p&gt;&#xA;&lt;p&gt;Modern architecture isn’t just a technical upgrade. It’s a strategic enabler of &lt;strong&gt;digital transformation&lt;/strong&gt;, allowing organizations to innovate faster, reduce costs, and deliver better customer experiences.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Application Architecture: Designing Robust and Adaptable Systems</title>
+      <link>https://architecti.blog/en/articles/2025/003-architecture-applicative---concevoir-des-syst%C3%A8mes-robustes-et-adaptables/</link>
+      <pubDate>Fri, 07 Mar 2025 21:07:39 -0400</pubDate>
+      <guid>https://architecti.blog/en/articles/2025/003-architecture-applicative---concevoir-des-syst%C3%A8mes-robustes-et-adaptables/</guid>
+      <description>&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;&#xA;&lt;p&gt;In a constantly evolving digital landscape, user requirements and technological constraints proliferate. A thoughtful application architecture does more than organize code: it defines a holistic strategy to decouple responsibilities and optimize performance, scalability, and resilience. This engineering discipline is essential for organizations aiming to stay competitive and agile.&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;foundations-and-definitions&#34;&gt;Foundations and Definitions&lt;/h2&gt;&#xA;&lt;p&gt;Application architecture encompasses the rules, components, and interfaces that structure an application. It includes:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Separation of Concerns&lt;/strong&gt;: Breaking the application into modules or layers with clear responsibilities to simplify understanding, testing, and maintenance.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Modularity&lt;/strong&gt;: Designing independent, reusable components that can be deployed and updated in isolation.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Design Patterns&lt;/strong&gt;: Applying proven models—such as Model-View-Controller, layered architectures, or microservices—to standardize and streamline software structure.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;Together, these principles enable flexible environments where technical evolution and functional changes integrate smoothly.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Application Architecture – Context</title>
       <link>https://architecti.blog/en/articles/2025/002-architecture-applicative---mise-en-contexte/</link>

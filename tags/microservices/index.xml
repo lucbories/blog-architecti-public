@@ -10,24 +10,24 @@
     <atom:link href="https://architecti.blog/tags/microservices/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Les Principes Fondamentaux du Domain-Driven Design (DDD)</title>
-      <link>https://architecti.blog/articles/2025/les-principes-fondamentaux-du-domain-driven-design-ddd/</link>
+      <link>https://architecti.blog/articles/2025/008-les-principes-fondamentaux-du-domain-driven-design-ddd/</link>
       <pubDate>Sun, 17 Aug 2025 21:07:39 -0400</pubDate>
-      <guid>https://architecti.blog/articles/2025/les-principes-fondamentaux-du-domain-driven-design-ddd/</guid>
+      <guid>https://architecti.blog/articles/2025/008-les-principes-fondamentaux-du-domain-driven-design-ddd/</guid>
       <description>&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;&#xA;&lt;p&gt;Dans un monde où les systèmes logiciels deviennent de plus en plus complexes, il est essentiel de concevoir des architectures qui reflètent fidèlement les besoins métier. C’est précisément l’objectif du &lt;strong&gt;Domain-Driven Design (DDD)&lt;/strong&gt;, une approche introduite par &lt;strong&gt;Eric Evans&lt;/strong&gt; en 2003, qui place le &lt;strong&gt;domaine métier&lt;/strong&gt; au cœur de la conception logicielle.&lt;/p&gt;&#xA;&lt;p&gt;Mais DDD n’est pas qu’une méthode de modélisation. C’est une philosophie qui influence profondément l’&lt;strong&gt;architecture applicative&lt;/strong&gt;, en guidant la structuration des composants, la définition des responsabilités, et la communication entre les parties du système.&lt;/p&gt;</description>
     </item>
     <item>
       <title>L’architecture applicative moderne : moteur de la transformation numérique</title>
-      <link>https://architecti.blog/articles/2025/l-architecture-applicative-moderne---moteur-de-la-transformation-num%C3%A9rique/</link>
-      <pubDate>Thu, 14 Aug 2025 21:07:39 -0400</pubDate>
-      <guid>https://architecti.blog/articles/2025/l-architecture-applicative-moderne---moteur-de-la-transformation-num%C3%A9rique/</guid>
+      <link>https://architecti.blog/articles/2025/005-l-architecture-applicative-moderne---moteur-de-la-transformation-num%C3%A9rique/</link>
+      <pubDate>Wed, 14 May 2025 21:07:39 -0400</pubDate>
+      <guid>https://architecti.blog/articles/2025/005-l-architecture-applicative-moderne---moteur-de-la-transformation-num%C3%A9rique/</guid>
       <description>&lt;h2 id=&#34;introduction--larchitecture-applicative-au-cœur-de-la-révolution-numérique&#34;&gt;Introduction : L’architecture applicative au cœur de la révolution numérique**&lt;/h2&gt;&#xA;&lt;p&gt;Dans un monde où l’innovation technologique redéfinit chaque secteur, la transformation numérique n’est plus une option — c’est une nécessité stratégique. Mais derrière les interfaces élégantes et les expériences utilisateurs fluides se cache un pilier souvent invisible mais fondamental : l’architecture applicative. Véritable colonne vertébrale des systèmes d’information modernes, elle conditionne la capacité d’une entreprise à évoluer, à innover et à répondre aux exigences d’un marché en perpétuelle mutation.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Comprendre le Bounded Context en Architecture Microservices</title>
-      <link>https://architecti.blog/articles/2025/comprendre-le-bounded-context-en-architecture-microservices/</link>
-      <pubDate>Sun, 10 Aug 2025 21:07:39 -0400</pubDate>
-      <guid>https://architecti.blog/articles/2025/comprendre-le-bounded-context-en-architecture-microservices/</guid>
-      <description>&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;&#xA;&lt;p&gt;L’architecture microservices a révolutionné la manière dont les systèmes logiciels sont conçus, développés et maintenus. Elle repose sur le principe de décomposer une application monolithique en une série de services indépendants, chacun responsable d’un domaine fonctionnel bien défini. Mais cette décomposition soulève une question cruciale : &lt;strong&gt;comment définir les limites de chaque service ?&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;C’est là qu’intervient le concept de &lt;strong&gt;bounded context&lt;/strong&gt;, issu de la méthodologie &lt;strong&gt;Domain-Driven Design (DDD)&lt;/strong&gt;. Ce concept permet de structurer les microservices autour de modèles métier cohérents, en évitant les ambiguïtés et les dépendances inutiles.&lt;/p&gt;</description>
+      <link>https://architecti.blog/articles/2025/004-comprendre-le-bounded-context-en-architecture-microservices/</link>
+      <pubDate>Sat, 05 Apr 2025 21:07:39 -0400</pubDate>
+      <guid>https://architecti.blog/articles/2025/004-comprendre-le-bounded-context-en-architecture-microservices/</guid>
+      <description>&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;&#xA;&lt;p&gt;L’architecture microservices a révolutionné la manière dont les systèmes logiciels sont conçus, développés et maintenus. Elle repose sur le principe de décomposer une application monolithique en une série de services indépendants, chacun responsable d’un domaine fonctionnel bien défini. Mais cette décomposition soulève une question cruciale : &lt;strong&gt;comment définir les limites de chaque service ?&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;C’est là qu’intervient le concept de &lt;strong&gt;bounded context&lt;/strong&gt;, issu de la méthodologie &lt;strong&gt;&lt;a href=&#34;https://architecti.blog/articles/2025/les-principes-fondamentaux-du-domain-driven-design-ddd/&#34;&gt;Domain-Driven Design (DDD)&lt;/a&gt;&lt;/strong&gt;. Ce concept permet de structurer les microservices autour de modèles métier cohérents, en évitant les ambiguïtés et les dépendances inutiles.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

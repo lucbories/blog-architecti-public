@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Software Architecture on IT Architecture</title>
+    <link>https://architecti.blog/en/tags/software-architecture/</link>
+    <description>Recent content in Software Architecture on IT Architecture</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Sat, 05 Apr 2025 21:07:39 -0400</lastBuildDate>
+    <atom:link href="https://architecti.blog/en/tags/software-architecture/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Understanding Bounded Context in Microservices Architecture: A Key to Scalable Software Design</title>
+      <link>https://architecti.blog/en/articles/2025/004-comprendre-le-bounded-context-en-architecture-microservices/</link>
+      <pubDate>Sat, 05 Apr 2025 21:07:39 -0400</pubDate>
+      <guid>https://architecti.blog/en/articles/2025/004-comprendre-le-bounded-context-en-architecture-microservices/</guid>
+      <description>&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;&#xA;&lt;p&gt;Microservices architecture is a modern software design approach that has transformed how scalable and maintainable systems are built. It’s based on the principle of decomposing a monolithic application into a series of independent services, each responsible for a well-defined business domain. But this decomposition raises a crucial question: &lt;strong&gt;how do we define the boundaries of each microservice?&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;This is where the concept of &lt;strong&gt;bounded context&lt;/strong&gt;, introduced by &lt;strong&gt;Domain-Driven Design (DDD)&lt;/strong&gt;, becomes essential. It helps structure microservices around coherent business models, avoiding ambiguity and unnecessary dependencies.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

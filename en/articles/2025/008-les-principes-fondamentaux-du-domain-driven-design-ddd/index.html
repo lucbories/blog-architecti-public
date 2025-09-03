@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    
+    <title>The Fundamental Principles of Domain-Driven Design (DDD) | IT Architecture</title>
+    <meta name="viewport" content="width=device-width,minimum-scale=1">
+    <meta name="description" content="Explore the 10 key principles of Domain-Driven Design (DDD) to build robust, scalable, and business-aligned software architectures.">
+    <meta name="generator" content="Hugo 0.148.2">
+    
+    
+    
+      <meta name="robots" content="index, follow">
+    
+    <meta name="author" content="Luc Bories">
+    
+
+    
+<link rel="stylesheet" href="/ananke/css/main.min.8d048772ae72ab11245a0e296d1f2a36d3e3dd376c6c867394d6cc659c68fc37.css" >
+
+
+
+
+    
+
+
+    
+      
+
+    
+
+    
+
+    
+      <link rel="canonical" href="https://architecti.blog/en/articles/2025/008-les-principes-fondamentaux-du-domain-driven-design-ddd/">
+    
+
+    <meta property="og:url" content="https://architecti.blog/en/articles/2025/008-les-principes-fondamentaux-du-domain-driven-design-ddd/">
+  <meta property="og:site_name" content="IT Architecture">
+  <meta property="og:title" content="The Fundamental Principles of Domain-Driven Design (DDD)">
+  <meta property="og:description" content="Explore the 10 key principles of Domain-Driven Design (DDD) to build robust, scalable, and business-aligned software architectures.">
+  <meta property="og:locale" content="en">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="articles">
+    <meta property="article:published_time" content="2025-08-17T21:07:39-04:00">
+    <meta property="article:modified_time" content="2025-08-17T21:07:39-04:00">
+    <meta property="article:tag" content="Design">
+    <meta property="article:tag" content="Application Architecture">
+    <meta property="article:tag" content="Microservices">
+
+  <meta itemprop="name" content="The Fundamental Principles of Domain-Driven Design (DDD)">
+  <meta itemprop="description" content="Explore the 10 key principles of Domain-Driven Design (DDD) to build robust, scalable, and business-aligned software architectures.">
+  <meta itemprop="datePublished" content="2025-08-17T21:07:39-04:00">
+  <meta itemprop="dateModified" content="2025-08-17T21:07:39-04:00">
+  <meta itemprop="wordCount" content="662">
+  <meta itemprop="keywords" content="Domain-Driven Design,Application Architecture,Microservices">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="The Fundamental Principles of Domain-Driven Design (DDD)">
+  <meta name="twitter:description" content="Explore the 10 key principles of Domain-Driven Design (DDD) to build robust, scalable, and business-aligned software architectures.">
+
+      
+      <script async src="https://www.googletagmanager.com/gtag/js?id=G-GWK53XF6PL"></script>
+      <script>
+        var doNotTrack = false;
+        if ( false ) {
+          var dnt = (navigator.doNotTrack || window.doNotTrack || navigator.msDoNotTrack);
+          var doNotTrack = (dnt == "1" || dnt == "yes");
+        }
+        if (!doNotTrack) {
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+          gtag('config', 'G-GWK53XF6PL');
+        }
+      </script>
+    
+	
+  </head><body class="ma0 avenir bg-near-white production">
+
+    
+   
+  
+
+  
+  
+  
+  <header class="cover bg-center" style="background-image: url('https://architecti.blog/images/Copilot_20250807_153105-LesPrincipeFondamentauxDuDDD-1024x.jpg');">
+    <div class="bg-black-60">
+      <nav class="pv3 ph3 ph4-ns" role="navigation">
+  <div class="flex-l center items-center justify-between">
+    <a href="/en/" class="f3 fw2 hover-white white-90 dib no-underline">
+      
+        IT Architecture
+      
+    </a>
+    <div class="flex-l items-center">
+      
+<h4></h4>
+<ul class="pl0 mr3">
+    
+    <li class="list f5 f4-ns fw4 dib pr3">
+        <a class="hover-white white-90 no-underline" href="/articles/2025/008-les-principes-fondamentaux-du-domain-driven-design-ddd/">fr</a>
+    </li>
+    
+</ul>
+
+
+      
+        <ul class="pl0 mr3">
+          
+          <li class="list f5 f4-ns fw4 dib pr3">
+            <a class="hover-white white-90 no-underline" href="/en/tags/enterprise-architecture/" title="Entreprise Architecture page">
+              Entreprise Architecture
+            </a>
+          </li>
+          
+          <li class="list f5 f4-ns fw4 dib pr3">
+            <a class="hover-white white-90 no-underline" href="/en/tags/application-architecture/" title="Application Architecture page">
+              Application Architecture
+            </a>
+          </li>
+          
+          <li class="list f5 f4-ns fw4 dib pr3">
+            <a class="hover-white white-90 no-underline" href="/en/tags/technology-architecture/" title="Technology Architecture page">
+              Technology Architecture
+            </a>
+          </li>
+          
+          <li class="list f5 f4-ns fw4 dib pr3">
+            <a class="hover-white white-90 no-underline" href="/en/articles/" title="Articles page">
+              Articles
+            </a>
+          </li>
+          
+          <li class="list f5 f4-ns fw4 dib pr3">
+            <a class="hover-white white-90 no-underline" href="/en/tagslist/" title="Find page">
+              Find
+            </a>
+          </li>
+          
+          <li class="list f5 f4-ns fw4 dib pr3">
+            <a class="hover-white white-90 no-underline" href="/en/about/" title="About page">
+              About
+            </a>
+          </li>
+          
+        </ul>
+      
+      <div class="ananke-socials"></div>
+
+    </div>
+  </div>
+</nav>
+
+      <div class="tc-l pv6 ph3 ph4-ns">
+        
+          <div class="f2 f1-l fw2 white-90 mb0 lh-title">The Fundamental Principles of Domain-Driven Design (DDD)</div>
+          
+            <div class="fw1 f5 f3-l white-80 measure-wide-l center lh-copy mt3 mb4">
+              Explore the 10 key principles of Domain-Driven Design (DDD) to build robust, scalable, and business-aligned software architectures.
+            </div>
+          
+        
+      </div>
+    </div>
+  </header>
+
+
+
+    <main class="pb7" role="main">
+      
+  
+  
+  <article class="flex-l mw8 center ph3 flex-wrap justify-between">
+    <header class="mt4 w-100">
+      <aside class="instapaper_ignoref b helvetica tracked ttu">
+          
+        All Articles in 2025
+      </aside><div id="sharing" class="mt3 ananke-socials"></div>
+<h1 class="f1 athelas mt3 mb1">The Fundamental Principles of Domain-Driven Design (DDD)</h1>
+      
+      <p class="tracked"><strong>Luc Bories</strong>
+      </p>
+      
+      
+      
+      <time class="f6 mv4 dib tracked" datetime="2025-08-17T21:07:39-04:00">August 17, 2025</time>
+      
+
+      
+      
+        <span class="f6 mv4 dib tracked"> - 4 minutes read </span>
+        <span class="f6 mv4 dib tracked"> - 662 words </span>
+      
+    </header>
+    <div class="nested-copy-line-height lh-copy serif f4 nested-links mid-gray pr4-l w-two-thirds-l"><h2 id="introduction">Introduction</h2>
+<p>As software systems grow increasingly complex, it becomes essential to design architectures that accurately reflect business needs. That’s the core goal of <strong>Domain-Driven Design (DDD)</strong>, an approach introduced by <strong>Eric Evans</strong> in 2003 that places the <strong>business domain</strong> at the heart of software design.</p>
+<p>DDD is more than a modeling method—it’s a <strong>design philosophy</strong> that deeply influences application architecture by guiding component structure, responsibility definition, and system communication.</p>
+<p>This article explores the <strong>10 fundamental principles of DDD</strong>, with concrete examples and architectural impacts, especially in <strong>microservices</strong> contexts.</p>
+<hr>
+<h2 id="1-the-domain-as-the-source-of-truth">1. The Domain as the Source of Truth</h2>
+<p>The business domain must be the primary source of truth. Technical decisions should stem from business needs—not the other way around.</p>
+<p><strong>Example</strong>: In a loan management application, interest calculation rules and eligibility conditions should be modeled before choosing a database or framework.</p>
+<p><strong>Impact</strong>:</p>
+<ul>
+<li>Technical layers serve the domain</li>
+<li>The domain model becomes central</li>
+<li>Avoids data-centric architectures with table-like entities</li>
+</ul>
+<hr>
+<h2 id="2-ubiquitous-language">2. Ubiquitous Language</h2>
+<p>A shared vocabulary between developers and domain experts, used in code, discussions, and documentation.</p>
+<p><strong>Example</strong>: Use a class named <code>LoanApplication</code> instead of <code>LoanRequestDTO</code>.</p>
+<p><strong>Impact</strong>:</p>
+<ul>
+<li>Code reflects business language</li>
+<li>Improved readability and maintainability</li>
+<li>Fewer misunderstandings between tech and business</li>
+</ul>
+<hr>
+<h2 id="3-bounded-context">3. Bounded Context</h2>
+<p>A clearly defined boundary around a coherent domain model, managing semantic variations and avoiding meaning conflicts.</p>
+<p><strong>Example</strong>: The term “Customer” may refer to a legal entity in billing and a behavioral profile in marketing.</p>
+<p><strong>Impact</strong>:</p>
+<ul>
+<li>Each context can be implemented as a microservice</li>
+<li>Models are not shared across contexts</li>
+<li>Communication via well-defined interfaces (APIs, events)</li>
+</ul>
+<hr>
+<h2 id="4-entities-and-value-objects">4. Entities and Value Objects</h2>
+<ul>
+<li><strong>Entities</strong>: have a unique identity and persist over time</li>
+<li><strong>Value objects</strong>: defined by attributes, immutable</li>
+</ul>
+<p><strong>Example</strong>: Two identical addresses = same value object; two customers with the same name = distinct entities.</p>
+<p><strong>Impact</strong>:</p>
+<ul>
+<li>Entities managed via repositories</li>
+<li>Value objects embedded in entities</li>
+<li>Enables rich and precise domain modeling</li>
+</ul>
+<hr>
+<h2 id="5-aggregates">5. Aggregates</h2>
+<p>A transactional consistency unit grouping entities and value objects, with a root controlling access.</p>
+<p><strong>Example</strong>: An <code>Order</code> aggregate with:</p>
+<ul>
+<li>Root: <code>Order</code></li>
+<li>Internal entities: <code>OrderLine</code></li>
+<li>Value objects: <code>ShippingAddress</code>, <code>Amount</code></li>
+</ul>
+<p><strong>Impact</strong>:</p>
+<ul>
+<li>Business operations go through the aggregate root</li>
+<li>Aggregates loaded and persisted as a unit</li>
+<li>Improved consistency and scalability</li>
+</ul>
+<hr>
+<h2 id="6-domain-services">6. Domain Services</h2>
+<p>Business logic that doesn’t belong in an entity or value object is encapsulated in a domain service.</p>
+<p><strong>Example</strong>: Interest rate calculation in a <code>RateCalculator</code> service.</p>
+<p><strong>Impact</strong>:</p>
+<ul>
+<li>Stateless services</li>
+<li>Domain-oriented, not infrastructure-bound</li>
+<li>Promotes reusability and testability</li>
+</ul>
+<hr>
+<h2 id="7-repositories">7. Repositories</h2>
+<p>Interfaces for retrieving and persisting entities and aggregates, hiding technical persistence details.</p>
+<p><strong>Example</strong>: <code>OrderRepository</code> with <code>findById()</code> and <code>save()</code> methods.</p>
+<p><strong>Impact</strong>:</p>
+<ul>
+<li>Domain remains persistence-agnostic</li>
+<li>Enables in-memory testing</li>
+<li>Supports hexagonal architecture (ports &amp; adapters)</li>
+</ul>
+<hr>
+<h2 id="8-domain-events">8. Domain Events</h2>
+<p>Significant business events that have occurred, enabling component decoupling and reactive behavior.</p>
+<p><strong>Examples</strong>:</p>
+<ul>
+<li><code>OrderConfirmed</code></li>
+<li><code>CustomerRegistered</code></li>
+<li><code>ProductUpdated</code></li>
+</ul>
+<p><strong>Impact</strong>:</p>
+<ul>
+<li>Events can be published and consumed by other services</li>
+<li>Enables reactive and asynchronous architecture</li>
+<li>Events may be persisted for audit or CQRS</li>
+</ul>
+<hr>
+<h2 id="9-hexagonal-architecture">9. Hexagonal Architecture</h2>
+<p>DDD aligns well with hexagonal architecture, which separates:</p>
+<ul>
+<li><strong>Domain</strong> (core)</li>
+<li><strong>Interfaces</strong> (UI, API, DB, etc.)</li>
+<li><strong>Adapters</strong> (technical implementations)</li>
+</ul>
+<p><strong>Example</strong>: The domain exposes <code>CustomerRepository</code>; the implementation is injected via an adapter.</p>
+<p><strong>Impact</strong>:</p>
+<ul>
+<li>Domain is isolated and testable</li>
+<li>Dependencies are inverted</li>
+<li>Technology changes don’t affect business logic</li>
+</ul>
+<hr>
+<h2 id="10-collaboration-with-domain-experts">10. Collaboration with Domain Experts</h2>
+<p>DDD relies on close collaboration between developers and domain experts to build a shared model that reflects business reality.</p>
+<p><strong>Example</strong>: In a claims management system, developers must understand:</p>
+<ul>
+<li>Types of claims</li>
+<li>Validation processes</li>
+<li>Compensation rules</li>
+</ul>
+<p><strong>Impact</strong>:</p>
+<ul>
+<li>Richer domain model</li>
+<li>Technical decisions aligned with real needs</li>
+<li>Software becomes a strategic business tool</li>
+</ul>
+<hr>
+<h2 id="conclusion">Conclusion</h2>
+<p>Domain-Driven Design is not just a modeling technique—it’s a <strong>strategic design philosophy</strong> that transforms how software is conceived, built, and maintained.</p>
+<p>By placing the <strong>business domain</strong> at the center, defining clear <strong>bounded contexts</strong>, using <strong>ubiquitous language</strong>, and structuring architecture around <strong>aggregates</strong>, <strong>services</strong>, <strong>repositories</strong>, and <strong>events</strong>, DDD enables the creation of <strong>robust</strong>, <strong>scalable</strong>, and <strong>business-aligned</strong> systems.</p>
+<p>In a world increasingly shaped by microservices, DDD offers a <strong>strategic compass</strong> to avoid fragmented and incoherent architectures. It’s not just about splitting code—it’s about <strong>modeling business reality</strong> with rigor and insight.</p>
+<ul class="pa0">
+  
+   <li class="list di">
+     <a href="/en/tags/design/" class="link f5 grow br-pill ba ph3 pv2 mb2 dib black sans-serif no-underline">Design</a>
+   </li>
+  
+   <li class="list di">
+     <a href="/en/tags/application-architecture/" class="link f5 grow br-pill ba ph3 pv2 mb2 dib black sans-serif no-underline">Application Architecture</a>
+   </li>
+  
+   <li class="list di">
+     <a href="/en/tags/microservices/" class="link f5 grow br-pill ba ph3 pv2 mb2 dib black sans-serif no-underline">Microservices</a>
+   </li>
+  
+</ul>
+<div class="mt6 instapaper_ignoref">
+      
+      
+      </div>
+    </div>
+
+    <aside class="w-30-l mt6-l">
+
+
+
+
+  <div class="bg-light-gray pa3 nested-list-reset nested-copy-line-height nested-links">
+    <p class="f5 b mb3">Related</p>
+    <ul class="pa0 list">
+	   
+	     <li  class="mb2">
+          <a href="/en/articles/2025/003-architecture-applicative---concevoir-des-syst%C3%A8mes-robustes-et-adaptables/">Application Architecture: Designing Robust and Adaptable Systems</a>
+        </li>
+	    
+	     <li  class="mb2">
+          <a href="/en/articles/2025/002-architecture-applicative---mise-en-contexte/">Application Architecture – Context</a>
+        </li>
+	    
+	     <li  class="mb2">
+          <a href="/en/articles/2021/001-quelle-architecture-applicative-choisir/">Which Application Architecture to Choose</a>
+        </li>
+	    
+	     <li  class="mb2">
+          <a href="/en/articles/2025/005-l-architecture-applicative-moderne---moteur-de-la-transformation-num%C3%A9rique/">Modern Application Architecture: How Microservices, APIs, and Cloud Drive Digital Transformation</a>
+        </li>
+	    
+	     <li  class="mb2">
+          <a href="/en/articles/2025/004-comprendre-le-bounded-context-en-architecture-microservices/">Understanding Bounded Context in Microservices Architecture: A Key to Scalable Software Design</a>
+        </li>
+	    
+	     <li  class="mb2">
+          <a href="/en/articles/2021/006-aws-vs-azure/">AWS vs Azure</a>
+        </li>
+	    
+	     <li  class="mb2">
+          <a href="/en/articles/2021/003-diff%C3%A9rences-entre-togaf-et-archimate/">Differences Between TOGAF and ArchiMate</a>
+        </li>
+	    
+	     <li  class="mb2">
+          <a href="/en/articles/2020/004-architecture-de-solution--conception-autour-dune-probl%C3%A9matique-pr%C3%A9cise/">Solution Architecture – Designing Around a Specific Problem</a>
+        </li>
+	    
+	     <li  class="mb2">
+          <a href="/en/articles/2020/002-architecture-technologique-ou-architecture-technique-vs-expertise-technique/">Technology Architecture or Technical Architecture vs Technical Expertise</a>
+        </li>
+	    
+    </ul>
+</div>
+
+</aside>
+
+  </article>
+
+    </main>
+    <footer class="bg-black bottom-0 w-100 pa3" role="contentinfo">
+  <div class="flex justify-between">
+  <a class="f4 fw4 hover-white white-70 dn dib-ns pv2 ph3 no-underline" href="https://architecti.blog/en/" >
+    &copy;  IT Architecture 2025 
+  </a>
+    <div><div class="ananke-socials"></div>
+</div>
+  </div>
+</footer>
+
+  </body>
+</html>

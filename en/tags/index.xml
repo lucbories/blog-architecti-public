@@ -6,20 +6,139 @@
     <description>Recent content in Tags on IT Architecture</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 05 Feb 2025 21:07:39 -0400</lastBuildDate>
+    <lastBuildDate>Sun, 17 Aug 2025 21:07:39 -0400</lastBuildDate>
     <atom:link href="https://architecti.blog/en/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Application Architecture</title>
       <link>https://architecti.blog/en/tags/application-architecture/</link>
-      <pubDate>Wed, 05 Feb 2025 21:07:39 -0400</pubDate>
+      <pubDate>Sun, 17 Aug 2025 21:07:39 -0400</pubDate>
       <guid>https://architecti.blog/en/tags/application-architecture/</guid>
       <description></description>
     </item>
     <item>
       <title>Design</title>
       <link>https://architecti.blog/en/tags/design/</link>
-      <pubDate>Wed, 05 Feb 2025 21:07:39 -0400</pubDate>
+      <pubDate>Sun, 17 Aug 2025 21:07:39 -0400</pubDate>
       <guid>https://architecti.blog/en/tags/design/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Microservices</title>
+      <link>https://architecti.blog/en/tags/microservices/</link>
+      <pubDate>Sun, 17 Aug 2025 21:07:39 -0400</pubDate>
+      <guid>https://architecti.blog/en/tags/microservices/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Agile Strategy</title>
+      <link>https://architecti.blog/en/tags/agile-strategy/</link>
+      <pubDate>Sat, 12 Jul 2025 21:17:39 -0400</pubDate>
+      <guid>https://architecti.blog/en/tags/agile-strategy/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>DevOps</title>
+      <link>https://architecti.blog/en/tags/devops/</link>
+      <pubDate>Sat, 12 Jul 2025 21:17:39 -0400</pubDate>
+      <guid>https://architecti.blog/en/tags/devops/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Digital Transformation</title>
+      <link>https://architecti.blog/en/tags/digital-transformation/</link>
+      <pubDate>Sat, 12 Jul 2025 21:17:39 -0400</pubDate>
+      <guid>https://architecti.blog/en/tags/digital-transformation/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Project Management</title>
+      <link>https://architecti.blog/en/tags/project-management/</link>
+      <pubDate>Sat, 12 Jul 2025 21:17:39 -0400</pubDate>
+      <guid>https://architecti.blog/en/tags/project-management/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Scrum</title>
+      <link>https://architecti.blog/en/tags/scrum/</link>
+      <pubDate>Sat, 12 Jul 2025 21:17:39 -0400</pubDate>
+      <guid>https://architecti.blog/en/tags/scrum/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Artificial Intelligence</title>
+      <link>https://architecti.blog/en/tags/artificial-intelligence/</link>
+      <pubDate>Sat, 07 Jun 2025 21:07:39 -0400</pubDate>
+      <guid>https://architecti.blog/en/tags/artificial-intelligence/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Brain-Inspired Architecture</title>
+      <link>https://architecti.blog/en/tags/brain-inspired-architecture/</link>
+      <pubDate>Sat, 07 Jun 2025 21:07:39 -0400</pubDate>
+      <guid>https://architecti.blog/en/tags/brain-inspired-architecture/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Memristors</title>
+      <link>https://architecti.blog/en/tags/memristors/</link>
+      <pubDate>Sat, 07 Jun 2025 21:07:39 -0400</pubDate>
+      <guid>https://architecti.blog/en/tags/memristors/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Neuromorphic Computing</title>
+      <link>https://architecti.blog/en/tags/neuromorphic-computing/</link>
+      <pubDate>Sat, 07 Jun 2025 21:07:39 -0400</pubDate>
+      <guid>https://architecti.blog/en/tags/neuromorphic-computing/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Spiking Neural Networks</title>
+      <link>https://architecti.blog/en/tags/spiking-neural-networks/</link>
+      <pubDate>Sat, 07 Jun 2025 21:07:39 -0400</pubDate>
+      <guid>https://architecti.blog/en/tags/spiking-neural-networks/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>API Integration</title>
+      <link>https://architecti.blog/en/tags/api-integration/</link>
+      <pubDate>Wed, 14 May 2025 21:07:39 -0400</pubDate>
+      <guid>https://architecti.blog/en/tags/api-integration/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Cloud Computing</title>
+      <link>https://architecti.blog/en/tags/cloud-computing/</link>
+      <pubDate>Wed, 14 May 2025 21:07:39 -0400</pubDate>
+      <guid>https://architecti.blog/en/tags/cloud-computing/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Domain-Driven Design</title>
+      <link>https://architecti.blog/en/tags/domain-driven-design/</link>
+      <pubDate>Sat, 05 Apr 2025 21:07:39 -0400</pubDate>
+      <guid>https://architecti.blog/en/tags/domain-driven-design/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Microservices Design</title>
+      <link>https://architecti.blog/en/tags/microservices-design/</link>
+      <pubDate>Sat, 05 Apr 2025 21:07:39 -0400</pubDate>
+      <guid>https://architecti.blog/en/tags/microservices-design/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Software Architecture</title>
+      <link>https://architecti.blog/en/tags/software-architecture/</link>
+      <pubDate>Sat, 05 Apr 2025 21:07:39 -0400</pubDate>
+      <guid>https://architecti.blog/en/tags/software-architecture/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Methodology</title>
+      <link>https://architecti.blog/en/tags/methodology/</link>
+      <pubDate>Fri, 07 Mar 2025 21:07:39 -0400</pubDate>
+      <guid>https://architecti.blog/en/tags/methodology/</guid>
       <description></description>
     </item>
     <item>
@@ -34,13 +153,6 @@
       <link>https://architecti.blog/en/tags/strategy/</link>
       <pubDate>Wed, 01 Jan 2025 21:07:39 -0400</pubDate>
       <guid>https://architecti.blog/en/tags/strategy/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Digital Transformation</title>
-      <link>https://architecti.blog/en/tags/digital-transformation/</link>
-      <pubDate>Thu, 05 Aug 2021 21:07:39 -0400</pubDate>
-      <guid>https://architecti.blog/en/tags/digital-transformation/</guid>
       <description></description>
     </item>
     <item>
@@ -90,13 +202,6 @@
       <link>https://architecti.blog/en/tags/togaf/</link>
       <pubDate>Fri, 05 Mar 2021 21:07:39 -0400</pubDate>
       <guid>https://architecti.blog/en/tags/togaf/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Methodology</title>
-      <link>https://architecti.blog/en/tags/methodology/</link>
-      <pubDate>Tue, 05 Jan 2021 21:07:39 -0400</pubDate>
-      <guid>https://architecti.blog/en/tags/methodology/</guid>
       <description></description>
     </item>
     <item>
