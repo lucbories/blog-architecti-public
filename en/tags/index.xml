@@ -6,26 +6,40 @@
     <description>Recent content in Tags on IT Architecture</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 17 Aug 2025 21:07:39 -0400</lastBuildDate>
+    <lastBuildDate>Wed, 03 Sep 2025 16:45:39 -0400</lastBuildDate>
     <atom:link href="https://architecti.blog/en/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Agility</title>
+      <link>https://architecti.blog/en/tags/agility/</link>
+      <pubDate>Wed, 03 Sep 2025 16:45:39 -0400</pubDate>
+      <guid>https://architecti.blog/en/tags/agility/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Application Architecture</title>
       <link>https://architecti.blog/en/tags/application-architecture/</link>
-      <pubDate>Sun, 17 Aug 2025 21:07:39 -0400</pubDate>
+      <pubDate>Wed, 03 Sep 2025 16:45:39 -0400</pubDate>
       <guid>https://architecti.blog/en/tags/application-architecture/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Cloud</title>
+      <link>https://architecti.blog/en/tags/cloud/</link>
+      <pubDate>Wed, 03 Sep 2025 16:45:39 -0400</pubDate>
+      <guid>https://architecti.blog/en/tags/cloud/</guid>
       <description></description>
     </item>
     <item>
       <title>Design</title>
       <link>https://architecti.blog/en/tags/design/</link>
-      <pubDate>Sun, 17 Aug 2025 21:07:39 -0400</pubDate>
+      <pubDate>Wed, 03 Sep 2025 16:45:39 -0400</pubDate>
       <guid>https://architecti.blog/en/tags/design/</guid>
       <description></description>
     </item>
     <item>
       <title>Microservices</title>
       <link>https://architecti.blog/en/tags/microservices/</link>
-      <pubDate>Sun, 17 Aug 2025 21:07:39 -0400</pubDate>
+      <pubDate>Wed, 03 Sep 2025 16:45:39 -0400</pubDate>
       <guid>https://architecti.blog/en/tags/microservices/</guid>
       <description></description>
     </item>
@@ -160,13 +174,6 @@
       <link>https://architecti.blog/en/tags/enterprise-architecture/</link>
       <pubDate>Thu, 05 Aug 2021 21:07:39 -0400</pubDate>
       <guid>https://architecti.blog/en/tags/enterprise-architecture/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Cloud</title>
-      <link>https://architecti.blog/en/tags/cloud/</link>
-      <pubDate>Fri, 04 Jun 2021 21:07:39 -0400</pubDate>
-      <guid>https://architecti.blog/en/tags/cloud/</guid>
       <description></description>
     </item>
     <item>

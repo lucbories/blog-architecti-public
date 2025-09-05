@@ -6,8 +6,15 @@
     <description>Recent content in Application Architecture on IT Architecture</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 17 Aug 2025 21:07:39 -0400</lastBuildDate>
+    <lastBuildDate>Wed, 03 Sep 2025 16:45:39 -0400</lastBuildDate>
     <atom:link href="https://architecti.blog/en/tags/application-architecture/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Microservices Architecture: Principles, Benefits, Challenges, and Use Cases</title>
+      <link>https://architecti.blog/en/articles/2025/009-l-architecture-microservices--une-r%C3%A9volution-dans-la-conception-applicative/</link>
+      <pubDate>Wed, 03 Sep 2025 16:45:39 -0400</pubDate>
+      <guid>https://architecti.blog/en/articles/2025/009-l-architecture-microservices--une-r%C3%A9volution-dans-la-conception-applicative/</guid>
+      <description>&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;&#xA;&lt;p&gt;In recent years, software development has undergone a profound transformation in how applications are designed, deployed, and maintained. This shift is largely driven by the rise of microservices architecture, which stands in contrast to traditional monolithic systems. In a world where businesses must innovate quickly, adapt to changing user needs, and ensure high availability, microservices offer a flexible and scalable solution to modern challenges. Yet behind this promise lies a set of technical, organizational, and cultural decisions that deserve careful exploration.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>The Fundamental Principles of Domain-Driven Design (DDD)</title>
       <link>https://architecti.blog/en/articles/2025/008-les-principes-fondamentaux-du-domain-driven-design-ddd/</link>

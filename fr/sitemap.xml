@@ -2,8 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://architecti.blog/tags/agile/</loc>
+    <lastmod>2025-09-03T16:45:39-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
     <loc>https://architecti.blog/</loc>
-    <lastmod>2025-08-17T21:07:39-04:00</lastmod>
+    <lastmod>2025-09-03T16:45:39-04:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
     <xhtml:link
@@ -18,16 +23,106 @@
                 />
   </url><url>
     <loc>https://architecti.blog/tags/architecture-applicative/</loc>
-    <lastmod>2025-08-17T21:07:39-04:00</lastmod>
+    <lastmod>2025-09-03T16:45:39-04:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://architecti.blog/tags/architecture-hexagonale/</loc>
-    <lastmod>2025-08-17T21:07:39-04:00</lastmod>
+    <loc>https://architecti.blog/tags/cloud/</loc>
+    <lastmod>2025-09-03T16:45:39-04:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://architecti.blog/en/tags/cloud/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://architecti.blog/tags/cloud/"
+                />
   </url><url>
     <loc>https://architecti.blog/tags/conception/</loc>
+    <lastmod>2025-09-03T16:45:39-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://architecti.blog/articles/2025/009-l-architecture-microservices--une-r%C3%A9volution-dans-la-conception-applicative/</loc>
+    <lastmod>2025-09-03T16:45:39-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://architecti.blog/en/articles/2025/009-l-architecture-microservices--une-r%C3%A9volution-dans-la-conception-applicative/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://architecti.blog/articles/2025/009-l-architecture-microservices--une-r%C3%A9volution-dans-la-conception-applicative/"
+                />
+  </url><url>
+    <loc>https://architecti.blog/tags/microservices/</loc>
+    <lastmod>2025-09-03T16:45:39-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://architecti.blog/en/tags/microservices/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://architecti.blog/tags/microservices/"
+                />
+  </url><url>
+    <loc>https://architecti.blog/tags/</loc>
+    <lastmod>2025-09-03T16:45:39-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://architecti.blog/en/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://architecti.blog/tags/"
+                />
+  </url><url>
+    <loc>https://architecti.blog/articles/</loc>
+    <lastmod>2025-09-03T16:45:39-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://architecti.blog/en/articles/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://architecti.blog/articles/"
+                />
+  </url><url>
+    <loc>https://architecti.blog/articles/2025/</loc>
+    <lastmod>2025-09-03T16:45:39-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://architecti.blog/en/articles/2025/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://architecti.blog/articles/2025/"
+                />
+  </url><url>
+    <loc>https://architecti.blog/tags/architecture-hexagonale/</loc>
     <lastmod>2025-08-17T21:07:39-04:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -60,66 +155,6 @@
                 rel="alternate"
                 hreflang="fr"
                 href="https://architecti.blog/articles/2025/008-les-principes-fondamentaux-du-domain-driven-design-ddd/"
-                />
-  </url><url>
-    <loc>https://architecti.blog/tags/microservices/</loc>
-    <lastmod>2025-08-17T21:07:39-04:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://architecti.blog/en/tags/microservices/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="https://architecti.blog/tags/microservices/"
-                />
-  </url><url>
-    <loc>https://architecti.blog/tags/</loc>
-    <lastmod>2025-08-17T21:07:39-04:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://architecti.blog/en/tags/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="https://architecti.blog/tags/"
-                />
-  </url><url>
-    <loc>https://architecti.blog/articles/</loc>
-    <lastmod>2025-08-17T21:07:39-04:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://architecti.blog/en/articles/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="https://architecti.blog/articles/"
-                />
-  </url><url>
-    <loc>https://architecti.blog/articles/2025/</loc>
-    <lastmod>2025-08-17T21:07:39-04:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://architecti.blog/en/articles/2025/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="https://architecti.blog/articles/2025/"
                 />
   </url><url>
     <loc>https://architecti.blog/articles/2025/007-la-difficult%C3%A9-dappliquer-la-m%C3%A9thodologie-agile-dans-les-projets-informatiques/</loc>
@@ -176,21 +211,6 @@
     <lastmod>2025-05-14T21:07:39-04:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
-  </url><url>
-    <loc>https://architecti.blog/tags/cloud/</loc>
-    <lastmod>2025-05-14T21:07:39-04:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://architecti.blog/en/tags/cloud/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="https://architecti.blog/tags/cloud/"
-                />
   </url><url>
     <loc>https://architecti.blog/tags/containers/</loc>
     <lastmod>2025-05-14T21:07:39-04:00</lastmod>
