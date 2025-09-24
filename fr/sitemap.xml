@@ -2,13 +2,8 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://architecti.blog/tags/agile/</loc>
-    <lastmod>2025-09-03T16:45:39-04:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
     <loc>https://architecti.blog/</loc>
-    <lastmod>2025-09-03T16:45:39-04:00</lastmod>
+    <lastmod>2025-09-24T17:30:39-04:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
     <xhtml:link
@@ -21,6 +16,41 @@
                 hreflang="fr"
                 href="https://architecti.blog/"
                 />
+  </url><url>
+    <loc>https://architecti.blog/articles/</loc>
+    <lastmod>2025-09-24T17:30:39-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://architecti.blog/en/articles/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://architecti.blog/articles/"
+                />
+  </url><url>
+    <loc>https://architecti.blog/articles/2025/</loc>
+    <lastmod>2025-09-24T17:30:39-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://architecti.blog/en/articles/2025/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://architecti.blog/articles/2025/"
+                />
+  </url><url>
+    <loc>https://architecti.blog/tags/agile/</loc>
+    <lastmod>2025-09-03T16:45:39-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url><url>
     <loc>https://architecti.blog/tags/architecture-applicative/</loc>
     <lastmod>2025-09-03T16:45:39-04:00</lastmod>
@@ -90,36 +120,6 @@
                 rel="alternate"
                 hreflang="fr"
                 href="https://architecti.blog/tags/"
-                />
-  </url><url>
-    <loc>https://architecti.blog/articles/</loc>
-    <lastmod>2025-09-03T16:45:39-04:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://architecti.blog/en/articles/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="https://architecti.blog/articles/"
-                />
-  </url><url>
-    <loc>https://architecti.blog/articles/2025/</loc>
-    <lastmod>2025-09-03T16:45:39-04:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://architecti.blog/en/articles/2025/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="https://architecti.blog/articles/2025/"
                 />
   </url><url>
     <loc>https://architecti.blog/tags/architecture-hexagonale/</loc>
