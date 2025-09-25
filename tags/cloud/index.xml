@@ -6,8 +6,15 @@
     <description>Recent content in Cloud on ArchitecTI</description>
     <generator>Hugo</generator>
     <language>fr</language>
-    <lastBuildDate>Wed, 03 Sep 2025 16:45:39 -0400</lastBuildDate>
+    <lastBuildDate>Wed, 24 Sep 2025 17:30:39 -0400</lastBuildDate>
     <atom:link href="https://architecti.blog/tags/cloud/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Architecture Serverless : Révolutionner le Développement Web sans Serveur</title>
+      <link>https://architecti.blog/articles/2025/010-architecture-serverless---r%C3%A9volutionner-le-d%C3%A9veloppement-web-sans-serveur/</link>
+      <pubDate>Wed, 24 Sep 2025 17:30:39 -0400</pubDate>
+      <guid>https://architecti.blog/articles/2025/010-architecture-serverless---r%C3%A9volutionner-le-d%C3%A9veloppement-web-sans-serveur/</guid>
+      <description>&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;&#xA;&lt;p&gt;Le terme d’architecture serverless, ou architecture sans serveur en traduction littérale, peut amener un certain nombre de questions, nous allons tâcher de le démystifier.&lt;/p&gt;&#xA;&lt;p&gt;L’architecture serverless révolutionne la manière dont les applications modernes sont conçues et déployées, en déléguant la gestion des infrastructures sous-jacentes aux fournisseurs de cloud. Plutôt que de provisionner, configurer et maintenir des serveurs dédiés ou des clusters de machines virtuelles, les équipes de développement peuvent se concentrer sur l’écriture du code métier. Ce paradigme répond directement aux défis de l’agilité et de la réactivité requises par les entreprises d’aujourd’hui, qui cherchent à réduire les délais de mise sur le marché tout en optimisant leurs coûts opérationnels.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>L’architecture Microservices : une révolution dans la conception applicative</title>
       <link>https://architecti.blog/articles/2025/009-l-architecture-microservices--une-r%C3%A9volution-dans-la-conception-applicative/</link>
