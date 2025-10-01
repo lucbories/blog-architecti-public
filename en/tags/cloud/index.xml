@@ -6,8 +6,15 @@
     <description>Recent content in Cloud on IT Architecture</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 24 Sep 2025 17:30:39 -0400</lastBuildDate>
+    <lastBuildDate>Sun, 28 Sep 2025 07:30:39 -0400</lastBuildDate>
     <atom:link href="https://architecti.blog/en/tags/cloud/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Monolithic Architecture: Foundations, Strengths, and Limitations of a Classic Style</title>
+      <link>https://architecti.blog/en/articles/2025/011-architecture-monolithique---fondations-forces-et-limites/</link>
+      <pubDate>Sun, 28 Sep 2025 07:30:39 -0400</pubDate>
+      <guid>https://architecti.blog/en/articles/2025/011-architecture-monolithique---fondations-forces-et-limites/</guid>
+      <description>&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;&#xA;&lt;p&gt;Monolithic architecture is one of the oldest and most widespread styles in software development. It is often seen as the natural starting point for many applications, especially in contexts where simplicity, rapid implementation, and consistency are key priorities. Although modern architectures such as microservices or serverless have gained popularity, the monolith remains highly relevant in many use cases. This article offers an in-depth exploration of this architectural style, highlighting its characteristics, advantages, limitations, and how it compares to other approaches.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Serverless Architecture: Revolutionizing Web Development Without Servers</title>
       <link>https://architecti.blog/en/articles/2025/010-architecture-serverless---r%C3%A9volutionner-le-d%C3%A9veloppement-web-sans-serveur/</link>

@@ -6,34 +6,41 @@
     <description>Recent content in Tags on ArchitecTI</description>
     <generator>Hugo</generator>
     <language>fr</language>
-    <lastBuildDate>Wed, 24 Sep 2025 17:30:39 -0400</lastBuildDate>
+    <lastBuildDate>Sun, 28 Sep 2025 07:30:39 -0400</lastBuildDate>
     <atom:link href="https://architecti.blog/tags/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Agile</title>
-      <link>https://architecti.blog/tags/agile/</link>
-      <pubDate>Wed, 24 Sep 2025 17:30:39 -0400</pubDate>
-      <guid>https://architecti.blog/tags/agile/</guid>
-      <description></description>
-    </item>
     <item>
       <title>Architecture Applicative</title>
       <link>https://architecti.blog/tags/architecture-applicative/</link>
-      <pubDate>Wed, 24 Sep 2025 17:30:39 -0400</pubDate>
+      <pubDate>Sun, 28 Sep 2025 07:30:39 -0400</pubDate>
       <guid>https://architecti.blog/tags/architecture-applicative/</guid>
       <description></description>
     </item>
     <item>
       <title>Cloud</title>
       <link>https://architecti.blog/tags/cloud/</link>
-      <pubDate>Wed, 24 Sep 2025 17:30:39 -0400</pubDate>
+      <pubDate>Sun, 28 Sep 2025 07:30:39 -0400</pubDate>
       <guid>https://architecti.blog/tags/cloud/</guid>
       <description></description>
     </item>
     <item>
       <title>Conception</title>
       <link>https://architecti.blog/tags/conception/</link>
-      <pubDate>Wed, 24 Sep 2025 17:30:39 -0400</pubDate>
+      <pubDate>Sun, 28 Sep 2025 07:30:39 -0400</pubDate>
       <guid>https://architecti.blog/tags/conception/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Monolithique</title>
+      <link>https://architecti.blog/tags/monolithique/</link>
+      <pubDate>Sun, 28 Sep 2025 07:30:39 -0400</pubDate>
+      <guid>https://architecti.blog/tags/monolithique/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Agile</title>
+      <link>https://architecti.blog/tags/agile/</link>
+      <pubDate>Wed, 24 Sep 2025 17:30:39 -0400</pubDate>
+      <guid>https://architecti.blog/tags/agile/</guid>
       <description></description>
     </item>
     <item>

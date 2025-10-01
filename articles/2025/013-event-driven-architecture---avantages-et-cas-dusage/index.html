@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    
+    <title>Event-Driven Architecture (EDA) : avantages et cas d’usage | ArchitecTI</title>
+    <meta name="viewport" content="width=device-width,minimum-scale=1">
+    <meta name="description" content="Découvrez les avantages de l’Event-Driven Architecture (EDA), ses cas d’usage, patterns et bonnes pratiques pour concevoir des systèmes distribués réactifs et résilients.">
+    <meta name="generator" content="Hugo 0.148.2">
+    
+    
+    
+      <meta name="robots" content="noindex, nofollow">
+    
+    <meta name="author" content="Luc Bories">
+    
+
+    
+<link rel="stylesheet" href="/ananke/css/main.min.css" >
+
+
+
+
+    
+
+
+    
+      
+
+    
+
+    
+
+    
+      <link rel="canonical" href="http://localhost:1313/articles/2025/013-event-driven-architecture---avantages-et-cas-dusage/">
+    
+
+    <meta property="og:url" content="http://localhost:1313/articles/2025/013-event-driven-architecture---avantages-et-cas-dusage/">
+  <meta property="og:site_name" content="ArchitecTI">
+  <meta property="og:title" content="Event-Driven Architecture (EDA) : avantages et cas d’usage">
+  <meta property="og:description" content="Découvrez les avantages de l’Event-Driven Architecture (EDA), ses cas d’usage, patterns et bonnes pratiques pour concevoir des systèmes distribués réactifs et résilients.">
+  <meta property="og:locale" content="fr">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="articles">
+    <meta property="article:published_time" content="2025-10-12T07:30:39-04:00">
+    <meta property="article:modified_time" content="2025-10-12T07:30:39-04:00">
+    <meta property="article:tag" content="Event-Driven Architecture">
+    <meta property="article:tag" content="EDA">
+    <meta property="article:tag" content="Architecture Pilotée Par Événements">
+    <meta property="article:tag" content="Microservices Réactifs">
+    <meta property="article:tag" content="Communication Asynchrone">
+    <meta property="article:tag" content="Apache Kafka">
+
+  <meta itemprop="name" content="Event-Driven Architecture (EDA) : avantages et cas d’usage">
+  <meta itemprop="description" content="Découvrez les avantages de l’Event-Driven Architecture (EDA), ses cas d’usage, patterns et bonnes pratiques pour concevoir des systèmes distribués réactifs et résilients.">
+  <meta itemprop="datePublished" content="2025-10-12T07:30:39-04:00">
+  <meta itemprop="dateModified" content="2025-10-12T07:30:39-04:00">
+  <meta itemprop="wordCount" content="2056">
+  <meta itemprop="keywords" content="Event-Driven Architecture,EDA,Architecture Pilotée Par Événements,Microservices Réactifs,Communication Asynchrone,Apache Kafka,RabbitMQ,Event Sourcing,CQRS,Scalabilité Horizontale,Systèmes Distribués,Réactivité en Temps Réel">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Event-Driven Architecture (EDA) : avantages et cas d’usage">
+  <meta name="twitter:description" content="Découvrez les avantages de l’Event-Driven Architecture (EDA), ses cas d’usage, patterns et bonnes pratiques pour concevoir des systèmes distribués réactifs et résilients.">
+
+	
+  </head><body class="ma0 avenir bg-near-white development">
+
+    
+   
+  
+
+  
+  
+  
+  <header class="cover bg-center" style="background-image: url('http://localhost:1313/images/Copilot_20250903_164704-Microservices-1024x.jpg');">
+    <div class="bg-black-60">
+      <nav class="pv3 ph3 ph4-ns" role="navigation">
+  <div class="flex-l center items-center justify-between">
+    <a href="/" class="f3 fw2 hover-white white-90 dib no-underline">
+      
+        ArchitecTI
+      
+    </a>
+    <div class="flex-l items-center">
+      
+<h4></h4>
+<ul class="pl0 mr3">
+    
+    <li class="list f5 f4-ns fw4 dib pr3">
+        <a class="hover-white white-90 no-underline" href="/en/articles/2025/013-event-driven-architecture---avantages-et-cas-dusage/">en</a>
+    </li>
+    
+</ul>
+
+
+      
+        <ul class="pl0 mr3">
+          
+          <li class="list f5 f4-ns fw4 dib pr3">
+            <a class="hover-white white-90 no-underline" href="/tags/architecture-dentreprise/" title="Architecture d&#39;Entreprise page">
+              Architecture d&#39;Entreprise
+            </a>
+          </li>
+          
+          <li class="list f5 f4-ns fw4 dib pr3">
+            <a class="hover-white white-90 no-underline" href="/tags/architecture-applicative/" title="Architecture Applicative page">
+              Architecture Applicative
+            </a>
+          </li>
+          
+          <li class="list f5 f4-ns fw4 dib pr3">
+            <a class="hover-white white-90 no-underline" href="/tags/architecture-technologique/" title="Architecture Technologique page">
+              Architecture Technologique
+            </a>
+          </li>
+          
+          <li class="list f5 f4-ns fw4 dib pr3">
+            <a class="hover-white white-90 no-underline" href="/articles/" title="Articles page">
+              Articles
+            </a>
+          </li>
+          
+          <li class="list f5 f4-ns fw4 dib pr3">
+            <a class="hover-white white-90 no-underline" href="/tagslist/" title="Rechercher page">
+              Rechercher
+            </a>
+          </li>
+          
+          <li class="list f5 f4-ns fw4 dib pr3">
+            <a class="hover-white white-90 no-underline" href="/about/" title="À propos page">
+              À propos
+            </a>
+          </li>
+          
+        </ul>
+      
+      <div class="ananke-socials"></div>
+
+    </div>
+  </div>
+</nav>
+
+      <div class="tc-l pv6 ph3 ph4-ns">
+        
+          <div class="f2 f1-l fw2 white-90 mb0 lh-title">Event-Driven Architecture (EDA) : avantages et cas d’usage</div>
+          
+            <div class="fw1 f5 f3-l white-80 measure-wide-l center lh-copy mt3 mb4">
+              Découvrez les avantages de l’Event-Driven Architecture (EDA), ses cas d’usage, patterns et bonnes pratiques pour concevoir des systèmes distribués réactifs et résilients.
+            </div>
+          
+        
+      </div>
+    </div>
+  </header>
+
+
+
+    <main class="pb7" role="main">
+      
+  
+  
+  <article class="flex-l mw8 center ph3 flex-wrap justify-between">
+    <header class="mt4 w-100">
+      <aside class="instapaper_ignoref b helvetica tracked ttu">
+          
+        Tous les Articles 2025
+      </aside><div id="sharing" class="mt3 ananke-socials"></div>
+<h1 class="f1 athelas mt3 mb1">Event-Driven Architecture (EDA) : avantages et cas d’usage</h1>
+      
+      <p class="tracked"><strong>Luc Bories</strong>
+      </p>
+      
+      
+      
+      <time class="f6 mv4 dib tracked" datetime="2025-10-12T07:30:39-04:00">octobre 12, 2025</time>
+      
+
+      
+      
+        <span class="f6 mv4 dib tracked"> - 10 minutes de lecture </span>
+        <span class="f6 mv4 dib tracked"> - 2056 mots </span>
+      
+    </header>
+    <div class="nested-copy-line-height lh-copy serif f4 nested-links mid-gray pr4-l w-two-thirds-l"><h2 id="introduction">Introduction</h2>
+<p>L’Event-Driven Architecture (EDA) se distingue par sa capacité à propager des changements d’état sous forme d’événements dans des systèmes distribués. Cette approche repose sur l’émission, la transmission et la consommation d’événements, offrant une réactivité et une flexibilité accrues par rapport aux architectures traditionnelles basées sur les requêtes synchrones. L’essor des microservices, de l’internet des objets et des applications en temps réel a stimulé l’adoption de l’EDA, car ces contextes exigent une communication asynchrone et découplée entre composants. Dans cet article, nous examinerons les principes fondamentaux de l’EDA, ses principaux avantages, quelques modèles architecturaux associés ainsi que des cas d’usage concrets et des bonnes pratiques pour faciliter sa mise en œuvre.</p>
+<hr>
+<h2 id="principes-fondamentaux-de-leda">Principes fondamentaux de l’EDA</h2>
+<p>Au cœur de l’EDA figure l’événement, qui représente un fait pertinent produit par une source et susceptible d’être traité par un ou plusieurs consommateurs. Les composants producteurs (ou émetteurs) publient des événements sans connaître leurs destinataires, tandis que les composants consommateurs souscrivent à des flux d’événements selon des critères métier ou techniques. Entre ces deux acteurs, un intermédiaire (broker) assure la réception, l’acheminement et parfois le stockage temporaire des événements, garantissant ainsi l’isolation et la résilience du système. Cette séquence de publication-abonnement découple fortement les modules, permet une scalabilité horizontale et simplifie le développement d’applications réactives.</p>
+<p>Les événements circulent généralement selon deux modes principaux : le « push », où le broker envoie immédiatement chaque événement aux souscripteurs concernés, et le « pull », où les consommateurs interrogent périodiquement le broker pour récupérer les nouveaux événements. Cette flexibilité de distribution permet d’ajuster le débit et la latence en fonction des contraintes opérationnelles et des patterns de charge. Certains brokers offrent également des garanties de livraison, garantissant au moins une fois (at-least-once) ou exactement une fois (exactly-once) la remise d’événements, ce qui est essentiel pour les processus critiques. Enfin, l’Event Sourcing et la Command Query Responsibility Segregation (CQRS) exploitent l’EDA pour conserver un historique complet des changements et séparer les responsabilités de lecture et d’écriture des données.</p>
+<hr>
+<h2 id="avantages-de-leda">Avantages de l’EDA</h2>
+<p>L’un des premiers bénéfices de l’EDA réside dans le découplage des composants, rendant possible l’évolution d’un service sans impacter directement les autres. En isolant la logique métier de la communication, chaque microservice peut être déployé, mis à jour ou redémarré indépendamment, ce qui réduit considérablement les temps d’indisponibilité. Cette indépendance facilite également les développements parallèle : différentes équipes peuvent travailler simultanément sur des flux d’événements distincts sans craindre de conflits de version ou des effets de bord imprévus.</p>
+<p>La scalabilité horizontale bénéficie directement de l’EDA, puisqu’il suffit d’ajouter de nouvelles instances de producteurs ou de consommateurs pour absorber une montée en charge. Les brokers modernes, tels qu’Apache Kafka ou RabbitMQ, sont conçus pour répartir automatiquement la charge entre plusieurs partitions et nœuds, assurant une montée en charge linéaire et prévisible. En découplant publication et consommation, l’EDA permet aussi de lisser les pics d’activité grâce à la mise en file d’attente et aux tampons temporaires, évitant ainsi les goulets d’étranglement lors de traitements intensifs.</p>
+<p>Du point de vue de la réactivité, l’EDA permet de répondre quasi-instantanément à des événements métier ou système. Les applications pilotées par événement deviennent naturellement réactives, adaptatives et résilientes selon le modèle proposé par Reactive Manifesto. Ainsi, lorsqu’un événement survient (par exemple une transaction financière validée ou un capteur IoT signalant une anomalie), le système peut immédiatement déclencher des traitements, des alertes et des workflows associés. Cette aura réactive est particulièrement précieuse pour les plateformes de trading, la surveillance industrielle ou la détection de fraude, où chaque milliseconde compte.</p>
+<p>Enfin, l’EDA facilite l’extensibilité fonctionnelle en permettant l’ajout de nouveaux consommateurs sans modifier les émetteurs existants. Vous pouvez intégrer sans friction des outils de reporting, d’analyse en temps réel ou de notification, simplement en souscrivant aux événements appropriés. Cette extensibilité favorise la création de solutions analytiques toujours plus sophistiquées et offre une grande agilité dans l’évolution des fonctionnalités.</p>
+<hr>
+<h2 id="modèles-architecturaux-et-composants-clés">Modèles architecturaux et composants clés</h2>
+<p>Plusieurs patterns émergent naturellement dans l’univers EDA. L’Event Sourcing consiste à enregistrer chaque changement d’état comme un événement immuable, offrant un historique complet et facilitant la reconstruction de l’état à un instant donné. Ce pattern se combine souvent avec CQRS, où les commandes modifient l’état via des événements tandis que les requêtes exploitent des vues optimisées pour la lecture. Ensemble, ces deux modèles permettent de gérer de fortes charges d’écriture tout en offrant des performances de lecture optimales.</p>
+<p>Le pattern Saga étend l’EDA aux transactions distribuées en orchestrant plusieurs services via une suite d’événements compensatoires. Chaque étape d’une saga émet un événement de démarrage, suivi d’opérations locales, puis en cas d’échec d’une étape, d’événements correctifs pour annuler l’effet des précédentes. Ce mécanisme garantit la cohérence globale lorsque plusieurs services doivent participer à une transaction sans blocage global.</p>
+<p>Un autre pattern clé est l’Aggregator, qui regroupe plusieurs événements en un événement composite une fois que toutes les données nécessaires sont disponibles. Ce modèle est fréquent dans les systèmes de veille et d’analyse en flux, où des données provenant de sources diverses doivent être combinées avant d’alimenter un algorithme de décision. Les microservices spécialisés dans l’agrégation peuvent alors décharger la logique de composition des services métier, renforçant encore le découplage.</p>
+<hr>
+<h2 id="cas-dusage-typiques">Cas d’usage typiques</h2>
+<p>L’un des domaines phares de l’EDA est l’internet des objets (IoT), où des milliers, voire des millions de capteurs génèrent des événements de télémétrie en continu. Les plateformes IoT utilisent des brokers pour collecter ces flux massifs, déclencher des règles d’alerte ou activer des process de maintenance prédictive en temps réel. L’EDA garantit la scalabilité nécessaire pour absorber la variabilité et la densité de ces flux de données, tout en offrant une latence assez basse pour des actions urgentes.</p>
+<p>Dans la finance, le traitement des transactions en haute fréquence s’appuie sur l’émission rapide d’événements décrivant chaque ordre, chaque exécution ou chaque modification de carnet d’ordres. Les systèmes de trading algorithmique doivent réagir immédiatement à ces événements pour ajuster les stratégies, regénérer les ordres et analyser les opportunités de marché. L’EDA fournit le cadre idéal pour orchestrer ces flux et garantir une cohérence tout en minimisant les délais de bout en bout.</p>
+<p>Les plates-formes de e-commerce et de logistique adoptent également l’EDA pour gérer les commandes, le suivi des colis et les scénarios de réapprovisionnement automatique. Chaque étape du cycle de vie d’une commande génère un événement, déclenchant des actions sur les stocks, la facturation, la préparation d’expédition et la notification client. Cette traçabilité fine et la possibilité d’injecter de nouveaux consommateurs rendent le service plus adaptable face aux exigences de personnalisation et d’optimisation logistique.</p>
+<p>Les réseaux sociaux et les applications collaboratives exploitent des architectures pilotées par événement pour mettre à jour les flux d’activité en temps réel et synchroniser les mises à jour entre utilisateurs. Lorsqu’un utilisateur publie un contenu ou réagit à une publication, un événement est publié et diffusé instantanément à tous les abonnés concernés. Ce modèle assure une expérience utilisateur fluide et immersive, où l’information circule sans latence perceptible.</p>
+<hr>
+<h2 id="étude-de-cas--netflix-et-lécosystème-kafka">Étude de cas : Netflix et l’écosystème Kafka</h2>
+<p>Netflix, géant mondial du streaming, a largement contribué à populariser l’EDA au sein de la communauté tech. L’entreprise a adopté Apache Kafka comme backbone événementiel pour gérer la télémétrie de lecture, la personnalisation et les recommandations. Chaque action de l’utilisateur, qu’il s’agisse du lancement d’une vidéo ou de la sélection d’un sous-titre, est émise sous forme d’événement et traitée par une chaîne de microservices dédiée. Cette approche asynchrone garantit une mise à l’échelle fluide face à des dizaines de millions d’utilisateurs actifs simultanément.</p>
+<p>Au sein de Netflix, les événements circulent à travers un cluster Kafka redondé et géo-répliqué, assurant la disponibilité et la durabilité des messages même en cas de panne d’un centre de données. Les équipes de data science consomment ces mêmes flux pour générer des modèles de recommandation en quasi-temps réel, facilitant ainsi l’ajustement des algorithmes et l’A/B testing à grande échelle. L’expérience Netflix montre que l’EDA, couplée à un écosystème riche de monitoring et d’observabilité, peut soutenir les besoins les plus exigeants en termes de débit, de latence et de fiabilité.</p>
+<hr>
+<h2 id="défis-et-limites-de-leda">Défis et limites de l’EDA</h2>
+<p>Malgré ses nombreux atouts, l’EDA introduit une complexité non négligeable en termes de traçabilité et de débogage. Dans un environnement asynchrone et distribué, retrouver l’origine d’un comportement inattendu nécessite souvent de corréler des événements émis successivement par plusieurs composants. L’investissement dans des outils d’observabilité, de traçage distribué et de monitoring en temps réel est indispensable pour maintenir un niveau de fiabilité élevé.</p>
+<p>La gestion de l’ordre d’arrivée des événements peut devenir critique lorsqu’il s’agit de garantir la cohérence des données. Certains brokers fournissent des partitions ordonnées, mais cela peut limiter la parallélisation. Il est donc essentiel de concevoir des clés de partition pertinentes et de prévoir des mécanismes de relecture ou de compensation lorsque l’ordre d’émission ne garantit pas l’ordre de traitement.</p>
+<p>Les garanties de livraison peuvent alourdir les performances si elles ne sont pas ajustées finement. Opter pour une livraison « exactly-once » nécessite des transactions distribuées et des points de contrôle fréquents, ce qui peut introduire de la latence. À l’inverse, se contenter d’une garantie « at-least-once » impose de gérer les doublons dans les consommateurs, complexifiant la logique métier.</p>
+<p>Enfin, la multiplication des flux d’événements peut conduire à une explosion du nombre de topics ou canaux, rendant la gouvernance de l’écosystème délicate. Il convient alors de mettre en place une gestion centralisée des schémas d’événements (par exemple via un registry Avro ou JSON Schema) et une documentation exhaustive pour faciliter la collaboration entre équipes.</p>
+<hr>
+<h2 id="bonnes-pratiques-pour-une-mise-en-œuvre-réussie">Bonnes pratiques pour une mise en œuvre réussie</h2>
+<p>Avant tout, il est recommandé de démarrer avec une preuve de concept restreinte afin de valider les principes de base et de mesurer les performances. Cette phase permet d’identifier les points de contention, d’ajuster la configuration du broker et de tester les patterns d’erreurs. Il est également crucial de définir des contrats d’événements bien structurés et versionnés afin d’éviter les ruptures lors de l’évolution des schémas.</p>
+<p>Le choix du broker doit être aligné sur les besoins métier et techniques : volume de données, exigences de latence, garanties de livraison et écosystème opérationnel. Apache Kafka se distingue pour les gros volumes avec ses partitions scalables, tandis que RabbitMQ ou Apache Pulsar peuvent être préférables pour des scénarios nécessitant un routage fin ou une faible latence. Il est conseillé de confronter plusieurs solutions via des benchmarks réalistes.</p>
+<p>Pour chaque événement, il est important de documenter le contexte métier, les producteurs, les consommateurs attendus et les conditions d’erreur. Une registry de schéma centralisée évite la fragmentation et simplifie la validation à la volée. Les tests automatisés devraient inclure la simulation d’événements erronés ou retardés pour vérifier la robustesse des consommateurs.</p>
+<p>Enfin, l’EDA bénéficie grandement d’un solide dispositif d’observabilité : logs structurés, traces distribuées et métriques temps réel. L’intégration d’outils tels que Prometheus, Grafana et Jaeger permet de suivre le flux des événements, de détecter les goulots d’étranglement et de diagnostiquer rapidement toute anomalie. Garantir la visibilité sur l’ensemble de la chaîne événementielle est un facteur clé de succès.</p>
+<hr>
+<h2 id="conclusion">Conclusion</h2>
+<p>L’Event-Driven Architecture représente un changement de paradigme puissant pour concevoir des systèmes distribués modernes, réactifs et évolutifs. En découplant les composants autour du concept d’événement, elle apporte flexibilité, scalabilité et agilité, particulièrement adaptées aux contextes de microservices, d’IoT et d’applications en temps réel. Toutefois, l’EDA requiert un investissement initial en termes d’outils d’instrumentation, de gouvernance des schémas et de maîtrise des patterns distribués.</p>
+<p>Les cas d’usage décrits, de la plate-forme de streaming aux systèmes financiers haute fréquence, démontrent que l’EDA peut soutenir des charges et des exigences de fiabilité extrêmes. Pour réussir sa mise en œuvre, il convient de démarrer progressivement, de choisir soigneusement le broker en fonction des priorités et d’établir une observabilité robuste. Avec ces conditions réunies, l’EDA devient un atout majeur pour bâtir des architectures applicatives résilientes et prêtes à évoluer avec les besoins futurs.</p>
+<hr>
+<h2 id="références">Références</h2>
+<ol>
+<li>Fowler, M. « Event-Driven Architecture ». martinfowler.com, 2005.</li>
+<li>Stopford, B. « Designing Event-Driven Systems ». O’Reilly Media, 2018.</li>
+<li>Bellman, H. « Basics of Event-Driven Architecture ». TechTarget, 2020.</li>
+<li>NGINX Blog. « What Is Event-Driven Architecture? », F5, 2019.</li>
+<li>Kreps, J. « I Heart Logs: Event Data, Stream Processing, and Data Integration ». O’Reilly Media, 2014.</li>
+<li>Microsoft Docs. « Introduction to event-driven architectures », Microsoft, 2021.</li>
+<li>InfoQ. « Event-Driven Architecture Adoption Patterns », InfoQ, 2022.</li>
+<li>Kafka Documentation. « Kafka: A Distributed Streaming Platform », Apache Software Foundation, 2025.</li>
+</ol>
+<ul class="pa0">
+  
+   <li class="list di">
+     <a href="/tags/event-driven-architecture/" class="link f5 grow br-pill ba ph3 pv2 mb2 dib black sans-serif no-underline">Event-Driven Architecture</a>
+   </li>
+  
+   <li class="list di">
+     <a href="/tags/eda/" class="link f5 grow br-pill ba ph3 pv2 mb2 dib black sans-serif no-underline">EDA</a>
+   </li>
+  
+   <li class="list di">
+     <a href="/tags/architecture-pilot%C3%A9e-par-%C3%A9v%C3%A9nements/" class="link f5 grow br-pill ba ph3 pv2 mb2 dib black sans-serif no-underline">Architecture Pilotée Par Événements</a>
+   </li>
+  
+   <li class="list di">
+     <a href="/tags/microservices-r%C3%A9actifs/" class="link f5 grow br-pill ba ph3 pv2 mb2 dib black sans-serif no-underline">Microservices Réactifs</a>
+   </li>
+  
+   <li class="list di">
+     <a href="/tags/communication-asynchrone/" class="link f5 grow br-pill ba ph3 pv2 mb2 dib black sans-serif no-underline">Communication Asynchrone</a>
+   </li>
+  
+   <li class="list di">
+     <a href="/tags/apache-kafka/" class="link f5 grow br-pill ba ph3 pv2 mb2 dib black sans-serif no-underline">Apache Kafka</a>
+   </li>
+  
+   <li class="list di">
+     <a href="/tags/rabbitmq/" class="link f5 grow br-pill ba ph3 pv2 mb2 dib black sans-serif no-underline">RabbitMQ</a>
+   </li>
+  
+   <li class="list di">
+     <a href="/tags/event-sourcing/" class="link f5 grow br-pill ba ph3 pv2 mb2 dib black sans-serif no-underline">Event Sourcing</a>
+   </li>
+  
+   <li class="list di">
+     <a href="/tags/cqrs/" class="link f5 grow br-pill ba ph3 pv2 mb2 dib black sans-serif no-underline">CQRS</a>
+   </li>
+  
+   <li class="list di">
+     <a href="/tags/scalabilit%C3%A9-horizontale/" class="link f5 grow br-pill ba ph3 pv2 mb2 dib black sans-serif no-underline">Scalabilité Horizontale</a>
+   </li>
+  
+   <li class="list di">
+     <a href="/tags/syst%C3%A8mes-distribu%C3%A9s/" class="link f5 grow br-pill ba ph3 pv2 mb2 dib black sans-serif no-underline">Systèmes Distribués</a>
+   </li>
+  
+   <li class="list di">
+     <a href="/tags/r%C3%A9activit%C3%A9-en-temps-r%C3%A9el/" class="link f5 grow br-pill ba ph3 pv2 mb2 dib black sans-serif no-underline">Réactivité en Temps Réel</a>
+   </li>
+  
+</ul>
+<div class="mt6 instapaper_ignoref">
+      
+      
+      </div>
+    </div>
+
+    <aside class="w-30-l mt6-l">
+
+
+
+
+</aside>
+
+  </article>
+
+    </main>
+    <footer class="bg-black bottom-0 w-100 pa3" role="contentinfo">
+  <div class="flex justify-between">
+  <a class="f4 fw4 hover-white white-70 dn dib-ns pv2 ph3 no-underline" href="http://localhost:1313/" >
+    &copy;  ArchitecTI 2025 
+  </a>
+    <div><div class="ananke-socials"></div>
+</div>
+  </div>
+</footer>
+
+  </body>
+</html>

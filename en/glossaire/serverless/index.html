@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    
+    <title>Comparing Layered Architecture and Hexagonal Architecture (Ports &amp; Adapters) | IT Architecture</title>
+    <meta name="viewport" content="width=device-width,minimum-scale=1">
+    <meta name="description" content="Compare layered and hexagonal (Ports &amp; Adapters) architecture styles in depth. Discover their core principles, advantages, drawbacks, real-world use cases, and guidance for choosing the right pattern.">
+    <meta name="generator" content="Hugo 0.148.2">
+    
+    
+    
+      <meta name="robots" content="noindex, nofollow">
+    
+    <meta name="author" content="Luc Bories">
+    
+
+    
+<link rel="stylesheet" href="/ananke/css/main.min.css" >
+
+
+
+
+    
+
+
+    
+      
+
+    
+
+    
+
+    
+      <link rel="canonical" href="http://localhost:1313/en/glossaire/serverless/">
+    
+
+    <meta property="og:url" content="http://localhost:1313/en/glossaire/serverless/">
+  <meta property="og:site_name" content="IT Architecture">
+  <meta property="og:title" content="Comparing Layered Architecture and Hexagonal Architecture (Ports & Adapters)">
+  <meta property="og:description" content="Compare layered and hexagonal (Ports &amp; Adapters) architecture styles in depth. Discover their core principles, advantages, drawbacks, real-world use cases, and guidance for choosing the right pattern.">
+  <meta property="og:locale" content="en">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="glossaire">
+    <meta property="article:published_time" content="2025-10-19T07:30:39-04:00">
+    <meta property="article:modified_time" content="2025-10-19T07:30:39-04:00">
+    <meta property="article:tag" content="Design">
+    <meta property="article:tag" content="Application Architecture">
+    <meta property="article:tag" content="Hexagonal">
+    <meta property="article:tag" content="Layered">
+
+  <meta itemprop="name" content="Comparing Layered Architecture and Hexagonal Architecture (Ports & Adapters)">
+  <meta itemprop="description" content="Compare layered and hexagonal (Ports &amp; Adapters) architecture styles in depth. Discover their core principles, advantages, drawbacks, real-world use cases, and guidance for choosing the right pattern.">
+  <meta itemprop="datePublished" content="2025-10-19T07:30:39-04:00">
+  <meta itemprop="dateModified" content="2025-10-19T07:30:39-04:00">
+  <meta itemprop="wordCount" content="93">
+  <meta itemprop="keywords" content="layered architecture,hexagonal architecture,ports and adapters,layered vs hexagonal,software architecture patterns,application design comparison,dependency inversion,modular architecture,clean architecture,domain-driven design,testable architecture,integration strategies,three-tier vs hexagonal,decoupled design,architecture best practices">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Comparing Layered Architecture and Hexagonal Architecture (Ports & Adapters)">
+  <meta name="twitter:description" content="Compare layered and hexagonal (Ports &amp; Adapters) architecture styles in depth. Discover their core principles, advantages, drawbacks, real-world use cases, and guidance for choosing the right pattern.">
+
+	
+  </head><body class="ma0 avenir bg-near-white development">
+
+    
+   
+  
+
+  
+  
+  
+  <header class="cover bg-center" style="background-image: url('http://localhost:1313/images/Copilot_20250903_164704-Microservices-1024x.jpg');">
+    <div class="bg-black-60">
+      <nav class="pv3 ph3 ph4-ns" role="navigation">
+  <div class="flex-l center items-center justify-between">
+    <a href="/en/" class="f3 fw2 hover-white white-90 dib no-underline">
+      
+        IT Architecture
+      
+    </a>
+    <div class="flex-l items-center">
+      
+<h4></h4>
+<ul class="pl0 mr3">
+    
+    <li class="list f5 f4-ns fw4 dib pr3">
+        <a class="hover-white white-90 no-underline" href="/glossaire/serverless/">fr</a>
+    </li>
+    
+</ul>
+
+
+      
+        <ul class="pl0 mr3">
+          
+          <li class="list f5 f4-ns fw4 dib pr3">
+            <a class="hover-white white-90 no-underline" href="/en/tags/enterprise-architecture/" title="Entreprise Architecture page">
+              Entreprise Architecture
+            </a>
+          </li>
+          
+          <li class="list f5 f4-ns fw4 dib pr3">
+            <a class="hover-white white-90 no-underline" href="/en/tags/application-architecture/" title="Application Architecture page">
+              Application Architecture
+            </a>
+          </li>
+          
+          <li class="list f5 f4-ns fw4 dib pr3">
+            <a class="hover-white white-90 no-underline" href="/en/tags/technology-architecture/" title="Technology Architecture page">
+              Technology Architecture
+            </a>
+          </li>
+          
+          <li class="list f5 f4-ns fw4 dib pr3">
+            <a class="hover-white white-90 no-underline" href="/en/articles/" title="Articles page">
+              Articles
+            </a>
+          </li>
+          
+          <li class="list f5 f4-ns fw4 dib pr3">
+            <a class="hover-white white-90 no-underline" href="/en/tagslist/" title="Find page">
+              Find
+            </a>
+          </li>
+          
+          <li class="list f5 f4-ns fw4 dib pr3">
+            <a class="hover-white white-90 no-underline" href="/en/about/" title="About page">
+              About
+            </a>
+          </li>
+          
+        </ul>
+      
+      <div class="ananke-socials"></div>
+
+    </div>
+  </div>
+</nav>
+
+      <div class="tc-l pv6 ph3 ph4-ns">
+        
+          <div class="f2 f1-l fw2 white-90 mb0 lh-title">Comparing Layered Architecture and Hexagonal Architecture (Ports &amp; Adapters)</div>
+          
+            <div class="fw1 f5 f3-l white-80 measure-wide-l center lh-copy mt3 mb4">
+              Compare layered and hexagonal (Ports &amp; Adapters) architecture styles in depth. Discover their core principles, advantages, drawbacks, real-world use cases, and guidance for choosing the right pattern.
+            </div>
+          
+        
+      </div>
+    </div>
+  </header>
+
+
+
+    <main class="pb7" role="main">
+      
+  
+  
+  <article class="flex-l mw8 center ph3 flex-wrap justify-between">
+    <header class="mt4 w-100">
+      <aside class="instapaper_ignoref b helvetica tracked ttu">
+          
+        Glossary
+      </aside><div id="sharing" class="mt3 ananke-socials"></div>
+<h1 class="f1 athelas mt3 mb1">Comparing Layered Architecture and Hexagonal Architecture (Ports &amp; Adapters)</h1>
+      
+      <p class="tracked"><strong>Luc Bories</strong>
+      </p>
+      
+      
+      
+      <time class="f6 mv4 dib tracked" datetime="2025-10-19T07:30:39-04:00">October 19, 2025</time>
+      
+
+      
+      
+        <span class="f6 mv4 dib tracked"> - One minute read </span>
+        <span class="f6 mv4 dib tracked"> - 93 words </span>
+      
+    </header>
+    <div class="nested-copy-line-height lh-copy serif f4 nested-links mid-gray pr4-l w-two-thirds-l"><h2 id="introduction">Introduction</h2>
+<p>Layered architecture has been a cornerstone of software design for decades, offering a familiar and straightforward structure that teams of all sizes can adopt. This model divides an application into distinct horizontal slices, where each layer has a specific responsibility, from user interface to data persistence. Its appeal lies in its clear separation of concerns and the ability to isolate changes within each layer. Hexagonal architecture, also known as Ports &amp; Adapters, challenges this convention by promoting a more flexible, decoupled design that emphasizes the role of external interfaces and domain logic.</p>
+<ul class="pa0">
+  
+   <li class="list di">
+     <a href="/en/tags/design/" class="link f5 grow br-pill ba ph3 pv2 mb2 dib black sans-serif no-underline">Design</a>
+   </li>
+  
+   <li class="list di">
+     <a href="/en/tags/application-architecture/" class="link f5 grow br-pill ba ph3 pv2 mb2 dib black sans-serif no-underline">Application Architecture</a>
+   </li>
+  
+   <li class="list di">
+     <a href="/en/tags/hexagonal/" class="link f5 grow br-pill ba ph3 pv2 mb2 dib black sans-serif no-underline">Hexagonal</a>
+   </li>
+  
+   <li class="list di">
+     <a href="/en/tags/layered/" class="link f5 grow br-pill ba ph3 pv2 mb2 dib black sans-serif no-underline">Layered</a>
+   </li>
+  
+</ul>
+<div class="mt6 instapaper_ignoref">
+      
+      
+      </div>
+    </div>
+
+    <aside class="w-30-l mt6-l">
+
+
+
+
+  <div class="bg-light-gray pa3 nested-list-reset nested-copy-line-height nested-links">
+    <p class="f5 b mb3">Related</p>
+    <ul class="pa0 list">
+	   
+	     <li  class="mb2">
+          <a href="/en/articles/2025/012-comparaison-entre-architecture-en-couches-et-hexagonale/">Comparing Layered Architecture and Hexagonal Architecture (Ports &amp; Adapters)</a>
+        </li>
+	    
+	     <li  class="mb2">
+          <a href="/en/articles/2025/011-architecture-monolithique---fondations-forces-et-limites/">Monolithic Architecture: Foundations, Strengths, and Limitations of a Classic Style</a>
+        </li>
+	    
+	     <li  class="mb2">
+          <a href="/en/articles/2025/010-architecture-serverless---r%C3%A9volutionner-le-d%C3%A9veloppement-web-sans-serveur/">Serverless Architecture: Revolutionizing Web Development Without Servers</a>
+        </li>
+	    
+	     <li  class="mb2">
+          <a href="/en/articles/2025/009-l-architecture-microservices--une-r%C3%A9volution-dans-la-conception-applicative/">Microservices Architecture: Principles, Benefits, Challenges, and Use Cases</a>
+        </li>
+	    
+	     <li  class="mb2">
+          <a href="/en/articles/2025/008-les-principes-fondamentaux-du-domain-driven-design-ddd/">The Fundamental Principles of Domain-Driven Design (DDD)</a>
+        </li>
+	    
+	     <li  class="mb2">
+          <a href="/en/articles/2025/003-architecture-applicative---concevoir-des-syst%C3%A8mes-robustes-et-adaptables/">Application Architecture: Designing Robust and Adaptable Systems</a>
+        </li>
+	    
+	     <li  class="mb2">
+          <a href="/en/articles/2025/002-architecture-applicative---mise-en-contexte/">Application Architecture – Context</a>
+        </li>
+	    
+	     <li  class="mb2">
+          <a href="/en/articles/2021/001-quelle-architecture-applicative-choisir/">Which Application Architecture to Choose</a>
+        </li>
+	    
+	     <li  class="mb2">
+          <a href="/en/articles/2025/005-l-architecture-applicative-moderne---moteur-de-la-transformation-num%C3%A9rique/">Modern Application Architecture: How Microservices, APIs, and Cloud Drive Digital Transformation</a>
+        </li>
+	    
+	     <li  class="mb2">
+          <a href="/en/articles/2021/006-aws-vs-azure/">AWS vs Azure</a>
+        </li>
+	    
+	     <li  class="mb2">
+          <a href="/en/articles/2021/003-diff%C3%A9rences-entre-togaf-et-archimate/">Differences Between TOGAF and ArchiMate</a>
+        </li>
+	    
+	     <li  class="mb2">
+          <a href="/en/articles/2020/004-architecture-de-solution--conception-autour-dune-probl%C3%A9matique-pr%C3%A9cise/">Solution Architecture – Designing Around a Specific Problem</a>
+        </li>
+	    
+	     <li  class="mb2">
+          <a href="/en/articles/2020/002-architecture-technologique-ou-architecture-technique-vs-expertise-technique/">Technology Architecture or Technical Architecture vs Technical Expertise</a>
+        </li>
+	    
+    </ul>
+</div>
+
+</aside>
+
+  </article>
+
+    </main>
+    <footer class="bg-black bottom-0 w-100 pa3" role="contentinfo">
+  <div class="flex justify-between">
+  <a class="f4 fw4 hover-white white-70 dn dib-ns pv2 ph3 no-underline" href="http://localhost:1313/en/" >
+    &copy;  IT Architecture 2025 
+  </a>
+    <div><div class="ananke-socials"></div>
+</div>
+  </div>
+</footer>
+
+  </body>
+</html>

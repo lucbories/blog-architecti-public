@@ -2,6 +2,111 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://architecti.blog/</loc>
+    <lastmod>2025-10-19T07:30:39-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://architecti.blog/en/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://architecti.blog/"
+                />
+  </url><url>
+    <loc>https://architecti.blog/articles/</loc>
+    <lastmod>2025-10-12T07:30:39-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://architecti.blog/en/articles/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://architecti.blog/articles/"
+                />
+  </url><url>
+    <loc>https://architecti.blog/articles/2025/</loc>
+    <lastmod>2025-10-12T07:30:39-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://architecti.blog/en/articles/2025/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://architecti.blog/articles/2025/"
+                />
+  </url><url>
+    <loc>https://architecti.blog/tags/architecture-applicative/</loc>
+    <lastmod>2025-09-28T07:30:39-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://architecti.blog/articles/2025/011-architecture-monolithique---fondations-forces-et-limites/</loc>
+    <lastmod>2025-09-28T07:30:39-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://architecti.blog/en/articles/2025/011-architecture-monolithique---fondations-forces-et-limites/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://architecti.blog/articles/2025/011-architecture-monolithique---fondations-forces-et-limites/"
+                />
+  </url><url>
+    <loc>https://architecti.blog/tags/cloud/</loc>
+    <lastmod>2025-09-28T07:30:39-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://architecti.blog/en/tags/cloud/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://architecti.blog/tags/cloud/"
+                />
+  </url><url>
+    <loc>https://architecti.blog/tags/conception/</loc>
+    <lastmod>2025-09-28T07:30:39-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://architecti.blog/tags/monolithique/</loc>
+    <lastmod>2025-09-28T07:30:39-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://architecti.blog/tags/</loc>
+    <lastmod>2025-09-28T07:30:39-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://architecti.blog/en/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://architecti.blog/tags/"
+                />
+  </url><url>
     <loc>https://architecti.blog/tags/agile/</loc>
     <lastmod>2025-09-24T17:30:39-04:00</lastmod>
     <changefreq>monthly</changefreq>
@@ -16,26 +121,6 @@
                 hreflang="fr"
                 href="https://architecti.blog/tags/agile/"
                 />
-  </url><url>
-    <loc>https://architecti.blog/</loc>
-    <lastmod>2025-09-24T17:30:39-04:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://architecti.blog/en/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="https://architecti.blog/"
-                />
-  </url><url>
-    <loc>https://architecti.blog/tags/architecture-applicative/</loc>
-    <lastmod>2025-09-24T17:30:39-04:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
   </url><url>
     <loc>https://architecti.blog/articles/2025/010-architecture-serverless---r%C3%A9volutionner-le-d%C3%A9veloppement-web-sans-serveur/</loc>
     <lastmod>2025-09-24T17:30:39-04:00</lastmod>
@@ -52,26 +137,6 @@
                 href="https://architecti.blog/articles/2025/010-architecture-serverless---r%C3%A9volutionner-le-d%C3%A9veloppement-web-sans-serveur/"
                 />
   </url><url>
-    <loc>https://architecti.blog/tags/cloud/</loc>
-    <lastmod>2025-09-24T17:30:39-04:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://architecti.blog/en/tags/cloud/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="https://architecti.blog/tags/cloud/"
-                />
-  </url><url>
-    <loc>https://architecti.blog/tags/conception/</loc>
-    <lastmod>2025-09-24T17:30:39-04:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
     <loc>https://architecti.blog/tags/serverless/</loc>
     <lastmod>2025-09-24T17:30:39-04:00</lastmod>
     <changefreq>monthly</changefreq>
@@ -85,51 +150,6 @@
                 rel="alternate"
                 hreflang="fr"
                 href="https://architecti.blog/tags/serverless/"
-                />
-  </url><url>
-    <loc>https://architecti.blog/tags/</loc>
-    <lastmod>2025-09-24T17:30:39-04:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://architecti.blog/en/tags/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="https://architecti.blog/tags/"
-                />
-  </url><url>
-    <loc>https://architecti.blog/articles/</loc>
-    <lastmod>2025-09-24T17:30:39-04:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://architecti.blog/en/articles/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="https://architecti.blog/articles/"
-                />
-  </url><url>
-    <loc>https://architecti.blog/articles/2025/</loc>
-    <lastmod>2025-09-24T17:30:39-04:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://architecti.blog/en/articles/2025/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="https://architecti.blog/articles/2025/"
                 />
   </url><url>
     <loc>https://architecti.blog/articles/2025/009-l-architecture-microservices--une-r%C3%A9volution-dans-la-conception-applicative/</loc>

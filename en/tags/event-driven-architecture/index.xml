@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Event-Driven Architecture on IT Architecture</title>
+    <link>http://localhost:1313/en/tags/event-driven-architecture/</link>
+    <description>Recent content in Event-Driven Architecture on IT Architecture</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Sun, 12 Oct 2025 07:30:39 -0400</lastBuildDate>
+    <atom:link href="http://localhost:1313/en/tags/event-driven-architecture/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Event-Driven Architecture (EDA): Benefits and Use Cases</title>
+      <link>http://localhost:1313/en/articles/2025/013-event-driven-architecture---avantages-et-cas-dusage/</link>
+      <pubDate>Sun, 12 Oct 2025 07:30:39 -0400</pubDate>
+      <guid>http://localhost:1313/en/articles/2025/013-event-driven-architecture---avantages-et-cas-dusage/</guid>
+      <description>&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;&#xA;&lt;p&gt;Event-Driven Architecture (EDA) differentiates itself through its ability to propagate state changes as events across distributed systems. This approach relies on producing, transmitting, and consuming events, delivering greater responsiveness and flexibility compared to traditional synchronous request-driven architectures. The rise of microservices, the Internet of Things, and real-time applications has propelled EDA adoption, as these contexts demand asynchronous, loosely coupled communication between components. In this article, we’ll explore EDA’s core principles, key benefits, architectural patterns, concrete use cases, and best practices to guide your implementation.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

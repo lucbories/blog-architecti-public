@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Glossaire on ArchitecTI</title>
+    <link>http://localhost:1313/glossaire/</link>
+    <description>Recent content in Glossaire on ArchitecTI</description>
+    <generator>Hugo</generator>
+    <language>fr</language>
+    <lastBuildDate>Sun, 19 Oct 2025 07:30:39 -0400</lastBuildDate>
+    <atom:link href="http://localhost:1313/glossaire/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Comparaison entre architecture en couches (Layered) et architecture hexagonale (Ports &amp; Adapters)</title>
+      <link>http://localhost:1313/glossaire/serverless/</link>
+      <pubDate>Sun, 19 Oct 2025 07:30:39 -0400</pubDate>
+      <guid>http://localhost:1313/glossaire/serverless/</guid>
+      <description>&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;&#xA;&lt;p&gt;Dans le paysage de la conception logicielle, l’architecture en couches et l’architecture hexagonale (Ports &amp;amp; Adapters) figurent parmi les modèles les plus emblématiques. Toutes deux cherchent à structurer les applications de manière modulaire, à séparer les responsabilités et à faciliter la maintenance, mais leurs approches diffèrent profondément. L’architecture en couches repose sur une hiérarchie fixe de composants empilés les uns sur les autres, tandis que l’architecture hexagonale définit un noyau métier entouré de ports et de connecteurs techniques. Comprendre ces différences est essentiel pour choisir le style le plus adapté aux besoins fonctionnels, aux contraintes de performance et à l’évolution future d’un projet.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

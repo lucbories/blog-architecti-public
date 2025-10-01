@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    
+    <title>Comparaison entre architecture en couches (Layered) et architecture hexagonale (Ports &amp; Adapters) | ArchitecTI</title>
+    <meta name="viewport" content="width=device-width,minimum-scale=1">
+    <meta name="description" content="Comparez en profondeur les styles d’architecture en couches et hexagonale (Ports &amp; Adaptateurs). Découvrez leurs principes fondamentaux, avantages, inconvénients, cas d’usage concrets et conseils pour choisir le modèle le plus adapté.">
+    <meta name="generator" content="Hugo 0.148.2">
+    
+    
+    
+      <meta name="robots" content="noindex, nofollow">
+    
+    <meta name="author" content="Luc Bories">
+    
+
+    
+<link rel="stylesheet" href="/ananke/css/main.min.css" >
+
+
+
+
+    
+
+
+    
+      
+
+    
+
+    
+
+    
+      <link rel="canonical" href="http://localhost:1313/articles/2025/012-comparaison-entre-architecture-en-couches-et-hexagonale/">
+    
+
+    <meta property="og:url" content="http://localhost:1313/articles/2025/012-comparaison-entre-architecture-en-couches-et-hexagonale/">
+  <meta property="og:site_name" content="ArchitecTI">
+  <meta property="og:title" content="Comparaison entre architecture en couches (Layered) et architecture hexagonale (Ports & Adapters)">
+  <meta property="og:description" content="Comparez en profondeur les styles d’architecture en couches et hexagonale (Ports &amp; Adaptateurs). Découvrez leurs principes fondamentaux, avantages, inconvénients, cas d’usage concrets et conseils pour choisir le modèle le plus adapté.">
+  <meta property="og:locale" content="fr">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="articles">
+    <meta property="article:published_time" content="2025-10-05T07:30:39-04:00">
+    <meta property="article:modified_time" content="2025-10-05T07:30:39-04:00">
+    <meta property="article:tag" content="Conception">
+    <meta property="article:tag" content="Architecture Applicative">
+    <meta property="article:tag" content="Hexagonal">
+    <meta property="article:tag" content="Layered">
+
+  <meta itemprop="name" content="Comparaison entre architecture en couches (Layered) et architecture hexagonale (Ports & Adapters)">
+  <meta itemprop="description" content="Comparez en profondeur les styles d’architecture en couches et hexagonale (Ports &amp; Adaptateurs). Découvrez leurs principes fondamentaux, avantages, inconvénients, cas d’usage concrets et conseils pour choisir le modèle le plus adapté.">
+  <meta itemprop="datePublished" content="2025-10-05T07:30:39-04:00">
+  <meta itemprop="dateModified" content="2025-10-05T07:30:39-04:00">
+  <meta itemprop="wordCount" content="2000">
+  <meta itemprop="keywords" content="architecture en couches,architecture hexagonale,ports et adaptateurs,couches vs hexagonale,patrons d&#39;architecture logicielle,comparaison de conception applicative,inversion de dépendance,architecture modulaire,architecture propre,conception pilotée par le domaine,architecture testable,stratégies d&#39;intégration,trois tiers vs hexagonale,conception découplée,meilleures pratiques d&#39;architecture">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Comparaison entre architecture en couches (Layered) et architecture hexagonale (Ports & Adapters)">
+  <meta name="twitter:description" content="Comparez en profondeur les styles d’architecture en couches et hexagonale (Ports &amp; Adaptateurs). Découvrez leurs principes fondamentaux, avantages, inconvénients, cas d’usage concrets et conseils pour choisir le modèle le plus adapté.">
+
+	
+  </head><body class="ma0 avenir bg-near-white development">
+
+    
+   
+  
+
+  
+  
+  
+  <header class="cover bg-center" style="background-image: url('http://localhost:1313/images/Copilot_20250903_164704-Microservices-1024x.jpg');">
+    <div class="bg-black-60">
+      <nav class="pv3 ph3 ph4-ns" role="navigation">
+  <div class="flex-l center items-center justify-between">
+    <a href="/" class="f3 fw2 hover-white white-90 dib no-underline">
+      
+        ArchitecTI
+      
+    </a>
+    <div class="flex-l items-center">
+      
+<h4></h4>
+<ul class="pl0 mr3">
+    
+    <li class="list f5 f4-ns fw4 dib pr3">
+        <a class="hover-white white-90 no-underline" href="/en/articles/2025/012-comparaison-entre-architecture-en-couches-et-hexagonale/">en</a>
+    </li>
+    
+</ul>
+
+
+      
+        <ul class="pl0 mr3">
+          
+          <li class="list f5 f4-ns fw4 dib pr3">
+            <a class="hover-white white-90 no-underline" href="/tags/architecture-dentreprise/" title="Architecture d&#39;Entreprise page">
+              Architecture d&#39;Entreprise
+            </a>
+          </li>
+          
+          <li class="list f5 f4-ns fw4 dib pr3">
+            <a class="hover-white white-90 no-underline" href="/tags/architecture-applicative/" title="Architecture Applicative page">
+              Architecture Applicative
+            </a>
+          </li>
+          
+          <li class="list f5 f4-ns fw4 dib pr3">
+            <a class="hover-white white-90 no-underline" href="/tags/architecture-technologique/" title="Architecture Technologique page">
+              Architecture Technologique
+            </a>
+          </li>
+          
+          <li class="list f5 f4-ns fw4 dib pr3">
+            <a class="hover-white white-90 no-underline" href="/articles/" title="Articles page">
+              Articles
+            </a>
+          </li>
+          
+          <li class="list f5 f4-ns fw4 dib pr3">
+            <a class="hover-white white-90 no-underline" href="/tagslist/" title="Rechercher page">
+              Rechercher
+            </a>
+          </li>
+          
+          <li class="list f5 f4-ns fw4 dib pr3">
+            <a class="hover-white white-90 no-underline" href="/about/" title="À propos page">
+              À propos
+            </a>
+          </li>
+          
+        </ul>
+      
+      <div class="ananke-socials"></div>
+
+    </div>
+  </div>
+</nav>
+
+      <div class="tc-l pv6 ph3 ph4-ns">
+        
+          <div class="f2 f1-l fw2 white-90 mb0 lh-title">Comparaison entre architecture en couches (Layered) et architecture hexagonale (Ports &amp; Adapters)</div>
+          
+            <div class="fw1 f5 f3-l white-80 measure-wide-l center lh-copy mt3 mb4">
+              Comparez en profondeur les styles d’architecture en couches et hexagonale (Ports &amp; Adaptateurs). Découvrez leurs principes fondamentaux, avantages, inconvénients, cas d’usage concrets et conseils pour choisir le modèle le plus adapté.
+            </div>
+          
+        
+      </div>
+    </div>
+  </header>
+
+
+
+    <main class="pb7" role="main">
+      
+  
+  
+  <article class="flex-l mw8 center ph3 flex-wrap justify-between">
+    <header class="mt4 w-100">
+      <aside class="instapaper_ignoref b helvetica tracked ttu">
+          
+        Tous les Articles 2025
+      </aside><div id="sharing" class="mt3 ananke-socials"></div>
+<h1 class="f1 athelas mt3 mb1">Comparaison entre architecture en couches (Layered) et architecture hexagonale (Ports &amp; Adapters)</h1>
+      
+      <p class="tracked"><strong>Luc Bories</strong>
+      </p>
+      
+      
+      
+      <time class="f6 mv4 dib tracked" datetime="2025-10-05T07:30:39-04:00">octobre 5, 2025</time>
+      
+
+      
+      
+        <span class="f6 mv4 dib tracked"> - 10 minutes de lecture </span>
+        <span class="f6 mv4 dib tracked"> - 2000 mots </span>
+      
+    </header>
+    <div class="nested-copy-line-height lh-copy serif f4 nested-links mid-gray pr4-l w-two-thirds-l"><h2 id="introduction">Introduction</h2>
+<p>Dans le paysage de la conception logicielle, l’architecture en couches et l’architecture hexagonale (Ports &amp; Adapters) figurent parmi les modèles les plus emblématiques. Toutes deux cherchent à structurer les applications de manière modulaire, à séparer les responsabilités et à faciliter la maintenance, mais leurs approches diffèrent profondément. L’architecture en couches repose sur une hiérarchie fixe de composants empilés les uns sur les autres, tandis que l’architecture hexagonale définit un noyau métier entouré de ports et de connecteurs techniques. Comprendre ces différences est essentiel pour choisir le style le plus adapté aux besoins fonctionnels, aux contraintes de performance et à l’évolution future d’un projet.</p>
+<p>Cet article propose un tour d’horizon complet de ces deux paradigmes. Nous examinerons leurs origines historiques, les principes fondamentaux de chaque modèle, leurs avantages et leurs limites, ainsi que les scénarios dans lesquels l’un peut surpasser l’autre. Nous mettrons également en lumière les stratégies de migration d’une architecture en couches vers une architecture hexagonale et les bonnes pratiques à respecter pour tirer pleinement parti de chaque style. Enfin, nous conclurons en fournissant des recommandations pratiques aux architectes et aux équipes de développement.</p>
+<h2 id="origines-et-contexte-historique">Origines et contexte historique</h2>
+<p>L’architecture en couches puise ses racines dans les premières applications d’entreprise des années 1990, popularisée par les modèles trois tiers (présentation, logique métier, données) [1]. Son adoption massive s’explique par la simplicité conceptuelle et le support natif des frameworks tels que J2EE ou ASP.NET, qui imposaient une séparation claire entre interface utilisateur, services métier et accès aux bases de données. Cette organisation horizontale a rapidement séduit les équipes en recherche d’un pattern éprouvé pour structurer les systèmes complexes à base de CRUD.</p>
+<p>En parallèle, l’architecture hexagonale, introduite par Alistair Cockburn en 2005, est née d’une volonté de découpler le cœur métier des détails d’infrastructure [2]. À la différence de l’approche en couches, elle propose d’inverser les dépendances : la logique métier reste au centre, exposée à travers des « ports », tandis que les « adapters » implémentent ces ports pour interagir avec le monde extérieur (UI, infrastructure, bases, services externes). Le terme « hexagonal » fait référence à la représentation schématique où six faces illustrent la variété des points d’entrée ou de sortie.</p>
+<h2 id="principes-de-larchitecture-en-couches">Principes de l’architecture en couches</h2>
+<p>L’architecture en couches s’appuie sur un découpage horizontal des responsabilités. La couche de présentation gère l’interface utilisateur, la couche métier encapsule les règles de gestion, et la couche de persistance s’occupe de l’accès aux données. Parfois, une couche de service intermédiaire ou de façade vient abstraire la logique de transaction et orchestrer les appels entre la couche métier et la couche de données. Chaque couche ne communique qu’avec la couche directement inférieure, ce qui impose un flux de contrôle strict et facilite la navigation dans le code.</p>
+<p>Cette structure hiérarchique permet aux développeurs de comprendre rapidement la répartition des responsabilités. Les modifications de l’interface n’affectent pas directement la couche métier, et les évolutions du schéma de la base de données restent masquées derrière la couche de persistance. Les tests unitaires s’en trouvent simplifiés : il suffit de tester chaque couche individuellement, en simulant ses dépendances. Dans un contexte d’entreprise, cette clarté offre une base stable pour les équipes pluridisciplinaires, où chacun peut se concentrer sur son domaine d’expertise.</p>
+<h2 id="avantages-de-larchitecture-en-couches">Avantages de l’architecture en couches</h2>
+<p>La première force de l’architecture en couches réside dans sa simplicité et sa maturité. Les frameworks et les patterns associés sont largement documentés, ce qui réduit la courbe d’apprentissage pour les nouveaux arrivants. Les compétences acquises sur un projet sont facilement réutilisables sur un autre, car les conventions restent similaires. Cette homogénéité du modèle favorise la réutilisation de bibliothèques et d’outils de génération de code, accélérant le développement de fonctionnalités standard.</p>
+<p>Un autre atout majeur concerne la séparation des préoccupations. En isolant les responsabilités, l’architecture en couches limite les effets de bord lors des modifications. L’ajout d’un nouveau service métier ou la refonte d’un composant d’affichage s’effectuent sans risque de régressions massives dans les autres couches. Par ailleurs, la maintenance opérationnelle et la surveillance sont plus simples : chaque couche peut faire l’objet d’indicateurs de performance spécifiques ou de stratégies de déploiement indépendantes.</p>
+<h2 id="limites-et-défis-de-larchitecture-en-couches">Limites et défis de l’architecture en couches</h2>
+<p>Malgré ses qualités, le modèle en couches montre rapidement ses limites lorsque les exigences évoluent. La rigidité du flux de dépendances empêche souvent l’introduction de nouveaux modes d’intégration, tels que les architectures événementielles ou basées sur les microservices. La création de boucles de dépendance entre couches devient un problème récurrent lorsque des fonctionnalités transversales (logging, sécurité, internationalisation) doivent s’appliquer à plusieurs niveaux.</p>
+<p>La difficulté à faire évoluer chaque couche indépendamment peut engendrer une accumulation rapide de dette technique. Lorsque les équipes introduisent des optimisations ou contournements dans la couche présentation ou dans la persistance, ces ajustements finissent par se propager verticalement, contaminant d’autres couches. Le couplage fort entre modules au même niveau hiérarchique peut également compliquer la modularisation et la montée en charge dans un environnement distribué, où l’on souhaiterait déployer ou scaler uniquement certaines parties de l’application.</p>
+<h2 id="principes-de-larchitecture-hexagonale-ports--adapters">Principes de l’architecture hexagonale (Ports &amp; Adapters)</h2>
+<p>L’architecture hexagonale repose sur un cœur métier autonome, qui ne connaît aucune dépendance vis-à-vis de la couche technique. Les interactions avec l’extérieur s’effectuent à travers des interfaces, appelées ports, qui définissent les points d’entrée et de sortie du domaine. Chaque port peut avoir plusieurs implémentations, nommées adapters, qui traduisent les appels vers des technologies spécifiques : bases de données, API REST, files de messages, interfaces graphiques, tests automatisés, etc.</p>
+<p>Ce principe d’inversion de dépendances garantit que la logique métier reste immuable face aux changements de l’environnement technique. Remplacer une base de données relationnelle par un store NoSQL ne nécessite que le développement d’un nouvel adapter pour le port de persistance, sans affecter le code du domaine. De même, ajouter une nouvelle interface utilisateur ou un canal de communication mobile ne perturbe pas l’architecture existante puisque l’on se contente de brancher un adapter supplémentaire sur un port approprié.</p>
+<h2 id="avantages-de-larchitecture-hexagonale">Avantages de l’architecture hexagonale</h2>
+<p>L’un des bénéfices les plus saillants de l’hexagonalité est l’amélioration de la testabilité. Les tests unitaires portant exclusivement sur le noyau métier deviennent naturels, car celui-ci n’intègre aucun code d’infrastructure. Les scénarios de tests se contentent de simuler les ports à l’aide de mocks ou de stubs, garantissant un haut niveau d’isolation et des résultats déterministes. Les tests d’intégration, quant à eux, se concentrent sur la validité des adapters et des interactions avec les systèmes externes.</p>
+<p>La modularité qu’elle induit facilite l’évolution de l’application. L’ajout de nouveaux services, l’intégration de brokers de messages ou la mise en place de solutions de caching s’effectuent sans toucher au domaine. Ce découplage offre un terrain propice à l’innovation et aux expérimentations, notamment dans des contextes où les technologies sous-jacentes peuvent changer rapidement. Les équipes gagnent en autonomie pour faire évoluer ou remplacer des composants sans craindre de briser la logique métier.</p>
+<h2 id="limites-et-complexité-de-larchitecture-hexagonale">Limites et complexité de l’architecture hexagonale</h2>
+<p>L’architecture hexagonale n’est pas exempte de défis. Sa mise en place demande un investissement conséquent en phase de démarrage. Identifier correctement les ports nécessaires et définir des interfaces cohérentes requiert une réflexion approfondie et une bonne maîtrise des principes d’inversion de dépendances et de conception pilotée par le domaine (Domain-Driven Design) [3]. Les développeurs doivent adopter un nouvel état d’esprit et accepter de travailler avec davantage d’abstractions.</p>
+<p>Le risque est de créer une sur-architecturation dans les petits projets ou les MVP, où la diversité des adapters ne justifie pas l’effort. Sans une discipline de codage rigoureuse, le nombre d’interfaces peut vite devenir ingérable, et la clarté recherchée disparaît derrière une prolifération de classes et de packages. Il convient donc d’arbitrer soigneusement entre bénéfice à long terme et coûts initiaux pour éviter un excès de complexité.</p>
+<h2 id="cas-dusage-et-scénarios-dadoption">Cas d’usage et scénarios d’adoption</h2>
+<p>L’architecture en couches demeure parfaitement adaptée aux applications CRUD simples, aux portails intranet, aux sites vitrines et aux outils nécessitant un déploiement rapide. Dans ces contextes, la richesse des frameworks existants et la communauté permettent de livrer des fonctionnalités standards en un temps très court. Les systèmes à périmètre restreint et à cycles de vie définis peuvent exploiter la stabilité et la prédictibilité du modèle en couches.</p>
+<p>À l’inverse, les projets visant une longévité élevée, un volume d’intégrations externes important ou des flux de données complexes tirent parti de l’architecture hexagonale. Les plateformes SaaS exposant des API publiques, les systèmes de paiement interconnectés, ou les applications mobiles disposant de multiples canaux d’accès trouvent dans les ports et adapters un mécanisme efficace pour maintenir une base de code stable malgré l’évolution rapide du paysage technique.</p>
+<h2 id="stratégies-de-migration-et-adoption-progressive">Stratégies de migration et adoption progressive</h2>
+<p>Migrer un système en couches vers une architecture hexagonale peut s’opérer par étapes incrémentales. Il est conseillé d’identifier d’abord un périmètre métier stratégique et de refactorer ses composants en extrayant le noyau métier sous forme de module indépendant. On définit alors des ports correspondant aux interactions existantes et on remplace progressivement les appels directs aux services ou aux DAO par des adapters satisfaisant ces ports.</p>
+<p>Cette approche itérative limite les risques et fournit rapidement des preuves de valeur. Chaque itération doit s’appuyer sur une couverture de tests renforcée pour s’assurer que le comportement reste cohérent. À terme, l’équipe peut élargir la zone hexagonale à l’ensemble des fonctionnalités, tout en conservant les parties non critiques dans l’ancien modèle en couches jusqu’à ce qu’un basculement complet soit envisageable.</p>
+<h2 id="impact-organisationnel-et-compétences-requises">Impact organisationnel et compétences requises</h2>
+<p>L’adoption d’un modèle hexagonal nécessite une montée en compétence autour des principes SOLID, de l’injection de dépendances et du Domain-Driven Design [4]. Les développeurs doivent être à l’aise avec la définition d’interfaces abstraites et la séparation stricte entre le code métier et l’infrastructure. Les architectes doivent accompagner cette transition par des revues de code fréquentes et la mise en place de patterns de conception standardisés.</p>
+<p>En parallèle, l’architecture en couches ne requiert pas nécessairement ces compétences poussées et reste souvent le terrain d’apprentissage pour les équipes juniors. Sa popularité explique la disponibilité d’outils de scaffolding et de générateurs de code qui accélèrent la prise en main. Pour les organisations où le turnover est élevé, cette facilité peut représenter un avantage non négligeable.</p>
+<h2 id="bonnes-pratiques-pour-chaque-style">Bonnes pratiques pour chaque style</h2>
+<p>Quelle que soit l’architecture choisie, il est essentiel de maintenir un haut niveau de cohérence et d’organisation du code. Dans un modèle en couches, veiller à ne pas violer les frontières entre les couches et à centraliser les règles transversales (sécurité, logging, métriques) dans des mécanismes dédiés permet de maîtriser la complexité. L’usage de conventions de nommage uniformes et de guides de style contribue à éviter les dérives.</p>
+<p>Pour l’architecture hexagonale, il est recommandé de documenter clairement chaque port et son contrat fonctionnel, d’automatiser la génération de mocks pour les tests, et d’utiliser des outils d’analyse statique pour vérifier l’absence de dépendances directes vers l’infrastructure dans le domaine. La visualisation de la structure via des diagrammes de composants aide les équipes à conserver une vision partagée de l’organisation du code.</p>
+<h2 id="conclusion">Conclusion</h2>
+<p>L’architecture en couches et l’architecture hexagonale représentent deux approches complémentaires de la modularisation logicielle. Le modèle en couches se distingue par sa simplicité et son adoption massive, offrant une rampe de lancement rapide pour de nombreuses applications classiques. L’architecture hexagonale, quant à elle, répond aux exigences de flexibilité, de testabilité et d’évolutivité dans des environnements techniques complexes et en perpétuelle mutation.</p>
+<p>Le choix entre ces styles doit tenir compte du contexte métier, des compétences disponibles et des perspectives d’évolution du projet. Dans de nombreux cas, une approche hybride et progressive permet de bénéficier des deux mondes : démarrer avec un modèle en couches pour accélérer le time-to-market, puis introduire progressivement des ports et des adapters autour des périmètres critiques. Quelle que soit la voie empruntée, le succès repose sur la rigueur méthodologique, une couverture de tests solide et une gouvernance technique adaptée.</p>
+<hr>
+<h2 id="références">Références</h2>
+<p>[1] Martin Fowler, “Patterns of Enterprise Application Architecture”, 2002.<br>
+[2] Alistair Cockburn, “Hexagonal Architecture (Ports &amp; Adapters)”, 2005.<br>
+[3] Vaughn Vernon, “Implementing Domain-Driven Design”, 2013.<br>
+[4] Eric Evans, “Domain-Driven Design: Tackling Complexity in the Heart of Software”, 2003.<br>
+[5] Simon Brown, “Software Architecture for Developers”, 2016.</p>
+<ul class="pa0">
+  
+   <li class="list di">
+     <a href="/tags/conception/" class="link f5 grow br-pill ba ph3 pv2 mb2 dib black sans-serif no-underline">Conception</a>
+   </li>
+  
+   <li class="list di">
+     <a href="/tags/architecture-applicative/" class="link f5 grow br-pill ba ph3 pv2 mb2 dib black sans-serif no-underline">Architecture Applicative</a>
+   </li>
+  
+   <li class="list di">
+     <a href="/tags/hexagonal/" class="link f5 grow br-pill ba ph3 pv2 mb2 dib black sans-serif no-underline">Hexagonal</a>
+   </li>
+  
+   <li class="list di">
+     <a href="/tags/layered/" class="link f5 grow br-pill ba ph3 pv2 mb2 dib black sans-serif no-underline">Layered</a>
+   </li>
+  
+</ul>
+<div class="mt6 instapaper_ignoref">
+      
+      
+      </div>
+    </div>
+
+    <aside class="w-30-l mt6-l">
+
+
+
+
+  <div class="bg-light-gray pa3 nested-list-reset nested-copy-line-height nested-links">
+    <p class="f5 b mb3">Lié</p>
+    <ul class="pa0 list">
+	   
+	     <li  class="mb2">
+          <a href="/articles/2025/011-architecture-monolithique---fondations-forces-et-limites/">Architecture Monolithique : Fondations, Forces et Limites d’un Style Classique</a>
+        </li>
+	    
+	     <li  class="mb2">
+          <a href="/articles/2025/010-architecture-serverless---r%C3%A9volutionner-le-d%C3%A9veloppement-web-sans-serveur/">Architecture Serverless : Révolutionner le Développement Web sans Serveur</a>
+        </li>
+	    
+	     <li  class="mb2">
+          <a href="/articles/2025/009-l-architecture-microservices--une-r%C3%A9volution-dans-la-conception-applicative/">L’architecture Microservices : une révolution dans la conception applicative</a>
+        </li>
+	    
+	     <li  class="mb2">
+          <a href="/articles/2025/008-les-principes-fondamentaux-du-domain-driven-design-ddd/">Les Principes Fondamentaux du Domain-Driven Design (DDD)</a>
+        </li>
+	    
+	     <li  class="mb2">
+          <a href="/articles/2025/005-l-architecture-applicative-moderne---moteur-de-la-transformation-num%C3%A9rique/">L’architecture applicative moderne : moteur de la transformation numérique</a>
+        </li>
+	    
+	     <li  class="mb2">
+          <a href="/articles/2025/004-comprendre-le-bounded-context-en-architecture-microservices/">Comprendre le Bounded Context en Architecture Microservices</a>
+        </li>
+	    
+	     <li  class="mb2">
+          <a href="/articles/2025/003-architecture-applicative---concevoir-des-syst%C3%A8mes-robustes-et-adaptables/">Architecture Applicative : Concevoir des Systèmes Robustes et Adaptables</a>
+        </li>
+	    
+	     <li  class="mb2">
+          <a href="/articles/2025/002-architecture-applicative---mise-en-contexte/">Architecture Applicative - Mise en contexte</a>
+        </li>
+	    
+	     <li  class="mb2">
+          <a href="/articles/2021/001-quelle-architecture-applicative-choisir/">Quelle Architecture Applicative choisir</a>
+        </li>
+	    
+	     <li  class="mb2">
+          <a href="/articles/2025/006-l-architecture-neuromorphique/">L’architecture neuromorphique : quand l’informatique imite le cerveau</a>
+        </li>
+	    
+	     <li  class="mb2">
+          <a href="/articles/2021/006-aws-vs-azure/">AWS Vs Azure</a>
+        </li>
+	    
+	     <li  class="mb2">
+          <a href="/articles/2021/003-diff%C3%A9rences-entre-togaf-et-archimate/">Différences Entre TOGAF Et ArchiMate</a>
+        </li>
+	    
+	     <li  class="mb2">
+          <a href="/articles/2020/004-architecture-de-solution--conception-autour-dune-probl%C3%A9matique-pr%C3%A9cise/">Architecture De Solution – Conception Autour D’une Problématique Précise</a>
+        </li>
+	    
+	     <li  class="mb2">
+          <a href="/articles/2020/002-architecture-technologique-ou-architecture-technique-vs-expertise-technique/">Architecture Technologique Ou Architecture Technique Vs Expertise Technique</a>
+        </li>
+	    
+    </ul>
+</div>
+
+</aside>
+
+  </article>
+
+    </main>
+    <footer class="bg-black bottom-0 w-100 pa3" role="contentinfo">
+  <div class="flex justify-between">
+  <a class="f4 fw4 hover-white white-70 dn dib-ns pv2 ph3 no-underline" href="http://localhost:1313/" >
+    &copy;  ArchitecTI 2025 
+  </a>
+    <div><div class="ananke-socials"></div>
+</div>
+  </div>
+</footer>
+
+  </body>
+</html>

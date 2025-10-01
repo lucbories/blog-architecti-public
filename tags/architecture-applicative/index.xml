@@ -6,8 +6,15 @@
     <description>Recent content in Architecture Applicative on ArchitecTI</description>
     <generator>Hugo</generator>
     <language>fr</language>
-    <lastBuildDate>Wed, 24 Sep 2025 17:30:39 -0400</lastBuildDate>
+    <lastBuildDate>Sun, 28 Sep 2025 07:30:39 -0400</lastBuildDate>
     <atom:link href="https://architecti.blog/tags/architecture-applicative/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Architecture Monolithique : Fondations, Forces et Limites d’un Style Classique</title>
+      <link>https://architecti.blog/articles/2025/011-architecture-monolithique---fondations-forces-et-limites/</link>
+      <pubDate>Sun, 28 Sep 2025 07:30:39 -0400</pubDate>
+      <guid>https://architecti.blog/articles/2025/011-architecture-monolithique---fondations-forces-et-limites/</guid>
+      <description>&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;&#xA;&lt;p&gt;L’architecture monolithique représente l’un des styles les plus anciens et les plus répandus dans le développement logiciel. Elle est souvent perçue comme le point de départ naturel pour de nombreuses applications, notamment dans les contextes où la simplicité, la rapidité de mise en œuvre et la cohérence sont des priorités. Bien que les architectures modernes telles que les microservices ou le serverless aient gagné en popularité, le monolithe conserve une pertinence certaine dans de nombreux cas d’usage. Cet article propose une exploration approfondie de ce style architectural, en mettant en lumière ses caractéristiques, ses avantages, ses limites et ses différences avec les autres approches.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Architecture Serverless : Révolutionner le Développement Web sans Serveur</title>
       <link>https://architecti.blog/articles/2025/010-architecture-serverless---r%C3%A9volutionner-le-d%C3%A9veloppement-web-sans-serveur/</link>

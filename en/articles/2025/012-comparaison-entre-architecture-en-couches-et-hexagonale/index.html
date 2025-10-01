@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    
+    <title>Comparing Layered Architecture and Hexagonal Architecture (Ports &amp; Adapters) | IT Architecture</title>
+    <meta name="viewport" content="width=device-width,minimum-scale=1">
+    <meta name="description" content="Compare layered and hexagonal (Ports &amp; Adapters) architecture styles in depth. Discover their core principles, advantages, drawbacks, real-world use cases, and guidance for choosing the right pattern.">
+    <meta name="generator" content="Hugo 0.148.2">
+    
+    
+    
+      <meta name="robots" content="noindex, nofollow">
+    
+    <meta name="author" content="Luc Bories">
+    
+
+    
+<link rel="stylesheet" href="/ananke/css/main.min.css" >
+
+
+
+
+    
+
+
+    
+      
+
+    
+
+    
+
+    
+      <link rel="canonical" href="http://localhost:1313/en/articles/2025/012-comparaison-entre-architecture-en-couches-et-hexagonale/">
+    
+
+    <meta property="og:url" content="http://localhost:1313/en/articles/2025/012-comparaison-entre-architecture-en-couches-et-hexagonale/">
+  <meta property="og:site_name" content="IT Architecture">
+  <meta property="og:title" content="Comparing Layered Architecture and Hexagonal Architecture (Ports & Adapters)">
+  <meta property="og:description" content="Compare layered and hexagonal (Ports &amp; Adapters) architecture styles in depth. Discover their core principles, advantages, drawbacks, real-world use cases, and guidance for choosing the right pattern.">
+  <meta property="og:locale" content="en">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="articles">
+    <meta property="article:published_time" content="2025-10-05T07:30:39-04:00">
+    <meta property="article:modified_time" content="2025-10-05T07:30:39-04:00">
+    <meta property="article:tag" content="Design">
+    <meta property="article:tag" content="Application Architecture">
+    <meta property="article:tag" content="Hexagonal">
+    <meta property="article:tag" content="Layered">
+
+  <meta itemprop="name" content="Comparing Layered Architecture and Hexagonal Architecture (Ports & Adapters)">
+  <meta itemprop="description" content="Compare layered and hexagonal (Ports &amp; Adapters) architecture styles in depth. Discover their core principles, advantages, drawbacks, real-world use cases, and guidance for choosing the right pattern.">
+  <meta itemprop="datePublished" content="2025-10-05T07:30:39-04:00">
+  <meta itemprop="dateModified" content="2025-10-05T07:30:39-04:00">
+  <meta itemprop="wordCount" content="2253">
+  <meta itemprop="keywords" content="layered architecture,hexagonal architecture,ports and adapters,layered vs hexagonal,software architecture patterns,application design comparison,dependency inversion,modular architecture,clean architecture,domain-driven design,testable architecture,integration strategies,three-tier vs hexagonal,decoupled design,architecture best practices">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Comparing Layered Architecture and Hexagonal Architecture (Ports & Adapters)">
+  <meta name="twitter:description" content="Compare layered and hexagonal (Ports &amp; Adapters) architecture styles in depth. Discover their core principles, advantages, drawbacks, real-world use cases, and guidance for choosing the right pattern.">
+
+	
+  </head><body class="ma0 avenir bg-near-white development">
+
+    
+   
+  
+
+  
+  
+  
+  <header class="cover bg-center" style="background-image: url('http://localhost:1313/images/Copilot_20250903_164704-Microservices-1024x.jpg');">
+    <div class="bg-black-60">
+      <nav class="pv3 ph3 ph4-ns" role="navigation">
+  <div class="flex-l center items-center justify-between">
+    <a href="/en/" class="f3 fw2 hover-white white-90 dib no-underline">
+      
+        IT Architecture
+      
+    </a>
+    <div class="flex-l items-center">
+      
+<h4></h4>
+<ul class="pl0 mr3">
+    
+    <li class="list f5 f4-ns fw4 dib pr3">
+        <a class="hover-white white-90 no-underline" href="/articles/2025/012-comparaison-entre-architecture-en-couches-et-hexagonale/">fr</a>
+    </li>
+    
+</ul>
+
+
+      
+        <ul class="pl0 mr3">
+          
+          <li class="list f5 f4-ns fw4 dib pr3">
+            <a class="hover-white white-90 no-underline" href="/en/tags/enterprise-architecture/" title="Entreprise Architecture page">
+              Entreprise Architecture
+            </a>
+          </li>
+          
+          <li class="list f5 f4-ns fw4 dib pr3">
+            <a class="hover-white white-90 no-underline" href="/en/tags/application-architecture/" title="Application Architecture page">
+              Application Architecture
+            </a>
+          </li>
+          
+          <li class="list f5 f4-ns fw4 dib pr3">
+            <a class="hover-white white-90 no-underline" href="/en/tags/technology-architecture/" title="Technology Architecture page">
+              Technology Architecture
+            </a>
+          </li>
+          
+          <li class="list f5 f4-ns fw4 dib pr3">
+            <a class="hover-white white-90 no-underline" href="/en/articles/" title="Articles page">
+              Articles
+            </a>
+          </li>
+          
+          <li class="list f5 f4-ns fw4 dib pr3">
+            <a class="hover-white white-90 no-underline" href="/en/tagslist/" title="Find page">
+              Find
+            </a>
+          </li>
+          
+          <li class="list f5 f4-ns fw4 dib pr3">
+            <a class="hover-white white-90 no-underline" href="/en/about/" title="About page">
+              About
+            </a>
+          </li>
+          
+        </ul>
+      
+      <div class="ananke-socials"></div>
+
+    </div>
+  </div>
+</nav>
+
+      <div class="tc-l pv6 ph3 ph4-ns">
+        
+          <div class="f2 f1-l fw2 white-90 mb0 lh-title">Comparing Layered Architecture and Hexagonal Architecture (Ports &amp; Adapters)</div>
+          
+            <div class="fw1 f5 f3-l white-80 measure-wide-l center lh-copy mt3 mb4">
+              Compare layered and hexagonal (Ports &amp; Adapters) architecture styles in depth. Discover their core principles, advantages, drawbacks, real-world use cases, and guidance for choosing the right pattern.
+            </div>
+          
+        
+      </div>
+    </div>
+  </header>
+
+
+
+    <main class="pb7" role="main">
+      
+  
+  
+  <article class="flex-l mw8 center ph3 flex-wrap justify-between">
+    <header class="mt4 w-100">
+      <aside class="instapaper_ignoref b helvetica tracked ttu">
+          
+        All Articles in 2025
+      </aside><div id="sharing" class="mt3 ananke-socials"></div>
+<h1 class="f1 athelas mt3 mb1">Comparing Layered Architecture and Hexagonal Architecture (Ports &amp; Adapters)</h1>
+      
+      <p class="tracked"><strong>Luc Bories</strong>
+      </p>
+      
+      
+      
+      <time class="f6 mv4 dib tracked" datetime="2025-10-05T07:30:39-04:00">October 5, 2025</time>
+      
+
+      
+      
+        <span class="f6 mv4 dib tracked"> - 11 minutes read </span>
+        <span class="f6 mv4 dib tracked"> - 2253 words </span>
+      
+    </header>
+    <div class="nested-copy-line-height lh-copy serif f4 nested-links mid-gray pr4-l w-two-thirds-l"><h2 id="introduction">Introduction</h2>
+<p>Layered architecture has been a cornerstone of software design for decades, offering a familiar and straightforward structure that teams of all sizes can adopt. This model divides an application into distinct horizontal slices, where each layer has a specific responsibility, from user interface to data persistence. Its appeal lies in its clear separation of concerns and the ability to isolate changes within each layer. Hexagonal architecture, also known as Ports &amp; Adapters, challenges this convention by promoting a more flexible, decoupled design that emphasizes the role of external interfaces and domain logic.</p>
+<p>Despite their different histories, both layered and hexagonal architectures aim to make applications easier to build, test, and maintain. Yet they tackle the problem of modularity in fundamentally different ways. Layered design enforces a rigid hierarchy, where each layer can only call into the layer immediately below it. In contrast, the hexagonal approach treats the core domain as the center of a wheel, surrounded by spokes that represent connections to external systems. The differences between these models extend beyond structure into testing strategies, deployment practices, and team organization.</p>
+<p>In this article, we will explore the principles, strengths, and weaknesses of layered and hexagonal architectures. We will examine how each style manages dependencies, isolates business logic, and integrates with databases, user interfaces, and third-party services. Along the way, we will consider scenarios where one approach might outperform the other and offer guidance on choosing the right pattern for your next project. By comparing their philosophies side by side, we hope to equip you with a clear understanding of when to apply each architectural style.</p>
+<h2 id="layered-architecture-principles-and-characteristics">Layered Architecture: Principles and Characteristics</h2>
+<p>Layered architecture organizes an application into a stack of layers, where each layer provides services to the one directly above and consumes services from the one directly below. At the top sits the presentation layer, responsible for handling input from users or external systems. Below that resides the business layer, where core domain rules and workflows execute. The data or persistence layer forms the bottom, encapsulating database access and storage logic.</p>
+<p>This separation of concerns ensures that changes in the user interface rarely ripple into business logic, and modifications to database schemas remain hidden behind a well-defined data access layer. Teams can assign developers to specific layers, allowing frontend specialists to work on presentation details while backend engineers optimize database performance. By keeping each layer focused, the architecture reduces cognitive load and promotes clear ownership. The strict dependency direction—from top to bottom—simplifies reasoning about system behavior and helps enforce architectural boundaries.</p>
+<p>Testing within a layered design often follows the same structure. Unit tests target individual classes or components within a single layer, while integration tests verify the contracts between layers. Developers can mock the data layer when validating business rules and stub out business services when testing controllers. This layered approach to testing makes it easy to compose fast, isolated tests and to incrementally build confidence in the system’s correctness.</p>
+<p>However, the rigidity of layer ordering can become a burden as applications evolve. Introducing new integration patterns, such as event streams or message queues, often forces the creation of additional layers or ad hoc modules that break the original hierarchy. Similarly, if different parts of the system need to share common functionality, layering can inadvertently create circular dependencies or confusion about where to place shared code. Over time, a once-crisp layering strategy can blur, leading to maintenance challenges.</p>
+<h2 id="hexagonal-architecture-principles-and-characteristics">Hexagonal Architecture: Principles and Characteristics</h2>
+<p>Hexagonal architecture flips the traditional model by positioning the application’s core at the center, surrounded by a ring of ports and adapters. The core contains pure domain logic, completely agnostic of external technologies, frameworks, or protocols. Ports define the interfaces through which the domain interacts with the outside world, such as repositories, event publishers, or service clients. Adapters implement these ports for specific technologies, translating between domain models and external representations.</p>
+<p>This design encourages a strict segregation between business rules and technical concerns. The domain model knows nothing about the database, the web framework, or messaging infrastructure. Instead, it relies on abstract interfaces that adapters fulfill at runtime. When replacing a relational database with a NoSQL store, only the adapter for the repository port needs to change, leaving domain code untouched. This isolation fosters adaptability and paves the way for evolving integration strategies without risking business logic.</p>
+<p>Testing in a hexagonal setup becomes remarkably straightforward. Unit tests focus exclusively on the domain layer, exercising business rules without any infrastructure dependencies. Integration tests validate adapters by wiring them to in-memory or test doubles of external systems. End-to-end tests can verify how all components interact through ports and adapters, but even these can use lightweight mocks to simulate real services. The clear boundaries between layers eliminate ambiguity in test scope and ensure deterministic outcomes.</p>
+<p>One of the most compelling aspects of the hexagonal pattern is its support for multiple user interfaces and data sources. A single domain model can serve both a REST API and a command-line tool, simply by providing different adapters for the same input and output ports. This versatility aligns with microservices or distributed system designs, where services must support diverse clients and integration scenarios. The pattern’s inherent flexibility contrasts sharply with the more rigid layered approach.</p>
+<h2 id="core-differences-between-layered-and-hexagonal-architectures">Core Differences Between Layered and Hexagonal Architectures</h2>
+<p>At the heart of the distinction lies the direction of dependency. Layered architectures enforce strictly downward calls, with each layer aware of and trusting the layer beneath it. Hexagonal architectures reverse this relationship: the domain depends on abstract ports, while adapters implement those ports, creating a dependency inversion. This inversion ensures that high-level business policies remain independent of low-level implementation details.</p>
+<p>Another key difference is the handling of infrastructure concerns. In layered models, infrastructure code often resides in a discrete bottom layer alongside business logic rolled into the same process. Hexagonal encourages pushing all infrastructure code into adapters, external to the core domain, so that switching technologies becomes a matter of replacing modules rather than refactoring business code. This demarcation prevents technology choices from polluting domain models.</p>
+<p>Layered architecture tends to mirror application stacks, making it intuitive for developers familiar with MVC frameworks, ORMs, and service layers. Hexagonal architecture demands a shift in mindset, where developers learn to think in terms of ports, adapters, and inversion of control. While the learning curve can slow initial adoption, the long-term payoff lies in decoupling, testability, and the ability to evolve the system around the business model rather than the infrastructure.</p>
+<p>The flow of data also differs. In a layered app, a request typically passes top to bottom through each layer sequentially. In a hexagonal app, a request enters through an adapter, traverses directly into the domain via a port, and exits through another adapter. This path avoids unnecessary hops and reduces the risk of layer-related bottlenecks. Moreover, the hexagonal model makes it explicit which interfaces the domain exposes and which external services it consumes.</p>
+<h2 id="benefits-and-drawbacks-of-each-approach">Benefits and Drawbacks of Each Approach</h2>
+<p>Layered architecture shines when the problem domain aligns closely with the structure of layers. Small to mid-sized applications benefit from the ready-made conventions of MVC frameworks and three-tier designs. Teams can leverage abundant tutorials, libraries, and community knowledge to implement common patterns quickly. The mental model of controllers calling services calling repositories resonates with many developers, lowering friction during onboarding.</p>
+<p>However, as applications grow and integrations multiply, layering can introduce accidental complexity. Teams may find themselves crisscrossing layers to implement new features, leading to horizontal dependencies and brittle build pipelines. Refactoring across layers becomes more difficult when shared utilities blur the strict separation. The deeper the stack, the more layers a simple change must cross, potentially affecting performance and complicating debugging.</p>
+<p>Hexagonal architecture excels in environments with evolving integration requirements or multiple client types. Its plug-and-play adapter concept allows organizations to add new channels—be it a mobile app, a third-party API, or a background job processor—without touching core logic. The domain remains pristine, enabling parallel development of business rules independent of technical choices. For projects where longevity and adaptability matter, hexagonal offers a sustainable growth path.</p>
+<p>Yet this power comes at the cost of initial complexity. Defining ports and adapters requires upfront effort and rigorous interface design. Teams must cultivate strong discipline around dependency inversion to avoid slipping back into tangled code. In projects with tight deadlines or limited scope, the overhead of creating abstractions that may never see multiple implementations can feel wasteful. The pattern’s benefits materialize only when adapter diversity or domain complexity justify the investment.</p>
+<h2 id="real-world-use-cases-and-considerations">Real-World Use Cases and Considerations</h2>
+<p>Layered architecture continues to dominate web application frameworks and enterprise systems. Organizations building internal dashboards, content management systems, or CRUD-heavy applications find that a well-structured set of layers aligns perfectly with their needs. The predictable, linear flow from UI to database suits simple transactional workflows and reporting tools. When teams require fast prototyping or maintain stable feature sets, layers deliver immediate value.</p>
+<p>Hexagonal architecture finds its sweet spot in large-scale systems with growing integration footprints. Financial institutions connecting to payment gateways, messaging systems, and data warehouses can isolate each integration behind an adapter, preserving domain stability. Similarly, software products offering both web and desktop interfaces can implement separate adapters that reuse the same domain logic. In the world of microservices, hexagonal style helps maintain contract stability while swapping out downstream services.</p>
+<p>Hybrid approaches also emerge in practice. Some teams start with a layered structure for initial features and selectively introduce hexagonal principles around critical modules. By treating only a few high-value components as hexagonal, they gain adaptability where it matters most, while keeping the rest of the system simple. This pragmatic path can smooth the transition between architectural styles without requiring a full rewrite.</p>
+<p>Team expertise and organizational maturity often dictate the choice. Groups comfortable with SOLID principles and test-driven development embrace hexagonal with minimal friction. Teams new to these practices may gravitate toward layering as a stepping stone, then evolve toward hexagonal as they master dependency management. Training, code reviews, and pair programming become critical to retain architectural integrity over time.</p>
+<h2 id="transitioning-and-migration-strategies">Transitioning and Migration Strategies</h2>
+<p>Migrating from a layered to a hexagonal style can proceed incrementally. Teams can identify a bounded context or core module and refactor its service layer into a hexagonal structure, defining clear ports for data access and external communication. Over time, other modules can follow suit, replacing direct repository calls with adapters that implement new interfaces. This phased approach minimizes risk while showcasing early wins.</p>
+<p>Automated tests play a pivotal role in migration. Existing unit and integration tests provide a safety net as code moves into new packages or namespaces. By refactoring under test coverage, developers ensure that behavior remains consistent even as dependencies invert. Introducing adapter tests at the boundaries helps detect interface mismatches early, preserving system stability throughout the transition.</p>
+<p>Documentation must evolve alongside code. Architects should map out existing layer interactions and proposed port-adapter relationships, highlighting where technical concerns intersect with domain logic. Visual diagrams—capturing ports, adapters, and domain services—aid stakeholders in grasping the emerging structure. Clear documentation also helps onboarding new team members to understand why certain modules diverge from the traditional layer hierarchy.</p>
+<p>Deployment pipelines might require adjustments. Hexagonal modules often package domain code separately, so build and release scripts should support multiple artifacts. Containerization strategies may shift toward smaller, purpose-built images for adapters and standalone domain libraries. Continuous integration must validate that adapters meet the required port contracts and that changes do not break downstream dependencies.</p>
+<h2 id="choosing-the-right-architecture-for-your-context">Choosing the Right Architecture for Your Context</h2>
+<p>No single model fits every scenario. For straightforward applications with limited integration needs, layered architecture remains an excellent choice. Its conventions, community support, and out-of-the-box frameworks accelerate development and reduce upfront design effort. When the user interface, business logic, and data layer evolve at a similar pace, the layered stack provides predictable maintenance and scaling paths.</p>
+<p>Conversely, when domain rules are complex, integrations are numerous, and long-term evolution is critical, hexagonal architecture delivers superior adaptability. The ability to swap adapters without touching core logic safeguards the system against shifting technology landscapes. This flexibility becomes a competitive advantage in industries where regulatory changes, partner ecosystems, or user demands force continuous adaptation.</p>
+<p>Teams should weigh their skill sets, project timelines, and future growth expectations. If developers have deep experience in object-oriented design and dependency inversion, the leap to hexagonal will feel natural. If the priority is speed over architectural purity, layering offers a pragmatic starting point. In many cases, blending both approaches—layering where simplicity suffices and applying ports and adapters where flexibility is paramount—yields the best compromise.</p>
+<h2 id="conclusion">Conclusion</h2>
+<p>Layered and hexagonal architectures represent two ends of a spectrum in modular application design. Layered architecture delivers clarity, convention, and rapid onboarding, while hexagonal architecture offers decoupling, testability, and endless adaptability. By understanding their core philosophies, dependency structures, and integration patterns, teams can make informed choices that align with project goals and organizational capabilities.</p>
+<p>Architectural decisions should always consider the specific domain challenges, team expertise, and long-term maintenance requirements. Whether you adopt a classic three-tier stack or embrace the hexagonal paradigm, the ultimate success depends on consistent implementation of established principles. Armed with insights from both styles, you are now better equipped to architect applications that balance simplicity with flexibility and stand the test of time.</p>
+<hr>
+<h2 id="references">References</h2>
+<p>[1] Martin Fowler, “Patterns of Enterprise Application Architecture”, 2002.<br>
+[2] Alistair Cockburn, “Hexagonal Architecture (Ports &amp; Adapters)”, 2005.<br>
+[3] Vaughn Vernon, “Implementing Domain-Driven Design”, 2013.<br>
+[4] Eric Evans, “Domain-Driven Design: Tackling Complexity in the Heart of Software”, 2003.<br>
+[5] Simon Brown, “Software Architecture for Developers”, 2016.</p>
+<ul class="pa0">
+  
+   <li class="list di">
+     <a href="/en/tags/design/" class="link f5 grow br-pill ba ph3 pv2 mb2 dib black sans-serif no-underline">Design</a>
+   </li>
+  
+   <li class="list di">
+     <a href="/en/tags/application-architecture/" class="link f5 grow br-pill ba ph3 pv2 mb2 dib black sans-serif no-underline">Application Architecture</a>
+   </li>
+  
+   <li class="list di">
+     <a href="/en/tags/hexagonal/" class="link f5 grow br-pill ba ph3 pv2 mb2 dib black sans-serif no-underline">Hexagonal</a>
+   </li>
+  
+   <li class="list di">
+     <a href="/en/tags/layered/" class="link f5 grow br-pill ba ph3 pv2 mb2 dib black sans-serif no-underline">Layered</a>
+   </li>
+  
+</ul>
+<div class="mt6 instapaper_ignoref">
+      
+      
+      </div>
+    </div>
+
+    <aside class="w-30-l mt6-l">
+
+
+
+
+  <div class="bg-light-gray pa3 nested-list-reset nested-copy-line-height nested-links">
+    <p class="f5 b mb3">Related</p>
+    <ul class="pa0 list">
+	   
+	     <li  class="mb2">
+          <a href="/en/articles/2025/011-architecture-monolithique---fondations-forces-et-limites/">Monolithic Architecture: Foundations, Strengths, and Limitations of a Classic Style</a>
+        </li>
+	    
+	     <li  class="mb2">
+          <a href="/en/articles/2025/010-architecture-serverless---r%C3%A9volutionner-le-d%C3%A9veloppement-web-sans-serveur/">Serverless Architecture: Revolutionizing Web Development Without Servers</a>
+        </li>
+	    
+	     <li  class="mb2">
+          <a href="/en/articles/2025/009-l-architecture-microservices--une-r%C3%A9volution-dans-la-conception-applicative/">Microservices Architecture: Principles, Benefits, Challenges, and Use Cases</a>
+        </li>
+	    
+	     <li  class="mb2">
+          <a href="/en/articles/2025/008-les-principes-fondamentaux-du-domain-driven-design-ddd/">The Fundamental Principles of Domain-Driven Design (DDD)</a>
+        </li>
+	    
+	     <li  class="mb2">
+          <a href="/en/articles/2025/003-architecture-applicative---concevoir-des-syst%C3%A8mes-robustes-et-adaptables/">Application Architecture: Designing Robust and Adaptable Systems</a>
+        </li>
+	    
+	     <li  class="mb2">
+          <a href="/en/articles/2025/002-architecture-applicative---mise-en-contexte/">Application Architecture – Context</a>
+        </li>
+	    
+	     <li  class="mb2">
+          <a href="/en/articles/2021/001-quelle-architecture-applicative-choisir/">Which Application Architecture to Choose</a>
+        </li>
+	    
+	     <li  class="mb2">
+          <a href="/en/articles/2025/005-l-architecture-applicative-moderne---moteur-de-la-transformation-num%C3%A9rique/">Modern Application Architecture: How Microservices, APIs, and Cloud Drive Digital Transformation</a>
+        </li>
+	    
+	     <li  class="mb2">
+          <a href="/en/articles/2021/006-aws-vs-azure/">AWS vs Azure</a>
+        </li>
+	    
+	     <li  class="mb2">
+          <a href="/en/articles/2021/003-diff%C3%A9rences-entre-togaf-et-archimate/">Differences Between TOGAF and ArchiMate</a>
+        </li>
+	    
+	     <li  class="mb2">
+          <a href="/en/articles/2020/004-architecture-de-solution--conception-autour-dune-probl%C3%A9matique-pr%C3%A9cise/">Solution Architecture – Designing Around a Specific Problem</a>
+        </li>
+	    
+	     <li  class="mb2">
+          <a href="/en/articles/2020/002-architecture-technologique-ou-architecture-technique-vs-expertise-technique/">Technology Architecture or Technical Architecture vs Technical Expertise</a>
+        </li>
+	    
+    </ul>
+</div>
+
+</aside>
+
+  </article>
+
+    </main>
+    <footer class="bg-black bottom-0 w-100 pa3" role="contentinfo">
+  <div class="flex justify-between">
+  <a class="f4 fw4 hover-white white-70 dn dib-ns pv2 ph3 no-underline" href="http://localhost:1313/en/" >
+    &copy;  IT Architecture 2025 
+  </a>
+    <div><div class="ananke-socials"></div>
+</div>
+  </div>
+</footer>
+
+  </body>
+</html>
