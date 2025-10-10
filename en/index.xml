@@ -1,13 +1,20 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>ArchitecTI, IT Architecure blog on IT Architecture</title>
+    <title>ArchitecTI, IT Architecture blog on IT Architecture</title>
     <link>https://architecti.blog/en/</link>
-    <description>Recent content in ArchitecTI, IT Architecure blog on IT Architecture</description>
+    <description>Recent content in ArchitecTI, IT Architecture blog on IT Architecture</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 28 Sep 2025 07:30:39 -0400</lastBuildDate>
+    <lastBuildDate>Sun, 05 Oct 2025 07:30:39 -0400</lastBuildDate>
     <atom:link href="https://architecti.blog/en/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Comparing Layered Architecture and Hexagonal Architecture (Ports &amp; Adapters)</title>
+      <link>https://architecti.blog/en/articles/2025/012-comparaison-entre-architecture-en-couches-et-hexagonale/</link>
+      <pubDate>Sun, 05 Oct 2025 07:30:39 -0400</pubDate>
+      <guid>https://architecti.blog/en/articles/2025/012-comparaison-entre-architecture-en-couches-et-hexagonale/</guid>
+      <description>&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;&#xA;&lt;p&gt;Layered architecture has been a cornerstone of software design for decades, offering a familiar and straightforward structure that teams of all sizes can adopt. This model divides an application into distinct horizontal slices, where each layer has a specific responsibility, from user interface to data persistence. Its appeal lies in its clear separation of concerns and the ability to isolate changes within each layer. Hexagonal architecture, also known as Ports &amp;amp; Adapters, challenges this convention by promoting a more flexible, decoupled design that emphasizes the role of external interfaces and domain logic.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Monolithic Architecture: Foundations, Strengths, and Limitations of a Classic Style</title>
       <link>https://architecti.blog/en/articles/2025/011-architecture-monolithique---fondations-forces-et-limites/</link>

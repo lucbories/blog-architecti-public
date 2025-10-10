@@ -48,9 +48,74 @@
                 />
   </url><url>
     <loc>https://architecti.blog/tags/architecture-applicative/</loc>
-    <lastmod>2025-09-28T07:30:39-04:00</lastmod>
+    <lastmod>2025-10-05T07:30:39-04:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
+  </url><url>
+    <loc>https://architecti.blog/articles/2025/012-comparaison-entre-architecture-en-couches-et-hexagonale/</loc>
+    <lastmod>2025-10-05T07:30:39-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://architecti.blog/en/articles/2025/012-comparaison-entre-architecture-en-couches-et-hexagonale/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://architecti.blog/articles/2025/012-comparaison-entre-architecture-en-couches-et-hexagonale/"
+                />
+  </url><url>
+    <loc>https://architecti.blog/tags/conception/</loc>
+    <lastmod>2025-10-05T07:30:39-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://architecti.blog/tags/hexagonal/</loc>
+    <lastmod>2025-10-05T07:30:39-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://architecti.blog/en/tags/hexagonal/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://architecti.blog/tags/hexagonal/"
+                />
+  </url><url>
+    <loc>https://architecti.blog/tags/layered/</loc>
+    <lastmod>2025-10-05T07:30:39-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://architecti.blog/en/tags/layered/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://architecti.blog/tags/layered/"
+                />
+  </url><url>
+    <loc>https://architecti.blog/tags/</loc>
+    <lastmod>2025-10-05T07:30:39-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://architecti.blog/en/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://architecti.blog/tags/"
+                />
   </url><url>
     <loc>https://architecti.blog/articles/2025/011-architecture-monolithique---fondations-forces-et-limites/</loc>
     <lastmod>2025-09-28T07:30:39-04:00</lastmod>
@@ -82,30 +147,10 @@
                 href="https://architecti.blog/tags/cloud/"
                 />
   </url><url>
-    <loc>https://architecti.blog/tags/conception/</loc>
-    <lastmod>2025-09-28T07:30:39-04:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
     <loc>https://architecti.blog/tags/monolithique/</loc>
     <lastmod>2025-09-28T07:30:39-04:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
-  </url><url>
-    <loc>https://architecti.blog/tags/</loc>
-    <lastmod>2025-09-28T07:30:39-04:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://architecti.blog/en/tags/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="https://architecti.blog/tags/"
-                />
   </url><url>
     <loc>https://architecti.blog/tags/agile/</loc>
     <lastmod>2025-09-24T17:30:39-04:00</lastmod>

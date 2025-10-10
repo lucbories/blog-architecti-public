@@ -6,13 +6,34 @@
     <description>Recent content in Tags on IT Architecture</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 28 Sep 2025 07:30:39 -0400</lastBuildDate>
+    <lastBuildDate>Sun, 05 Oct 2025 07:30:39 -0400</lastBuildDate>
     <atom:link href="https://architecti.blog/en/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Application Architecture</title>
       <link>https://architecti.blog/en/tags/application-architecture/</link>
-      <pubDate>Sun, 28 Sep 2025 07:30:39 -0400</pubDate>
+      <pubDate>Sun, 05 Oct 2025 07:30:39 -0400</pubDate>
       <guid>https://architecti.blog/en/tags/application-architecture/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Design</title>
+      <link>https://architecti.blog/en/tags/design/</link>
+      <pubDate>Sun, 05 Oct 2025 07:30:39 -0400</pubDate>
+      <guid>https://architecti.blog/en/tags/design/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Hexagonal</title>
+      <link>https://architecti.blog/en/tags/hexagonal/</link>
+      <pubDate>Sun, 05 Oct 2025 07:30:39 -0400</pubDate>
+      <guid>https://architecti.blog/en/tags/hexagonal/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Layered</title>
+      <link>https://architecti.blog/en/tags/layered/</link>
+      <pubDate>Sun, 05 Oct 2025 07:30:39 -0400</pubDate>
+      <guid>https://architecti.blog/en/tags/layered/</guid>
       <description></description>
     </item>
     <item>
@@ -20,13 +41,6 @@
       <link>https://architecti.blog/en/tags/cloud/</link>
       <pubDate>Sun, 28 Sep 2025 07:30:39 -0400</pubDate>
       <guid>https://architecti.blog/en/tags/cloud/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Design</title>
-      <link>https://architecti.blog/en/tags/design/</link>
-      <pubDate>Sun, 28 Sep 2025 07:30:39 -0400</pubDate>
-      <guid>https://architecti.blog/en/tags/design/</guid>
       <description></description>
     </item>
     <item>
