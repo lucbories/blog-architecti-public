@@ -6,8 +6,92 @@
     <description>Recent content in Tags on ArchitecTI</description>
     <generator>Hugo</generator>
     <language>fr</language>
-    <lastBuildDate>Sun, 05 Oct 2025 07:30:39 -0400</lastBuildDate>
+    <lastBuildDate>Sun, 12 Oct 2025 07:30:39 -0400</lastBuildDate>
     <atom:link href="https://architecti.blog/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Apache Kafka</title>
+      <link>https://architecti.blog/tags/apache-kafka/</link>
+      <pubDate>Sun, 12 Oct 2025 07:30:39 -0400</pubDate>
+      <guid>https://architecti.blog/tags/apache-kafka/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Architecture Pilotée Par Événements</title>
+      <link>https://architecti.blog/tags/architecture-pilot%C3%A9e-par-%C3%A9v%C3%A9nements/</link>
+      <pubDate>Sun, 12 Oct 2025 07:30:39 -0400</pubDate>
+      <guid>https://architecti.blog/tags/architecture-pilot%C3%A9e-par-%C3%A9v%C3%A9nements/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Communication Asynchrone</title>
+      <link>https://architecti.blog/tags/communication-asynchrone/</link>
+      <pubDate>Sun, 12 Oct 2025 07:30:39 -0400</pubDate>
+      <guid>https://architecti.blog/tags/communication-asynchrone/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>CQRS</title>
+      <link>https://architecti.blog/tags/cqrs/</link>
+      <pubDate>Sun, 12 Oct 2025 07:30:39 -0400</pubDate>
+      <guid>https://architecti.blog/tags/cqrs/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>EDA</title>
+      <link>https://architecti.blog/tags/eda/</link>
+      <pubDate>Sun, 12 Oct 2025 07:30:39 -0400</pubDate>
+      <guid>https://architecti.blog/tags/eda/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Event Sourcing</title>
+      <link>https://architecti.blog/tags/event-sourcing/</link>
+      <pubDate>Sun, 12 Oct 2025 07:30:39 -0400</pubDate>
+      <guid>https://architecti.blog/tags/event-sourcing/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Event-Driven Architecture</title>
+      <link>https://architecti.blog/tags/event-driven-architecture/</link>
+      <pubDate>Sun, 12 Oct 2025 07:30:39 -0400</pubDate>
+      <guid>https://architecti.blog/tags/event-driven-architecture/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Microservices Réactifs</title>
+      <link>https://architecti.blog/tags/microservices-r%C3%A9actifs/</link>
+      <pubDate>Sun, 12 Oct 2025 07:30:39 -0400</pubDate>
+      <guid>https://architecti.blog/tags/microservices-r%C3%A9actifs/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>RabbitMQ</title>
+      <link>https://architecti.blog/tags/rabbitmq/</link>
+      <pubDate>Sun, 12 Oct 2025 07:30:39 -0400</pubDate>
+      <guid>https://architecti.blog/tags/rabbitmq/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Réactivité en Temps Réel</title>
+      <link>https://architecti.blog/tags/r%C3%A9activit%C3%A9-en-temps-r%C3%A9el/</link>
+      <pubDate>Sun, 12 Oct 2025 07:30:39 -0400</pubDate>
+      <guid>https://architecti.blog/tags/r%C3%A9activit%C3%A9-en-temps-r%C3%A9el/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Scalabilité Horizontale</title>
+      <link>https://architecti.blog/tags/scalabilit%C3%A9-horizontale/</link>
+      <pubDate>Sun, 12 Oct 2025 07:30:39 -0400</pubDate>
+      <guid>https://architecti.blog/tags/scalabilit%C3%A9-horizontale/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Systèmes Distribués</title>
+      <link>https://architecti.blog/tags/syst%C3%A8mes-distribu%C3%A9s/</link>
+      <pubDate>Sun, 12 Oct 2025 07:30:39 -0400</pubDate>
+      <guid>https://architecti.blog/tags/syst%C3%A8mes-distribu%C3%A9s/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Architecture Applicative</title>
       <link>https://architecti.blog/tags/architecture-applicative/</link>

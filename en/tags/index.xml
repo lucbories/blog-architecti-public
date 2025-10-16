@@ -6,8 +6,85 @@
     <description>Recent content in Tags on IT Architecture</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 05 Oct 2025 07:30:39 -0400</lastBuildDate>
+    <lastBuildDate>Sun, 12 Oct 2025 07:30:39 -0400</lastBuildDate>
     <atom:link href="https://architecti.blog/en/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Apache Kafka</title>
+      <link>https://architecti.blog/en/tags/apache-kafka/</link>
+      <pubDate>Sun, 12 Oct 2025 07:30:39 -0400</pubDate>
+      <guid>https://architecti.blog/en/tags/apache-kafka/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Asynchronous Communication</title>
+      <link>https://architecti.blog/en/tags/asynchronous-communication/</link>
+      <pubDate>Sun, 12 Oct 2025 07:30:39 -0400</pubDate>
+      <guid>https://architecti.blog/en/tags/asynchronous-communication/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>CQRS</title>
+      <link>https://architecti.blog/en/tags/cqrs/</link>
+      <pubDate>Sun, 12 Oct 2025 07:30:39 -0400</pubDate>
+      <guid>https://architecti.blog/en/tags/cqrs/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Distributed Systems</title>
+      <link>https://architecti.blog/en/tags/distributed-systems/</link>
+      <pubDate>Sun, 12 Oct 2025 07:30:39 -0400</pubDate>
+      <guid>https://architecti.blog/en/tags/distributed-systems/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>EDA</title>
+      <link>https://architecti.blog/en/tags/eda/</link>
+      <pubDate>Sun, 12 Oct 2025 07:30:39 -0400</pubDate>
+      <guid>https://architecti.blog/en/tags/eda/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Event Sourcing</title>
+      <link>https://architecti.blog/en/tags/event-sourcing/</link>
+      <pubDate>Sun, 12 Oct 2025 07:30:39 -0400</pubDate>
+      <guid>https://architecti.blog/en/tags/event-sourcing/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Event-Driven Architecture</title>
+      <link>https://architecti.blog/en/tags/event-driven-architecture/</link>
+      <pubDate>Sun, 12 Oct 2025 07:30:39 -0400</pubDate>
+      <guid>https://architecti.blog/en/tags/event-driven-architecture/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Horizontal Scalability</title>
+      <link>https://architecti.blog/en/tags/horizontal-scalability/</link>
+      <pubDate>Sun, 12 Oct 2025 07:30:39 -0400</pubDate>
+      <guid>https://architecti.blog/en/tags/horizontal-scalability/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>RabbitMQ</title>
+      <link>https://architecti.blog/en/tags/rabbitmq/</link>
+      <pubDate>Sun, 12 Oct 2025 07:30:39 -0400</pubDate>
+      <guid>https://architecti.blog/en/tags/rabbitmq/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Reactive Microservices</title>
+      <link>https://architecti.blog/en/tags/reactive-microservices/</link>
+      <pubDate>Sun, 12 Oct 2025 07:30:39 -0400</pubDate>
+      <guid>https://architecti.blog/en/tags/reactive-microservices/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Real-Time Reactivity</title>
+      <link>https://architecti.blog/en/tags/real-time-reactivity/</link>
+      <pubDate>Sun, 12 Oct 2025 07:30:39 -0400</pubDate>
+      <guid>https://architecti.blog/en/tags/real-time-reactivity/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Application Architecture</title>
       <link>https://architecti.blog/en/tags/application-architecture/</link>
